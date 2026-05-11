@@ -190,3 +190,20 @@
 .status.not_ok {
   color: red;
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+textarea {
+  min-height: 100px;
+  padding: 10px;
+}
+
+select,
+button {
+  padding: 10px;
+}
