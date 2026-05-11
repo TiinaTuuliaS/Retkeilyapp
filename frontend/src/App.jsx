@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import { MapContainer, TileLayer } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 
 function App() {
   const [reports, setReports] = useState([]);
+  const [locations, setLocations] = useState([]);
   const [comment, setComment] = useState('');
   const [status, setStatus] = useState('ok');
 
@@ -11,6 +12,12 @@ function App() {
     fetch('http://localhost:3000/reports')
       .then(res => res.json())
       .then(data => setReports(data));
+  }, []);
+
+  useEffect(() => {
+    fetch('http://localhost:3000/locations')
+      .then(res => res.json())
+      .then(data => setLocations(data));
   }, []);
 
   const handleSubmit = async () => {
@@ -37,11 +44,13 @@ function App() {
   setStatus('ok');
 };
 
+console.log(locations);
+
   return (
     <div className="container">
       <h1>📍 Retkiraportit</h1>
-      <MapContainer
-  center={[60.192059, 24.945831]}
+<MapContainer
+  center={[60.3139, 24.5147]}
   zoom={10}
   style={{ height: '400px', width: '100%', marginBottom: '20px' }}
 >
@@ -49,6 +58,21 @@ function App() {
     attribution='&copy; OpenStreetMap contributors'
     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
   />
+
+  {locations
+    .filter(loc => loc.latitude && loc.longitude)
+    .map(loc => (
+      <Marker
+        key={loc.id}
+        position={[loc.latitude, loc.longitude]}
+      >
+        <Popup>
+          <strong>{loc.name}</strong>
+          <br />
+          {loc.description}
+        </Popup>
+      </Marker>
+    ))}
 </MapContainer>
       <div className="form">
   <textarea
