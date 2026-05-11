@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.css';
+import { MapContainer, TileLayer } from 'react-leaflet';
 
 function App() {
   const [reports, setReports] = useState([]);
@@ -39,6 +40,16 @@ function App() {
   return (
     <div className="container">
       <h1>📍 Retkiraportit</h1>
+      <MapContainer
+  center={[60.192059, 24.945831]}
+  zoom={10}
+  style={{ height: '400px', width: '100%', marginBottom: '20px' }}
+>
+  <TileLayer
+    attribution='&copy; OpenStreetMap contributors'
+    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+  />
+</MapContainer>
       <div className="form">
   <textarea
     placeholder="Kirjoita raportti..."
