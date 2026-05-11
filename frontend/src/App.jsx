@@ -1,13 +1,21 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import {
+  MapContainer,
+  TileLayer,
+  Marker,
+  Popup,
+  CircleMarker,
+} from 'react-leaflet';
 
 function App() {
   const [reports, setReports] = useState([]);
   const [locations, setLocations] = useState([]);
   const [selectedLocation, setSelectedLocation] = useState(null);
+  const [userLocation, setUserLocation] = useState(null);
   const [comment, setComment] = useState('');
   const [status, setStatus] = useState('ok');
+  
 
   useEffect(() => {
     fetch('http://localhost:3000/reports')
@@ -20,6 +28,22 @@ function App() {
       .then(res => res.json())
       .then(data => setLocations(data));
   }, []);
+
+  //kysyy gps luvan, hakee käyttäjän sijainnin, tallentaa sijainnin stateen
+
+  useEffect(() => {
+  navigator.geolocation.getCurrentPosition(
+    (position) => {
+      setUserLocation([
+        position.coords.latitude,
+        position.coords.longitude,
+      ]);
+    },
+    (error) => {
+      console.log('Sijaintia ei saatu', error);
+    }
+  );
+}, []);
 
   const handleSubmit = async () => {
     if (!selectedLocation) {
@@ -57,6 +81,8 @@ function App() {
     ),
   }));
 
+console.log(userLocation);
+
   return (
     <div className="container">
       <h1>📍 Retkiraportit</h1>
@@ -72,24 +98,34 @@ function App() {
         />
 
         {locations
-          .filter(loc => loc.latitude && loc.longitude)
-          .map(loc => (
-            <Marker
-              key={loc.id}
-              position={[loc.latitude, loc.longitude]}
-              eventHandlers={{
-                click: () => {
-                  setSelectedLocation(loc);
-                },
-              }}
-            >
-              <Popup>
-                <strong>{loc.name}</strong>
-                <br />
-                {loc.description}
-              </Popup>
-            </Marker>
-          ))}
+  .filter(loc => loc.latitude && loc.longitude)
+  .map(loc => (
+    <Marker
+      key={loc.id}
+      position={[loc.latitude, loc.longitude]}
+      eventHandlers={{
+        click: () => {
+          setSelectedLocation(loc);
+        },
+      }}
+    >
+      <Popup>
+        <strong>{loc.name}</strong>
+        <br />
+        {loc.description}
+      </Popup>
+    </Marker>
+  ))}
+
+{userLocation && (
+  <CircleMarker
+    center={userLocation}
+    radius={10}
+    pathOptions={{ color: 'blue' }}
+  >
+    <Popup>📍 Sinä olet täällä</Popup>
+  </CircleMarker>
+)}
       </MapContainer>
 
       <div className="form">
