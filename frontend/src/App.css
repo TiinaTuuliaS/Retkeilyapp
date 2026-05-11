@@ -182,3 +182,11 @@
     border-right-color: var(--border);
   }
 }
+
+.status.ok {
+  color: green;
+}
+
+.status.not_ok {
+  color: red;
+}

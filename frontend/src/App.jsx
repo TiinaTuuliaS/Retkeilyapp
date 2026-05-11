@@ -1,30 +1,32 @@
 import { useEffect, useState } from 'react';
+import './App.css';
 
 function App() {
-  const [locations, setLocations] = useState([]);
+  const [reports, setReports] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:3000/locations')
+    fetch('http://localhost:3000/reports')
       .then(res => res.json())
-      .then(data => setLocations(data))
-      .catch(err => console.error(err));
+      .then(data => setReports(data));
   }, []);
 
   return (
-    <div>
-      <h1>Retkeilykohteet</h1>
+    <div className="container">
+      <h1>📍 Retkiraportit</h1>
 
-      {locations.length === 0 ? (
-        <p>Ei vielä dataa...</p>
-      ) : (
-        locations.map(loc => (
-          <div key={loc.id}>
-            <h3>{loc.name}</h3>
-            <p>{loc.type}</p>
-            <p>{loc.description}</p>
+      <div className="grid">
+        {reports.map(report => (
+          <div className="card" key={report.id}>
+            <h3>{report.location.name}</h3>
+
+            <p className={`status ${report.status}`}>
+              {report.status === 'ok' ? '✅ Kunnossa' : '❌ Ei kunnossa'}
+            </p>
+
+            <p>{report.comment}</p>
           </div>
-        ))
-      )}
+        ))}
+      </div>
     </div>
   );
 }
