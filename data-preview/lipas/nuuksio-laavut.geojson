@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73487",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4999996875898,
+          60.3367134525369
+        ]
+      },
+      "properties": {
+        "name": "Takalan laavu",
+        "type": "lean_to",
+        "source": "lipas",
+        "source_collection": "sports-sites",
+        "source_id": "73487",
+        "source_type_code": 301,
+        "source_type_name": "Laavu, kota tai kammi",
+        "source_status": "active",
+        "source_event_date": "2020-09-16T09:41:19.653Z",
+        "fetched_at": "2026-09-07T10:23:19.127Z",
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73487",
+        "free_use": true,
+        "toilet": true,
+        "source_owner": "state",
+        "source_admin": "state",
+        "address": "Liimassuontie",
+        "municipality_code": 927
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73851",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4955518584013,
+          60.3013282405018
+        ]
+      },
+      "properties": {
+        "name": "Holma-Saarijärven laavu",
+        "type": "lean_to",
+        "source": "lipas",
+        "source_collection": "sports-sites",
+        "source_id": "73851",
+        "source_type_code": 301,
+        "source_type_name": "Laavu, kota tai kammi",
+        "source_status": "active",
+        "source_event_date": "2020-09-16T10:29:39.082Z",
+        "fetched_at": "2026-09-07T10:23:19.127Z",
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73851",
+        "free_use": true,
+        "toilet": true,
+        "source_owner": "state",
+        "source_admin": "state",
+        "address": "Holma-Saarijärvi",
+        "municipality_code": 927
+      }
+    }
+  ]
+}

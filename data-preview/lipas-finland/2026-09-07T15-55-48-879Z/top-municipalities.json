@@ -1,0 +1,62 @@
+[
+  {
+    "city_code": "305",
+    "municipality": "Kuusamo",
+    "province": "Pohjois-Pohjanmaa",
+    "count": 94
+  },
+  {
+    "city_code": "297",
+    "municipality": "Kuopio",
+    "province": "Pohjois-Savo",
+    "count": 90
+  },
+  {
+    "city_code": "732",
+    "municipality": "Salla",
+    "province": "Lappi",
+    "count": 87
+  },
+  {
+    "city_code": "91",
+    "municipality": "Helsinki",
+    "province": "Uusimaa",
+    "count": 70
+  },
+  {
+    "city_code": "564",
+    "municipality": "Oulu",
+    "province": "Pohjois-Pohjanmaa",
+    "count": 68
+  },
+  {
+    "city_code": "109",
+    "municipality": "Hämeenlinna",
+    "province": "Kanta-Häme",
+    "count": 63
+  },
+  {
+    "city_code": "491",
+    "municipality": "Mikkeli",
+    "province": "Etelä-Savo",
+    "count": 63
+  },
+  {
+    "city_code": "758",
+    "municipality": "Sodankylä",
+    "province": "Lappi",
+    "count": 56
+  },
+  {
+    "city_code": "615",
+    "municipality": "Pudasjärvi",
+    "province": "Pohjois-Pohjanmaa",
+    "count": 55
+  },
+  {
+    "city_code": "290",
+    "municipality": "Kuhmo",
+    "province": "Kainuu",
+    "count": 52
+  }
+]

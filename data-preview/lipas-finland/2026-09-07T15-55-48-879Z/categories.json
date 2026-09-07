@@ -1,0 +1,240 @@
+[
+  {
+    "description": {
+      "fi": "Päiväsaikainen levähdyspaikka retkeilijöille. Esimerkiksi kodalla tarkoitetaan kotamallista sääsuojaa tai levähdyspaikkaa ja laavu on kaltevakattoinen sääsuoja, joka sisältää tulipaikan. Lisätietoihin merkitään tieto tulentekopaikasta.",
+      "se": "Viloplats för vandrare under dagtid.",
+      "en": "Daytime rest stop for hikers."
+    },
+    "tags": {
+      "fi": [
+        "taukopaikka"
+      ]
+    },
+    "name": {
+      "fi": "Laavu, kota tai kammi",
+      "se": "Vindskydd eller kåta",
+      "en": "Lean-to, goahti (Lapp tent shelter) or 'kammi' earth lodge"
+    },
+    "type-code": 301,
+    "main-category": {
+      "type-code": 0,
+      "name": {
+        "fi": "Virkistyskohteet ja palvelut",
+        "se": "Rekreationsanläggningar och tjänster",
+        "en": "Recreational destinations and services"
+      }
+    },
+    "sub-category": {
+      "type-code": 2,
+      "name": {
+        "fi": "Retkeilyn palvelut",
+        "se": "Utflyktstjänster",
+        "en": "Hiking facilities"
+      }
+    },
+    "geometry-type": "Point",
+    "props": [
+      {
+        "priority": 70,
+        "key": "toilet?",
+        "name": {
+          "fi": "Yleisö-wc",
+          "se": "Allmän toalett",
+          "en": "Toilet"
+        },
+        "data-type": "boolean",
+        "status": "active",
+        "description": {
+          "fi": "Onko kohteessa yleiseen käyttöön tarkoitettuja wc-tiloja",
+          "se": "Är allmänna toaletten i användning",
+          "en": "Are there public restroom facilities available at the location"
+        }
+      },
+      {
+        "priority": 70,
+        "key": "water-point",
+        "name": {
+          "fi": "Vesipiste",
+          "en": "Water point",
+          "se": "Vattenpunkt"
+        },
+        "description": {
+          "fi": "",
+          "se": "",
+          "en": ""
+        },
+        "data-type": "enum",
+        "status": "active",
+        "opts": {
+          "year-round": {
+            "label": {
+              "fi": "Ympärivuotinen",
+              "se": "Året runt",
+              "en": "Year-round"
+            }
+          },
+          "seasonal": {
+            "label": {
+              "fi": "Kausittaisesti käytössä",
+              "se": "Säsongsvis i bruk",
+              "en": "Seasonally in use"
+            }
+          }
+        }
+      },
+      {
+        "priority": 60,
+        "key": "free-use?",
+        "name": {
+          "fi": "Kohde on vapaasti käytettävissä",
+          "se": "Fri användning",
+          "en": "Free access"
+        },
+        "data-type": "boolean",
+        "status": "active",
+        "description": {
+          "fi": "Liikuntapaikka on vapaasti käytettävissä ilman vuorovarausta tai pääsymaksua",
+          "se": "Motionsplatsen är fri att användas utan tidsbokning eller entréavgift",
+          "en": ""
+        }
+      },
+      {
+        "priority": 0,
+        "key": "may-be-shown-in-excursion-map-fi?",
+        "name": {
+          "fi": "Saa julkaista Retkikartta.fi-palvelussa",
+          "se": "Får publiceras i Utflyktskarta.fi",
+          "en": "May be shown in Excursionmap.fi"
+        },
+        "data-type": "boolean",
+        "status": "active",
+        "description": {
+          "fi": "Kohteen tiedot saa julkaista Retkikartta.fi-palvelussa",
+          "se": "Information om motionsstället får publiceras i Retkikartta.fi",
+          "en": ""
+        }
+      },
+      {
+        "priority": 0,
+        "key": "may-be-shown-in-harrastuspassi-fi?",
+        "name": {
+          "fi": "Saa julkaista Harrastuspassi.fi-sovelluksessa",
+          "se": "Får publiceras i Harrastuspassi.fi",
+          "en": "May be shown in Harrastuspassi.fi"
+        },
+        "data-type": "boolean",
+        "status": "deprecated",
+        "description": {
+          "fi": "POISTUNUT KÄYTÖSTÄ: Harrastuspassi.fi-palvelu on lakkautettu. Kenttää ei enää ylläpidetä, mutta se on säilytetty tietosisällössä ja rajapinnoissa taaksepäin yhteensopivuuden vuoksi.",
+          "se": "TAGEN UR BRUK: Tjänsten Harrastuspassi.fi har lagts ned. Fältet underhålls inte längre, men det har bevarats i datainnehållet och gränssnitten för bakåtkompatibilitet.",
+          "en": "DEPRECATED: The Harrastuspassi.fi service has been discontinued. This field is no longer maintained, but it is retained in the data model and in the APIs for backwards compatibility."
+        }
+      }
+    ]
+  },
+  {
+    "description": {
+      "fi": "Rakennettu tulentekopaikka tai keittokatos. Kohde voi olla esimerkiksi maasta eristetty katoksellinen tulisija tai tulisija avotulelle. Tulentekopaikan tarkempi kuvaus ja tieto mahdollisista rajoituksista lisätietoihin.",
+      "se": "En byggd eldningsplats eller ett kokskjul. Objektet kan till exempel vara en eldstad med tak som är isolerad från marken eller en eldstad för öppen eld. En mer detaljerad beskrivning av eldningsplatsen och informationn om eventuella begränsningar finns under ytterligare information.",
+      "en": "A constructed fireplace or cooking shelter. The site can be, for example, a covered fireplace isolated from the ground or a fireplace for open fires. A more detailed description of the fireplace and information about any possible restrictions can be found in the additional information."
+    },
+    "tags": {
+      "fi": [
+        "nuotiopaikka",
+        "keittokatos",
+        "grillauspaikka",
+        "ruoka",
+        "taukopaikka"
+      ]
+    },
+    "name": {
+      "fi": "Ruoanlaitto-/tulentekopaikka",
+      "se": "Matlagningsplats",
+      "en": "Cooking facilities"
+    },
+    "type-code": 206,
+    "main-category": {
+      "type-code": 0,
+      "name": {
+        "fi": "Virkistyskohteet ja palvelut",
+        "se": "Rekreationsanläggningar och tjänster",
+        "en": "Recreational destinations and services"
+      }
+    },
+    "sub-category": {
+      "type-code": 2,
+      "name": {
+        "fi": "Retkeilyn palvelut",
+        "se": "Utflyktstjänster",
+        "en": "Hiking facilities"
+      }
+    },
+    "geometry-type": "Point",
+    "props": [
+      {
+        "priority": 70,
+        "key": "toilet?",
+        "name": {
+          "fi": "Yleisö-wc",
+          "se": "Allmän toalett",
+          "en": "Toilet"
+        },
+        "data-type": "boolean",
+        "status": "active",
+        "description": {
+          "fi": "Onko kohteessa yleiseen käyttöön tarkoitettuja wc-tiloja",
+          "se": "Är allmänna toaletten i användning",
+          "en": "Are there public restroom facilities available at the location"
+        }
+      },
+      {
+        "priority": 60,
+        "key": "free-use?",
+        "name": {
+          "fi": "Kohde on vapaasti käytettävissä",
+          "se": "Fri användning",
+          "en": "Free access"
+        },
+        "data-type": "boolean",
+        "status": "active",
+        "description": {
+          "fi": "Liikuntapaikka on vapaasti käytettävissä ilman vuorovarausta tai pääsymaksua",
+          "se": "Motionsplatsen är fri att användas utan tidsbokning eller entréavgift",
+          "en": ""
+        }
+      },
+      {
+        "priority": 0,
+        "key": "may-be-shown-in-excursion-map-fi?",
+        "name": {
+          "fi": "Saa julkaista Retkikartta.fi-palvelussa",
+          "se": "Får publiceras i Utflyktskarta.fi",
+          "en": "May be shown in Excursionmap.fi"
+        },
+        "data-type": "boolean",
+        "status": "active",
+        "description": {
+          "fi": "Kohteen tiedot saa julkaista Retkikartta.fi-palvelussa",
+          "se": "Information om motionsstället får publiceras i Retkikartta.fi",
+          "en": ""
+        }
+      },
+      {
+        "priority": 0,
+        "key": "may-be-shown-in-harrastuspassi-fi?",
+        "name": {
+          "fi": "Saa julkaista Harrastuspassi.fi-sovelluksessa",
+          "se": "Får publiceras i Harrastuspassi.fi",
+          "en": "May be shown in Harrastuspassi.fi"
+        },
+        "data-type": "boolean",
+        "status": "deprecated",
+        "description": {
+          "fi": "POISTUNUT KÄYTÖSTÄ: Harrastuspassi.fi-palvelu on lakkautettu. Kenttää ei enää ylläpidetä, mutta se on säilytetty tietosisällössä ja rajapinnoissa taaksepäin yhteensopivuuden vuoksi.",
+          "se": "TAGEN UR BRUK: Tjänsten Harrastuspassi.fi har lagts ned. Fältet underhålls inte längre, men det har bevarats i datainnehållet och gränssnitten för bakåtkompatibilitet.",
+          "en": "DEPRECATED: The Harrastuspassi.fi service has been discontinued. This field is no longer maintained, but it is retained in the data model and in the APIs for backwards compatibility."
+        }
+      }
+    ]
+  }
+]

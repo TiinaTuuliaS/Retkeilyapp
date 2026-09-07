@@ -1,0 +1,4 @@
+# Projektin paikallinen Node ja lataukset
+/.tools/
+/data-preview/lipas/fetches/
+/data-preview/lipas/.preview-*.tmp
