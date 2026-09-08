@@ -1,24 +1,28 @@
 import { useEffect, useState } from 'react';
-import { MapContainer, TileLayer, CircleMarker, Popup, useMap } from 'react-leaflet';
+import { MapContainer, TileLayer, CircleMarker, Popup, GeoJSON, useMap } from 'react-leaflet';
 import './App.css';
 import WaterObservations from './WaterObservations';
+import { geoJSON } from 'leaflet';
 
 const API = 'http://localhost:3000';
 const typeNames = { lean_to: 'Laavu', shelter: 'Laavu, kota tai kammi', fireplace: 'Tulentekopaikka', water: 'Vesipiste' };
 const targetNames = { general: 'Kohde yleisesti', toilet: 'Käymälä', water: 'Vesipiste' };
 const yesNo = value => value === true ? 'Kyllä' : value === false ? 'Ei' : 'Ei tietoa';
-function MapFocus({ point }) {
+function MapFocus({ point, boundary }) {
   const map = useMap();
   useEffect(() => {
-    if (!point) return;
+    if (!point) {
+      if (boundary) map.fitBounds(geoJSON(boundary).getBounds(), { padding: [20, 20], maxZoom: 12 });
+      return;
+    }
     map.closePopup();
     map.stop();
     map.flyTo(point, 13);
-  }, [map, point]);
+  }, [map, point, boundary]);
   return null;
 }
 
-export default function App() {
+export default function App({ park = null, parks = [] }) {
   const [locations, setLocations] = useState([]);
   const [reports, setReports] = useState([]);
   const [selectedId, setSelectedId] = useState(null);
@@ -40,11 +44,11 @@ export default function App() {
       const data = await response.json();
       if (!Array.isArray(data)) throw new Error('Palvelimen vastaus ei ollut odotettu.');
       return data;
-    })).then(([places, observations]) => { setLocations(places); setReports(observations); })
+    })).then(([places, observations]) => { setLocations(park ? places.filter(place => park.locationIds.includes(place.id)) : places); setReports(observations); })
       .catch(error => { if (error.name !== 'AbortError') setLoadError('Tietoja ei saatu. Tarkista backend ja lataa sivu uudelleen.'); })
       .finally(() => { if (!controller.signal.aborted) setLoading(false); });
     return () => controller.abort();
-  }, []);
+  }, [park]);
 
   const selected = locations.find(location => location.id === selectedId);
   const draft = drafts[selectedId] || { comment: '', status: 'ok', target: 'general' };
@@ -82,23 +86,33 @@ export default function App() {
   };
 
   return <div className="app-shell">
-    <header className="site-header"><a className="brand" href="#">⌁ <span>Retkiraportit</span></a><span className="header-note">Luonnossa, yhdessä.</span></header>
+    <header className="site-header"><a className="brand" href="#/">⌁ <span>Retkiraportit</span></a><nav className="park-nav" aria-label="Päänavigaatio"><a href="#/">Kaikki kohteet</a>{parks.map(p => <a key={p.slug} href={`#/parks/${p.slug}`} aria-current={park?.slug === p.slug ? 'page' : undefined}>{p.slug === 'ukk' ? 'UKK' : 'Seitseminen'}</a>)}</nav></header>
     <main>
-      <section className="intro"><p className="eyebrow">PIENI HAVAINTO, ISO APU</p><h1>Hyvä retki alkaa<br />yhteisestä tiedosta.</h1><p>Löydä taukopaikka ja jaa havaintosi seuraavalle retkeilijälle.</p></section>
+      {park ? <section className="intro park-intro">
+        <a href="#/">← Kaikki retkikohteet</a><p className="eyebrow">KANSALLISPUISTO · {park.region}</p>
+        <h1>{park.name}</h1><p className="park-description">{park.description}</p>
+        <p className="source-note">Oma tiivistelmä · <a href={park.descriptionSource} target="_blank" rel="noreferrer">Lähde: Metsähallitus</a></p>
+        <a className="official-link" href={park.officialUrl} target="_blank" rel="noreferrer">Ajankohtaiset tiedot ja ohjeet Luontoon.fi:ssä ↗</a>
+        <p className="coverage-note">{park.coverage}</p>
+      </section> : <><section className="intro"><p className="eyebrow">PIENI HAVAINTO, ISO APU</p><h1>Hyvä retki alkaa<br />yhteisestä tiedosta.</h1><p>Löydä taukopaikka ja jaa havaintosi seuraavalle retkeilijälle.</p></section>
+        <section className="park-directory" aria-label="Kansallispuistot">{parks.map(p => <a className="park-link" key={p.slug} href={`#/parks/${p.slug}`}><span className="eyebrow">{p.region}</span><h2>{p.name}</h2><span>Tutustu puistoon ↗</span></a>)}</section></>}
+
       {loadError && <p className="error-banner" role="alert">{loadError}</p>}
       <div className="explorer">
         <section className="map-panel" aria-label="Retkikohteiden kartta">
           <div className="map-toolbar"><span>{loading ? 'Ladataan kohteita…' : `${locations.length} retkikohdetta`}</span><button className="secondary" onClick={locate}>◎ Paikanna minut</button></div>
           <MapContainer center={[60.32,24.51]} zoom={11} className="map">
             <TileLayer attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <MapFocus point={focus} />
+            <MapFocus point={focus} boundary={park?.geometry} />
+            {park && <GeoJSON data={park.geometry} interactive={false} style={{ color: '#246746', weight: 2, fillColor: '#3D9970', fillOpacity: 0.08 }} />}
             {visible.filter(hasPoint).map(location => <CircleMarker key={location.id} center={[location.latitude,location.longitude]} radius={selectedId === location.id ? 12 : 9} pathOptions={{ color: '#fff', weight: 3, fillColor: selectedId === location.id ? '#173e2f' : '#3D9970', fillOpacity: 1 }} eventHandlers={{ click: () => select(location) }}><Popup autoPan={false}>{location.name}</Popup></CircleMarker>)}
             {userLocation && <CircleMarker center={userLocation} radius={7} pathOptions={{ color: '#fff', fillColor: '#2563eb', fillOpacity: 1 }}><Popup autoPan={false}>Sinä olet täällä</Popup></CircleMarker>}
           </MapContainer>
-          <p className="map-note" role="status">{gpsMessage || 'Valitse piste kartalta tai kohde alla olevasta luettelosta.'}</p>
+          <p className="map-note" role="status">{gpsMessage || (park && !locations.length && !loading ? 'Puiston alueraja näkyy kartalla. Kohdetiedot puuttuvat vielä.' : 'Valitse piste kartalta tai kohde alla olevasta luettelosta.')}</p>
+        {park && <p className="map-note">Alueraja: <a href={park.boundarySource} target="_blank" rel="noreferrer">{park.boundaryAttribution}</a>. Aineiston päiväys {park.boundaryUpdatedOn.split('-').reverse().join('.')}.</p>}
         </section>
         <aside className="place-card" aria-label="Valitun kohteen tiedot">
-          {!selected ? <div className="empty-card"><span className="empty-icon">⌁</span><p className="eyebrow">LÖYDÄ OMA TAUKOPAIKKASI</p><h2>Mihin tänään?</h2><p>Valitse kohde kartalta. Näet sen palvelut ja retkeilijöiden havainnot täällä.</p></div> : <>
+          {!selected ? <div className="empty-card"><span className="empty-icon">⌁</span><p className="eyebrow">LÖYDÄ OMA TAUKOPAIKKASI</p><h2>{park && !locations.length && !loading ? 'Kohdetiedot täydentyvät' : 'Mihin tänään?'}</h2><p>{park && !locations.length && !loading ? 'Puisto on mukana sovelluksessa. Taukopaikkojen tiedot lisätään, kun sopivaa aineistoa saadaan.' : 'Valitse kohde kartalta. Näet sen palvelut ja retkeilijöiden havainnot täällä.'}</p></div> : <>
             <div className="card-heading"><span className="type-tag">{typeNames[selected.type] || 'Retkikohde'}</span><button className="close-button" aria-label="Sulje kohdekortti" onClick={() => setSelectedId(null)}>×</button></div>
             <h2>{selected.name}</h2>{selected.description && <p className="description">{selected.description}</p>}
             <h3>Paikan palvelut</h3>
@@ -116,6 +130,14 @@ export default function App() {
           </>}
         </aside>
       </div>
+      {park && <section className="park-activity"><p className="eyebrow">RETKELTÄ KERROTTUA</p><h2>Viimeksi lisätyt raportit</h2>
+        <p className="source-note">Tallennusjärjestyksessä. Näihin kuntoraportteihin ei vielä tallenneta käyntipäivää, joten järjestys ei kerro havaintojen tuoreudesta maastossa.</p>
+        {reports.filter(r => park.locationIds.includes(r.location?.id)).sort((a,b) => b.id-a.id).slice(0,5).map(report => <article className="observation" key={report.id}>
+          <button type="button" className="report-place-link" onClick={() => { const place = locations.find(p => p.id === report.location.id); if (place) { select(place); document.querySelector('.explorer')?.scrollIntoView({ behavior: 'smooth', block: 'start' }); } }}>{report.location.name} ↗</button>
+          <p>{targetNames[report.target] || targetNames.general} · {report.target === 'water' ? (report.status === 'ok' ? 'Toimii' : 'Ei toimi') : (report.status === 'ok' ? 'Kunnossa' : 'Ei kunnossa')}</p>{report.comment && <p>{report.comment}</p>}
+        </article>)}
+        {!reports.some(r => park.locationIds.includes(r.location?.id)) && <p>Alueen kohteista ei ole vielä raportteja.</p>}
+      </section>}
       <section className="place-list"><div className="list-heading"><div><p className="eyebrow">SEURAAVA PYSÄHDYS</p><h2>Tutustu kohteisiin</h2></div><label className="search">Hae nimellä<input type="search" value={search} onChange={e => setSearch(e.target.value)} placeholder="Etsi taukopaikka…" /></label></div><div className="place-grid">{visible.map(location => <button key={location.id} className={`place-option ${location.id === selectedId ? 'chosen' : ''}`} aria-pressed={location.id === selectedId} onClick={() => select(location)}><span className="eyebrow">{typeNames[location.type] || 'Retkikohde'}</span><strong>{location.name}</strong><span>{hasPoint(location) ? 'Näytä kohde ↗' : 'Sijainti puuttuu · Näytä tiedot'}</span></button>)}</div>{!loading && !visible.length && <p>Hakua vastaavia kohteita ei löytynyt.</p>}</section>
     </main><footer>Retkiraportit · Jätä jälkeesi hyödyllinen havainto.</footer>
   </div>;

@@ -5,6 +5,7 @@ import { AppService } from './app.service';
 import { LocationsModule } from './locations/locations.module';
 import { ReportsModule } from './reports/reports.module';
 import { getDatabaseConfig } from '../database.config';
+import { ParksModule } from './parks/parks.module';
 
 const database = getDatabaseConfig();
 
@@ -22,6 +23,7 @@ const database = getDatabaseConfig();
     }),
     LocationsModule,
     ReportsModule,
+    ParksModule,
   ],
   controllers: [AppController],
   providers: [AppService],

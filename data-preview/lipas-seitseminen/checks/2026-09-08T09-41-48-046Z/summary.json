@@ -1,0 +1,20 @@
+{
+  "startedAt": "2026-09-08T09:41:48.046Z",
+  "sources": {
+    "sports": "https://api.lipas.fi/v2/sports-sites?city-codes=143,980&statuses=active,out-of-service-temporarily&page-size=100",
+    "lois": "https://api.lipas.fi/v2/lois?statuses=active,out-of-service-temporarily&page-size=100"
+  },
+  "datasets": {
+    "sports": {
+      "total": 361,
+      "nonPointGeometries": 620,
+      "pointMatches": []
+    },
+    "lois": {
+      "total": 1528,
+      "nonPointGeometries": 16,
+      "pointMatches": []
+    }
+  },
+  "finishedAt": "2026-09-08T09:41:49.886Z"
+}

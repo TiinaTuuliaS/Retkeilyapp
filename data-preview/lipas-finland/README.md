@@ -1,5 +1,8 @@
 # Suomen LIPAS-taukopaikkojen esikatselu
 
+[Seitsemisen tarkistus](../lipas-seitseminen/README.md): puiston sisäisiä
+tuontikelpoisia pisteitä ei löytynyt tarkistetuista LIPAS-hauista 8.9.2026.
+
 [UKK-kansallispuiston rajattu esikatselu](../lipas-ukk/README.md):
 33 kohdetta tallennetun puistorajan sisällä, tietokantaa ei muutettu.
 

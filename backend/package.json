@@ -6,6 +6,9 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
+    "test:parks": "jest --runInBand parks",
+    "preview:lipas-seitseminen": "node scripts/preview-lipas-seitseminen.cjs",
+    "check:lipas-seitseminen": "node scripts/check-lipas-seitseminen.cjs",
     "db:water-observations": "ts-node scripts/migrate-water-observations.ts",
     "test:water-observations": "jest --runInBand water-observations",
     "remove:ukk-test": "ts-node scripts/remove-ukk-test.ts",
