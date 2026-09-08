@@ -2,6 +2,40 @@
 
 ## Kohdekortit ja palvelut
 
+### Käyttäjien vesipistehavainnot
+
+Kohdekortin "Retkeilijöiden vesipistetiedot" -osiossa voi ilmoittaa vesipisteestä,
+vaikka LIPASissa ei ole siitä tietoa. Ilmoitus sisältää tyypin (hana, kaivo, lähde
+tai muu), sijainnin sanallisesti, käyntipäivän ja veden saatavuuden käyntihetkellä.
+Havainnot näytetään käyntipäivän mukaan uusimmasta alkaen. Myös vanhat havainnot
+säilyvät; kyse ei ole lupauksesta nykyisestä saatavuudesta tai juomakelpoisuudesta.
+
+Havainnot tallentuvat erilliseen `water_observations`-tauluun. LIPAS-perustiedot
+ja tavalliset kuntoraportit säilyvät erillään. Käyttäjäilmoitus ei muuta LIPASin
+"ei tietoa" -arvoa vahvistetuksi palveluksi eikä avaa tavallisen raportin
+vesipistevalintaa; uuden vesihavainnon voi jättää tässä samassa osiossa.
+Ilmoitusten vahvistaminen, virheelliseksi merkitseminen ja useiden vesipisteiden
+erilliset tunnisteet eivät kuulu tähän ensimmäiseen kokeiluun.
+
+Uudessa ympäristössä aja ennen backendin käynnistystä:
+
+```powershell
+.\retki.cmd backend db:water-observations
+```
+
+Nykyiseen kehitystietokantaan päivitys on ajettu. API:
+`GET /locations/:id/water-observations` ja `POST /locations/:id/water-observations`.
+POST hyväksyy vain `kind`, `directions` (1–1000 merkkiä), `availability`
+(`available`, `unavailable`, `unknown`) ja `observedOn` (`YYYY-MM-DD`).
+Käyntipäivä ei saa olla tulevaisuudessa (Suomen päivä) eikä ennen vuotta 2000.
+Palvelin asettaa tallennusajan ja toistaiseksi demokäyttäjän 1 kuten raporteissakin.
+Kirjautuminen ja moderointi tarvitaan ennen avointa julkaisua; nykyinen havainto
+näkyy heti nimenomaisesti käyttäjän ilmoittamana ja vahvistamattomana.
+
+Testit: `.\retki.cmd backend test:water-observations`.
+
+### Kartta ja perustiedot
+
 Karttapisteen tai luettelon kohteen valinta avaa kohdekortin. Kortissa näkyvät
 palvelut, lähde ja kohteen raportit sekä raportointilomake. Väripaletti:
 Leaf Green `#3D9970`, Sand Beige `#F5F5DC`, valkoinen `#FFFFFF`.

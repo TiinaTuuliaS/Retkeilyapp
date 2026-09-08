@@ -1,5 +1,8 @@
 # Suomen LIPAS-taukopaikkojen esikatselu
 
+[UKK-kansallispuiston rajattu esikatselu](../lipas-ukk/README.md):
+33 kohdetta tallennetun puistorajan sisällä, tietokantaa ei muutettu.
+
 Haku tehty 7.9.2026 klo 18.55 Suomen aikaa. Tietokantaa ei muutettu.
 
 ## Rajaus ja tulos

@@ -1,4 +1,7 @@
 # Projektin paikallinen Node ja lataukset
+/.repo-backups/
+/data-preview/lipas-ukk/fetches/
+/data-preview/lipas-ukk/.import.tmp
 /.tools/
 /data-preview/lipas/fetches/
 /data-preview/lipas/.preview-*.tmp

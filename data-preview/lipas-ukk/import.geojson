@@ -1,0 +1,929 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73827",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.2575373247252,
+          68.2570057506328
+        ]
+      },
+      "properties": {
+        "name": "Muorravaarakan keittokatos",
+        "type": "fireplace",
+        "source": "lipas",
+        "source_collection": "sports-sites",
+        "source_id": "73827",
+        "source_type_code": 206,
+        "source_status": "active",
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73827",
+        "source_event_date": "2020-10-06T08:21:30.661Z",
+        "fetched_at": "2026-09-08T08:58:05.620Z",
+        "toilet": true,
+        "free_use": true,
+        "water_point": null,
+        "source_owner": "state",
+        "source_admin": "state"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:603901",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.29154448373224,
+          67.9090680121672
+        ]
+      },
+      "properties": {
+        "name": "Kutunivan yläosan tulipaikka",
+        "type": "fireplace",
+        "source": "lipas",
+        "source_collection": "sports-sites",
+        "source_id": "603901",
+        "source_type_code": 206,
+        "source_status": "active",
+        "source_url": "https://api.lipas.fi/v2/sports-sites/603901",
+        "source_event_date": "2020-08-17T06:49:55.911Z",
+        "fetched_at": "2026-09-08T08:58:05.620Z",
+        "toilet": true,
+        "free_use": true,
+        "water_point": null,
+        "source_owner": "state",
+        "source_admin": "state"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:603902",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.305103902265067,
+          67.927653110204
+        ]
+      },
+      "properties": {
+        "name": "Kummalehdonojan tulipaikka",
+        "type": "fireplace",
+        "source": "lipas",
+        "source_collection": "sports-sites",
+        "source_id": "603902",
+        "source_type_code": 206,
+        "source_status": "active",
+        "source_url": "https://api.lipas.fi/v2/sports-sites/603902",
+        "source_event_date": "2020-08-17T06:51:08.443Z",
+        "fetched_at": "2026-09-08T08:58:05.620Z",
+        "toilet": true,
+        "free_use": true,
+        "water_point": null,
+        "source_owner": "state",
+        "source_admin": "state"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:603903",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.323003537990594,
+          67.9310996797037
+        ]
+      },
+      "properties": {
+        "name": "Alimmaisen Hirvashaudan tulipaikka",
+        "type": "fireplace",
+        "source": "lipas",
+        "source_collection": "sports-sites",
+        "source_id": "603903",
+        "source_type_code": 206,
+        "source_status": "active",
+        "source_url": "https://api.lipas.fi/v2/sports-sites/603903",
+        "source_event_date": "2020-08-17T06:52:33.010Z",
+        "fetched_at": "2026-09-08T08:58:05.620Z",
+        "toilet": true,
+        "free_use": true,
+        "water_point": null,
+        "source_owner": "state",
+        "source_admin": "state"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:603904",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.385858216939063,
+          67.96086981679787
+        ]
+      },
+      "properties": {
+        "name": "Kolsankoskenniskan tulipaikka",
+        "type": "fireplace",
+        "source": "lipas",
+        "source_collection": "sports-sites",
+        "source_id": "603904",
+        "source_type_code": 206,
+        "source_status": "active",
+        "source_url": "https://api.lipas.fi/v2/sports-sites/603904",
+        "source_event_date": "2020-08-17T07:21:17.338Z",
+        "fetched_at": "2026-09-08T08:58:05.620Z",
+        "toilet": null,
+        "free_use": true,
+        "water_point": null,
+        "source_owner": "state",
+        "source_admin": "state"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:603947",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.133075525455716,
+          68.17978145047425
+        ]
+      },
+      "properties": {
+        "name": "Tankavaaran luontopolun tulipaikka",
+        "type": "fireplace",
+        "source": "lipas",
+        "source_collection": "sports-sites",
+        "source_id": "603947",
+        "source_type_code": 206,
+        "source_status": "active",
+        "source_url": "https://api.lipas.fi/v2/sports-sites/603947",
+        "source_event_date": "2020-08-24T06:44:59.642Z",
+        "fetched_at": "2026-09-08T08:58:05.620Z",
+        "toilet": null,
+        "free_use": true,
+        "water_point": null,
+        "source_owner": "state",
+        "source_admin": "state"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73102",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4269524352811,
+          68.3306978082367
+        ]
+      },
+      "properties": {
+        "name": "Sivakkaojan laavu",
+        "type": "shelter",
+        "source": "lipas",
+        "source_collection": "sports-sites",
+        "source_id": "73102",
+        "source_type_code": 301,
+        "source_status": "active",
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73102",
+        "source_event_date": "2020-10-06T11:15:48.442Z",
+        "fetched_at": "2026-09-08T08:58:05.620Z",
+        "toilet": true,
+        "free_use": true,
+        "water_point": null,
+        "source_owner": "state",
+        "source_admin": "state"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73143",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.7903500118021,
+          68.1140523619684
+        ]
+      },
+      "properties": {
+        "name": "Orposen laavu",
+        "type": "shelter",
+        "source": "lipas",
+        "source_collection": "sports-sites",
+        "source_id": "73143",
+        "source_type_code": 301,
+        "source_status": "active",
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73143",
+        "source_event_date": "2020-10-06T13:04:47.765Z",
+        "fetched_at": "2026-09-08T08:58:05.620Z",
+        "toilet": true,
+        "free_use": true,
+        "water_point": null,
+        "source_owner": "state",
+        "source_admin": "state"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73157",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.2787551567572,
+          68.1528579331106
+        ]
+      },
+      "properties": {
+        "name": "Hammaskota",
+        "type": "shelter",
+        "source": "lipas",
+        "source_collection": "sports-sites",
+        "source_id": "73157",
+        "source_type_code": 301,
+        "source_status": "active",
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73157",
+        "source_event_date": "2020-08-13T08:59:51.449Z",
+        "fetched_at": "2026-09-08T08:58:05.620Z",
+        "toilet": true,
+        "free_use": true,
+        "water_point": null,
+        "source_owner": "state",
+        "source_admin": "state"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73196",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0623088935335,
+          68.3907215799132
+        ]
+      },
+      "properties": {
+        "name": "Aittajärven laavu",
+        "type": "shelter",
+        "source": "lipas",
+        "source_collection": "sports-sites",
+        "source_id": "73196",
+        "source_type_code": 301,
+        "source_status": "active",
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73196",
+        "source_event_date": "2020-10-06T11:14:30.790Z",
+        "fetched_at": "2026-09-08T08:58:05.620Z",
+        "toilet": true,
+        "free_use": true,
+        "water_point": null,
+        "source_owner": "state",
+        "source_admin": "state"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73289",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4506616189784,
+          68.2739349947478
+        ]
+      },
+      "properties": {
+        "name": "Kopsusjärventien laavu",
+        "type": "shelter",
+        "source": "lipas",
+        "source_collection": "sports-sites",
+        "source_id": "73289",
+        "source_type_code": 301,
+        "source_status": "active",
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73289",
+        "source_event_date": "2020-10-06T11:31:42.568Z",
+        "fetched_at": "2026-09-08T08:58:05.620Z",
+        "toilet": true,
+        "free_use": true,
+        "water_point": null,
+        "source_owner": "state",
+        "source_admin": "state"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73318",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9815368690323,
+          68.3734979279818
+        ]
+      },
+      "properties": {
+        "name": "Siikavuopajan laavu",
+        "type": "shelter",
+        "source": "lipas",
+        "source_collection": "sports-sites",
+        "source_id": "73318",
+        "source_type_code": 301,
+        "source_status": "active",
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73318",
+        "source_event_date": "2020-10-06T11:15:10.289Z",
+        "fetched_at": "2026-09-08T08:58:05.620Z",
+        "toilet": true,
+        "free_use": true,
+        "water_point": null,
+        "source_owner": "state",
+        "source_admin": "state"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73376",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.617756286371442,
+          68.36811278437357
+        ]
+      },
+      "properties": {
+        "name": "Taajoslaavu",
+        "type": "shelter",
+        "source": "lipas",
+        "source_collection": "sports-sites",
+        "source_id": "73376",
+        "source_type_code": 301,
+        "source_status": "active",
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73376",
+        "source_event_date": "2020-11-17T10:44:24.002Z",
+        "fetched_at": "2026-09-08T08:58:05.620Z",
+        "toilet": true,
+        "free_use": true,
+        "water_point": null,
+        "source_owner": "state",
+        "source_admin": "state"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73404",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.2564179090685,
+          67.8985428686761
+        ]
+      },
+      "properties": {
+        "name": "Ylimmäisen Hirvashaudan laavu",
+        "type": "shelter",
+        "source": "lipas",
+        "source_collection": "sports-sites",
+        "source_id": "73404",
+        "source_type_code": 301,
+        "source_status": "active",
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73404",
+        "source_event_date": "2020-08-17T06:44:48.282Z",
+        "fetched_at": "2026-09-08T08:58:05.620Z",
+        "toilet": true,
+        "free_use": true,
+        "water_point": null,
+        "source_owner": "state",
+        "source_admin": "state"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73409",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3448554324096,
+          67.943145877627
+        ]
+      },
+      "properties": {
+        "name": "Voittinkönkään kota",
+        "type": "shelter",
+        "source": "lipas",
+        "source_collection": "sports-sites",
+        "source_id": "73409",
+        "source_type_code": 301,
+        "source_status": "active",
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73409",
+        "source_event_date": "2020-08-14T07:47:40.072Z",
+        "fetched_at": "2026-09-08T08:58:05.620Z",
+        "toilet": true,
+        "free_use": true,
+        "water_point": null,
+        "source_owner": "state",
+        "source_admin": "state"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73498",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3612994276831,
+          67.9675544746356
+        ]
+      },
+      "properties": {
+        "name": "Kolsakoskenojan laavu",
+        "type": "shelter",
+        "source": "lipas",
+        "source_collection": "sports-sites",
+        "source_id": "73498",
+        "source_type_code": 301,
+        "source_status": "active",
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73498",
+        "source_event_date": "2020-08-17T07:22:07.751Z",
+        "fetched_at": "2026-09-08T08:58:05.620Z",
+        "toilet": true,
+        "free_use": true,
+        "water_point": null,
+        "source_owner": "state",
+        "source_admin": "state"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73509",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1890680143437,
+          67.8786612445399
+        ]
+      },
+      "properties": {
+        "name": "Silpakurunsuu kota",
+        "type": "shelter",
+        "source": "lipas",
+        "source_collection": "sports-sites",
+        "source_id": "73509",
+        "source_type_code": 301,
+        "source_status": "active",
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73509",
+        "source_event_date": "2020-08-17T06:05:05.967Z",
+        "fetched_at": "2026-09-08T08:58:05.620Z",
+        "toilet": true,
+        "free_use": true,
+        "water_point": null,
+        "source_owner": "state",
+        "source_admin": "state"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73524",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.187808591322,
+          67.8733584668549
+        ]
+      },
+      "properties": {
+        "name": "Liemusuvannon laavu",
+        "type": "shelter",
+        "source": "lipas",
+        "source_collection": "sports-sites",
+        "source_id": "73524",
+        "source_type_code": 301,
+        "source_status": "active",
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73524",
+        "source_event_date": "2020-08-17T06:04:44.203Z",
+        "fetched_at": "2026-09-08T08:58:05.620Z",
+        "toilet": true,
+        "free_use": true,
+        "water_point": null,
+        "source_owner": "state",
+        "source_admin": "state"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73550",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1174390360263,
+          68.1780151246288
+        ]
+      },
+      "properties": {
+        "name": "Tankavaaran luontopolun kota",
+        "type": "shelter",
+        "source": "lipas",
+        "source_collection": "sports-sites",
+        "source_id": "73550",
+        "source_type_code": 301,
+        "source_status": "active",
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73550",
+        "source_event_date": "2020-08-24T06:15:31.517Z",
+        "fetched_at": "2026-09-08T08:58:05.620Z",
+        "toilet": true,
+        "free_use": true,
+        "water_point": null,
+        "source_owner": "state",
+        "source_admin": "state"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73823",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.39962888266368,
+          67.95204111758771
+        ]
+      },
+      "properties": {
+        "name": "Saukkosuvannonvaaran laavu",
+        "type": "shelter",
+        "source": "lipas",
+        "source_collection": "sports-sites",
+        "source_id": "73823",
+        "source_type_code": 301,
+        "source_status": "active",
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73823",
+        "source_event_date": "2020-08-17T07:42:15.885Z",
+        "fetched_at": "2026-09-08T08:58:05.620Z",
+        "toilet": true,
+        "free_use": true,
+        "water_point": null,
+        "source_owner": "state",
+        "source_admin": "state"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73881",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.3943326466532,
+          68.4228146008833
+        ]
+      },
+      "properties": {
+        "name": "Alemman Kiertämäjärven laavu",
+        "type": "shelter",
+        "source": "lipas",
+        "source_collection": "sports-sites",
+        "source_id": "73881",
+        "source_type_code": 301,
+        "source_status": "active",
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73881",
+        "source_event_date": "2020-10-06T10:59:05.735Z",
+        "fetched_at": "2026-09-08T08:58:05.620Z",
+        "toilet": true,
+        "free_use": true,
+        "water_point": null,
+        "source_owner": "state",
+        "source_admin": "state"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73918",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.5301973028499,
+          68.2719684576138
+        ]
+      },
+      "properties": {
+        "name": "Anterin pyöräparkin laavu",
+        "type": "shelter",
+        "source": "lipas",
+        "source_collection": "sports-sites",
+        "source_id": "73918",
+        "source_type_code": 301,
+        "source_status": "active",
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73918",
+        "source_event_date": "2020-10-06T12:35:52.263Z",
+        "fetched_at": "2026-09-08T08:58:05.620Z",
+        "toilet": true,
+        "free_use": true,
+        "water_point": null,
+        "source_owner": "state",
+        "source_admin": "state"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:74009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.583936944723,
+          68.2894780378852
+        ]
+      },
+      "properties": {
+        "name": "Suomunlatvan laavu",
+        "type": "shelter",
+        "source": "lipas",
+        "source_collection": "sports-sites",
+        "source_id": "74009",
+        "source_type_code": 301,
+        "source_status": "active",
+        "source_url": "https://api.lipas.fi/v2/sports-sites/74009",
+        "source_event_date": "2020-10-06T12:11:09.825Z",
+        "fetched_at": "2026-09-08T08:58:05.620Z",
+        "toilet": true,
+        "free_use": true,
+        "water_point": null,
+        "source_owner": "state",
+        "source_admin": "state"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:74014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.8500233302777,
+          68.0837700265237
+        ]
+      },
+      "properties": {
+        "name": "Jussinmurustan laavu",
+        "type": "shelter",
+        "source": "lipas",
+        "source_collection": "sports-sites",
+        "source_id": "74014",
+        "source_type_code": 301,
+        "source_status": "active",
+        "source_url": "https://api.lipas.fi/v2/sports-sites/74014",
+        "source_event_date": "2020-10-13T07:32:49.624Z",
+        "fetched_at": "2026-09-08T08:58:05.620Z",
+        "toilet": true,
+        "free_use": true,
+        "water_point": null,
+        "source_owner": "state",
+        "source_admin": "state"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:74056",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.143367801021324,
+          68.18914450931649
+        ]
+      },
+      "properties": {
+        "name": "Koiranjuomalammen laavu",
+        "type": "shelter",
+        "source": "lipas",
+        "source_collection": "sports-sites",
+        "source_id": "74056",
+        "source_type_code": 301,
+        "source_status": "active",
+        "source_url": "https://api.lipas.fi/v2/sports-sites/74056",
+        "source_event_date": "2020-08-24T06:45:36.083Z",
+        "fetched_at": "2026-09-08T08:58:05.620Z",
+        "toilet": true,
+        "free_use": true,
+        "water_point": null,
+        "source_owner": "state",
+        "source_admin": "state"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:74148",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.7486462188153,
+          68.2746529764067
+        ]
+      },
+      "properties": {
+        "name": "Kotakönkään laavu",
+        "type": "shelter",
+        "source": "lipas",
+        "source_collection": "sports-sites",
+        "source_id": "74148",
+        "source_type_code": 301,
+        "source_status": "active",
+        "source_url": "https://api.lipas.fi/v2/sports-sites/74148",
+        "source_event_date": "2020-10-06T12:12:13.564Z",
+        "fetched_at": "2026-09-08T08:58:05.620Z",
+        "toilet": true,
+        "free_use": true,
+        "water_point": null,
+        "source_owner": "state",
+        "source_admin": "state"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:74152",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0634282364681,
+          68.2540123152936
+        ]
+      },
+      "properties": {
+        "name": "Pälkkimäojan laavu",
+        "type": "shelter",
+        "source": "lipas",
+        "source_collection": "sports-sites",
+        "source_id": "74152",
+        "source_type_code": 301,
+        "source_status": "active",
+        "source_url": "https://api.lipas.fi/v2/sports-sites/74152",
+        "source_event_date": "2020-10-06T12:35:13.006Z",
+        "fetched_at": "2026-09-08T08:58:05.620Z",
+        "toilet": true,
+        "free_use": true,
+        "water_point": null,
+        "source_owner": "state",
+        "source_admin": "state"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:74211",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1895441387558,
+          67.8627052705179
+        ]
+      },
+      "properties": {
+        "name": "Haukijärvenojan laavu",
+        "type": "shelter",
+        "source": "lipas",
+        "source_collection": "sports-sites",
+        "source_id": "74211",
+        "source_type_code": 301,
+        "source_status": "active",
+        "source_url": "https://api.lipas.fi/v2/sports-sites/74211",
+        "source_event_date": "2020-10-13T07:30:04.038Z",
+        "fetched_at": "2026-09-08T08:58:05.620Z",
+        "toilet": true,
+        "free_use": true,
+        "water_point": null,
+        "source_owner": "state",
+        "source_admin": "state"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:74220",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.415358569554,
+          68.4539425184413
+        ]
+      },
+      "properties": {
+        "name": "Lutonsillan laavu",
+        "type": "shelter",
+        "source": "lipas",
+        "source_collection": "sports-sites",
+        "source_id": "74220",
+        "source_type_code": 301,
+        "source_status": "active",
+        "source_url": "https://api.lipas.fi/v2/sports-sites/74220",
+        "source_event_date": "2020-11-17T10:43:38.462Z",
+        "fetched_at": "2026-09-08T08:58:05.620Z",
+        "toilet": true,
+        "free_use": true,
+        "water_point": null,
+        "source_owner": "state",
+        "source_admin": "state"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:74399",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.7015487622497,
+          68.2413703944276
+        ]
+      },
+      "properties": {
+        "name": "Salonlammen laavu",
+        "type": "shelter",
+        "source": "lipas",
+        "source_collection": "sports-sites",
+        "source_id": "74399",
+        "source_type_code": 301,
+        "source_status": "active",
+        "source_url": "https://api.lipas.fi/v2/sports-sites/74399",
+        "source_event_date": "2020-10-06T12:11:52.207Z",
+        "fetched_at": "2026-09-08T08:58:05.620Z",
+        "toilet": true,
+        "free_use": true,
+        "water_point": null,
+        "source_owner": "state",
+        "source_admin": "state"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:74418",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1798784174644,
+          67.8931274304716
+        ]
+      },
+      "properties": {
+        "name": "Kurtsinniskan laavu",
+        "type": "shelter",
+        "source": "lipas",
+        "source_collection": "sports-sites",
+        "source_id": "74418",
+        "source_type_code": 301,
+        "source_status": "active",
+        "source_url": "https://api.lipas.fi/v2/sports-sites/74418",
+        "source_event_date": "2020-08-17T06:05:46.404Z",
+        "fetched_at": "2026-09-08T08:58:05.620Z",
+        "toilet": true,
+        "free_use": true,
+        "water_point": null,
+        "source_owner": "state",
+        "source_admin": "state"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:74475",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.272132821238,
+          68.4162110468813
+        ]
+      },
+      "properties": {
+        "name": "Harrimukan laavu",
+        "type": "shelter",
+        "source": "lipas",
+        "source_collection": "sports-sites",
+        "source_id": "74475",
+        "source_type_code": 301,
+        "source_status": "active",
+        "source_url": "https://api.lipas.fi/v2/sports-sites/74475",
+        "source_event_date": "2020-10-06T10:58:35.570Z",
+        "fetched_at": "2026-09-08T08:58:05.620Z",
+        "toilet": true,
+        "free_use": true,
+        "water_point": null,
+        "source_owner": "state",
+        "source_admin": "state"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:604252",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.45775212238354,
+          68.18630321724739
+        ]
+      },
+      "properties": {
+        "name": "Vongoivan kammi",
+        "type": "shelter",
+        "source": "lipas",
+        "source_collection": "sports-sites",
+        "source_id": "604252",
+        "source_type_code": 301,
+        "source_status": "active",
+        "source_url": "https://api.lipas.fi/v2/sports-sites/604252",
+        "source_event_date": "2020-10-06T12:40:57.434Z",
+        "fetched_at": "2026-09-08T08:58:05.620Z",
+        "toilet": true,
+        "free_use": null,
+        "water_point": null,
+        "source_owner": "state",
+        "source_admin": "state"
+      }
+    }
+  ]
+}

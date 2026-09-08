@@ -1,0 +1,501 @@
+{
+ "currentVersion": 10.91,
+ "id": 5,
+ "name": "Luonnonsuojelu_alueet",
+ "type": "Feature Layer",
+ "description": "Luonnonsuojelu- ja erämaa-alueet \u2013aineisto koostuu luonnonsuojelulain nojalla tai asetuksella valtion maille tai lääninhallituksen päätöksellä yksityismaille perustetuista luonnonsuojelualueista. Aineistoon kuuluvat myös luonnontilaisina säilytettävät ja osittain luonnonmukaisesti käsiteltävät laaja-alaiset erämaa-alueet. 1.9.2014 alkaen aineisto on tuotettu kokonaisuudessaan Metsähallituksen SATJ-järjestelmässä. Aineisto kuuluu SYKEn avoimiin aineistoihin (CC BY 4.0).",
+ "geometryType": "esriGeometryPolygon",
+ "sourceSpatialReference": {
+  "wkid": 102139,
+  "latestWkid": 3067
+ },
+ "copyrightText": "CreditCd, CreditCd, CreditCd",
+ "parentLayer": {
+  "id": 4,
+  "name": "Luonnonsuojelu- ja erämaa-alueet"
+ },
+ "subLayers": [],
+ "minScale": 0,
+ "maxScale": 0,
+ "drawingInfo": {
+  "renderer": {
+   "type": "uniqueValue",
+   "field1": "TyyppiNimi",
+   "field2": null,
+   "field3": null,
+   "defaultSymbol": null,
+   "defaultLabel": null,
+   "uniqueValueInfos": [
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       250,
+       100,
+       232,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "Kansallispuisto",
+     "label": "Kansallispuisto",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       46,
+       60,
+       128,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "Lehtojensuojelualue",
+     "label": "Lehtojensuojelualue",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       106,
+       79,
+       227,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "Luonnonpuisto",
+     "label": "Luonnonpuisto",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       250,
+       95,
+       113,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "Metsähallituksen päätöksellä perustettu luonnonsuojelu",
+     "label": "Metsähallituksen päätöksellä perustettu luonnonsuojelu",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       82,
+       235,
+       90,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "Muu luonnonsuojelualue (MH)",
+     "label": "Muu luonnonsuojelualue",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       166,
+       126,
+       189,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "Soidensuojelualue",
+     "label": "Soidensuojelualue",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       80,
+       161,
+       96,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "Vanhojen metsien suojelualue",
+     "label": "Vanhojen metsien suojelualue",
+     "description": ""
+    }
+   ],
+   "fieldDelimiter": ","
+  },
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "defaultVisibility": true,
+ "extent": {
+  "xmin": 157044.4349999996,
+  "ymin": 6625703.448000001,
+  "xmax": 732907.7000000002,
+  "ymax": 7740672.353999998,
+  "spatialReference": {
+   "wkid": 102139,
+   "latestWkid": 3067
+  }
+ },
+ "hasAttachments": false,
+ "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+ "displayField": "LsAlueTunn",
+ "typeIdField": null,
+ "subtypeFieldName": null,
+ "subtypeField": null,
+ "defaultSubtypeCode": null,
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "FID",
+   "domain": null
+  },
+  {
+   "name": "Shape",
+   "type": "esriFieldTypeGeometry",
+   "alias": "Shape",
+   "domain": null
+  },
+  {
+   "name": "KohdeId",
+   "type": "esriFieldTypeInteger",
+   "alias": "KohdeId",
+   "domain": null
+  },
+  {
+   "name": "LsAlueTunn",
+   "type": "esriFieldTypeString",
+   "alias": "LsAlueTunn",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "Nimi",
+   "type": "esriFieldTypeString",
+   "alias": "Nimi",
+   "length": 200,
+   "domain": null
+  },
+  {
+   "name": "NimiRuotsi",
+   "type": "esriFieldTypeString",
+   "alias": "NimiRuotsi",
+   "length": 200,
+   "domain": null
+  },
+  {
+   "name": "KohdeTyypp",
+   "type": "esriFieldTypeInteger",
+   "alias": "KohdeTyypp",
+   "domain": null
+  },
+  {
+   "name": "TyyppiLyhe",
+   "type": "esriFieldTypeString",
+   "alias": "TyyppiLyhe",
+   "length": 4,
+   "domain": null
+  },
+  {
+   "name": "TyyppiNimi",
+   "type": "esriFieldTypeString",
+   "alias": "TyyppiNimi",
+   "length": 60,
+   "domain": null
+  },
+  {
+   "name": "PaatPvm",
+   "type": "esriFieldTypeDate",
+   "alias": "PaatPvm",
+   "length": 8,
+   "domain": null
+  },
+  {
+   "name": "PaatNimi",
+   "type": "esriFieldTypeString",
+   "alias": "PaatNimi",
+   "length": 200,
+   "domain": null
+  },
+  {
+   "name": "PaatURL",
+   "type": "esriFieldTypeString",
+   "alias": "PaatURL",
+   "length": 254,
+   "domain": null
+  },
+  {
+   "name": "ViimPaatPv",
+   "type": "esriFieldTypeDate",
+   "alias": "ViimPaatPv",
+   "length": 8,
+   "domain": null
+  },
+  {
+   "name": "ViimPaatNi",
+   "type": "esriFieldTypeString",
+   "alias": "ViimPaatNi",
+   "length": 200,
+   "domain": null
+  },
+  {
+   "name": "Voimaantul",
+   "type": "esriFieldTypeDate",
+   "alias": "Voimaantul",
+   "length": 8,
+   "domain": null
+  },
+  {
+   "name": "LakiPerust",
+   "type": "esriFieldTypeString",
+   "alias": "LakiPerust",
+   "length": 254,
+   "domain": null
+  },
+  {
+   "name": "LakkautusP",
+   "type": "esriFieldTypeDate",
+   "alias": "LakkautusP",
+   "length": 8,
+   "domain": null
+  },
+  {
+   "name": "CDDATunnus",
+   "type": "esriFieldTypeInteger",
+   "alias": "CDDATunnus",
+   "domain": null
+  },
+  {
+   "name": "IUCNKatego",
+   "type": "esriFieldTypeString",
+   "alias": "IUCNKatego",
+   "length": 4,
+   "domain": null
+  },
+  {
+   "name": "IUCNLuokka",
+   "type": "esriFieldTypeString",
+   "alias": "IUCNLuokka",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "LPAlue",
+   "type": "esriFieldTypeString",
+   "alias": "LPAlue",
+   "length": 30,
+   "domain": null
+  },
+  {
+   "name": "ELY",
+   "type": "esriFieldTypeString",
+   "alias": "ELY",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "Olotila",
+   "type": "esriFieldTypeString",
+   "alias": "Olotila",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "OlotilaMuu",
+   "type": "esriFieldTypeDate",
+   "alias": "OlotilaMuu",
+   "length": 8,
+   "domain": null
+  },
+  {
+   "name": "DigPohja",
+   "type": "esriFieldTypeString",
+   "alias": "DigPohja",
+   "length": 100,
+   "domain": null
+  },
+  {
+   "name": "MuutosPvm",
+   "type": "esriFieldTypeDate",
+   "alias": "MuutosPvm",
+   "length": 8,
+   "domain": null
+  },
+  {
+   "name": "Lisatieto",
+   "type": "esriFieldTypeString",
+   "alias": "Lisatieto",
+   "length": 254,
+   "domain": null
+  },
+  {
+   "name": "Shape_STAr",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape_STAr",
+   "domain": null
+  },
+  {
+   "name": "Shape_STLe",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape_STLe",
+   "domain": null
+  },
+  {
+   "name": "Shape_Length",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape_Length",
+   "domain": null
+  },
+  {
+   "name": "Shape_Area",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape_Area",
+   "domain": null
+  }
+ ],
+ "geometryField": {
+  "name": "Shape",
+  "type": "esriFieldTypeGeometry",
+  "alias": "Shape"
+ },
+ "indexes": [
+  {
+   "name": "FDO_OBJECTID",
+   "fields": "OBJECTID",
+   "isAscending": true,
+   "isUnique": true,
+   "description": ""
+  },
+  {
+   "name": "FDO_Shape",
+   "fields": "Shape",
+   "isAscending": true,
+   "isUnique": false,
+   "description": ""
+  }
+ ],
+ "subtypes": [],
+ "relationships": [],
+ "canModifyLayer": true,
+ "canScaleSymbols": false,
+ "hasLabels": false,
+ "capabilities": "Map,Query,Data",
+ "maxRecordCount": 1000,
+ "supportsStatistics": true,
+ "supportsAdvancedQueries": true,
+ "supportedQueryFormats": "JSON, geoJSON",
+ "isDataVersioned": false,
+ "ownershipBasedAccessControlForFeatures": {"allowOthersToQuery": true},
+ "useStandardizedQueries": true,
+ "advancedQueryCapabilities": {
+  "useStandardizedQueries": true,
+  "supportsStatistics": true,
+  "supportsHavingClause": true,
+  "supportsCountDistinct": true,
+  "supportsOrderBy": true,
+  "supportsDistinct": true,
+  "supportsPagination": true,
+  "supportsTrueCurve": true,
+  "supportsReturningQueryExtent": true,
+  "supportsQueryWithDistance": true,
+  "supportsSqlExpression": true
+ },
+ "supportsDatumTransformation": true,
+ "hasGeometryProperties": true,
+ "geometryProperties": {
+  "shapeAreaFieldName": "Shape_Area",
+  "shapeLengthFieldName": "Shape_Length",
+  "units": "esriMeters"
+ },
+ "dateFieldsTimeReference": null,
+ "supportsCoordinatesQuantization": true
+}

@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Haukanholman tulentekopaikka",
+        "type": "fireplace",
+        "description": "Nuuksion tulipaikka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.5147, 60.3139]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Haukanholman vesipiste",
+        "type": "water",
+        "description": "Juomavesipiste"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.5160, 60.3145]
+      }
+    }
+  ]
+}

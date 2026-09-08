@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react';
 import { MapContainer, TileLayer, CircleMarker, Popup, useMap } from 'react-leaflet';
 import './App.css';
+import WaterObservations from './WaterObservations';
 
 const API = 'http://localhost:3000';
-const typeNames = { lean_to: 'Laavu', fireplace: 'Tulentekopaikka', water: 'Vesipiste' };
+const typeNames = { lean_to: 'Laavu', shelter: 'Laavu, kota tai kammi', fireplace: 'Tulentekopaikka', water: 'Vesipiste' };
 const targetNames = { general: 'Kohde yleisesti', toilet: 'Käymälä', water: 'Vesipiste' };
 const yesNo = value => value === true ? 'Kyllä' : value === false ? 'Ei' : 'Ei tietoa';
 function MapFocus({ point }) {
@@ -104,6 +105,7 @@ export default function App() {
             <dl className="services"><div><dt>Käymälä</dt><dd>{yesNo(selected.services?.toilet)}</dd></div><div><dt>Vesipiste</dt><dd>{({ 'year-round': 'Ympärivuotinen', seasonal: 'Kausittainen' })[selected.services?.waterPoint] || 'Ei tietoa'}</dd></div><div><dt>Vapaa käyttö</dt><dd>{yesNo(selected.services?.freeUse)}</dd></div></dl>
             <p className="source-note">{selected.source ? <>Perustiedot: <a href={selected.source.url} target="_blank" rel="noreferrer">{selected.source.name}</a>.</> : 'Palvelutietojen lähdettä ei ole saatavilla.'} Ei tietoa tarkoittaa, ettei palvelusta ole vahvistettua tietoa.</p>
             <p className="source-note">Vesipisteen kausikäyttö ei kerro veden juomakelpoisuudesta tai tämänhetkisestä toimivuudesta.</p>
+            <WaterObservations key={selected.id} locationId={selected.id} api={API} />
             <form onSubmit={submit} className="report-form"><h3>Jätä retkiraportti</h3><p>Valitse, mitä havaintosi koskee. Eri palveluista voit jättää erilliset raportit.</p>
               <fieldset className="report-targets" disabled={saving}><legend>Mitä arvioit?</legend>
                 {['general', ...(selected.services?.toilet === true ? ['toilet'] : []), ...(['year-round', 'seasonal'].includes(selected.services?.waterPoint) ? ['water'] : [])].map(target =>
