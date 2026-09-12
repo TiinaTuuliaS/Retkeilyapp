@@ -1,5 +1,19 @@
 # Retkeilyapp – paikallinen kehitys Windowsissa
 
+## Kansallispuistosivut
+
+Etusivulta ja ylänavigaatiosta voi avata UKK:n, Seitsemisen ja Helvetinjärven
+omat sivut. Esimerkiksi `http://localhost:5173/#/parks/helvetinjarvi`.
+Sivuilla näkyvät oma lyhyt kuvaus lähdelinkkeineen, puistoraja ja alueelle
+sijainnin perusteella osuvat kohteet. Seitsemisen ja Helvetinjärven
+kohdetiedot puuttuvat vielä; niiden sivut näyttävät tämän avoimesti.
+
+Aluerajat luetaan backendissä `data-preview/lipas-*/boundary.geojson`-tiedostoista,
+joten kyseiset tiedostot tarvitaan myös julkaisuympäristössä. API:
+`GET /parks` ja `GET /parks/:slug`. Puistosivun raportit näyttävät viimeksi
+lisättyjä kuntoraportteja; käyntipäivää niissä ei vielä ole. Vesipistehavainnot
+pysyvät kohdekorteissa. Testit: `.\retki.cmd backend test:parks`.
+
 ## Kohdekortit ja palvelut
 
 ### Käyttäjien vesipistehavainnot

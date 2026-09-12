@@ -1,0 +1,438 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:72945",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0791958391436,
+          68.0422004253415
+        ]
+      },
+      "properties": {
+        "source_id": 72945,
+        "name": "Pallastunturin kota",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/72945",
+        "source_event_date": "2020-08-17T08:39:38.428Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73099",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.2548003381521,
+          67.6329672638513
+        ]
+      },
+      "properties": {
+        "source_id": 73099,
+        "name": "Hangaskurun laavu",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73099",
+        "source_event_date": "2019-05-13T12:21:54.157Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73512",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.9936106000184,
+          68.1858915482479
+        ]
+      },
+      "properties": {
+        "source_id": 73512,
+        "name": "Suaskurun kota",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73512",
+        "source_event_date": "2020-08-17T08:38:24.396Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73529",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.254479072411097,
+          67.61544247046982
+        ]
+      },
+      "properties": {
+        "source_id": 73529,
+        "name": "Tahkokurun kota",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73529",
+        "source_event_date": "2019-05-13T12:21:30.805Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73575",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.05505002473925,
+          68.18058584297604
+        ]
+      },
+      "properties": {
+        "source_id": 73575,
+        "name": "Varkaanjärven kota",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73575",
+        "source_event_date": "2020-08-17T08:57:39.198Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73617",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.8794597676937,
+          68.3282998151575
+        ]
+      },
+      "properties": {
+        "source_id": 73617,
+        "name": "Savilammen mutterikota",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73617",
+        "source_event_date": "2020-08-17T10:56:14.449Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73929",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0496738888008,
+          68.1084767561482
+        ]
+      },
+      "properties": {
+        "source_id": 73929,
+        "name": "Rihmakurun kota",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73929",
+        "source_event_date": "2020-08-17T08:52:40.486Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:74223",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.2541185937688,
+          67.6584864669263
+        ]
+      },
+      "properties": {
+        "source_id": 74223,
+        "name": "Kotamajan kota",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/74223",
+        "source_event_date": "2019-05-13T12:22:17.432Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:74437",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.227484933705934,
+          67.58255819599187
+        ]
+      },
+      "properties": {
+        "source_id": 74437,
+        "name": "Varkaankurun kota",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true,
+          "may-be-shown-in-harrastuspassi-fi?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/74437",
+        "source_event_date": "2022-08-30T06:37:41.571Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:74490",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.331386482266,
+          67.6360324231191
+        ]
+      },
+      "properties": {
+        "source_id": 74490,
+        "name": "Karhukota",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/74490",
+        "source_event_date": "2020-11-24T11:33:44.552Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:600328",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.262622447560833,
+          67.56750445958606
+        ]
+      },
+      "properties": {
+        "source_id": 600328,
+        "name": "Tuomikuru kota",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true,
+          "may-be-shown-in-harrastuspassi-fi?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/600328",
+        "source_event_date": "2022-08-30T06:37:11.345Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:600329",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.471984575059604,
+          67.63857743621259
+        ]
+      },
+      "properties": {
+        "source_id": 600329,
+        "name": "Haavepalo kota",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/600329",
+        "source_event_date": "2019-07-16T10:05:00.352Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:600342",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.99287184407514,
+          68.25437549347673
+        ]
+      },
+      "properties": {
+        "source_id": 600342,
+        "name": "Hietajärven puolikota",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/600342",
+        "source_event_date": "2020-08-17T09:41:34.476Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:603880",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.363996281574206,
+          67.69553019235805
+        ]
+      },
+      "properties": {
+        "source_id": 603880,
+        "name": "Pyhäjärvi esteetön kota",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true,
+          "may-be-shown-in-harrastuspassi-fi?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/603880",
+        "source_event_date": "2022-08-30T06:32:54.086Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:603907",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.94592301547264,
+          68.21814138897783
+        ]
+      },
+      "properties": {
+        "source_id": 603907,
+        "name": "Hannukurun kota",
+        "type_code": 301,
+        "status": "out-of-service-temporarily",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/603907",
+        "source_event_date": "2025-03-26T05:08:34.473Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:610142",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.29964041460955,
+          67.56521661449534
+        ]
+      },
+      "properties": {
+        "source_id": 610142,
+        "name": "Ojanlatva laavu",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true,
+          "may-be-shown-in-harrastuspassi-fi?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/610142",
+        "source_event_date": "2023-03-27T12:33:59.622Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:610195",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.450284019154356,
+          67.5971825020747
+        ]
+      },
+      "properties": {
+        "source_id": 610195,
+        "name": "Villenkämppä laavu",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {},
+        "source_url": "https://api.lipas.fi/v2/sports-sites/610195",
+        "source_event_date": "2023-03-31T06:46:03.232Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:610538",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.093478630597307,
+          68.10169792541835
+        ]
+      },
+      "properties": {
+        "source_id": 610538,
+        "name": "Sarvijärvi kota",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/610538",
+        "source_event_date": "2023-05-17T11:48:23.322Z"
+      }
+    }
+  ]
+}

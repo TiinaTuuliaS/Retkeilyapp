@@ -1,0 +1,669 @@
+{
+  "reviewedAt": "2026-09-12T14:38:25.232Z",
+  "databaseChanged": false,
+  "proposed": [
+    {
+      "park": "seitseminen",
+      "id": "osm:node:521874136",
+      "name": "Honkaniemi",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.4170285,
+          61.9313035
+        ]
+      },
+      "tags": {
+        "fireplace": "yes",
+        "name": "Honkaniemi",
+        "tourism": "picnic_site"
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/521874136",
+      "osmModifiedAt": "2009-10-06T16:55:07Z",
+      "reason": "OSM node inside boundary; no explicit access/reservation restriction in snapshot. Current operation not verified."
+    },
+    {
+      "park": "seitseminen",
+      "id": "osm:node:521874512",
+      "name": "Liesijärvi",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.474406,
+          61.9293382
+        ]
+      },
+      "tags": {
+        "amenity": "shelter",
+        "fireplace": "yes",
+        "name": "Liesijärvi",
+        "shelter_type": "lean_to"
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/521874512",
+      "osmModifiedAt": "2025-03-10T21:11:20Z",
+      "reason": "OSM node inside boundary; no explicit access/reservation restriction in snapshot. Current operation not verified."
+    },
+    {
+      "park": "seitseminen",
+      "id": "osm:node:4337467394",
+      "name": "Haukilammen tulentekopaikka",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.3956951,
+          61.9219584
+        ]
+      },
+      "tags": {
+        "check_date": "2021-07-21",
+        "leisure": "firepit",
+        "name": "Haukilammen tulentekopaikka"
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/4337467394",
+      "osmModifiedAt": "2023-01-29T12:45:30Z",
+      "reason": "OSM node inside boundary; no explicit access/reservation restriction in snapshot. Current operation not verified."
+    },
+    {
+      "park": "seitseminen",
+      "id": "osm:node:6583581389",
+      "name": "Nimetön kaivo (Seitseminen)",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.3831882,
+          61.9139335
+        ]
+      },
+      "tags": {
+        "man_made": "water_well"
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/6583581389",
+      "osmModifiedAt": "2019-07-02T08:44:55Z",
+      "reason": "OSM node inside boundary; no explicit access/reservation restriction in snapshot. Current operation not verified."
+    },
+    {
+      "park": "seitseminen",
+      "id": "osm:node:10591569867",
+      "name": "Saari-Soljasen tulentekopaikka",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.4694271,
+          61.9015568
+        ]
+      },
+      "tags": {
+        "leisure": "firepit",
+        "name": "Saari-Soljasen tulentekopaikka",
+        "wood_provided": "yes"
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/10591569867",
+      "osmModifiedAt": "2026-05-10T12:04:55Z",
+      "reason": "OSM node inside boundary; no explicit access/reservation restriction in snapshot. Current operation not verified."
+    },
+    {
+      "park": "helvetinjarvi",
+      "id": "osm:node:534951519",
+      "name": "Valkoinen",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.8769617,
+          61.9830296
+        ]
+      },
+      "tags": {
+        "description": "Tulentekopaikka Valkoinen, Kävelyä n 300-400m perillä lampi/järvi. Ei laavua.",
+        "leisure": "firepit",
+        "name": "Valkoinen",
+        "source_ref": "http://www.gps-waypoints.net/gps/"
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/534951519",
+      "osmModifiedAt": "2022-09-29T20:25:17Z",
+      "reason": "OSM node inside boundary; no explicit access/reservation restriction in snapshot. Current operation not verified."
+    },
+    {
+      "park": "helvetinjarvi",
+      "id": "osm:node:2312895980",
+      "name": "Ruokejärvet",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.8934952,
+          61.9923698
+        ]
+      },
+      "tags": {
+        "backcountry": "yes",
+        "leisure": "firepit",
+        "name": "Ruokejärvet",
+        "tourism": "camp_site"
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/2312895980",
+      "osmModifiedAt": "2015-08-27T09:00:59Z",
+      "reason": "OSM node inside boundary; no explicit access/reservation restriction in snapshot. Current operation not verified."
+    },
+    {
+      "park": "helvetinjarvi",
+      "id": "osm:node:3646381763",
+      "name": "Nimetön kaivo (Helvetinjärvi)",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.8030546,
+          62.029588
+        ]
+      },
+      "tags": {
+        "amenity": "drinking_water",
+        "drinking_water": "yes",
+        "man_made": "water_well"
+      },
+      "sourceUrl": "https://www.openstreetmap.org/node/3646381763",
+      "osmModifiedAt": "2024-07-15T05:12:47Z",
+      "reason": "OSM node inside boundary; no explicit access/reservation restriction in snapshot. Current operation not verified."
+    }
+  ],
+  "held": [
+    {
+      "park": "seitseminen",
+      "id": "osm:node:519131057",
+      "name": null,
+      "reason": "Review site grouping, name or area representative before import"
+    },
+    {
+      "park": "seitseminen",
+      "id": "osm:node:523614505",
+      "name": "Haukilammen telttailualue",
+      "reason": "Review site grouping, name or area representative before import"
+    },
+    {
+      "park": "seitseminen",
+      "id": "osm:node:3581077476",
+      "name": "Pitkäjärven vuokratupa",
+      "reason": "Reservation/payment: keep out of initial unrestricted pilot"
+    },
+    {
+      "park": "seitseminen",
+      "id": "osm:node:3855433973",
+      "name": null,
+      "reason": "Review site grouping, name or area representative before import"
+    },
+    {
+      "park": "seitseminen",
+      "id": "osm:node:3861522343",
+      "name": null,
+      "reason": "Review site grouping, name or area representative before import"
+    },
+    {
+      "park": "seitseminen",
+      "id": "osm:node:4334059560",
+      "name": null,
+      "reason": "Furniture, not an independent destination"
+    },
+    {
+      "park": "seitseminen",
+      "id": "osm:node:4337467213",
+      "name": null,
+      "reason": "Review site grouping, name or area representative before import"
+    },
+    {
+      "park": "seitseminen",
+      "id": "osm:node:4337467215",
+      "name": null,
+      "reason": "Review site grouping, name or area representative before import"
+    },
+    {
+      "park": "seitseminen",
+      "id": "osm:node:4337467301",
+      "name": null,
+      "reason": "Furniture, not an independent destination"
+    },
+    {
+      "park": "seitseminen",
+      "id": "osm:node:4337467391",
+      "name": null,
+      "reason": "Furniture, not an independent destination"
+    },
+    {
+      "park": "seitseminen",
+      "id": "osm:node:4337467558",
+      "name": null,
+      "reason": "Furniture, not an independent destination"
+    },
+    {
+      "park": "seitseminen",
+      "id": "osm:node:4337467560",
+      "name": null,
+      "reason": "Furniture, not an independent destination"
+    },
+    {
+      "park": "seitseminen",
+      "id": "osm:node:5821548708",
+      "name": null,
+      "reason": "Review site grouping, name or area representative before import"
+    },
+    {
+      "park": "seitseminen",
+      "id": "osm:node:5821548709",
+      "name": null,
+      "reason": "Review site grouping, name or area representative before import"
+    },
+    {
+      "park": "seitseminen",
+      "id": "osm:node:7692136103",
+      "name": "Jokiristin teilttailualue",
+      "reason": "Water attribute on another feature, not a water point"
+    },
+    {
+      "park": "seitseminen",
+      "id": "osm:node:10591462354",
+      "name": null,
+      "reason": "Review site grouping, name or area representative before import"
+    },
+    {
+      "park": "seitseminen",
+      "id": "osm:node:10591462355",
+      "name": null,
+      "reason": "Furniture, not an independent destination"
+    },
+    {
+      "park": "seitseminen",
+      "id": "osm:node:10591462356",
+      "name": null,
+      "reason": "Furniture, not an independent destination"
+    },
+    {
+      "park": "seitseminen",
+      "id": "osm:node:10594842111",
+      "name": null,
+      "reason": "Review site grouping, name or area representative before import"
+    },
+    {
+      "park": "seitseminen",
+      "id": "osm:node:10594842112",
+      "name": null,
+      "reason": "Review site grouping, name or area representative before import"
+    },
+    {
+      "park": "seitseminen",
+      "id": "osm:node:12971865376",
+      "name": null,
+      "reason": "Review site grouping, name or area representative before import"
+    },
+    {
+      "park": "seitseminen",
+      "id": "osm:node:13116153241",
+      "name": null,
+      "reason": "Natural spring; do not label as maintained water point"
+    },
+    {
+      "park": "seitseminen",
+      "id": "osm:node:13698101499",
+      "name": "Jokiristi",
+      "reason": "Review site grouping, name or area representative before import"
+    },
+    {
+      "park": "seitseminen",
+      "id": "osm:node:13824987818",
+      "name": null,
+      "reason": "Natural spring; do not label as maintained water point"
+    },
+    {
+      "park": "seitseminen",
+      "id": "osm:way:746219969",
+      "name": null,
+      "reason": "Review site grouping, name or area representative before import"
+    },
+    {
+      "park": "seitseminen",
+      "id": "osm:way:746232695",
+      "name": "Kortesalon leirikoulutila",
+      "reason": "Reservation/payment: keep out of initial unrestricted pilot"
+    },
+    {
+      "park": "seitseminen",
+      "id": "osm:way:1136163508",
+      "name": "Saari-Soljasen keittokatos",
+      "reason": "Review site grouping, name or area representative before import"
+    },
+    {
+      "park": "seitseminen",
+      "id": "osm:way:1216167978",
+      "name": "Kirkas-Soljasen keittokatos",
+      "reason": "Reservation/payment: keep out of initial unrestricted pilot"
+    },
+    {
+      "park": "helvetinjarvi",
+      "id": "osm:node:469979736",
+      "name": "Helvetinkolu",
+      "reason": "Review site grouping, name or area representative before import"
+    },
+    {
+      "park": "helvetinjarvi",
+      "id": "osm:node:844947658",
+      "name": null,
+      "reason": "Review site grouping, name or area representative before import"
+    },
+    {
+      "park": "helvetinjarvi",
+      "id": "osm:node:944464776",
+      "name": null,
+      "reason": "Review site grouping, name or area representative before import"
+    },
+    {
+      "park": "helvetinjarvi",
+      "id": "osm:node:1725381017",
+      "name": null,
+      "reason": "Review site grouping, name or area representative before import"
+    },
+    {
+      "park": "helvetinjarvi",
+      "id": "osm:node:2955576689",
+      "name": null,
+      "reason": "Review site grouping, name or area representative before import"
+    },
+    {
+      "park": "helvetinjarvi",
+      "id": "osm:node:3646349387",
+      "name": null,
+      "reason": "Furniture, not an independent destination"
+    },
+    {
+      "park": "helvetinjarvi",
+      "id": "osm:node:3646381764",
+      "name": null,
+      "reason": "Review site grouping, name or area representative before import"
+    },
+    {
+      "park": "helvetinjarvi",
+      "id": "osm:node:3646386862",
+      "name": null,
+      "reason": "Review site grouping, name or area representative before import"
+    },
+    {
+      "park": "helvetinjarvi",
+      "id": "osm:node:3646555257",
+      "name": null,
+      "reason": "Review site grouping, name or area representative before import"
+    },
+    {
+      "park": "helvetinjarvi",
+      "id": "osm:node:3676553678",
+      "name": null,
+      "reason": "Review site grouping, name or area representative before import"
+    },
+    {
+      "park": "helvetinjarvi",
+      "id": "osm:node:5940938011",
+      "name": null,
+      "reason": "Review site grouping, name or area representative before import"
+    },
+    {
+      "park": "helvetinjarvi",
+      "id": "osm:node:8996608059",
+      "name": null,
+      "reason": "Review site grouping, name or area representative before import"
+    },
+    {
+      "park": "helvetinjarvi",
+      "id": "osm:node:8996666767",
+      "name": null,
+      "reason": "Review site grouping, name or area representative before import"
+    },
+    {
+      "park": "helvetinjarvi",
+      "id": "osm:way:295560836",
+      "name": "Päivätupa",
+      "reason": "Review site grouping, name or area representative before import"
+    },
+    {
+      "park": "helvetinjarvi",
+      "id": "osm:way:360036787",
+      "name": "Haukanhieta",
+      "reason": "Review site grouping, name or area representative before import"
+    },
+    {
+      "park": "helvetinjarvi",
+      "id": "osm:way:360052704",
+      "name": "Iso Ruokejärvi",
+      "reason": "Review site grouping, name or area representative before import"
+    },
+    {
+      "park": "helvetinjarvi",
+      "id": "osm:way:972046272",
+      "name": null,
+      "reason": "Review site grouping, name or area representative before import"
+    }
+  ],
+  "nearbyPairs": [
+    {
+      "park": "seitseminen",
+      "a": "osm:node:519131057",
+      "b": "osm:node:10591569867",
+      "metres": 10,
+      "note": "Proximity only: may be separate structures, not duplicate records"
+    },
+    {
+      "park": "seitseminen",
+      "a": "osm:node:519131057",
+      "b": "osm:way:1136163508",
+      "metres": 25,
+      "note": "Proximity only: may be separate structures, not duplicate records"
+    },
+    {
+      "park": "seitseminen",
+      "a": "osm:node:523614505",
+      "b": "osm:node:4337467394",
+      "metres": 7,
+      "note": "Proximity only: may be separate structures, not duplicate records"
+    },
+    {
+      "park": "seitseminen",
+      "a": "osm:node:3861522343",
+      "b": "osm:node:4337467213",
+      "metres": 7,
+      "note": "Proximity only: may be separate structures, not duplicate records"
+    },
+    {
+      "park": "seitseminen",
+      "a": "osm:node:5821548708",
+      "b": "osm:node:5821548709",
+      "metres": 18,
+      "note": "Proximity only: may be separate structures, not duplicate records"
+    },
+    {
+      "park": "seitseminen",
+      "a": "osm:node:7692136103",
+      "b": "osm:node:12971865376",
+      "metres": 20,
+      "note": "Proximity only: may be separate structures, not duplicate records"
+    },
+    {
+      "park": "seitseminen",
+      "a": "osm:node:10591569867",
+      "b": "osm:way:1136163508",
+      "metres": 21,
+      "note": "Proximity only: may be separate structures, not duplicate records"
+    },
+    {
+      "park": "seitseminen",
+      "a": "osm:node:10594842112",
+      "b": "osm:way:1216167978",
+      "metres": 9,
+      "note": "Proximity only: may be separate structures, not duplicate records"
+    },
+    {
+      "park": "helvetinjarvi",
+      "a": "osm:node:469979736",
+      "b": "osm:node:3676553678",
+      "metres": 13,
+      "note": "Proximity only: may be separate structures, not duplicate records"
+    },
+    {
+      "park": "helvetinjarvi",
+      "a": "osm:node:469979736",
+      "b": "osm:way:295560836",
+      "metres": 15,
+      "note": "Proximity only: may be separate structures, not duplicate records"
+    },
+    {
+      "park": "helvetinjarvi",
+      "a": "osm:node:944464776",
+      "b": "osm:node:3646381764",
+      "metres": 31,
+      "note": "Proximity only: may be separate structures, not duplicate records"
+    },
+    {
+      "park": "helvetinjarvi",
+      "a": "osm:node:944464776",
+      "b": "osm:way:360036787",
+      "metres": 50,
+      "note": "Proximity only: may be separate structures, not duplicate records"
+    },
+    {
+      "park": "helvetinjarvi",
+      "a": "osm:node:944464776",
+      "b": "osm:way:972046272",
+      "metres": 1,
+      "note": "Proximity only: may be separate structures, not duplicate records"
+    },
+    {
+      "park": "helvetinjarvi",
+      "a": "osm:node:3646381764",
+      "b": "osm:node:8996608059",
+      "metres": 50,
+      "note": "Proximity only: may be separate structures, not duplicate records"
+    },
+    {
+      "park": "helvetinjarvi",
+      "a": "osm:node:3646381764",
+      "b": "osm:way:360036787",
+      "metres": 53,
+      "note": "Proximity only: may be separate structures, not duplicate records"
+    },
+    {
+      "park": "helvetinjarvi",
+      "a": "osm:node:3646381764",
+      "b": "osm:way:972046272",
+      "metres": 31,
+      "note": "Proximity only: may be separate structures, not duplicate records"
+    },
+    {
+      "park": "helvetinjarvi",
+      "a": "osm:node:3646555257",
+      "b": "osm:node:8996666767",
+      "metres": 11,
+      "note": "Proximity only: may be separate structures, not duplicate records"
+    },
+    {
+      "park": "helvetinjarvi",
+      "a": "osm:node:3646555257",
+      "b": "osm:way:360052704",
+      "metres": 29,
+      "note": "Proximity only: may be separate structures, not duplicate records"
+    },
+    {
+      "park": "helvetinjarvi",
+      "a": "osm:node:3676553678",
+      "b": "osm:way:295560836",
+      "metres": 22,
+      "note": "Proximity only: may be separate structures, not duplicate records"
+    },
+    {
+      "park": "helvetinjarvi",
+      "a": "osm:node:8996608059",
+      "b": "osm:way:360036787",
+      "metres": 51,
+      "note": "Proximity only: may be separate structures, not duplicate records"
+    },
+    {
+      "park": "helvetinjarvi",
+      "a": "osm:node:8996666767",
+      "b": "osm:way:360052704",
+      "metres": 25,
+      "note": "Proximity only: may be separate structures, not duplicate records"
+    },
+    {
+      "park": "helvetinjarvi",
+      "a": "osm:way:360036787",
+      "b": "osm:way:972046272",
+      "metres": 50,
+      "note": "Proximity only: may be separate structures, not duplicate records"
+    }
+  ],
+  "ways": [
+    {
+      "park": "seitseminen",
+      "id": 746219969,
+      "name": null,
+      "closed": true,
+      "vertices": 5,
+      "allVerticesInside": true,
+      "note": "Vertex test only; no full polygon coverage or entrance validation."
+    },
+    {
+      "park": "seitseminen",
+      "id": 746232695,
+      "name": "Kortesalon leirikoulutila",
+      "closed": true,
+      "vertices": 5,
+      "allVerticesInside": true,
+      "note": "Vertex test only; no full polygon coverage or entrance validation."
+    },
+    {
+      "park": "seitseminen",
+      "id": 1136163508,
+      "name": "Saari-Soljasen keittokatos",
+      "closed": true,
+      "vertices": 5,
+      "allVerticesInside": true,
+      "note": "Vertex test only; no full polygon coverage or entrance validation."
+    },
+    {
+      "park": "seitseminen",
+      "id": 1216167978,
+      "name": "Kirkas-Soljasen keittokatos",
+      "closed": true,
+      "vertices": 5,
+      "allVerticesInside": true,
+      "note": "Vertex test only; no full polygon coverage or entrance validation."
+    },
+    {
+      "park": "helvetinjarvi",
+      "id": 295560836,
+      "name": "Päivätupa",
+      "closed": true,
+      "vertices": 5,
+      "allVerticesInside": true,
+      "note": "Vertex test only; no full polygon coverage or entrance validation."
+    },
+    {
+      "park": "helvetinjarvi",
+      "id": 360036787,
+      "name": "Haukanhieta",
+      "closed": true,
+      "vertices": 24,
+      "allVerticesInside": true,
+      "note": "Vertex test only; no full polygon coverage or entrance validation."
+    },
+    {
+      "park": "helvetinjarvi",
+      "id": 360052704,
+      "name": "Iso Ruokejärvi",
+      "closed": true,
+      "vertices": 57,
+      "allVerticesInside": true,
+      "note": "Vertex test only; no full polygon coverage or entrance validation."
+    },
+    {
+      "park": "helvetinjarvi",
+      "id": 972046272,
+      "name": null,
+      "closed": true,
+      "vertices": 5,
+      "allVerticesInside": true,
+      "note": "Vertex test only; no full polygon coverage or entrance validation."
+    }
+  ]
+}

@@ -1,0 +1,504 @@
+{
+  "fetchedAt": "2026-09-12T14:32:54.156Z",
+  "endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+  "query": "[out:json][timeout:25];(nwr[\"amenity\"=\"drinking_water\"](61.882140060181186,23.35148024487969,61.9767638780096,23.508591270039098);nwr[\"man_made\"=\"water_well\"](61.882140060181186,23.35148024487969,61.9767638780096,23.508591270039098);nwr[\"man_made\"=\"water_tap\"](61.882140060181186,23.35148024487969,61.9767638780096,23.508591270039098);nwr[\"natural\"=\"spring\"](61.882140060181186,23.35148024487969,61.9767638780096,23.508591270039098);nwr[\"drinking_water\"](61.882140060181186,23.35148024487969,61.9767638780096,23.508591270039098);nwr[\"amenity\"=\"shelter\"](61.882140060181186,23.35148024487969,61.9767638780096,23.508591270039098);nwr[\"tourism\"=\"picnic_site\"](61.882140060181186,23.35148024487969,61.9767638780096,23.508591270039098);nwr[\"leisure\"=\"firepit\"](61.882140060181186,23.35148024487969,61.9767638780096,23.508591270039098);nwr[\"amenity\"=\"bbq\"](61.882140060181186,23.35148024487969,61.9767638780096,23.508591270039098);nwr[\"tourism\"=\"wilderness_hut\"](61.882140060181186,23.35148024487969,61.9767638780096,23.508591270039098);nwr[\"tourism\"=\"camp_site\"](61.882140060181186,23.35148024487969,61.9767638780096,23.508591270039098);nwr[\"leisure\"=\"picnic_table\"](61.882140060181186,23.35148024487969,61.9767638780096,23.508591270039098););out center meta;",
+  "osmBase": "2026-09-12T14:31:06Z",
+  "elements": [
+    {
+      "type": "node",
+      "id": 519131057,
+      "lat": 61.901619,
+      "lon": 23.4695582,
+      "timestamp": "2013-07-13T14:58:35Z",
+      "version": 3,
+      "changeset": 16937853,
+      "tags": {
+        "fireplace": "yes",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 521874136,
+      "lat": 61.9313035,
+      "lon": 23.4170285,
+      "timestamp": "2009-10-06T16:55:07Z",
+      "version": 3,
+      "changeset": 2762118,
+      "tags": {
+        "fireplace": "yes",
+        "name": "Honkaniemi",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 521874512,
+      "lat": 61.9293382,
+      "lon": 23.474406,
+      "timestamp": "2025-03-10T21:11:20Z",
+      "version": 5,
+      "changeset": 163460490,
+      "tags": {
+        "amenity": "shelter",
+        "fireplace": "yes",
+        "name": "Liesijärvi",
+        "shelter_type": "lean_to"
+      }
+    },
+    {
+      "type": "node",
+      "id": 523614505,
+      "lat": 61.9219146,
+      "lon": 23.3957851,
+      "timestamp": "2023-01-29T12:45:30Z",
+      "version": 5,
+      "changeset": 131839034,
+      "tags": {
+        "fireplace": "yes",
+        "name": "Haukilammen telttailualue",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 534951509,
+      "lat": 61.9111253,
+      "lon": 23.3681447,
+      "timestamp": "2012-06-12T15:31:30Z",
+      "version": 4,
+      "changeset": 11875631,
+      "tags": {
+        "amenity": "shelter",
+        "description": "Kota kollaa  -Latovesi",
+        "name": "Kota kollaa",
+        "shelter_type": "lean_to",
+        "source_ref": "http://www.gps-waypoints.net/gps/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3581077476,
+      "lat": 61.93509,
+      "lon": 23.41061,
+      "timestamp": "2023-05-02T20:25:33Z",
+      "version": 3,
+      "changeset": 135632540,
+      "tags": {
+        "fee": "yes",
+        "name": "Pitkäjärven vuokratupa",
+        "phone": "+358 205 64 5270",
+        "reservation": "required",
+        "tourism": "wilderness_hut",
+        "url": "http://www.luontoon.fi/pitkajarvivuokratupa"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3855433973,
+      "lat": 61.9144578,
+      "lon": 23.4309244,
+      "timestamp": "2015-11-23T22:16:08Z",
+      "version": 1,
+      "changeset": 35540288,
+      "tags": {
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3861522343,
+      "lat": 61.9688769,
+      "lon": 23.3601267,
+      "timestamp": "2015-11-26T22:01:42Z",
+      "version": 1,
+      "changeset": 35602018,
+      "tags": {
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4334059560,
+      "lat": 61.93193,
+      "lon": 23.3724645,
+      "timestamp": "2025-06-26T07:41:47Z",
+      "version": 2,
+      "changeset": 168125832,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4337467213,
+      "lat": 61.9688174,
+      "lon": 23.3601896,
+      "timestamp": "2016-08-05T19:00:21Z",
+      "version": 1,
+      "changeset": 41266948,
+      "tags": {
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4337467215,
+      "lat": 61.9150955,
+      "lon": 23.3782394,
+      "timestamp": "2016-08-05T19:00:22Z",
+      "version": 1,
+      "changeset": 41266948,
+      "tags": {
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4337467301,
+      "lat": 61.9139941,
+      "lon": 23.3810337,
+      "timestamp": "2021-08-09T17:12:06Z",
+      "version": 2,
+      "changeset": 109420546,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4337467391,
+      "lat": 61.9150436,
+      "lon": 23.3784073,
+      "timestamp": "2021-08-09T17:12:06Z",
+      "version": 2,
+      "changeset": 109420546,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4337467394,
+      "lat": 61.9219584,
+      "lon": 23.3956951,
+      "timestamp": "2023-01-29T12:45:30Z",
+      "version": 4,
+      "changeset": 131839034,
+      "tags": {
+        "check_date": "2021-07-21",
+        "leisure": "firepit",
+        "name": "Haukilammen tulentekopaikka"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4337467558,
+      "lat": 61.9139078,
+      "lon": 23.3809537,
+      "timestamp": "2016-08-05T19:00:28Z",
+      "version": 1,
+      "changeset": 41266948,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4337467560,
+      "lat": 61.9362483,
+      "lon": 23.4092947,
+      "timestamp": "2016-08-05T19:00:29Z",
+      "version": 1,
+      "changeset": 41266948,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5821548708,
+      "lat": 61.9298253,
+      "lon": 23.4758135,
+      "timestamp": "2020-10-09T23:58:15Z",
+      "version": 2,
+      "changeset": 92259535,
+      "tags": {
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5821548709,
+      "lat": 61.9299112,
+      "lon": 23.4755214,
+      "timestamp": "2018-08-09T22:27:20Z",
+      "version": 1,
+      "changeset": 61514693,
+      "tags": {
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6583581389,
+      "lat": 61.9139335,
+      "lon": 23.3831882,
+      "timestamp": "2019-07-02T08:44:55Z",
+      "version": 1,
+      "changeset": 71812504,
+      "tags": {
+        "man_made": "water_well"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7692136103,
+      "lat": 61.9125958,
+      "lon": 23.4459824,
+      "timestamp": "2023-01-30T21:06:01Z",
+      "version": 2,
+      "changeset": 131896840,
+      "tags": {
+        "caravans": "no",
+        "drinking_water": "no",
+        "name": "Jokiristin teilttailualue",
+        "openfire": "yes",
+        "parking": "no",
+        "tents": "yes",
+        "tourism": "camp_pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10591462354,
+      "lat": 61.9698068,
+      "lon": 23.3601042,
+      "timestamp": "2023-01-29T11:52:16Z",
+      "version": 1,
+      "changeset": 131837437,
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10591462355,
+      "lat": 61.9697611,
+      "lon": 23.3598134,
+      "timestamp": "2023-01-29T11:52:16Z",
+      "version": 1,
+      "changeset": 131837437,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10591462356,
+      "lat": 61.9697618,
+      "lon": 23.3597357,
+      "timestamp": "2023-01-29T11:52:16Z",
+      "version": 1,
+      "changeset": 131837437,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10591569867,
+      "lat": 61.9015568,
+      "lon": 23.4694271,
+      "timestamp": "2026-05-10T12:04:55Z",
+      "version": 2,
+      "changeset": 182463226,
+      "tags": {
+        "leisure": "firepit",
+        "name": "Saari-Soljasen tulentekopaikka",
+        "wood_provided": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10594842111,
+      "lat": 61.9053687,
+      "lon": 23.4794672,
+      "timestamp": "2024-05-21T12:54:53Z",
+      "version": 2,
+      "changeset": 151627418,
+      "tags": {
+        "access": "yes",
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10594842112,
+      "lat": 61.90564,
+      "lon": 23.4763435,
+      "timestamp": "2024-05-21T12:54:53Z",
+      "version": 2,
+      "changeset": 151627418,
+      "tags": {
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12971865376,
+      "lat": 61.9127771,
+      "lon": 23.4459535,
+      "timestamp": "2026-05-13T14:49:05Z",
+      "version": 3,
+      "changeset": 182605884,
+      "tags": {
+        "leisure": "firepit",
+        "wood_provided": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13116153241,
+      "lat": 61.9374592,
+      "lon": 23.3666166,
+      "timestamp": "2025-09-03T11:16:28Z",
+      "version": 1,
+      "changeset": 171402208,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13698101499,
+      "lat": 61.9172241,
+      "lon": 23.4430306,
+      "timestamp": "2026-04-01T10:44:29Z",
+      "version": 1,
+      "changeset": 180714671,
+      "tags": {
+        "name": "Jokiristi",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13824987818,
+      "lat": 61.9113515,
+      "lon": 23.4688305,
+      "timestamp": "2026-05-13T14:49:05Z",
+      "version": 1,
+      "changeset": 182605884,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "way",
+      "id": 746219969,
+      "timestamp": "2026-02-13T18:49:07Z",
+      "version": 2,
+      "changeset": 178517680,
+      "center": {
+        "lat": 61.9143638,
+        "lon": 23.3816765
+      },
+      "nodes": [
+        6983283102,
+        6983283101,
+        6983283100,
+        6983283099,
+        6983283102
+      ],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "field_shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 746232695,
+      "timestamp": "2023-05-02T20:25:33Z",
+      "version": 3,
+      "changeset": 135632540,
+      "center": {
+        "lat": 61.9068978,
+        "lon": 23.3983492
+      },
+      "nodes": [
+        6983369646,
+        6983369645,
+        6983369644,
+        6983369643,
+        6983369646
+      ],
+      "tags": {
+        "addr:city": "Sisättö",
+        "addr:housenumber": "790",
+        "addr:postcode": "39450",
+        "addr:street": "Jaulintie",
+        "building": "yes",
+        "fee": "yes",
+        "name": "Kortesalon leirikoulutila",
+        "phone": "+358 205 64 5270",
+        "reservation": "required",
+        "tourism": "wilderness_hut",
+        "url": "http://www.luontoon.fi/kortesalonleirikoulutilavuokratupa"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1136163508,
+      "timestamp": "2023-01-29T13:17:01Z",
+      "version": 1,
+      "changeset": 131840050,
+      "center": {
+        "lat": 61.901659,
+        "lon": 23.4690859
+      },
+      "nodes": [
+        10591569863,
+        10591569864,
+        10591569865,
+        10591569866,
+        10591569863
+      ],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "fireplace": "yes",
+        "name": "Saari-Soljasen keittokatos",
+        "shelter_type": "basic_hut"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1216167978,
+      "timestamp": "2024-05-21T12:54:53Z",
+      "version": 2,
+      "changeset": 151627418,
+      "center": {
+        "lat": 61.9057072,
+        "lon": 23.4764442
+      },
+      "nodes": [
+        11268522983,
+        11268522984,
+        11268522985,
+        11268522986,
+        11268522983
+      ],
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "building": "yes",
+        "name": "Kirkas-Soljasen keittokatos",
+        "reservation": "required",
+        "shelter_type": "gazebo"
+      }
+    }
+  ]
+}

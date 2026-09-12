@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-09-12T14:10:46.628Z",
+  "sourceFile": "data-preview/lipas-finland/2026-09-07T15-55-48-879Z/sites.geojson",
+  "lipasSnapshotAt": "2026-09-07T15:55:48.879Z",
+  "boundarySource": "https://gtkdata.gtk.fi/arcgis/rest/services/Tukes/suojelualueet/MapServer/5",
+  "boundaryFetchedOn": "2026-09-12",
+  "boundaryId": "KPU040005",
+  "boundaryModifiedAt": "2024-10-01T00:00:00.000Z",
+  "boundaryAttribution": "Metsähallitus / Syke, distribution GTK; CC BY 4.0",
+  "previewBbox": [
+    23.43356677889348,
+    61.8196893983996,
+    24.27307113199681,
+    62.23302239417943
+  ],
+  "counts": {
+    "outside-in-preview-box": 18
+  },
+  "insideServices": {
+    "toiletYes": 0,
+    "waterKnown": 0
+  },
+  "scope": "Sports-sites 301 and 206 only. Not all park facilities. Outside means within the explicit preview box, not a fixed-distance buffer."
+}

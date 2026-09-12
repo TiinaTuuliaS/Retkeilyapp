@@ -1,0 +1,169 @@
+{
+  "fetchedAt": "2026-09-12T19:43:27.002Z",
+  "url": "https://api.lipas.fi/v2/sports-sites/607250",
+  "data": {
+    "properties": {
+      "free-use?": true,
+      "may-be-shown-in-excursion-map-fi?": true,
+      "may-be-shown-in-harrastuspassi-fi?": true
+    },
+    "search-meta": {
+      "editor-org-ids": null,
+      "audits": {
+        "latest-audit-date": null
+      },
+      "admin": {
+        "name": {
+          "fi": "Kunta / muu",
+          "en": "Municipality / Other",
+          "se": "Kommun / annan"
+        }
+      },
+      "name": "särkijärven retkeilyalue - suoliojan nuotiopaikka",
+      "fields": {
+        "field-types": []
+      },
+      "type": {
+        "name": {
+          "fi": "Ruoanlaitto-/tulentekopaikka",
+          "se": "Matlagningsplats",
+          "en": "Cooking facilities"
+        },
+        "tags": {
+          "fi": [
+            "nuotiopaikka",
+            "keittokatos",
+            "grillauspaikka",
+            "ruoka",
+            "taukopaikka"
+          ]
+        },
+        "main-category": {
+          "name": {
+            "fi": "Virkistyskohteet ja palvelut",
+            "se": "Rekreationsanläggningar och tjänster",
+            "en": "Recreational destinations and services"
+          }
+        },
+        "sub-category": {
+          "name": {
+            "fi": "Retkeilyn palvelut",
+            "se": "Utflyktstjänster",
+            "en": "Hiking facilities"
+          }
+        }
+      },
+      "owner-org-id": null,
+      "owner-org-name": null,
+      "activities": null,
+      "location": {
+        "wgs84-point": [
+          23.813704684100333,
+          61.448408964714964
+        ],
+        "wgs84-center": [
+          23.813704684100333,
+          61.448408964714964
+        ],
+        "wgs84-end": [
+          23.813704684100333,
+          61.448408964714964
+        ],
+        "geometries": {
+          "type": "geometrycollection",
+          "geometries": [
+            {
+              "type": "Point",
+              "coordinates": [
+                23.813704684100333,
+                61.448408964714964
+              ]
+            }
+          ]
+        },
+        "city": {
+          "name": {
+            "fi": "Tampere",
+            "se": "Tammerfors",
+            "en": "Tampere"
+          }
+        },
+        "province": {
+          "name": {
+            "fi": "Pirkanmaa",
+            "en": "Pirkanmaa",
+            "se": "Birkaland"
+          }
+        },
+        "avi-area": {
+          "name": {
+            "fi": "Länsi- ja Sisä-Suomen AVI",
+            "en": "Länsi- ja Sisä-Suomen AVI",
+            "se": "Västra och Inre Finland"
+          }
+        },
+        "simple-geoms": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "properties": {},
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  23.813704684100333,
+                  61.448408964714964
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "owner": {
+        "name": {
+          "fi": "Kunta",
+          "en": "Municipality",
+          "se": "Kommun"
+        }
+      }
+    },
+    "email": "tampereenpalvelupiste@tampere.fi",
+    "phone-number": "041 730 8168 (klo 9-16)",
+    "admin": "city-other",
+    "www": "https://outdoorstampere.fi",
+    "name": "Särkijärven retkeilyalue - Suoliojan nuotiopaikka",
+    "construction-year": 2021,
+    "type": {
+      "type-code": 206
+    },
+    "lipas-id": 607250,
+    "status": "active",
+    "comment": "Suoliojan nuotiopaikka ja liiteri ja puuhuolto. Opastustaulu",
+    "event-date": "2024-06-11T05:52:49.697Z",
+    "location": {
+      "city": {
+        "city-code": 837,
+        "neighborhood": "Hervanta"
+      },
+      "address": "Mustankoluntie 41",
+      "geometries": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                23.813704684100333,
+                61.448408964714964
+              ]
+            }
+          }
+        ]
+      },
+      "postal-code": "33720",
+      "postal-office": "Tampere"
+    },
+    "owner": "city"
+  }
+}

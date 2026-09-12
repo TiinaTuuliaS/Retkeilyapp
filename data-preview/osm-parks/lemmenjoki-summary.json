@@ -1,0 +1,18 @@
+[
+  {
+    "park": "lemmenjoki",
+    "fetchedAt": "2026-09-12T20:28:37.230Z",
+    "osmBase": "2026-09-12T20:27:05Z",
+    "bboxResults": 93,
+    "inside": 73,
+    "outside": 20,
+    "boundaryReview": 0,
+    "counts": {
+      "rest": 45,
+      "water-tag-on-other-feature": 1,
+      "camp": 14,
+      "water": 13
+    },
+    "areaCentersInside": 9
+  }
+]

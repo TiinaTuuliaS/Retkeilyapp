@@ -1,0 +1,460 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:604017:0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.617370703417826,
+          61.9312608085474
+        ]
+      },
+      "properties": {
+        "name": "Talvisillan nuotiopaikka",
+        "source_id": 604017,
+        "type_code": 206,
+        "province": "Tuntematon",
+        "city": "980",
+        "status": "active",
+        "source_event_date": "2021-01-18T12:29:43.944Z",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "park_classification": "outside-in-preview-box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73393:0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.61018774606,
+          61.9678711385142
+        ]
+      },
+      "properties": {
+        "name": "Riuttaskorven laavu",
+        "source_id": 73393,
+        "type_code": 301,
+        "province": "Tuntematon",
+        "city": "980",
+        "status": "active",
+        "source_event_date": "2021-01-18T12:38:10.685Z",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "park_classification": "outside-in-preview-box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:74261:0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1523045444334,
+          61.8272910037272
+        ]
+      },
+      "properties": {
+        "name": "Siikanevan laavu",
+        "source_id": 74261,
+        "type_code": 301,
+        "province": "Tuntematon",
+        "city": "702",
+        "status": "active",
+        "source_event_date": "2020-10-15T07:54:36.914Z",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "park_classification": "outside-in-preview-box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:600529:0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.770323532813645,
+          62.22084646862754
+        ]
+      },
+      "properties": {
+        "name": "Löytyn laavu",
+        "source_id": 600529,
+        "type_code": 301,
+        "province": "Tuntematon",
+        "city": "936",
+        "status": "active",
+        "source_event_date": "2019-05-28T09:14:24.455Z",
+        "services": {
+          "free-use?": true,
+          "may-be-shown-in-excursion-map-fi?": true
+        },
+        "park_classification": "outside-in-preview-box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:600531:0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.662707624625273,
+          62.21965181697751
+        ]
+      },
+      "properties": {
+        "name": "Nurminiemen laavu",
+        "source_id": 600531,
+        "type_code": 301,
+        "province": "Tuntematon",
+        "city": "936",
+        "status": "active",
+        "source_event_date": "2019-05-28T09:17:52.289Z",
+        "services": {
+          "toilet?": true,
+          "free-use?": true,
+          "may-be-shown-in-excursion-map-fi?": true
+        },
+        "park_classification": "outside-in-preview-box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:600536:0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.828727935697366,
+          62.201476536604304
+        ]
+      },
+      "properties": {
+        "name": "Torisevan nuotiopaikka",
+        "source_id": 600536,
+        "type_code": 301,
+        "province": "Tuntematon",
+        "city": "936",
+        "status": "active",
+        "source_event_date": "2020-12-03T07:17:29.541Z",
+        "services": {
+          "free-use?": true,
+          "may-be-shown-in-excursion-map-fi?": true,
+          "may-be-shown-in-harrastuspassi-fi?": true
+        },
+        "park_classification": "outside-in-preview-box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:600541:0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.844007740807303,
+          62.20174014590153
+        ]
+      },
+      "properties": {
+        "name": "Kangasjärven laavu",
+        "source_id": 600541,
+        "type_code": 301,
+        "province": "Tuntematon",
+        "city": "936",
+        "status": "active",
+        "source_event_date": "2020-12-03T07:16:59.916Z",
+        "services": {
+          "free-use?": true,
+          "may-be-shown-in-excursion-map-fi?": true,
+          "may-be-shown-in-harrastuspassi-fi?": true
+        },
+        "park_classification": "outside-in-preview-box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:604014:0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.66323208829362,
+          61.862304954264694
+        ]
+      },
+      "properties": {
+        "name": "Löyttyjärven kota",
+        "source_id": 604014,
+        "type_code": 301,
+        "province": "Tuntematon",
+        "city": "980",
+        "status": "active",
+        "source_event_date": "2024-05-15T17:04:59.964Z",
+        "services": {
+          "may-be-shown-in-excursion-map-fi?": true
+        },
+        "park_classification": "outside-in-preview-box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:604015:0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.645420448024147,
+          61.90384192374326
+        ]
+      },
+      "properties": {
+        "name": "Koukerinvuoren laavu",
+        "source_id": 604015,
+        "type_code": 301,
+        "province": "Tuntematon",
+        "city": "980",
+        "status": "active",
+        "source_event_date": "2024-05-15T17:30:43.303Z",
+        "services": {
+          "may-be-shown-in-excursion-map-fi?": true
+        },
+        "park_classification": "outside-in-preview-box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:604016:0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.540792518990884,
+          61.92912474523942
+        ]
+      },
+      "properties": {
+        "name": "Rysäslammenlaavu",
+        "source_id": 604016,
+        "type_code": 301,
+        "province": "Tuntematon",
+        "city": "980",
+        "status": "active",
+        "source_event_date": "2024-05-15T17:56:35.217Z",
+        "services": {
+          "may-be-shown-in-excursion-map-fi?": true
+        },
+        "park_classification": "outside-in-preview-box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:604018:0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.71569328084104,
+          61.94891521510559
+        ]
+      },
+      "properties": {
+        "name": "Pyydysjärven laavu",
+        "source_id": 604018,
+        "type_code": 301,
+        "province": "Tuntematon",
+        "city": "980",
+        "status": "active",
+        "source_event_date": "2024-05-14T16:16:04.189Z",
+        "services": {
+          "toilet?": true,
+          "free-use?": true,
+          "may-be-shown-in-excursion-map-fi?": true
+        },
+        "park_classification": "outside-in-preview-box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:604019:0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.772053294463344,
+          61.98146349248932
+        ]
+      },
+      "properties": {
+        "name": "Karhukosken laavu",
+        "source_id": 604019,
+        "type_code": 301,
+        "province": "Tuntematon",
+        "city": "980",
+        "status": "active",
+        "source_event_date": "2024-05-14T16:12:36.114Z",
+        "services": {
+          "toilet?": true,
+          "free-use?": true,
+          "may-be-shown-in-excursion-map-fi?": true
+        },
+        "park_classification": "outside-in-preview-box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:604020:0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.787676517320836,
+          61.96384965379252
+        ]
+      },
+      "properties": {
+        "name": "Iso-Kalliojärven laavu",
+        "source_id": 604020,
+        "type_code": 301,
+        "province": "Tuntematon",
+        "city": "980",
+        "status": "active",
+        "source_event_date": "2024-05-14T16:17:21.871Z",
+        "services": {
+          "toilet?": true,
+          "free-use?": true,
+          "may-be-shown-in-excursion-map-fi?": true
+        },
+        "park_classification": "outside-in-preview-box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:604021:0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.77542635019508,
+          61.89804075474544
+        ]
+      },
+      "properties": {
+        "name": "Ruukinkosken laavu",
+        "source_id": 604021,
+        "type_code": 301,
+        "province": "Tuntematon",
+        "city": "980",
+        "status": "active",
+        "source_event_date": "2020-09-22T05:57:11.791Z",
+        "services": {
+          "may-be-shown-in-excursion-map-fi?": true
+        },
+        "park_classification": "outside-in-preview-box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:604237:0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.87832507608835,
+          61.97012125984064
+        ]
+      },
+      "properties": {
+        "name": "Kivi-Kierinkän Laavu ja nuotiopaikka",
+        "source_id": 604237,
+        "type_code": 301,
+        "province": "Tuntematon",
+        "city": "702",
+        "status": "active",
+        "source_event_date": "2024-05-14T15:40:13.479Z",
+        "services": {
+          "toilet?": true,
+          "free-use?": true,
+          "may-be-shown-in-excursion-map-fi?": true
+        },
+        "park_classification": "outside-in-preview-box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:604238:0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.094882958196667,
+          62.01442161336343
+        ]
+      },
+      "properties": {
+        "name": "Laavu",
+        "source_id": 604238,
+        "type_code": 301,
+        "province": "Tuntematon",
+        "city": "702",
+        "status": "active",
+        "source_event_date": "2020-09-30T07:11:20.353Z",
+        "services": {
+          "free-use?": true,
+          "may-be-shown-in-excursion-map-fi?": true
+        },
+        "park_classification": "outside-in-preview-box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:611206:0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.804840955804007,
+          61.87237363298935
+        ]
+      },
+      "properties": {
+        "name": "Romusaaren nokan kota",
+        "source_id": 611206,
+        "type_code": 301,
+        "province": "Tuntematon",
+        "city": "980",
+        "status": "active",
+        "source_event_date": "2023-09-29T09:15:04.994Z",
+        "services": {
+          "toilet?": true,
+          "free-use?": true,
+          "may-be-shown-in-excursion-map-fi?": true
+        },
+        "park_classification": "outside-in-preview-box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:613174:0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.816257228389997,
+          61.97178472831324
+        ]
+      },
+      "properties": {
+        "name": "Leppäjärven laavu",
+        "source_id": 613174,
+        "type_code": 301,
+        "province": "Tuntematon",
+        "city": "702",
+        "status": "active",
+        "source_event_date": "2024-05-14T15:56:51.445Z",
+        "services": {
+          "toilet?": true,
+          "free-use?": true,
+          "may-be-shown-in-excursion-map-fi?": true
+        },
+        "park_classification": "outside-in-preview-box"
+      }
+    }
+  ]
+}

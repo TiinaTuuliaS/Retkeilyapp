@@ -7,9 +7,9 @@ describe('Park pages', () => {
   const query = jest.fn();
   const controller = new ParksController({ query } as unknown as Repository<Location>);
   beforeEach(() => query.mockReset());
-  it('lists both parks without loading detailed geometries or the database', () => {
+  it('lists parks without loading detailed geometries or the database', () => {
     const parks = controller.list();
-    expect(parks.map(p => p.slug)).toEqual(['ukk', 'seitseminen']);
+    expect(parks.map(p => p.slug)).toEqual(['lemmenjoki', 'pallas', 'ukk', 'seitseminen', 'helvetinjarvi']);
     expect(parks[0]).not.toHaveProperty('directory');
     expect(query).not.toHaveBeenCalled();
   });
@@ -24,11 +24,18 @@ describe('Park pages', () => {
     expect(park.boundaryId).toBe('KPU120026');
     expect(query).toHaveBeenCalledWith(expect.stringContaining('ST_Covers'), [JSON.stringify(park.geometry)]);
   });
+  it('selects Lemmenjoki locations with its verified boundary', async () => {
+    query.mockResolvedValue([{ id: 200 }]);
+    const park = await controller.detail('lemmenjoki');
+    expect(park.boundaryId).toBe('KPU120024');
+    expect(park.locationIds).toEqual([200]);
+    expect(query).toHaveBeenCalledWith(expect.stringContaining('ST_Covers'), [JSON.stringify(park.geometry)]);
+  });
   it('returns Seitseminen and its coverage explanation even without locations', async () => {
     query.mockResolvedValue([]);
     const park = await controller.detail('seitseminen');
     expect(park.locationIds).toEqual([]);
     expect(park.boundaryId).toBe('KPU040004');
-    expect(park.coverage).toContain('puuttuvat');
+    expect(park.coverage).toContain('rajattu OpenStreetMap-otos');
   });
 });

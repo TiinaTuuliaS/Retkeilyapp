@@ -1,0 +1,5913 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "osm:node:242122882",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.385536,
+          68.3618285
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/242122882",
+        "name": "Rönkönlampi tulistelutupa",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2024-01-04T12:02:55Z",
+        "osmVersion": 5,
+        "tags": {
+          "access": "yes",
+          "bench": "yes",
+          "capacity": "0",
+          "drinking_water": "boil",
+          "fee": "no",
+          "fireplace": "yes",
+          "name": "Rönkönlampi tulistelutupa",
+          "piste:amenity": "shelter",
+          "shelter_type": "basic_hut",
+          "toilets": "yes",
+          "tourism": "wilderness_hut"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1283847764",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0470337,
+          68.2209611
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1283847764",
+        "name": "Raappanan kammi",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-04-04T16:05:14Z",
+        "osmVersion": 4,
+        "tags": {
+          "access": "yes",
+          "capacity": "2",
+          "drinking_water": "no",
+          "fee": "no",
+          "fireplace": "yes",
+          "name": "Raappanan kammi",
+          "operator": "Metsähallitus",
+          "tourism": "wilderness_hut",
+          "website": "http://www.patikka.net/Tupaluettelot/koilliskaira/tuvat/raappanan-kammi.htm"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1286739783",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0634515,
+          68.253934
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1286739783",
+        "name": "Pälkkimäoja laavu",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-04-04T16:05:14Z",
+        "osmVersion": 7,
+        "tags": {
+          "amenity": "shelter",
+          "capacity": "5",
+          "drinking_water": "yes",
+          "fireplace": "yes",
+          "name": "Pälkkimäoja laavu",
+          "operator": "Metsähallitus",
+          "shelter_type": "lean_to",
+          "website": "http://www.patikka.net/Tupaluettelot/koilliskaira/tuvat/palkimaojan-laavu.htm"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2415914594",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.1734906,
+          68.336278
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2415914594",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-08-12T12:20:15Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2415914627",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0267265,
+          68.3557711
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2415914627",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-08-12T12:20:16Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2415914632",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0196455,
+          68.3445464
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2415914632",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-08-12T12:20:16Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2415914635",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0196884,
+          68.3439754
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2415914635",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-08-12T12:20:16Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2415914684",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.1820736,
+          68.3386385
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2415914684",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-08-12T12:20:17Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2415914698",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.1160333,
+          68.3168468
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2415914698",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-08-12T12:20:17Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2415914745",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0194309,
+          68.3415847
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2415914745",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-08-12T12:20:18Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2415915019",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0203002,
+          68.348442
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2415915019",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2016-01-09T19:51:33Z",
+        "osmVersion": 2,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2415915037",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0322197,
+          68.3640007
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2415915037",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-08-12T12:20:24Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2415915109",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.175378,
+          68.3363631
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2415915109",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2019-01-31T16:41:18Z",
+        "osmVersion": 2,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2415915195",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0310181,
+          68.3584144
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2415915195",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-08-12T12:20:28Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2415915660",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.1979094,
+          68.3453691
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2415915660",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-08-12T12:20:39Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2415916252",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.2621129,
+          68.3941398
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2415916252",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-08-12T12:20:52Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2415916443",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0196026,
+          68.3448789
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2415916443",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-08-12T12:20:56Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2415916539",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.2235298,
+          68.3457658
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2415916539",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-08-12T12:20:58Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2415916692",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.124183,
+          68.3213645
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2415916692",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-08-12T12:21:01Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2415916794",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.1102756,
+          68.3144058
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2415916794",
+        "name": "Lähde",
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2020-01-27T21:46:20Z",
+        "osmVersion": 3,
+        "tags": {
+          "drinking_water": "yes",
+          "intermittent": "no",
+          "name": "Lähde",
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2417407517",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8254539,
+          68.3451952
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2417407517",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2021-06-01T20:42:50Z",
+        "osmVersion": 2,
+        "tags": {
+          "drinking_water": "yes",
+          "intermittent": "no",
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2417407918",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.1263763,
+          68.3645873
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2417407918",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-08-13T07:36:10Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2417408116",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.2927097,
+          68.3845785
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2417408116",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-08-13T07:36:14Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2417408205",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0927306,
+          68.3383854
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2417408205",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-08-13T07:36:16Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2417408311",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0499644,
+          68.2391144
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2417408311",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-08-13T07:36:17Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2417408782",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.1083947,
+          68.3728603
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2417408782",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-08-13T07:36:22Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2417409586",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0568094,
+          68.2470999
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2417409586",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-08-13T07:36:35Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2417410344",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.7051192,
+          68.3105982
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2417410344",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-08-13T07:36:45Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2417410523",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.1222564,
+          68.3651403
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2417410523",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-08-13T07:36:49Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2417429966",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8263122,
+          68.293622
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2417429966",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-08-13T08:08:12Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2417464222",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.001278,
+          68.3329987
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2417464222",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2021-06-03T18:09:43Z",
+        "osmVersion": 2,
+        "tags": {
+          "drinking_water": "yes",
+          "intermittent": "no",
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2417464475",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0157362,
+          68.325407
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2417464475",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2021-06-03T18:09:43Z",
+        "osmVersion": 2,
+        "tags": {
+          "drinking_water": "yes",
+          "intermittent": "no",
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2417599994",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.2582587,
+          68.2579371
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2417599994",
+        "name": "Muorravaarakan autiotupa",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-04-07T11:26:43Z",
+        "osmVersion": 8,
+        "tags": {
+          "access": "yes",
+          "addr:city": "Sodankylä",
+          "capacity": "8",
+          "drinking_water": "yes",
+          "fee": "no",
+          "fireplace": "stove",
+          "gas": "yes",
+          "heating": "stove",
+          "kitchen": "yes",
+          "name": "Muorravaarakan autiotupa",
+          "operator": "Metsähallitus",
+          "shelter_type": "basic_hut",
+          "tourism": "wilderness_hut",
+          "website": "https://www.luontoon.fi/muorravaarakkaautiotupa"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2417600020",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.1106176,
+          68.3148808
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2417600020",
+        "name": "Sarvioja autiotupa",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-04-05T15:57:27Z",
+        "osmVersion": 7,
+        "tags": {
+          "addr:city": "Sodankylä",
+          "capacity": "8",
+          "drinking_water": "yes",
+          "fee": "no",
+          "fireplace": "stove",
+          "gas": "yes",
+          "heating": "fireplace",
+          "kitchen": "yes",
+          "mattress": "no",
+          "name": "Sarvioja autiotupa",
+          "operator": "Metsähallitus",
+          "reservation": "no",
+          "shelter_type": "basic_hut",
+          "tourism": "wilderness_hut",
+          "website": "https://www.luontoon.fi/sarviojaautiotupa",
+          "wheelchair": "no"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2417600023",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.1105425,
+          68.3148174
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2417600023",
+        "name": "Sarvioja varaustupa",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-04-05T15:57:27Z",
+        "osmVersion": 8,
+        "tags": {
+          "access": "customers",
+          "addr:city": "Sodankylä",
+          "capacity": "8",
+          "charge": "12 EUR",
+          "drinking_water": "yes",
+          "fee": "yes",
+          "fireplace": "stove",
+          "heating": "stove",
+          "kitchen": "yes",
+          "lockable": "yes",
+          "locked": "yes",
+          "mattress": "yes",
+          "name": "Sarvioja varaustupa",
+          "operator": "Metsähallitus",
+          "reservation": "required",
+          "shelter_type": "basic_hut",
+          "shower": "no",
+          "tourism": "wilderness_hut",
+          "website": "https://www.luontoon.fi/sarviojavaraustupa"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2417600037",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.2582573,
+          68.2579923
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2417600037",
+        "name": "Muorravaarakan varaustupa",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-01-21T05:06:07Z",
+        "osmVersion": 9,
+        "tags": {
+          "access": "customers",
+          "addr:city": "Sodankylä",
+          "capacity": "8",
+          "charge": "16.50 EUR",
+          "drinking_water": "yes",
+          "fee": "yes",
+          "fireplace": "stove",
+          "gas": "yes",
+          "heating": "stove",
+          "kitchen": "yes",
+          "locked": "yes",
+          "mattress": "yes",
+          "name": "Muorravaarakan varaustupa",
+          "operator": "Metsähallitus",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "reservation": "required",
+          "shelter_type": "basic_hut",
+          "tourism": "wilderness_hut",
+          "website": "https://www.luontoon.fi/muorravaarakkavaraustupa"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2417661775",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9041611,
+          68.2831591
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2417661775",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-08-13T11:37:12Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2417661805",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9352747,
+          68.2683704
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2417661805",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-04-13T16:18:53Z",
+        "osmVersion": 2,
+        "tags": {
+          "drinking_water": "yes",
+          "intermittent": "no",
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2417661824",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9472052,
+          68.271962
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2417661824",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-04-13T16:18:53Z",
+        "osmVersion": 2,
+        "tags": {
+          "drinking_water": "yes",
+          "intermittent": "no",
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2417661835",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9357468,
+          68.2681011
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2417661835",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-04-13T16:18:53Z",
+        "osmVersion": 2,
+        "tags": {
+          "drinking_water": "yes",
+          "intermittent": "no",
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2417662000",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9367339,
+          68.3010649
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2417662000",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-08-13T11:37:14Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2417662031",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.917379,
+          68.2883201
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2417662031",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-08-13T11:37:14Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2417662526",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9048907,
+          68.2832075
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2417662526",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-08-13T11:37:20Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2417662990",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.1038033,
+          68.3470797
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2417662990",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-08-13T11:37:26Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2417663133",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9060923,
+          68.283271
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2417663133",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-08-13T11:37:29Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2417663143",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9157912,
+          68.2877001
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2417663143",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-08-13T11:37:30Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2417663183",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9122292,
+          68.2872246
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2417663183",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-08-13T11:37:30Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2453740264",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5513305,
+          68.3548406
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2453740264",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2021-05-30T13:54:40Z",
+        "osmVersion": 2,
+        "tags": {
+          "drinking_water": "yes",
+          "intermittent": "no",
+          "natural": "spring",
+          "source": "MML 2013"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2453740357",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5130294,
+          68.3111537
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2453740357",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-09-11T06:20:32Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2453740424",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.432841,
+          68.343642
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2453740424",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-09-11T06:20:33Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2453740481",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4775813,
+          68.3717361
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2453740481",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-09-11T06:20:35Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2013"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2453740781",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.586022,
+          68.3437837
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2453740781",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-09-11T06:20:41Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2453740858",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4718736,
+          68.3512419
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2453740858",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-09-11T06:20:43Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2013"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2453752463",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.3824155,
+          68.4207265
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2453752463",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-09-11T06:37:55Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2453843632",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4824737,
+          68.4300599
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2453843632",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-09-11T08:40:08Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2453843715",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.411363,
+          68.4426474
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2453843715",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-09-11T08:40:10Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2453843722",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4236367,
+          68.4577643
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2453843722",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-09-11T08:40:10Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2453959849",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5337958,
+          68.4048042
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2453959849",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-09-11T10:43:48Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2013"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2455041977",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.3727787,
+          68.4252723
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2455041977",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-09-12T06:42:45Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2455042067",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.453672,
+          68.4481663
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2455042067",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-09-12T06:42:47Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2455042086",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4319375,
+          68.4464711
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2455042086",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-09-12T06:42:47Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2013"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3213671529",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.3353559,
+          68.343215
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3213671529",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2014-12-01T07:08:26Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2014"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3213671680",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.3976475,
+          68.3311756
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3213671680",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2014-12-01T07:08:28Z",
+        "osmVersion": 1,
+        "tags": {
+          "amenity": "drinking_water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3213671694",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.3428446,
+          68.3178689
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3213671694",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2014-12-01T07:08:29Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2014"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3213672130",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.39842,
+          68.3300271
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3213672130",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2014-12-01T07:08:36Z",
+        "osmVersion": 1,
+        "tags": {
+          "amenity": "drinking_water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3215343884",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4412075,
+          68.1105453
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3215343884",
+        "name": "Sompiojärven leirintäalue",
+        "category": "camp",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2020-01-15T17:01:17Z",
+        "osmVersion": 5,
+        "tags": {
+          "access": "yes",
+          "backcountry": "yes",
+          "capacity": "10",
+          "drinking_water": "no",
+          "fee": "no",
+          "internet_access": "no",
+          "name": "Sompiojärven leirintäalue",
+          "openfire": "yes",
+          "operator": "Metsähallitus",
+          "toilets": "yes",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3215438346",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.3140272,
+          68.4229131
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3215438346",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2014-12-02T09:23:10Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2014"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3215439389",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.3268374,
+          68.4053248
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3215439389",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2014-12-02T09:23:24Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2014"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3215599037",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.3392792,
+          68.4679496
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3215599037",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2014-12-02T11:39:00Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3226048399",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.723595,
+          68.385537
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3226048399",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2014-12-09T07:00:36Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2014"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3226048400",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.728144,
+          68.3859717
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3226048400",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2014-12-09T07:00:36Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2014"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3226049065",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.7016224,
+          68.3921439
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3226049065",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2014-12-09T07:00:37Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2014"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3226049066",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.7001203,
+          68.3911087
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3226049066",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2014-12-09T07:00:37Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2014"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3226071132",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.7123727,
+          68.378011
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3226071132",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2014-12-09T07:31:38Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2014"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3226071787",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9045396,
+          68.3813687
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3226071787",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2014-12-09T07:31:43Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2014"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3226276119",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5523401,
+          68.3541702
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3226276119",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2021-05-30T13:54:40Z",
+        "osmVersion": 2,
+        "tags": {
+          "intermittent": "no",
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3227751413",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.2867906,
+          68.1652654
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3227751413",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2014-12-10T07:50:33Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2014"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3227771163",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.4700507,
+          68.2477341
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3227771163",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2014-12-10T08:07:32Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2014"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3227963661",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.2570252,
+          68.2562963
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3227963661",
+        "name": "Muorravaarakka",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-04-07T11:26:43Z",
+        "osmVersion": 3,
+        "tags": {
+          "access": "yes",
+          "backcountry": "yes",
+          "capacity": "10",
+          "capacity:tents": "10",
+          "drinking_water": "yes",
+          "fee": "no",
+          "name": "Muorravaarakka",
+          "openfire": "yes",
+          "opening_hours": "24/7",
+          "operator": "Metsähallitus",
+          "picnic_table": "yes",
+          "tents": "yes",
+          "toilets": "yes",
+          "tourism": "camp_site",
+          "wheelchair": "no"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3228017119",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0241709,
+          68.2101679
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3228017119",
+        "name": "Luirojärvi",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-04-04T17:12:14Z",
+        "osmVersion": 4,
+        "tags": {
+          "access": "yes",
+          "backcountry": "yes",
+          "cabins": "yes",
+          "capacity": "10",
+          "capacity:persons": "20",
+          "capacity:tents": "10",
+          "drinking_water": "boil",
+          "fee": "no",
+          "name": "Luirojärvi",
+          "openfire": "yes",
+          "operator": "Metsähallitus",
+          "sauna": "yes",
+          "tents": "yes",
+          "toilets": "yes",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3229357631",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8434261,
+          68.2125835
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3229357631",
+        "name": "Tuiskukuru",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2020-01-28T11:36:41Z",
+        "osmVersion": 3,
+        "tags": {
+          "access": "yes",
+          "addr:city": "Sodankylä",
+          "backcountry": "yes",
+          "capacity": "5",
+          "drinking_water": "yes",
+          "fee": "no",
+          "name": "Tuiskukuru",
+          "openfire": "yes",
+          "operator": "Metsähallitus",
+          "tents": "yes",
+          "toilets": "yes",
+          "tourism": "camp_site",
+          "wheelchair": "no"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3229363317",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.7922226,
+          68.2123982
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3229363317",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2014-12-11T07:04:59Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2014"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3229386320",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6569582,
+          68.2406779
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3229386320",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2014-12-11T07:36:24Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2014"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3229551281",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6337735,
+          68.3119666
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3229551281",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-10-10T20:13:13Z",
+        "osmVersion": 2,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2014"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3229656620",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.2506534,
+          68.3844559
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3229656620",
+        "name": "Jyrkkävaara",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-04-07T16:19:54Z",
+        "osmVersion": 4,
+        "tags": {
+          "access": "yes",
+          "addr:city": "Sodankylä",
+          "backcountry": "yes",
+          "capacity": "5",
+          "capacity:tents": "5",
+          "drinking_water": "boil",
+          "fee": "no",
+          "name": "Jyrkkävaara",
+          "openfire": "yes",
+          "operator": "Metsähallitus",
+          "tents": "yes",
+          "toilets": "yes",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3230995874",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5023682,
+          68.1158466
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3230995874",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2014-12-12T07:04:02Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3235950814",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.973726,
+          68.0504331
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3235950814",
+        "name": "Mantoselkä",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2020-01-28T14:44:59Z",
+        "osmVersion": 3,
+        "tags": {
+          "access": "yes",
+          "backcountry": "yes",
+          "capacity": "5",
+          "drinking_water": "yes",
+          "fee": "no",
+          "name": "Mantoselkä",
+          "openfire": "yes",
+          "operator": "Metsähallitus",
+          "tents": "yes",
+          "toilets": "yes",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3235963740",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3214177,
+          68.0571855
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3235963740",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2014-12-15T11:26:26Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3235963741",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3286079,
+          68.0568904
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3235963741",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2014-12-15T11:26:26Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3235969243",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.7161459,
+          68.0684863
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3235969243",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2014-12-15T11:35:04Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3235969244",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.7180797,
+          68.0683998
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3235969244",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2014-12-15T11:35:04Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3235969245",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.7160506,
+          68.0682523
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3235969245",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2014-12-15T11:35:04Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3235969246",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.7173443,
+          68.0678759
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3235969246",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2014-12-15T11:35:04Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3235969247",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.7187197,
+          68.0682879
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3235969247",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2014-12-15T11:35:04Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3239336997",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.910778,
+          68.1736827
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3239336997",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2014-12-17T11:14:37Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3239336998",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9103506,
+          68.1745153
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3239336998",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2014-12-17T11:14:37Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3239336999",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.910607,
+          68.1771907
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3239336999",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2014-12-17T11:14:37Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3239505381",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.3982928,
+          68.4290936
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3239505381",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2014-12-17T13:02:10Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3239512613",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.4756794,
+          68.3714944
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3239512613",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2014-12-17T13:05:54Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3241001923",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.394719,
+          68.4229609
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3241001923",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2014-12-18T13:37:35Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2014"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3242541677",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8163911,
+          68.3712938
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3242541677",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2014-12-19T12:17:24Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2014"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3791803616",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.4926205,
+          68.2693414
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3791803616",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2015-10-18T18:09:32Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3791803617",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.4976322,
+          68.2640053
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3791803617",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2015-10-18T18:09:32Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3791807292",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.4514697,
+          68.2510448
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3791807292",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-04-02T17:02:57Z",
+        "osmVersion": 3,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2014"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3792446327",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.4860857,
+          68.3789517
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3792446327",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2015-10-19T09:38:29Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3792731602",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8778459,
+          68.2667294
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3792731602",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2015-10-19T13:57:28Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3792731603",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8613181,
+          68.2668289
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3792731603",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2015-10-19T13:57:28Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3792731604",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8599912,
+          68.2668538
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3792731604",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2015-10-19T13:57:28Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3802167915",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.4577401,
+          68.1863632
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3802167915",
+        "name": "Vongoiva varauskammi",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-04-02T17:02:57Z",
+        "osmVersion": 4,
+        "tags": {
+          "access": "customers",
+          "addr:city": "Sodankylä",
+          "capacity": "3",
+          "charge": "40 EUR",
+          "drinking_water": "yes",
+          "fee": "yes",
+          "fireplace": "stove",
+          "gas": "yes",
+          "kitchen": "yes",
+          "mattress": "yes",
+          "name": "Vongoiva varauskammi",
+          "operator": "Metsähallitus, Lapin luontopalvelut",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "reservation": "required",
+          "start_date": "2016",
+          "tourism": "wilderness_hut",
+          "website": "https://www.luontoon.fi/vongoivakammi"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3806664025",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4463822,
+          68.1225872
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3806664025",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2015-10-28T13:21:55Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2015"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3806664026",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.444451,
+          68.1224993
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3806664026",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2015-10-28T13:21:55Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2015"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3806664027",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4622394,
+          68.1217557
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3806664027",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2015-10-28T13:21:55Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2015"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3806664028",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4616815,
+          68.1214039
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3806664028",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2015-10-28T13:21:55Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2015"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3806665899",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4408179,
+          68.1449785
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3806665899",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2015-10-28T13:21:56Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2015"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3806727911",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.376948,
+          68.2807147
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3806727911",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2015-10-28T14:12:42Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2015"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3806766993",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.3289595,
+          68.228187
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3806766993",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2015-10-28T14:45:34Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3807075462",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1427946,
+          68.1778442
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3807075462",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2015-10-28T18:08:51Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3807075463",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1441953,
+          68.1777382
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3807075463",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2015-10-28T18:08:52Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3808131545",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5483955,
+          68.4456615
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3808131545",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2015-10-29T09:58:22Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2015"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3808131546",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5503052,
+          68.4455629
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3808131546",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2015-10-29T09:58:22Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2015"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3808131547",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5512172,
+          68.4455866
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3808131547",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2015-10-29T09:58:22Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2015"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3808131548",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5521828,
+          68.4450505
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3808131548",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2015-10-29T09:58:22Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2015"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3808142305",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6253454,
+          68.4173326
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3808142305",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2021-05-30T12:40:56Z",
+        "osmVersion": 2,
+        "tags": {
+          "drinking_water": "yes",
+          "intermittent": "no",
+          "natural": "spring",
+          "source": "MML 2015"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3817435737",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0530526,
+          68.4138448
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3817435737",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2015-11-04T15:56:09Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3817817997",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9127194,
+          68.3859466
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3817817997",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2015-11-04T20:24:43Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3817818141",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.1772013,
+          68.4202221
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3817818141",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2015-11-04T20:24:45Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3822906373",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8568245,
+          68.2018838
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3822906373",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2015-11-07T15:59:33Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2015"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3822906771",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8725217,
+          68.1977221
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3822906771",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2015-11-07T15:59:39Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2015"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3822906838",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8711981,
+          68.1903797
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3822906838",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2015-11-07T15:59:40Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2015"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3822906839",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8726247,
+          68.187664
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3822906839",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2015-11-07T15:59:41Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2015"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3823178246",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8781796,
+          68.1815889
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3823178246",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2015-11-07T18:44:14Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2015"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3827003730",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6826651,
+          68.2427907
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3827003730",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2015-11-09T17:04:11Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3916449068",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.4803578,
+          68.2489204
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3916449068",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2019-02-24T11:45:09Z",
+        "osmVersion": 2,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3918513026",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.4641768,
+          68.2662588
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3918513026",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2015-12-30T12:56:38Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3918513027",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.467618,
+          68.265656
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3918513027",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2015-12-30T12:56:38Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3936389995",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0184202,
+          68.3460016
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3936389995",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2016-01-09T19:51:31Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3939486660",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6141192,
+          68.457713
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3939486660",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2016-01-11T13:13:31Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3996085478",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.2360999,
+          68.2379668
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3996085478",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2016-02-08T19:58:41Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:4036898669",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.2864649,
+          68.172432
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/4036898669",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2016-03-02T17:21:09Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:4292787527",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1152687,
+          68.3751147
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/4292787527",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2016-07-09T09:46:12Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML 2016"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:4375832342",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0290946,
+          67.9117774
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/4375832342",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2016-08-30T16:51:14Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:4375832352",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0286799,
+          67.9134676
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/4375832352",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2016-08-30T16:51:14Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:4375854262",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0650086,
+          67.9757507
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/4375854262",
+        "name": "Naltiojoki",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2020-01-28T14:44:59Z",
+        "osmVersion": 3,
+        "tags": {
+          "access": "yes",
+          "backcountry": "yes",
+          "capacity": "6",
+          "drinking_water": "yes",
+          "fee": "no",
+          "name": "Naltiojoki",
+          "openfire": "yes",
+          "operator": "Metsähallitus",
+          "tents": "yes",
+          "toilets": "yes",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:4376217057",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.562182,
+          68.1260074
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/4376217057",
+        "name": "Tahvontupa",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-04-06T16:14:32Z",
+        "osmVersion": 4,
+        "tags": {
+          "access": "yes",
+          "addr:city": "Savukoski",
+          "backcountry": "yes",
+          "capacity": "5",
+          "capacity:tents": "5",
+          "drinking_water": "yes",
+          "fee": "no",
+          "name": "Tahvontupa",
+          "openfire": "yes",
+          "operator": "Metsähallitus",
+          "sauna": "yes",
+          "tents": "yes",
+          "toilets": "yes",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:4377551719",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.2622326,
+          67.8973052
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/4377551719",
+        "name": "Hirvashauta",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2020-01-28T13:34:02Z",
+        "osmVersion": 2,
+        "tags": {
+          "access": "yes",
+          "backcountry": "yes",
+          "capacity": "5",
+          "drinking_water": "yes",
+          "fee": "no",
+          "name": "Hirvashauta",
+          "openfire": "yes",
+          "operator": "Metsähallitus",
+          "toilets": "yes",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:4377585769",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.2251418,
+          67.9151462
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/4377585769",
+        "name": "Karhuoja",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2020-01-28T13:34:02Z",
+        "osmVersion": 2,
+        "tags": {
+          "access": "yes",
+          "backcountry": "yes",
+          "capacity": "5",
+          "drinking_water": "yes",
+          "fee": "no",
+          "name": "Karhuoja",
+          "openfire": "yes",
+          "operator": "Metsähallitus",
+          "sauna": "yes",
+          "tents": "yes",
+          "toilets": "yes",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:4377665011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.4368728,
+          67.9669613
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/4377665011",
+        "name": "Saiho",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2020-01-28T13:34:02Z",
+        "osmVersion": 2,
+        "tags": {
+          "access": "yes",
+          "backcountry": "yes",
+          "capacity": "5",
+          "drinking_water": "yes",
+          "fee": "no",
+          "name": "Saiho",
+          "openfire": "yes",
+          "operator": "Metsähallitus",
+          "tents": "yes",
+          "toilets": "yes",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:5699328244",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1500946,
+          68.2528003
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/5699328244",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2018-06-18T12:25:36Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:5736435976",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.2514409,
+          68.3844097
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/5736435976",
+        "name": "Jyrkkävaara autiotupa",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-04-07T16:19:54Z",
+        "osmVersion": 3,
+        "tags": {
+          "access": "yes",
+          "addr:city": "Sodankylä",
+          "capacity": "8",
+          "drinking_water": "boil",
+          "fee": "no",
+          "fireplace": "stove",
+          "gas": "yes",
+          "mattress": "no",
+          "name": "Jyrkkävaara autiotupa",
+          "operator": "Metsähallitus",
+          "reservation": "no",
+          "tourism": "wilderness_hut",
+          "website": "https://www.luontoon.fi/jyrkkavaaraautiotupa"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:6239996346",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.2708276,
+          68.3019447
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/6239996346",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2019-01-27T16:55:14Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:6244949356",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.1858922,
+          68.3400896
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/6244949356",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2019-01-29T18:13:06Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:6278576020",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0782689,
+          67.9773372
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/6278576020",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2019-02-14T13:41:39Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:6278576021",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1167437,
+          67.9826516
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/6278576021",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2019-02-14T13:41:39Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:6279112361",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0221032,
+          67.8924192
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/6279112361",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2019-02-14T18:03:05Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:6281207590",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0941108,
+          67.9025516
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/6281207590",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2019-02-15T16:16:29Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:6281207591",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.116255,
+          67.904335
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/6281207591",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2019-02-15T16:16:29Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:6286503887",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.6761722,
+          68.0315133
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/6286503887",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2019-02-18T16:50:14Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:6291853135",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.4180494,
+          67.9579096
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/6291853135",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2019-02-20T19:42:28Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:6291853136",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.4269244,
+          67.9528099
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/6291853136",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2019-02-20T19:42:28Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:6291856262",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.4375115,
+          67.9541129
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/6291856262",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2019-02-20T19:45:16Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:6291863929",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.3203931,
+          67.9083151
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/6291863929",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2019-02-20T19:49:47Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:6294408474",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.5448949,
+          67.903142
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/6294408474",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2019-02-21T21:20:14Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:6294408475",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.5451388,
+          67.9027199
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/6294408475",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2019-02-21T21:20:14Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:6309103462",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1948353,
+          68.1209659
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/6309103462",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2019-02-28T21:16:44Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:6309104102",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.2971066,
+          68.1511981
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/6309104102",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2019-02-28T21:16:49Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:6309106752",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.253615,
+          68.1405683
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/6309106752",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2019-02-28T21:21:49Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:7160917207",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.1536628,
+          68.3948948
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/7160917207",
+        "name": "Snellmanninmaja",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2020-01-26T18:34:49Z",
+        "osmVersion": 1,
+        "tags": {
+          "access": "yes",
+          "addr:city": "Sodankylä",
+          "backcountry": "yes",
+          "capacity": "5",
+          "drinking_water": "no",
+          "fee": "no",
+          "name": "Snellmanninmaja",
+          "openfire": "no",
+          "operator": "Metsähallitus",
+          "tents": "yes",
+          "toilets": "yes",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:7160917208",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0641263,
+          68.3910643
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/7160917208",
+        "name": "Aittajärvi",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-08-25T16:17:48Z",
+        "osmVersion": 3,
+        "tags": {
+          "access": "yes",
+          "addr:city": "Sodankylä",
+          "backcountry": "yes",
+          "camp_site": "basic",
+          "capacity": "7",
+          "caravans": "no",
+          "dog": "leashed",
+          "drinking_water": "boil",
+          "fee": "no",
+          "name": "Aittajärvi",
+          "openfire": "yes",
+          "operator": "Metsähallitus",
+          "static_caravans": "no",
+          "tents": "yes",
+          "toilets": "yes",
+          "tourism": "camp_site",
+          "wheelchair": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:7161298105",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.7232166,
+          68.032552
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/7161298105",
+        "name": "Härkävaara",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2020-01-27T13:46:17Z",
+        "osmVersion": 2,
+        "tags": {
+          "access": "yes",
+          "addr:city": "Savukoski",
+          "backcountry": "yes",
+          "capacity": "3",
+          "drinking_water": "yes",
+          "fee": "no",
+          "name": "Härkävaara",
+          "openfire": "yes",
+          "operator": "Metsähallitus",
+          "sauna": "yes",
+          "tents": "yes",
+          "toilets": "yes",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:7161303676",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1891995,
+          68.0464628
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/7161303676",
+        "name": "Rakitsanoja kammi",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2020-01-26T22:04:27Z",
+        "osmVersion": 1,
+        "tags": {
+          "addr:city": "Savukoski",
+          "capacity": "6",
+          "drinking_water": "yes",
+          "fee": "no",
+          "fireplace": "stove",
+          "gas": "yes",
+          "name": "Rakitsanoja kammi",
+          "operator": "Metsähallitus",
+          "tourism": "wilderness_hut",
+          "website": "https://www.luontoon.fi/tuvat/rakitsanojankammi"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:7163563630",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.4629085,
+          68.128062
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/7163563630",
+        "name": "Siulanruoktu",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2020-01-27T14:16:24Z",
+        "osmVersion": 1,
+        "tags": {
+          "access": "yes",
+          "addr:city": "Sodankylä",
+          "backcountry": "yes",
+          "capacity": "5",
+          "drinking_water": "yes",
+          "fee": "no",
+          "name": "Siulanruoktu",
+          "openfire": "yes",
+          "operator": "Metsähallitus",
+          "tents": "yes",
+          "toilets": "yes",
+          "tourism": "camp_site",
+          "wheelchair": "no"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:7164948989",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.1099002,
+          68.3140627
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/7164948989",
+        "name": "Sarvioja",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2020-01-28T09:57:19Z",
+        "osmVersion": 2,
+        "tags": {
+          "access": "yes",
+          "addr:city": "Sodankylä",
+          "backcountry": "yes",
+          "drinking_water": "yes",
+          "fee": "no",
+          "name": "Sarvioja",
+          "openfire": "yes",
+          "operator": "Metsähallitus",
+          "tents": "yes",
+          "toilets": "yes",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:7164948990",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8866894,
+          68.341019
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/7164948990",
+        "name": "Porttikoski",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2020-01-27T21:46:20Z",
+        "osmVersion": 1,
+        "tags": {
+          "access": "yes",
+          "backcountry": "yes",
+          "capacity": "5",
+          "drinking_water": "yes",
+          "fee": "no",
+          "name": "Porttikoski",
+          "openfire": "yes",
+          "operator": "Metsähallitus",
+          "tents": "yes",
+          "toilets": "yes",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:7164949023",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8128221,
+          68.3089579
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/7164949023",
+        "name": "Lankojärvi",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-04-09T12:05:02Z",
+        "osmVersion": 3,
+        "tags": {
+          "access": "yes",
+          "backcountry": "yes",
+          "capacity": "5",
+          "capacity:tents": "5",
+          "drinking_water": "yes",
+          "fee": "no",
+          "name": "Lankojärvi",
+          "openfire": "yes",
+          "operator": "Metsähallitus",
+          "tents": "yes",
+          "toilets": "yes",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:7165978990",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.4532004,
+          68.2504369
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/7165978990",
+        "name": "Anterinmukka",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2020-01-28T10:02:40Z",
+        "osmVersion": 1,
+        "tags": {
+          "access": "yes",
+          "backcountry": "yes",
+          "capacity": "5",
+          "drinking_water": "yes",
+          "fee": "no",
+          "name": "Anterinmukka",
+          "openfire": "yes",
+          "operator": "Metsähallitus",
+          "sauna": "yes",
+          "tents": "yes",
+          "toilets": "yes",
+          "tourism": "camp_site",
+          "wheelchair": "no"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:7165993735",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.4576868,
+          68.1865612
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/7165993735",
+        "name": "Vongoiva",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-04-02T17:02:57Z",
+        "osmVersion": 2,
+        "tags": {
+          "access": "yes",
+          "addr:city": "Sodankylä",
+          "backcountry": "yes",
+          "capacity": "2",
+          "capacity:persons": "4",
+          "drinking_water": "yes",
+          "fee": "no",
+          "name": "Vongoiva",
+          "openfire": "yes",
+          "operator": "Metsähallitus",
+          "tents": "yes",
+          "toilets": "yes",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:7166827685",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1989941,
+          67.8641409
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/7166827685",
+        "name": "Kärekeoja",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2020-01-28T14:18:50Z",
+        "osmVersion": 1,
+        "tags": {
+          "access": "yes",
+          "backcountry": "yes",
+          "capacity": "5",
+          "drinking_water": "yes",
+          "fee": "no",
+          "name": "Kärekeoja",
+          "openfire": "yes",
+          "operator": "Metsähallitus",
+          "tents": "yes",
+          "toilets": "yes",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:7166827686",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.2105427,
+          67.8999621
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/7166827686",
+        "name": "Mettopalo",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2020-01-28T14:18:50Z",
+        "osmVersion": 1,
+        "tags": {
+          "access": "yes",
+          "backcountry": "yes",
+          "drinking_water": "yes",
+          "fee": "no",
+          "name": "Mettopalo",
+          "openfire": "yes",
+          "operator": "Metsähallitus",
+          "tents": "yes",
+          "toilets": "yes",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:7166880447",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9694949,
+          68.0438941
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/7166880447",
+        "name": "Manto-oja",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-04-05T20:49:20Z",
+        "osmVersion": 2,
+        "tags": {
+          "access": "yes",
+          "backcountry": "yes",
+          "drinking_water": "yes",
+          "fee": "no",
+          "name": "Manto-oja",
+          "openfire": "yes",
+          "operator": "Metsähallitus",
+          "toilets": "yes",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:7177652371",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8594042,
+          68.227945
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/7177652371",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2020-02-01T17:35:53Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:8019477528",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6486597,
+          68.3130863
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/8019477528",
+        "name": "Rautulampi",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2024-01-27T10:33:46Z",
+        "osmVersion": 2,
+        "tags": {
+          "access": "yes",
+          "addr:city": "Sodankylä",
+          "backcountry": "yes",
+          "capacity": "5",
+          "capacity:persons": "10",
+          "capacity:tents": "5",
+          "dog": "leashed",
+          "drinking_water": "yes",
+          "fee": "no",
+          "name": "Rautulampi",
+          "openfire": "yes",
+          "opening_hours": "24/7",
+          "operator": "Metsähallitus",
+          "tents": "yes",
+          "toilets": "yes",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:8743375810",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.5305974,
+          67.939069
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/8743375810",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2021-05-18T18:07:05Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:8753870188",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5169619,
+          67.9973045
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/8753870188",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2021-05-21T18:32:18Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:8753870189",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5279192,
+          67.9972107
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/8753870189",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2021-05-21T18:32:18Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:8753870190",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5340761,
+          67.9963114
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/8753870190",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2021-05-21T18:32:18Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:8753870191",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5342639,
+          67.9961394
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/8753870191",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2021-05-21T18:32:18Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:8753870192",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5591071,
+          67.9949286
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/8753870192",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2021-05-21T18:32:18Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:8753870309",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5639333,
+          68.0141975
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/8753870309",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2021-05-21T18:32:18Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:8779963757",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4243982,
+          68.394476
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/8779963757",
+        "name": "Prospektorin kämppä päivätupa",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2024-01-03T15:55:11Z",
+        "osmVersion": 2,
+        "tags": {
+          "access": "yes",
+          "addr:city": "Saariselkä",
+          "capacity": "0",
+          "drinking_water": "no",
+          "fee": "no",
+          "fireplace": "yes",
+          "name": "Prospektorin kämppä päivätupa",
+          "name:en": "Day trip hut",
+          "operator": "Metsähallitus",
+          "tourism": "wilderness_hut",
+          "website": "https://www.luontoon.fi/prospektorinkaivoskamppapaivatupa",
+          "wheelchair": "limited"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:8781002032",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.57025,
+          68.4272163
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/8781002032",
+        "name": "Vellinsärpimä",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2021-05-30T12:40:56Z",
+        "osmVersion": 1,
+        "tags": {
+          "access": "yes",
+          "backcountry": "yes",
+          "capacity": "5",
+          "drinking_water": "yes",
+          "fee": "no",
+          "name": "Vellinsärpimä",
+          "openfire": "yes",
+          "operator": "Metsähallitus",
+          "toilets": "yes",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:8781002110",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.577095,
+          68.439051
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/8781002110",
+        "name": null,
+        "category": "camp",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2021-05-30T12:40:56Z",
+        "osmVersion": 1,
+        "tags": {
+          "access": "yes",
+          "addr:city": "Ivalo",
+          "backcountry": "yes",
+          "capacity": "5",
+          "drinking_water": "yes",
+          "fee": "no",
+          "openfire": "yes",
+          "operator": "Metsähallitus",
+          "toilets": "yes",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:8781108038",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5518114,
+          68.3548678
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/8781108038",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2021-05-30T13:54:40Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:10784801110",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0231237,
+          68.2097158
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/10784801110",
+        "name": "Luirojärven varaustupa",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-01-21T05:06:07Z",
+        "osmVersion": 2,
+        "tags": {
+          "access": "customers",
+          "capacity": "12",
+          "charge": "16.50 EUR",
+          "drinking_water": "boil",
+          "fee": "yes",
+          "fireplace": "yes",
+          "kitchen": "yes",
+          "mattress": "yes",
+          "name": "Luirojärven varaustupa",
+          "operator": "Metsähallitus",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "reservation": "required",
+          "tourism": "wilderness_hut",
+          "website": "https://www.luontoon.fi/luirojarvivaraustupa"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:10788781818",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.701701,
+          68.1281131
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/10788781818",
+        "name": null,
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-04-05T20:49:20Z",
+        "osmVersion": 1,
+        "tags": {
+          "backcountry": "yes",
+          "capacity:tents": "5",
+          "drinking_water": "yes",
+          "fee": "no",
+          "openfire": "yes",
+          "tents": "yes",
+          "toilets": "yes",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:10790521216",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.5633248,
+          68.1261342
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/10790521216",
+        "name": "Tahvontupa autiotupa",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-04-06T16:14:32Z",
+        "osmVersion": 1,
+        "tags": {
+          "access": "yes",
+          "addr:city": "Savukoski",
+          "bin": "no",
+          "capacity": "6",
+          "drinking_water": "yes",
+          "fee": "no",
+          "fireplace": "stove",
+          "kitchen": "outside",
+          "mattress": "no",
+          "name": "Tahvontupa autiotupa",
+          "operator": "Metsähallitus",
+          "reservation": "no",
+          "shelter_type": "basic_hut",
+          "start_date": "1968",
+          "tourism": "wilderness_hut",
+          "website": "https://www.luontoon.fi/tahvontupaautiotupa",
+          "wheelchair": "no"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:10790521217",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.5632771,
+          68.1260962
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/10790521217",
+        "name": "Tahvontupa varaustupa",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-01-21T05:06:07Z",
+        "osmVersion": 2,
+        "tags": {
+          "access": "customers",
+          "bin": "no",
+          "capacity": "4",
+          "charge": "16.50 EUR",
+          "drinking_water": "yes",
+          "fee": "yes",
+          "fireplace": "stove",
+          "kitchen": "yes",
+          "mattress": "yes",
+          "name": "Tahvontupa varaustupa",
+          "operator": "Metsähallitus",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "reservation": "required",
+          "shelter_type": "basic_hut",
+          "start_date": "1968",
+          "tourism": "wilderness_hut",
+          "website": "https://www.luontoon.fi/tahvontupavaraustupa",
+          "wheelchair": "no"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:10791094140",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.2964248,
+          68.1659362
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/10791094140",
+        "name": "Hammaskuru",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-04-06T21:37:17Z",
+        "osmVersion": 1,
+        "tags": {
+          "access": "yes",
+          "backcountry": "yes",
+          "capacity:tents": "5",
+          "drinking_water": "yes",
+          "fee": "no",
+          "name": "Hammaskuru",
+          "openfire": "yes",
+          "operator": "Metsähallitus",
+          "tents": "yes",
+          "toilets": "yes",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:10791094141",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.2980834,
+          68.1659131
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/10791094141",
+        "name": "Hammaskuru autiotupa",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-04-06T21:42:21Z",
+        "osmVersion": 2,
+        "tags": {
+          "access": "yes",
+          "capacity": "8",
+          "cooking": "gas",
+          "drinking_water": "yes",
+          "fee": "no",
+          "fireplace": "stove",
+          "mattress": "no",
+          "name": "Hammaskuru autiotupa",
+          "operator": "Metsähallitus, Lapin luontopalvelut",
+          "reservation": "no",
+          "tourism": "wilderness_hut",
+          "website": "https://www.luontoon.fi/hammaskuruautiotupa"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:10791097325",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.2980032,
+          68.1658535
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/10791097325",
+        "name": "Hammaskuru varaustupa",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-01-21T05:06:07Z",
+        "osmVersion": 2,
+        "tags": {
+          "access": "customers",
+          "capacity": "8",
+          "charge": "15 EUR",
+          "cooking": "gas",
+          "drinking_water": "yes",
+          "fee": "yes",
+          "fireplace": "yes",
+          "kitchen": "yes",
+          "mattress": "yes",
+          "name": "Hammaskuru varaustupa",
+          "operator": "Metsähallitus, Lapin luontopalvelut",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "reservation": "required",
+          "tourism": "wilderness_hut",
+          "website": "https://www.luontoon.fi/hammaskuruvaraustupa"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:10793176087",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.2513793,
+          68.384345
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/10793176087",
+        "name": "Jyrkkävaara varaustupa",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-01-21T05:06:07Z",
+        "osmVersion": 2,
+        "tags": {
+          "access": "customers",
+          "addr:city": "Sodankylä",
+          "alt_name": "Pahtajärven tupa",
+          "capacity": "8",
+          "charge": "16.50 EUR",
+          "drinking_water": "boil",
+          "fee": "yes",
+          "fireplace": "yes",
+          "heating": "stove",
+          "kitchen": "yes",
+          "locked": "yes",
+          "mattress": "yes",
+          "name": "Jyrkkävaara varaustupa",
+          "operator": "Metsähallitus",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "reservation": "required",
+          "start_date": "1969",
+          "tourism": "wilderness_hut",
+          "website": "https://www.luontoon.fi/jyrkkavaaravaraustupa",
+          "wheelchair": "no"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:10811583612",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5921002,
+          68.4546942
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/10811583612",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-04-14T14:52:42Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:11455380664",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4288817,
+          68.4135614
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/11455380664",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-12-26T12:31:22Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:11482580002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4286224,
+          68.462414
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/11482580002",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2024-01-03T12:10:45Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:11556269125",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6490133,
+          68.3133619
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/11556269125",
+        "name": "Rautulampi varaustupa",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-01-21T05:06:07Z",
+        "osmVersion": 2,
+        "tags": {
+          "access": "customers",
+          "addr:city": "Sodankylä",
+          "capacity": "8",
+          "charge": "16.50 EUR/person/day",
+          "drinking_water": "yes",
+          "fee": "yes",
+          "fireplace": "stove",
+          "gas": "yes",
+          "kitchen": "yes",
+          "mattress": "yes",
+          "name": "Rautulampi varaustupa",
+          "name:fi": "Rautulampi varaustupa",
+          "operator": "Metsähallitus",
+          "reservation": "required",
+          "tourism": "wilderness_hut",
+          "website": "https://www.luontoon.fi/rautulampivaraustupa",
+          "wheelchair": "no",
+          "wood_provided": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:11556269126",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6491904,
+          68.3133501
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/11556269126",
+        "name": "Rautulampi autiotupa",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2024-01-27T10:33:46Z",
+        "osmVersion": 1,
+        "tags": {
+          "access": "yes",
+          "addr:city": "Sodankylä",
+          "capacity": "8",
+          "drinking_water": "yes",
+          "fee": "no",
+          "fireplace": "stove",
+          "gas": "yes",
+          "kitchen": "yes",
+          "mattress": "no",
+          "name": "Rautulampi autiotupa",
+          "name:en": "Rautulampi Open Wilderness Hut",
+          "name:fi": "Rautulampi autiotupa",
+          "operator": "Metsähallitus",
+          "tourism": "wilderness_hut",
+          "website": "https://www.luontoon.fi/rautulampiautiotupa",
+          "wheelchair": "no",
+          "wood_provided": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:11556269135",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6479225,
+          68.3134074
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/11556269135",
+        "name": "Rautulampi päivätupa",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2024-01-27T10:33:46Z",
+        "osmVersion": 1,
+        "tags": {
+          "access": "yes",
+          "addr:city": "Sodankylä",
+          "capacity": "0",
+          "drinking_water": "yes",
+          "fee": "no",
+          "fireplace": "stove",
+          "name": "Rautulampi päivätupa",
+          "name:en": "Rautulampi Day-use Hut",
+          "name:fi": "Rautulampi päivätupa",
+          "tourism": "wilderness_hut",
+          "website": "https://www.luontoon.fi/rautulampipaivatupa"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:12615330831",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4581581,
+          68.3465559
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/12615330831",
+        "name": null,
+        "category": "water-tag-on-other-feature",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-02-24T09:27:23Z",
+        "osmVersion": 2,
+        "tags": {
+          "access": "customers",
+          "drinking_water": "yes",
+          "informal": "no",
+          "leisure": "bathing_place",
+          "picnic_table": "no",
+          "shower": "yes",
+          "toilets": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:13590828631",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5206985,
+          68.4247669
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/13590828631",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-02-22T16:46:49Z",
+        "osmVersion": 1,
+        "tags": {
+          "drinking_water": "yes",
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:14081251687",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.5298851,
+          68.3770494
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/14081251687",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-08-09T02:12:06Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:233239776",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.258208,
+          68.2583787
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/233239776",
+        "name": "Muorravaarakanruoktu varaustupa",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2023-04-07T11:26:43Z",
+        "osmVersion": 9,
+        "tags": {
+          "access": "customers",
+          "addr:city": "Saariselkä",
+          "building": "cabin",
+          "building:levels": "1",
+          "capacity": "4",
+          "charge": "60 €",
+          "drinking_water": "yes",
+          "fee": "yes",
+          "fireplace": "stove",
+          "heating": "stove",
+          "internet_access": "no",
+          "kitchen": "yes",
+          "locked": "yes",
+          "mattress": "yes",
+          "name": "Muorravaarakanruoktu varaustupa",
+          "operator": "Metsähallitus",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "reservation": "required",
+          "tourism": "wilderness_hut",
+          "website": "https://www.luontoon.fi/muorravaarakanruoktuvarauskammi"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:233362882",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0900289,
+          68.3140216
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/233362882",
+        "name": "Sudenpesä varauskammi",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2026-01-21T05:06:07Z",
+        "osmVersion": 8,
+        "tags": {
+          "access": "customers",
+          "addr:city": "Sodankylä",
+          "building": "cabin",
+          "building:levels": "1",
+          "capacity": "5",
+          "charge": "75 EUR",
+          "drinking_water": "boil",
+          "fee": "yes",
+          "fireplace": "yes",
+          "heating": "fireplace",
+          "kitchen": "yes",
+          "locked": "yes",
+          "mattress": "yes",
+          "name": "Sudenpesä varauskammi",
+          "operator": "Metsähallitus",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "reservation": "required",
+          "shelter_type": "basic_hut",
+          "shower": "no",
+          "start_date": "1952",
+          "tourism": "wilderness_hut",
+          "website": "https://www.luontoon.fi/sudenpesavarauskammi"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:316633307",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.4514084,
+          68.2505357
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/316633307",
+        "name": "Anterinmukka autiotupa",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2023-04-02T17:02:57Z",
+        "osmVersion": 6,
+        "tags": {
+          "access": "yes",
+          "addr:city": "Sodankylä",
+          "alt_name": "Keskon kämppä",
+          "building": "cabin",
+          "building:levels": "1",
+          "capacity": "13",
+          "drinking_water": "yes",
+          "fee": "no",
+          "fireplace": "stove",
+          "gas": "yes",
+          "name": "Anterinmukka autiotupa",
+          "operator": "Metsähallitus",
+          "start_date": "1964",
+          "tourism": "wilderness_hut",
+          "website": "https://www.luontoon.fi/anterinmukkaautiotupa"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:316657933",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0232137,
+          68.2097543
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/316657933",
+        "name": "Luirojärven autiotupa",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2023-04-04T16:54:09Z",
+        "osmVersion": 9,
+        "tags": {
+          "access": "yes",
+          "addr:city": "Sodankylä",
+          "alt_name": "Luiron Hillton",
+          "building": "cabin",
+          "building:levels": "1",
+          "capacity": "12",
+          "drinking_water": "boil",
+          "fee": "no",
+          "fireplace": "yes",
+          "mattress": "no",
+          "name": "Luirojärven autiotupa",
+          "operator": "Metsähallitus",
+          "reservation": "no",
+          "start_date": "1991",
+          "toilets": "yes",
+          "tourism": "wilderness_hut",
+          "website": "https://www.luontoon.fi/luirojarviautiotupa"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:316770882",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.513011,
+          68.3182159
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/316770882",
+        "name": "Niilanpää päivätupa",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2025-09-24T17:41:55Z",
+        "osmVersion": 3,
+        "tags": {
+          "access": "yes",
+          "addr:city": "Sodankylä",
+          "bench": "yes",
+          "building": "cabin",
+          "building:levels": "1",
+          "capacity": "0",
+          "drinking_water": "no",
+          "fee": "no",
+          "fireplace": "fireplace",
+          "height": "3",
+          "name": "Niilanpää päivätupa",
+          "name:en": "Niilanpaa Day Trip Hut",
+          "name:fi": "Niilanpää päivätupa",
+          "note": "no overnights allowed",
+          "operator": "Metsähallitus",
+          "shelter_type": "basic_hut",
+          "tourism": "wilderness_hut"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:317348871",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9728501,
+          68.0507151
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/317348871",
+        "name": "Mantoselkä autio- ja varaustupa",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2026-05-12T14:31:34Z",
+        "osmVersion": 6,
+        "tags": {
+          "access": "yes",
+          "building": "cabin",
+          "building:levels": "1",
+          "capacity": "6+6",
+          "drinking_water": "yes",
+          "fee": "no",
+          "fireplace": "yes",
+          "name": "Mantoselkä autio- ja varaustupa",
+          "operator": "Metsähallitus",
+          "tourism": "wilderness_hut",
+          "website": "https://www.luontoon.fi/mantoselkavaraustupa"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:317348879",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0613096,
+          68.0304461
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/317348879",
+        "name": "Vieriharju autiotupa",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2026-05-12T14:31:34Z",
+        "osmVersion": 7,
+        "tags": {
+          "access": "yes",
+          "addr:city": "Savukoski",
+          "building": "cabin",
+          "building:levels": "1",
+          "capacity": "9",
+          "drinking_water": "yes",
+          "fee": "no",
+          "fireplace": "stove",
+          "gas": "yes",
+          "mattress": "no",
+          "name": "Vieriharju autiotupa",
+          "operator": "Metsähallitus",
+          "reservation": "no",
+          "tourism": "wilderness_hut",
+          "website": "https://www.luontoon.fi/vieriharjuautiotupa",
+          "wheelchair": "no"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:317355270",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.7021915,
+          68.1281951
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/317355270",
+        "name": "Peuraselkä autiotupa",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2026-05-12T14:31:34Z",
+        "osmVersion": 5,
+        "tags": {
+          "access": "yes",
+          "bench": "yes",
+          "bin": "no",
+          "building": "cabin",
+          "building:levels": "1",
+          "capacity": "5",
+          "drinking_water": "yes",
+          "fee": "no",
+          "fireplace": "stove",
+          "mattress": "no",
+          "name": "Peuraselkä autiotupa",
+          "operator": "Metsähallitus",
+          "reservation": "no",
+          "tourism": "wilderness_hut",
+          "website": "https://www.luontoon.fi/peuraselkaautiotupa",
+          "wheelchair": "no"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:317359096",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.4621704,
+          68.1278658
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/317359096",
+        "name": "Siulanruoktu autiotupa",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2023-04-06T16:25:30Z",
+        "osmVersion": 5,
+        "tags": {
+          "access": "yes",
+          "addr:city": "Sodankylä",
+          "building": "cabin",
+          "building:levels": "1",
+          "capacity": "6",
+          "cooking": "gas",
+          "drinking_water": "yes",
+          "fee": "no",
+          "fireplace": "yes",
+          "mattress": "no",
+          "name": "Siulanruoktu autiotupa",
+          "operator": "Metsähallitus",
+          "reservation": "no",
+          "tourism": "wilderness_hut",
+          "website": "https://www.luontoon.fi/siulanruoktuautiotupa",
+          "wheelchair": "no"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:326776933",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4238694,
+          68.3938371
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/326776933",
+        "name": null,
+        "category": "water-tag-on-other-feature",
+        "classification": "outside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2024-01-03T15:55:11Z",
+        "osmVersion": 2,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "building": "shed",
+          "changing_table": "no",
+          "drinking_water": "no",
+          "toilets:disposal": "pitlatrine",
+          "toilets:handwashing": "no",
+          "unisex": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:440053207",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1978181,
+          67.8641353
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/440053207",
+        "name": "Kärekeoja autio- ja varaustupa",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2026-05-12T14:31:37Z",
+        "osmVersion": 4,
+        "tags": {
+          "access": "yes",
+          "building": "cabin",
+          "capacity": "6+3",
+          "drinking_water": "boil",
+          "fee": "no",
+          "fireplace": "stove",
+          "gas": "yes",
+          "name": "Kärekeoja autio- ja varaustupa",
+          "operator": "Metsähallitus",
+          "shelter_type": "basic_hut",
+          "tourism": "wilderness_hut",
+          "website": "https://www.luontoon.fi/karekeojaautiotupa"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:440056470",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.2243671,
+          67.9155583
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/440056470",
+        "name": "Karhuoja autiotupa",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2026-05-12T14:31:37Z",
+        "osmVersion": 5,
+        "tags": {
+          "access": "yes",
+          "building": "cabin",
+          "capacity": "6+6",
+          "drinking_water": "yes",
+          "fee": "no",
+          "fireplace": "stove",
+          "gas": "yes",
+          "name": "Karhuoja autiotupa",
+          "note": "Karhuojan varaustupa on poistunut käytöstä 1.6.2020",
+          "operator": "Metsähallitus",
+          "shelter_type": "basic_hut",
+          "tourism": "wilderness_hut",
+          "website": "https://www.luontoon.fi/karhuojaautiotupa",
+          "website_1": "http://www.luontoon.fi/karhuojavaraustupa"
+        }
+      }
+    }
+  ]
+}

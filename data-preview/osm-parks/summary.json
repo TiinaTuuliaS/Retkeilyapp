@@ -1,0 +1,50 @@
+[
+  {
+    "park": "ukk",
+    "fetchedAt": "2026-09-12T14:32:52.688Z",
+    "osmBase": "2026-09-12T14:31:06Z",
+    "bboxResults": 221,
+    "inside": 164,
+    "outside": 57,
+    "boundaryReview": 0,
+    "counts": {
+      "rest": 29,
+      "water": 109,
+      "camp": 26
+    },
+    "areaCentersInside": 11
+  },
+  {
+    "park": "seitseminen",
+    "fetchedAt": "2026-09-12T14:32:54.156Z",
+    "osmBase": "2026-09-12T14:31:06Z",
+    "bboxResults": 34,
+    "inside": 33,
+    "outside": 1,
+    "boundaryReview": 0,
+    "counts": {
+      "rest": 19,
+      "camp": 3,
+      "table": 7,
+      "water": 3,
+      "water-tag-on-other-feature": 1
+    },
+    "areaCentersInside": 4
+  },
+  {
+    "park": "helvetinjarvi",
+    "fetchedAt": "2026-09-12T14:32:55.707Z",
+    "osmBase": "2026-09-12T14:31:06Z",
+    "bboxResults": 26,
+    "inside": 20,
+    "outside": 6,
+    "boundaryReview": 0,
+    "counts": {
+      "rest": 16,
+      "table": 1,
+      "water": 1,
+      "camp": 2
+    },
+    "areaCentersInside": 4
+  }
+]

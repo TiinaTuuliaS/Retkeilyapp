@@ -1,0 +1,544 @@
+{
+  "fetchedAt": "2026-09-12T14:32:55.707Z",
+  "endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+  "query": "[out:json][timeout:25];(nwr[\"amenity\"=\"drinking_water\"](61.9696893983996,23.73356677889348,62.08302239417943,23.97307113199681);nwr[\"man_made\"=\"water_well\"](61.9696893983996,23.73356677889348,62.08302239417943,23.97307113199681);nwr[\"man_made\"=\"water_tap\"](61.9696893983996,23.73356677889348,62.08302239417943,23.97307113199681);nwr[\"natural\"=\"spring\"](61.9696893983996,23.73356677889348,62.08302239417943,23.97307113199681);nwr[\"drinking_water\"](61.9696893983996,23.73356677889348,62.08302239417943,23.97307113199681);nwr[\"amenity\"=\"shelter\"](61.9696893983996,23.73356677889348,62.08302239417943,23.97307113199681);nwr[\"tourism\"=\"picnic_site\"](61.9696893983996,23.73356677889348,62.08302239417943,23.97307113199681);nwr[\"leisure\"=\"firepit\"](61.9696893983996,23.73356677889348,62.08302239417943,23.97307113199681);nwr[\"amenity\"=\"bbq\"](61.9696893983996,23.73356677889348,62.08302239417943,23.97307113199681);nwr[\"tourism\"=\"wilderness_hut\"](61.9696893983996,23.73356677889348,62.08302239417943,23.97307113199681);nwr[\"tourism\"=\"camp_site\"](61.9696893983996,23.73356677889348,62.08302239417943,23.97307113199681);nwr[\"leisure\"=\"picnic_table\"](61.9696893983996,23.73356677889348,62.08302239417943,23.97307113199681););out center meta;",
+  "osmBase": "2026-09-12T14:31:06Z",
+  "elements": [
+    {
+      "type": "node",
+      "id": 469979736,
+      "lat": 62.0545043,
+      "lon": 23.8283208,
+      "timestamp": "2014-08-02T20:37:46Z",
+      "version": 2,
+      "changeset": 24504769,
+      "tags": {
+        "amenity": "shelter",
+        "fireplace": "yes",
+        "name": "Helvetinkolu"
+      }
+    },
+    {
+      "type": "node",
+      "id": 534951516,
+      "lat": 61.9814353,
+      "lon": 23.7720536,
+      "timestamp": "2021-04-21T19:15:49Z",
+      "version": 7,
+      "changeset": 103360886,
+      "tags": {
+        "amenity": "shelter",
+        "leisure": "firepit",
+        "name": "Karhunkosken laavu",
+        "shelter_type": "lean_to",
+        "source_ref": "http://www.gps-waypoints.net/gps/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 534951519,
+      "lat": 61.9830296,
+      "lon": 23.8769617,
+      "timestamp": "2022-09-29T20:25:17Z",
+      "version": 8,
+      "changeset": 126797490,
+      "tags": {
+        "description": "Tulentekopaikka Valkoinen, Kävelyä n 300-400m perillä lampi/järvi. Ei laavua.",
+        "leisure": "firepit",
+        "name": "Valkoinen",
+        "source_ref": "http://www.gps-waypoints.net/gps/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 534951548,
+      "lat": 61.9702032,
+      "lon": 23.8783378,
+      "timestamp": "2019-07-01T15:52:27Z",
+      "version": 5,
+      "changeset": 71790383,
+      "tags": {
+        "amenity": "shelter",
+        "description": "Kivikieringan laavu voi yöpyä perille pääsee mp:lla ja autolla -Riekkola",
+        "name": "Kivikieringan laavu",
+        "shelter_type": "lean_to",
+        "source_ref": "http://www.gps-waypoints.net/gps/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 844947658,
+      "lat": 62.0228186,
+      "lon": 23.7817329,
+      "timestamp": "2015-04-22T21:52:08Z",
+      "version": 3,
+      "changeset": 30417003,
+      "tags": {
+        "leisure": "firepit",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 944464776,
+      "lat": 62.0297988,
+      "lon": 23.8018843,
+      "timestamp": "2021-08-10T17:07:33Z",
+      "version": 5,
+      "changeset": 109476374,
+      "tags": {
+        "amenity": "bbq",
+        "check_date": "2021-07-19",
+        "covered": "yes",
+        "fuel": "wood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1725381017,
+      "lat": 62.0410885,
+      "lon": 23.8833327,
+      "timestamp": "2015-07-11T18:05:10Z",
+      "version": 3,
+      "changeset": 32568420,
+      "tags": {
+        "covered": "no",
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2312895980,
+      "lat": 61.9923698,
+      "lon": 23.8934952,
+      "timestamp": "2015-08-27T09:00:59Z",
+      "version": 2,
+      "changeset": 33614948,
+      "tags": {
+        "backcountry": "yes",
+        "leisure": "firepit",
+        "name": "Ruokejärvet",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2955576689,
+      "lat": 62.0367952,
+      "lon": 23.8977573,
+      "timestamp": "2014-07-09T10:04:42Z",
+      "version": 1,
+      "changeset": 24042289,
+      "tags": {
+        "amenity": "shelter",
+        "description:en": "Cooking shelter",
+        "shelter_type": "weather_shelter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3479991714,
+      "lat": 62.0202899,
+      "lon": 23.7718297,
+      "timestamp": "2015-04-26T21:52:19Z",
+      "version": 1,
+      "changeset": 30519417,
+      "tags": {
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3646349387,
+      "lat": 62.0390687,
+      "lon": 23.8026295,
+      "timestamp": "2021-07-19T08:36:32Z",
+      "version": 2,
+      "changeset": 108230423,
+      "tags": {
+        "check_date": "2021-07-19",
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3646381763,
+      "lat": 62.029588,
+      "lon": 23.8030546,
+      "timestamp": "2024-07-15T05:12:47Z",
+      "version": 2,
+      "changeset": 153954644,
+      "tags": {
+        "amenity": "drinking_water",
+        "drinking_water": "yes",
+        "man_made": "water_well"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3646381764,
+      "lat": 62.0299754,
+      "lon": 23.8014185,
+      "timestamp": "2021-07-19T13:15:56Z",
+      "version": 3,
+      "changeset": 108255162,
+      "tags": {
+        "check_date": "2021-07-19",
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3646386862,
+      "lat": 62.0413505,
+      "lon": 23.8819492,
+      "timestamp": "2015-07-11T18:05:10Z",
+      "version": 2,
+      "changeset": 32568420,
+      "tags": {
+        "covered": "no",
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3646555257,
+      "lat": 62.0436951,
+      "lon": 23.8214062,
+      "timestamp": "2023-05-30T10:20:29Z",
+      "version": 5,
+      "changeset": 136737957,
+      "tags": {
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3676553678,
+      "lat": 62.0544621,
+      "lon": 23.8280811,
+      "timestamp": "2021-07-19T11:00:23Z",
+      "version": 2,
+      "changeset": 108245530,
+      "tags": {
+        "check_date": "2021-07-19",
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3716617635,
+      "lat": 61.9717437,
+      "lon": 23.81633,
+      "timestamp": "2015-08-27T09:17:59Z",
+      "version": 1,
+      "changeset": 33615281,
+      "tags": {
+        "amenity": "shelter",
+        "fireplace": "yes",
+        "name": "Leppäjärven laavu",
+        "shelter_type": "lean_to"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5940938011,
+      "lat": 62.0549361,
+      "lon": 23.8463563,
+      "timestamp": "2018-09-30T16:50:37Z",
+      "version": 1,
+      "changeset": 63069572,
+      "tags": {
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8996608059,
+      "lat": 62.0304233,
+      "lon": 23.8014705,
+      "timestamp": "2021-08-10T17:07:33Z",
+      "version": 1,
+      "changeset": 109476374,
+      "tags": {
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8996666767,
+      "lat": 62.0437183,
+      "lon": 23.8212078,
+      "timestamp": "2021-08-10T17:42:14Z",
+      "version": 1,
+      "changeset": 109477507,
+      "tags": {
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12068033444,
+      "lat": 62.0573269,
+      "lon": 23.863025,
+      "timestamp": "2024-07-22T12:26:05Z",
+      "version": 1,
+      "changeset": 154260714,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "way",
+      "id": 295560836,
+      "timestamp": "2023-05-02T20:25:33Z",
+      "version": 4,
+      "changeset": 135632540,
+      "center": {
+        "lat": 62.0543936,
+        "lon": 23.8284774
+      },
+      "nodes": [
+        2992897783,
+        2992897784,
+        2992897780,
+        2992897776,
+        2992897783
+      ],
+      "tags": {
+        "building": "hut",
+        "name": "Päivätupa",
+        "name:fi": "Päivätupa",
+        "phone": "+358 205 64 5270",
+        "tourism": "wilderness_hut",
+        "url": "http://www.luontoon.fi/helvetinkolupaivatupa"
+      }
+    },
+    {
+      "type": "way",
+      "id": 360036787,
+      "timestamp": "2025-02-14T21:15:30Z",
+      "version": 5,
+      "changeset": 162518769,
+      "center": {
+        "lat": 62.0301989,
+        "lon": 23.8023186
+      },
+      "nodes": [
+        4786142831,
+        944464800,
+        12588211943,
+        3646381768,
+        12588211954,
+        12588211953,
+        12588211952,
+        12588211951,
+        12588211950,
+        12588211949,
+        12588211948,
+        12588211947,
+        12588216496,
+        3646381762,
+        12588468969,
+        12588468968,
+        4786142830,
+        12588216499,
+        12588216498,
+        12588211946,
+        12588211942,
+        12588211945,
+        12588211944,
+        4786142831
+      ],
+      "tags": {
+        "drinking_water": "yes",
+        "name": "Haukanhieta",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 360052704,
+      "timestamp": "2025-02-15T13:46:29Z",
+      "version": 3,
+      "changeset": 162536716,
+      "center": {
+        "lat": 62.0439428,
+        "lon": 23.8212132
+      },
+      "nodes": [
+        12590109036,
+        12590109035,
+        12590109034,
+        12590109033,
+        12590109032,
+        12590109031,
+        12590109030,
+        12590109029,
+        12590109028,
+        12590109027,
+        12590109026,
+        12590109025,
+        12590109024,
+        12590109023,
+        12590109022,
+        12590109021,
+        12590109020,
+        12590109019,
+        12590109018,
+        12590109017,
+        12590109016,
+        12590109015,
+        12590109014,
+        12590109013,
+        12590109012,
+        12590109011,
+        12590109010,
+        12590109009,
+        12590109008,
+        12590109007,
+        12590109006,
+        12590109005,
+        12590109004,
+        12590109003,
+        12590109002,
+        12590109001,
+        12590109000,
+        3646349385,
+        3646555258,
+        12590108999,
+        12590108998,
+        12590108997,
+        12590108996,
+        12590108995,
+        12590108994,
+        12590108993,
+        12590108992,
+        12590108991,
+        12590108990,
+        12590108989,
+        12590108988,
+        12590108987,
+        12590108986,
+        12590108985,
+        12590108984,
+        12590108983,
+        12590109036
+      ],
+      "tags": {
+        "backcountry": "yes",
+        "drinking_water": "no",
+        "fireplace": "yes",
+        "name": "Iso Ruokejärvi",
+        "name:fi": "Iso Ruokejärvi",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 360053074,
+      "timestamp": "2025-02-16T18:37:05Z",
+      "version": 3,
+      "changeset": 162582078,
+      "center": {
+        "lat": 62.0411776,
+        "lon": 23.8827773
+      },
+      "nodes": [
+        12592688380,
+        470011752,
+        12592688322,
+        12592688323,
+        12592688324,
+        12592688325,
+        12592688326,
+        12592688327,
+        12592688328,
+        12592688329,
+        12592688330,
+        12592688331,
+        12592688332,
+        12592688333,
+        12592688334,
+        12592688335,
+        12592688336,
+        12592688337,
+        12592688338,
+        12592688339,
+        12592688340,
+        12592688341,
+        12592688342,
+        12592688343,
+        12592688344,
+        12592688345,
+        12592688346,
+        12592688347,
+        12592688348,
+        12592688349,
+        12592688350,
+        12592688351,
+        12592688352,
+        12592688353,
+        12592688354,
+        12592688355,
+        12592688356,
+        12592688357,
+        12592688358,
+        12592688359,
+        12592688360,
+        12592688361,
+        12592688362,
+        12592688363,
+        12592688364,
+        12592688365,
+        12592688366,
+        12592688367,
+        12592688368,
+        12592688369,
+        12592688370,
+        12592688371,
+        12592688372,
+        12592688373,
+        12592688374,
+        12592688375,
+        12592688376,
+        12592688377,
+        12592688378,
+        12592688379,
+        12592688380
+      ],
+      "tags": {
+        "drinking_water": "no",
+        "name": "Luomajärvi",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 972046272,
+      "timestamp": "2024-07-15T05:12:47Z",
+      "version": 2,
+      "changeset": 153954644,
+      "center": {
+        "lat": 62.0297966,
+        "lon": 23.8018744
+      },
+      "nodes": [
+        8996608041,
+        8996608042,
+        8996608043,
+        8996608044,
+        8996608041
+      ],
+      "tags": {
+        "building": "yes",
+        "fireplace": "yes",
+        "shelter_type": "picnic_shelter",
+        "tourism": "picnic_site"
+      }
+    }
+  ]
+}

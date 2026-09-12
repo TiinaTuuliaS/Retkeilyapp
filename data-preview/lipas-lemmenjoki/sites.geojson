@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73872",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8628045543509,
+          68.6528737367804
+        ]
+      },
+      "properties": {
+        "source_id": 73872,
+        "name": "Kultahaminan sääsuoja",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73872",
+        "source_event_date": "2021-01-04T11:33:44.438Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73951",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1318631695045,
+          68.7363188127971
+        ]
+      },
+      "properties": {
+        "source_id": 73951,
+        "name": "Sotkajärven puolilaavu",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73951",
+        "source_event_date": "2021-01-04T11:34:37.684Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:74120",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1700055564961,
+          68.7148729969274
+        ]
+      },
+      "properties": {
+        "source_id": 74120,
+        "name": "Juurakkojoen sääsuoja",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/74120",
+        "source_event_date": "2021-01-04T11:35:11.939Z"
+      }
+    }
+  ]
+}

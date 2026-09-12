@@ -1,0 +1,1715 @@
+{
+  "fetchedAt": "2026-09-12T20:28:37.230Z",
+  "endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+  "query": "[out:json][timeout:25];(nwr[\"amenity\"=\"drinking_water\"](68.2568073962303,24.903165757253674,68.93945792487659,26.432192916992094);nwr[\"man_made\"=\"water_well\"](68.2568073962303,24.903165757253674,68.93945792487659,26.432192916992094);nwr[\"man_made\"=\"water_tap\"](68.2568073962303,24.903165757253674,68.93945792487659,26.432192916992094);nwr[\"natural\"=\"spring\"](68.2568073962303,24.903165757253674,68.93945792487659,26.432192916992094);nwr[\"drinking_water\"](68.2568073962303,24.903165757253674,68.93945792487659,26.432192916992094);nwr[\"amenity\"=\"shelter\"](68.2568073962303,24.903165757253674,68.93945792487659,26.432192916992094);nwr[\"tourism\"=\"picnic_site\"](68.2568073962303,24.903165757253674,68.93945792487659,26.432192916992094);nwr[\"leisure\"=\"firepit\"](68.2568073962303,24.903165757253674,68.93945792487659,26.432192916992094);nwr[\"amenity\"=\"bbq\"](68.2568073962303,24.903165757253674,68.93945792487659,26.432192916992094);nwr[\"tourism\"=\"wilderness_hut\"](68.2568073962303,24.903165757253674,68.93945792487659,26.432192916992094);nwr[\"tourism\"=\"camp_site\"](68.2568073962303,24.903165757253674,68.93945792487659,26.432192916992094);nwr[\"leisure\"=\"picnic_table\"](68.2568073962303,24.903165757253674,68.93945792487659,26.432192916992094););out center meta;",
+  "osmBase": "2026-09-12T20:27:05Z",
+  "elements": [
+    {
+      "type": "node",
+      "id": 2940473050,
+      "lat": 68.7544143,
+      "lon": 26.2027757,
+      "timestamp": "2016-05-12T12:56:34Z",
+      "version": 3,
+      "changeset": 39266541,
+      "tags": {
+        "fireplace": "yes",
+        "leisure": "firepit",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3581076966,
+      "lat": 68.92281,
+      "lon": 26.41402,
+      "timestamp": "2019-08-07T10:50:37Z",
+      "version": 2,
+      "changeset": 73104694,
+      "tags": {
+        "addr:city": "Inari",
+        "alt_name": "Heikkilä autiotupa",
+        "capacity": "5",
+        "fee": "no",
+        "fireplace": "stove",
+        "name": "Kruununtupa autiotupa",
+        "operator": "Metsähallitus",
+        "phone": "0205 64 7701;0205 64 7740",
+        "reservation": "no",
+        "tourism": "wilderness_hut",
+        "url": "https://www.luontoon.fi/kruununtupaheikkilaautiotupa"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3581077417,
+      "lat": 68.8869462,
+      "lon": 26.3547025,
+      "timestamp": "2022-10-23T15:23:44Z",
+      "version": 3,
+      "changeset": 127962438,
+      "tags": {
+        "addr:city": "Inari",
+        "capacity": "3",
+        "fee": "no",
+        "fireplace": "stove",
+        "gas": "yes",
+        "name": "Matti Musta autiotupa",
+        "operator": "Metsähallitus",
+        "pets": "allowed",
+        "phone": "0205 64 7701;0205 64 7740",
+        "reservation": "no",
+        "tourism": "wilderness_hut",
+        "website": "https://www.nationalparks.fi/mattimustaopenwildernesshut"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3581077447,
+      "lat": 68.63391,
+      "lon": 26.08803,
+      "timestamp": "2022-11-07T19:13:58Z",
+      "version": 2,
+      "changeset": 128610694,
+      "tags": {
+        "fee": "no",
+        "name": "Oahujoki",
+        "phone": "0205 64 7701;0205 64 7740",
+        "reservation": "no",
+        "tourism": "wilderness_hut",
+        "website": "https://www.nationalparks.fi/uahujuuhaopenwildernesshut"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3581078159,
+      "lat": 68.55098,
+      "lon": 26.3585989,
+      "timestamp": "2021-05-22T10:30:32Z",
+      "version": 2,
+      "changeset": 105127115,
+      "tags": {
+        "addr:city": "Inari",
+        "capacity": "8",
+        "fee": "no",
+        "fireplace": "stove",
+        "gas": "yes",
+        "name": "Taimenjärvi autiotupa",
+        "note": "Tuvan koordinaatit: Euref-Fin (~ WGS84) lat: 68° 33.0591' lon: 26° 21.5169'  ETRS-TM35FIN: N: 7604432 E: 473826",
+        "operator": "Metsähallitus",
+        "phone": "0205 64 7701;0205 64 7740",
+        "reservation": "no",
+        "start_date": "1973",
+        "tourism": "wilderness_hut",
+        "url": "http://www.luontoon.fi/taimenjarviautiotupa"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3581078188,
+      "lat": 68.7925474,
+      "lon": 25.6120758,
+      "timestamp": "2021-08-29T11:34:12Z",
+      "version": 4,
+      "changeset": 110409077,
+      "tags": {
+        "addr:city": "Inari",
+        "capacity": "3",
+        "fee": "yes",
+        "fireplace": "stove",
+        "gas": "yes",
+        "name": "Vaskojoki varaustupa",
+        "operator": "Metsähallitus",
+        "phone": "0205 64 7701;0205 64 7740",
+        "reservation": "required",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/vaskojokivuokratupa"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3581078189,
+      "lat": 68.7925178,
+      "lon": 25.61202,
+      "timestamp": "2021-08-29T11:34:12Z",
+      "version": 4,
+      "changeset": 110409077,
+      "tags": {
+        "addr:city": "Inari",
+        "capacity": "6",
+        "fireplace": "stove",
+        "gas": "yes",
+        "name": "Vaskojoki autiotupa",
+        "operator": "Metsähallitus",
+        "phone": "0205 64 7701;0205 64 7740",
+        "reservation": "no",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/vaskojokiautiotupa"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3740267313,
+      "lat": 68.7544325,
+      "lon": 26.2031021,
+      "timestamp": "2020-10-25T17:55:49Z",
+      "version": 4,
+      "changeset": 93024251,
+      "tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "drinking_water": "no",
+        "fee": "no",
+        "operator": "Metsähallitus",
+        "toilets:disposal": "pitlatrine",
+        "unisex": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4175014088,
+      "lat": 68.4600827,
+      "lon": 26.206383,
+      "timestamp": "2016-05-09T23:00:27Z",
+      "version": 1,
+      "changeset": 39203303,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4175014334,
+      "lat": 68.4917797,
+      "lon": 26.1074691,
+      "timestamp": "2016-05-09T23:00:31Z",
+      "version": 1,
+      "changeset": 39203303,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4176627279,
+      "lat": 68.4558865,
+      "lon": 25.9342895,
+      "timestamp": "2016-06-26T11:42:22Z",
+      "version": 2,
+      "changeset": 40299099,
+      "tags": {
+        "leisure": "firepit",
+        "name": "Pajuoja tulipaikka",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4176685868,
+      "lat": 68.4902209,
+      "lon": 25.887532,
+      "timestamp": "2020-06-25T13:09:22Z",
+      "version": 3,
+      "changeset": 87142663,
+      "tags": {
+        "access": "yes",
+        "backcountry": "yes",
+        "capacity": "10",
+        "drinking_water": "no",
+        "fee": "no",
+        "name": "Sallivaara",
+        "openfire": "yes",
+        "operator": "Metsähallitus",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4176685881,
+      "lat": 68.4886218,
+      "lon": 25.8761725,
+      "timestamp": "2020-06-25T13:09:22Z",
+      "version": 2,
+      "changeset": 87142663,
+      "tags": {
+        "drinking_water": "yes",
+        "intermittent": "no",
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4176688954,
+      "lat": 68.4917205,
+      "lon": 25.8696998,
+      "timestamp": "2016-05-10T15:41:34Z",
+      "version": 1,
+      "changeset": 39221074,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4176688955,
+      "lat": 68.4908341,
+      "lon": 25.8720566,
+      "timestamp": "2016-05-10T15:41:34Z",
+      "version": 1,
+      "changeset": 39221074,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4176688956,
+      "lat": 68.4898773,
+      "lon": 25.8717228,
+      "timestamp": "2016-05-10T15:41:35Z",
+      "version": 1,
+      "changeset": 39221074,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4181161248,
+      "lat": 68.7362886,
+      "lon": 26.1318306,
+      "timestamp": "2017-09-16T14:59:46Z",
+      "version": 2,
+      "changeset": 52097456,
+      "tags": {
+        "amenity": "shelter",
+        "bin": "no",
+        "name": "Sotkajärvi laavu",
+        "shelter_type": "lean_to"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4181161592,
+      "lat": 68.7224088,
+      "lon": 26.1187248,
+      "timestamp": "2016-05-12T13:11:37Z",
+      "version": 1,
+      "changeset": 39266923,
+      "tags": {
+        "leisure": "firepit",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4181161989,
+      "lat": 68.7156743,
+      "lon": 26.1774008,
+      "timestamp": "2016-05-12T13:11:47Z",
+      "version": 1,
+      "changeset": 39266923,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4181161990,
+      "lat": 68.7146563,
+      "lon": 26.1713039,
+      "timestamp": "2016-05-12T13:11:47Z",
+      "version": 1,
+      "changeset": 39266923,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4181161991,
+      "lat": 68.7149365,
+      "lon": 26.1701572,
+      "timestamp": "2016-05-12T13:11:47Z",
+      "version": 1,
+      "changeset": 39266923,
+      "tags": {
+        "amenity": "shelter",
+        "bin": "no",
+        "name": "Kota",
+        "shelter_type": "basic_hut"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4181162587,
+      "lat": 68.7250841,
+      "lon": 26.0730584,
+      "timestamp": "2016-05-12T13:12:07Z",
+      "version": 1,
+      "changeset": 39266923,
+      "tags": {
+        "leisure": "firepit",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4181162588,
+      "lat": 68.7240753,
+      "lon": 26.0734574,
+      "timestamp": "2016-05-12T13:12:07Z",
+      "version": 1,
+      "changeset": 39266923,
+      "tags": {
+        "leisure": "firepit",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4181184278,
+      "lat": 68.7144225,
+      "lon": 26.0349011,
+      "timestamp": "2016-05-12T13:24:28Z",
+      "version": 1,
+      "changeset": 39267206,
+      "tags": {
+        "leisure": "firepit",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4181237421,
+      "lat": 68.7021939,
+      "lon": 25.9132722,
+      "timestamp": "2020-06-25T19:38:52Z",
+      "version": 2,
+      "changeset": 87156414,
+      "tags": {
+        "access": "yes",
+        "leisure": "firepit",
+        "seasonal": "no",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4181437869,
+      "lat": 68.7397823,
+      "lon": 25.8853474,
+      "timestamp": "2016-05-12T15:29:43Z",
+      "version": 1,
+      "changeset": 39270542,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4181473143,
+      "lat": 68.6741807,
+      "lon": 25.9425217,
+      "timestamp": "2020-06-25T19:34:01Z",
+      "version": 3,
+      "changeset": 87156256,
+      "tags": {
+        "access": "yes",
+        "leisure": "firepit",
+        "name": "Pitkäniemi",
+        "seasonal": "no",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4181502082,
+      "lat": 68.6622336,
+      "lon": 25.901693,
+      "timestamp": "2016-05-12T16:06:44Z",
+      "version": 1,
+      "changeset": 39271484,
+      "tags": {
+        "leisure": "firepit",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4181552109,
+      "lat": 68.6535282,
+      "lon": 25.8622137,
+      "timestamp": "2020-06-25T19:17:40Z",
+      "version": 2,
+      "changeset": 87155800,
+      "tags": {
+        "access": "yes",
+        "leisure": "firepit",
+        "name": "Kultasatama",
+        "seasonal": "no",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4181552111,
+      "lat": 68.6533361,
+      "lon": 25.86122,
+      "timestamp": "2020-06-25T19:17:40Z",
+      "version": 2,
+      "changeset": 87155800,
+      "tags": {
+        "drinking_water": "yes",
+        "intermittent": "no",
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4181552112,
+      "lat": 68.6526626,
+      "lon": 25.8643244,
+      "timestamp": "2020-06-25T19:17:40Z",
+      "version": 2,
+      "changeset": 87155800,
+      "tags": {
+        "drinking_water": "yes",
+        "intermittent": "no",
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4181554783,
+      "lat": 68.6510477,
+      "lon": 25.8316723,
+      "timestamp": "2016-05-12T16:43:02Z",
+      "version": 1,
+      "changeset": 39272449,
+      "tags": {
+        "leisure": "firepit",
+        "name": "Kapsuoja",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4181639186,
+      "lat": 68.6696063,
+      "lon": 25.7792878,
+      "timestamp": "2020-06-25T22:10:43Z",
+      "version": 2,
+      "changeset": 87160435,
+      "tags": {
+        "access": "yes",
+        "leisure": "firepit",
+        "seasonal": "no",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4181691472,
+      "lat": 68.7098352,
+      "lon": 25.8464919,
+      "timestamp": "2020-06-25T19:51:38Z",
+      "version": 2,
+      "changeset": 87156789,
+      "tags": {
+        "access": "yes",
+        "leisure": "firepit",
+        "seasonal": "no",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4266007289,
+      "lat": 68.6057557,
+      "lon": 26.2504824,
+      "timestamp": "2016-06-26T11:42:18Z",
+      "version": 1,
+      "changeset": 40299099,
+      "tags": {
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4266007428,
+      "lat": 68.4882984,
+      "lon": 25.8762533,
+      "timestamp": "2020-06-25T13:09:22Z",
+      "version": 2,
+      "changeset": 87142663,
+      "tags": {
+        "access": "yes",
+        "leisure": "firepit",
+        "name": "Sallivaara tulipaikka",
+        "seasonal": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4362851202,
+      "lat": 68.7362865,
+      "lon": 26.131951,
+      "timestamp": "2016-08-23T14:00:13Z",
+      "version": 1,
+      "changeset": 41638967,
+      "tags": {
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4592739514,
+      "lat": 68.6874909,
+      "lon": 25.9706584,
+      "timestamp": "2020-06-25T19:34:01Z",
+      "version": 2,
+      "changeset": 87156256,
+      "tags": {
+        "access": "yes",
+        "leisure": "firepit",
+        "seasonal": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4592739515,
+      "lat": 68.6874254,
+      "lon": 25.9710258,
+      "timestamp": "2020-06-25T19:34:01Z",
+      "version": 2,
+      "changeset": 87156256,
+      "tags": {
+        "access": "yes",
+        "leisure": "firepit",
+        "seasonal": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5109506800,
+      "lat": 68.7238692,
+      "lon": 26.0742948,
+      "timestamp": "2026-09-12T16:08:48Z",
+      "version": 4,
+      "changeset": 188923588,
+      "tags": {
+        "backcountry": "yes",
+        "fee": "no",
+        "internet_access": "no",
+        "name": "Searitniva telttailualue 1",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5109552447,
+      "lat": 68.7252829,
+      "lon": 26.0724981,
+      "timestamp": "2026-09-12T16:08:48Z",
+      "version": 3,
+      "changeset": 188923588,
+      "tags": {
+        "backcountry": "yes",
+        "fee": "no",
+        "internet_access": "no",
+        "name": "Searitniva telttailualue 3",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5109552492,
+      "lat": 68.7143289,
+      "lon": 26.0346417,
+      "timestamp": "2021-08-29T11:34:12Z",
+      "version": 2,
+      "changeset": 110409077,
+      "tags": {
+        "backcountry": "yes",
+        "fee": "no",
+        "internet_access": "no",
+        "name": "Härkäjärvi",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5109552494,
+      "lat": 68.7020823,
+      "lon": 25.9134678,
+      "timestamp": "2021-08-29T11:34:12Z",
+      "version": 4,
+      "changeset": 110409077,
+      "tags": {
+        "access": "yes",
+        "backcountry": "yes",
+        "drinking_water": "yes",
+        "fee": "no",
+        "internet_access": "no",
+        "name": "Ravadasniemi",
+        "operator": "Metsähallitus",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5109552495,
+      "lat": 68.7097549,
+      "lon": 25.8465266,
+      "timestamp": "2021-08-29T11:34:12Z",
+      "version": 3,
+      "changeset": 110409077,
+      "tags": {
+        "access": "yes",
+        "backcountry": "yes",
+        "drinking_water": "yes",
+        "fee": "no",
+        "internet_access": "no",
+        "name": "Máttit Ravadas",
+        "openfire": "yes",
+        "operator": "Metsähallitus",
+        "tents": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5109552511,
+      "lat": 68.6511144,
+      "lon": 25.8320166,
+      "timestamp": "2021-08-29T11:34:12Z",
+      "version": 3,
+      "changeset": 110409077,
+      "tags": {
+        "access": "yes",
+        "backcountry": "yes",
+        "drinking_water": "yes",
+        "fee": "no",
+        "internet_access": "no",
+        "name": "Kapsuoja",
+        "openfire": "yes",
+        "operator": "Metsähallitus",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5109552512,
+      "lat": 68.6622625,
+      "lon": 25.9011844,
+      "timestamp": "2021-08-29T11:34:12Z",
+      "version": 3,
+      "changeset": 110409077,
+      "tags": {
+        "access": "yes",
+        "backcountry": "yes",
+        "drinking_water": "yes",
+        "fee": "no",
+        "internet_access": "no",
+        "name": "Morgamniva",
+        "operator": "Metsähallitus",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5698404116,
+      "lat": 68.2994324,
+      "lon": 25.4726067,
+      "timestamp": "2018-06-18T06:19:28Z",
+      "version": 1,
+      "changeset": 59930846,
+      "tags": {
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5747218573,
+      "lat": 68.622035,
+      "lon": 25.4236863,
+      "timestamp": "2021-08-29T11:34:12Z",
+      "version": 2,
+      "changeset": 110409077,
+      "tags": {
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6042564359,
+      "lat": 68.351858,
+      "lon": 25.4640448,
+      "timestamp": "2018-11-06T20:07:36Z",
+      "version": 1,
+      "changeset": 64243249,
+      "tags": {
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6042710254,
+      "lat": 68.2889682,
+      "lon": 25.5571343,
+      "timestamp": "2018-11-06T21:16:45Z",
+      "version": 1,
+      "changeset": 64245767,
+      "tags": {
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6043802148,
+      "lat": 68.3738397,
+      "lon": 24.9250755,
+      "timestamp": "2018-11-07T11:50:43Z",
+      "version": 1,
+      "changeset": 64259696,
+      "tags": {
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6690791763,
+      "lat": 68.8870856,
+      "lon": 26.3546357,
+      "timestamp": "2019-08-07T10:57:03Z",
+      "version": 1,
+      "changeset": 73104998,
+      "tags": {
+        "access": "yes",
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6690796344,
+      "lat": 68.9226981,
+      "lon": 26.4131688,
+      "timestamp": "2019-08-07T10:50:37Z",
+      "version": 1,
+      "changeset": 73104694,
+      "tags": {
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6690924515,
+      "lat": 68.7251023,
+      "lon": 26.0733874,
+      "timestamp": "2021-08-29T11:34:12Z",
+      "version": 2,
+      "changeset": 110409077,
+      "tags": {
+        "capacity": "5",
+        "fee": "no",
+        "fireplace": "yes",
+        "name": "Sierikniva tulistelutupa",
+        "note": "Day use only",
+        "operator": "Metsähallitus",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7652702564,
+      "lat": 68.4902244,
+      "lon": 25.8884159,
+      "timestamp": "2020-06-25T13:09:22Z",
+      "version": 1,
+      "changeset": 87142663,
+      "tags": {
+        "access": "yes",
+        "fixme": "location",
+        "leisure": "firepit",
+        "seasonal": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7653529065,
+      "lat": 68.5967868,
+      "lon": 25.1716637,
+      "timestamp": "2021-08-29T11:34:12Z",
+      "version": 2,
+      "changeset": 110409077,
+      "tags": {
+        "access": "yes",
+        "addr:city": "Inari",
+        "backcountry": "yes",
+        "drinking_water": "boil",
+        "fee": "no",
+        "name": "Vaskolompolo",
+        "openfire": "yes",
+        "operator": "Metsähallitus",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7653529066,
+      "lat": 68.596529,
+      "lon": 25.1719803,
+      "timestamp": "2020-06-25T19:17:40Z",
+      "version": 1,
+      "changeset": 87155800,
+      "tags": {
+        "access": "yes",
+        "leisure": "firepit",
+        "seasonal": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7653529067,
+      "lat": 68.6221275,
+      "lon": 25.4238685,
+      "timestamp": "2021-08-29T11:34:12Z",
+      "version": 2,
+      "changeset": 110409077,
+      "tags": {
+        "access": "yes",
+        "addr:city": "Inari",
+        "backcountry": "yes",
+        "drinking_water": "yes",
+        "fee": "no",
+        "name": "Postijoki",
+        "openfire": "yes",
+        "operator": "Metsähallitus",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7653540610,
+      "lat": 68.6536665,
+      "lon": 25.8627031,
+      "timestamp": "2021-08-29T11:34:12Z",
+      "version": 2,
+      "changeset": 110409077,
+      "tags": {
+        "access": "yes",
+        "backcountry": "yes",
+        "drinking_water": "yes",
+        "fee": "no",
+        "name": "Kultahamina telttailualue",
+        "operator": "Metsähallitus",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7653540611,
+      "lat": 68.6530581,
+      "lon": 25.8634009,
+      "timestamp": "2020-06-25T19:17:40Z",
+      "version": 1,
+      "changeset": 87155800,
+      "tags": {
+        "access": "yes",
+        "fixme": "location",
+        "leisure": "firepit",
+        "seasonal": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7653583523,
+      "lat": 68.6745002,
+      "lon": 25.9419833,
+      "timestamp": "2020-06-25T19:34:01Z",
+      "version": 1,
+      "changeset": 87156256,
+      "tags": {
+        "access": "yes",
+        "backcountry": "yes",
+        "capacity": "5",
+        "drinking_water": "boil",
+        "fee": "no",
+        "name": "Pitkäniemi",
+        "operator": "Metsähallitus",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7653583524,
+      "lat": 68.6876919,
+      "lon": 25.9705181,
+      "timestamp": "2021-08-29T11:34:12Z",
+      "version": 2,
+      "changeset": 110409077,
+      "tags": {
+        "access": "yes",
+        "backcountry": "yes",
+        "drinking_water": "boil",
+        "fee": "no",
+        "name": "Ravadasjärvi",
+        "openfire": "yes",
+        "operator": "Metsähallitus",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7653859086,
+      "lat": 68.6700644,
+      "lon": 25.7787752,
+      "timestamp": "2021-08-29T11:34:12Z",
+      "version": 2,
+      "changeset": 110409077,
+      "tags": {
+        "access": "yes",
+        "backcountry": "yes",
+        "drinking_water": "yes",
+        "fee": "no",
+        "name": "Morgamojan kultala",
+        "openfire": "yes",
+        "operator": "Metsähallitus",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8755288603,
+      "lat": 68.5508994,
+      "lon": 26.3587366,
+      "timestamp": "2021-05-22T10:30:32Z",
+      "version": 1,
+      "changeset": 105127115,
+      "tags": {
+        "access": "yes",
+        "leisure": "firepit",
+        "seasonal": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8755670446,
+      "lat": 68.5730172,
+      "lon": 26.393524,
+      "timestamp": "2021-05-22T14:21:24Z",
+      "version": 1,
+      "changeset": 105135200,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8755670447,
+      "lat": 68.5784546,
+      "lon": 26.3857962,
+      "timestamp": "2021-05-22T14:21:24Z",
+      "version": 1,
+      "changeset": 105135200,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8755670448,
+      "lat": 68.5776198,
+      "lon": 26.3845959,
+      "timestamp": "2021-05-22T14:21:24Z",
+      "version": 1,
+      "changeset": 105135200,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8755670449,
+      "lat": 68.5773616,
+      "lon": 26.3853687,
+      "timestamp": "2021-05-22T14:21:24Z",
+      "version": 1,
+      "changeset": 105135200,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8755670484,
+      "lat": 68.6049121,
+      "lon": 26.323663,
+      "timestamp": "2021-05-22T14:21:24Z",
+      "version": 1,
+      "changeset": 105135200,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9045110631,
+      "lat": 68.7096992,
+      "lon": 25.8455823,
+      "timestamp": "2022-11-07T19:13:58Z",
+      "version": 2,
+      "changeset": 128610694,
+      "tags": {
+        "capacity": "5",
+        "fireplace": "yes",
+        "name": "Máttit Ravadas päivätupa",
+        "operator": "Metsähallitus",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/mattitravadaspaivatupa"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12330282077,
+      "lat": 68.7914995,
+      "lon": 25.2557808,
+      "timestamp": "2024-11-11T06:28:19Z",
+      "version": 1,
+      "changeset": 158994853,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12330282078,
+      "lat": 68.7911843,
+      "lon": 25.2569623,
+      "timestamp": "2024-11-11T06:28:19Z",
+      "version": 1,
+      "changeset": 158994853,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12330282079,
+      "lat": 68.7843298,
+      "lon": 25.2359952,
+      "timestamp": "2024-11-11T06:28:19Z",
+      "version": 1,
+      "changeset": 158994853,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12330286763,
+      "lat": 68.7765095,
+      "lon": 25.2461702,
+      "timestamp": "2024-11-11T06:28:19Z",
+      "version": 1,
+      "changeset": 158994853,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12350577703,
+      "lat": 68.3370095,
+      "lon": 24.9258774,
+      "timestamp": "2024-11-18T07:43:56Z",
+      "version": 1,
+      "changeset": 159270610,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14175483816,
+      "lat": 68.8286028,
+      "lon": 26.3509709,
+      "timestamp": "2026-09-12T16:08:48Z",
+      "version": 1,
+      "changeset": 188923588,
+      "tags": {
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14175483817,
+      "lat": 68.828641,
+      "lon": 26.350767,
+      "timestamp": "2026-09-12T16:08:48Z",
+      "version": 1,
+      "changeset": 188923588,
+      "tags": {
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14175483827,
+      "lat": 68.7239649,
+      "lon": 26.0742759,
+      "timestamp": "2026-09-12T16:08:48Z",
+      "version": 1,
+      "changeset": 188923588,
+      "tags": {
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 370183676,
+      "timestamp": "2026-05-12T13:05:57Z",
+      "version": 6,
+      "changeset": 182554584,
+      "center": {
+        "lat": 68.6056564,
+        "lon": 26.2508565
+      },
+      "nodes": [
+        3739075573,
+        3739075574,
+        3739075575,
+        3739075576,
+        3739075573
+      ],
+      "tags": {
+        "addr:housenumber": "5150",
+        "addr:postcode": "99870",
+        "addr:street": "Kittiläntie",
+        "alt_name": "Juntinoja",
+        "building": "cabin",
+        "building:levels": "1",
+        "capacity": "4",
+        "fee": "yes",
+        "fireplace": "stove",
+        "name": "Juntinojan vuokratupa",
+        "phone": "0205 64 7740",
+        "reservation": "required",
+        "sauna": "yes",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/juntinojavuokratupa"
+      }
+    },
+    {
+      "type": "way",
+      "id": 417030907,
+      "timestamp": "2020-06-25T13:09:22Z",
+      "version": 3,
+      "changeset": 87142663,
+      "center": {
+        "lat": 68.4904269,
+        "lon": 25.8891359
+      },
+      "nodes": [
+        3581078126,
+        4176685854,
+        4176685855,
+        4176685856,
+        3581078126
+      ],
+      "tags": {
+        "addr:city": "Inari",
+        "alt_name": "Poliisien kämppä",
+        "bin": "no",
+        "building": "cabin",
+        "building:levels": "1",
+        "capacity": "5",
+        "fee": "no",
+        "fireplace": "stove",
+        "gas": "yes",
+        "height": "4",
+        "name": "Sallivaara autiotupa",
+        "operator": "Metsähallitus",
+        "phone": "0205 64 7701;0205 64 7740",
+        "reservation": "no",
+        "shelter_type": "basic_hut",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/sallivaaraautiotupa"
+      }
+    },
+    {
+      "type": "way",
+      "id": 417030916,
+      "timestamp": "2022-11-04T16:24:56Z",
+      "version": 4,
+      "changeset": 128491717,
+      "center": {
+        "lat": 68.4881648,
+        "lon": 25.8764955
+      },
+      "nodes": [
+        4176685873,
+        4176685874,
+        4176685875,
+        4176685876,
+        4176685873
+      ],
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "bin": "yes",
+        "building": "hut",
+        "name": "Sallivaara päivätupa",
+        "shelter_type": "basic_hut",
+        "website": "https://www.nationalparks.fi/sallivaaraopenwildernesshut"
+      }
+    },
+    {
+      "type": "way",
+      "id": 417628245,
+      "timestamp": "2020-06-25T19:34:01Z",
+      "version": 4,
+      "changeset": 87156256,
+      "center": {
+        "lat": 68.6875409,
+        "lon": 25.9713416
+      },
+      "nodes": [
+        4181473168,
+        4181473169,
+        4181473170,
+        4181473171,
+        4181473168
+      ],
+      "tags": {
+        "addr:city": "Lemmenjoki",
+        "bin": "yes",
+        "building": "cabin",
+        "building:levels": "1",
+        "capacity": "17",
+        "fee": "no",
+        "fireplace": "stove",
+        "gas": "yes",
+        "name": "Ravadasjärvi autiotupa",
+        "operator": "Metsähallitus",
+        "phone": "0205 64 7701;0205 64 7740",
+        "start_date": "1971",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/ravadasjarviautiotupa"
+      }
+    },
+    {
+      "type": "way",
+      "id": 417638716,
+      "timestamp": "2022-11-18T07:42:07Z",
+      "version": 4,
+      "changeset": 129073160,
+      "center": {
+        "lat": 68.6530015,
+        "lon": 25.8636324
+      },
+      "nodes": [
+        4181552110,
+        4181552653,
+        4181552654,
+        4181552655,
+        4181552110
+      ],
+      "tags": {
+        "addr:city": "Lemmenjoki",
+        "alt_name": "Kultahamina",
+        "bin": "yes",
+        "building": "cabin",
+        "building:levels": "1",
+        "capacity": "4",
+        "capacity:beds": "6",
+        "fee": "no",
+        "fireplace": "stove",
+        "name": "Kultasatama autiotupa",
+        "phone": "0205 64 7701;0205 64 7740",
+        "reservation": "no",
+        "shelter_type": "basic_hut",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/kultasatamakultahaminaautiotupa"
+      }
+    },
+    {
+      "type": "way",
+      "id": 417646253,
+      "timestamp": "2022-11-18T07:42:07Z",
+      "version": 5,
+      "changeset": 129073160,
+      "center": {
+        "lat": 68.6697662,
+        "lon": 25.7790783
+      },
+      "nodes": [
+        4181639158,
+        4181639159,
+        4181639160,
+        4181639161,
+        4181639158
+      ],
+      "tags": {
+        "alt_name": "Pellisen kämppä",
+        "bin": "yes",
+        "building": "cabin",
+        "building:levels": "1",
+        "capacity": "8",
+        "capacity:beds": "10",
+        "fee": "no",
+        "fireplace": "stove",
+        "gas": "cooking_gas",
+        "name": "Morgamojan kultala, autiotupa",
+        "operator": "Metsähallitus",
+        "phone": "0205 64 7701;0205 64 7740",
+        "reservation": "no",
+        "shelter_type": "basic_hut",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/morgamojankultalaautiotupa"
+      }
+    },
+    {
+      "type": "way",
+      "id": 417646259,
+      "timestamp": "2022-11-18T07:42:08Z",
+      "version": 4,
+      "changeset": 129073160,
+      "center": {
+        "lat": 68.669537,
+        "lon": 25.7794647
+      },
+      "nodes": [
+        4181639164,
+        4181639165,
+        4181639166,
+        4181639167,
+        4181639164
+      ],
+      "tags": {
+        "building": "yes",
+        "capacity": "4",
+        "capacity:beds": "4",
+        "fee": "yes",
+        "fireplace": "stove",
+        "name": "Morgamojan kultala, vuokratupa",
+        "phone": "0205 64 7701;0205 64 7740",
+        "reservation": "required",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/morgamojankultalavuokratupa"
+      }
+    },
+    {
+      "type": "way",
+      "id": 606067690,
+      "timestamp": "2020-06-25T19:17:40Z",
+      "version": 5,
+      "changeset": 87155800,
+      "center": {
+        "lat": 68.5966385,
+        "lon": 25.1723432
+      },
+      "nodes": [
+        3581078190,
+        5747105882,
+        5747105883,
+        5747105884,
+        3581078190
+      ],
+      "tags": {
+        "addr:city": "Inari",
+        "building": "cabin",
+        "building:levels": "1",
+        "capacity": "10",
+        "fee": "no",
+        "fireplace": "stove",
+        "name": "Vaskolompolo autiotupa",
+        "operator": "Metsähallitus",
+        "phone": "0205 64 7701;0205 64 7740",
+        "reservation": "no",
+        "start_date": "1974",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/vaskolompoloautiotupa",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 606075960,
+      "timestamp": "2020-06-25T19:17:40Z",
+      "version": 4,
+      "changeset": 87155800,
+      "center": {
+        "lat": 68.62201,
+        "lon": 25.4232204
+      },
+      "nodes": [
+        3581077486,
+        5747218565,
+        5747218566,
+        5747218567,
+        3581077486
+      ],
+      "tags": {
+        "addr:city": "Inari",
+        "building": "cabin",
+        "building:levels": "1",
+        "capacity": "7",
+        "fee": "no",
+        "fireplace": "stove",
+        "name": "Postijoenlatva autiotupa",
+        "operator": "Metsähallitus",
+        "reservation": "no",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/postijokiautiotupa"
+      }
+    },
+    {
+      "type": "way",
+      "id": 641680425,
+      "timestamp": "2024-06-27T09:21:40Z",
+      "version": 3,
+      "changeset": 153238216,
+      "center": {
+        "lat": 68.2669545,
+        "lon": 25.6770391
+      },
+      "nodes": [
+        3581078183,
+        6042604278,
+        6042604279,
+        6042604280,
+        3581078183
+      ],
+      "tags": {
+        "access": "yes",
+        "addr:city": "Kittilä",
+        "building": "cabin",
+        "building:levels": "1",
+        "capacity": "3",
+        "fee": "no",
+        "fireplace": "stove",
+        "name": "Uurrekarkean palovartijan maja autiotupa",
+        "operator": "Metsähallitus",
+        "phone": "0205 64 7950",
+        "reservation": "no",
+        "start_date": "1950",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/uurrekarkeanpalovartijanmajaautiotupa"
+      }
+    },
+    {
+      "type": "way",
+      "id": 641693683,
+      "timestamp": "2019-03-18T01:19:19Z",
+      "version": 2,
+      "changeset": 68243706,
+      "center": {
+        "lat": 68.2888723,
+        "lon": 25.5577824
+      },
+      "nodes": [
+        3581077453,
+        6042710250,
+        6042710251,
+        6042710252,
+        3581077453
+      ],
+      "tags": {
+        "addr:city": "Kittilä",
+        "building": "cabin",
+        "building:levels": "1",
+        "capacity": "5",
+        "fireplace": "stove",
+        "name": "Paaraskalla autiotupa",
+        "operator": "Metsähallitus",
+        "pets": "allowed",
+        "phone": "0205 64 7701;0205 64 7740",
+        "reservation": "no",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/paaraskallaautiotupa"
+      }
+    },
+    {
+      "type": "way",
+      "id": 641835276,
+      "timestamp": "2019-03-30T21:35:43Z",
+      "version": 2,
+      "changeset": 68710333,
+      "center": {
+        "lat": 68.3738862,
+        "lon": 24.9253492
+      },
+      "nodes": [
+        3581076962,
+        6043740094,
+        6043740095,
+        6043740096,
+        3581076962
+      ],
+      "tags": {
+        "addr:city": "Kittilä",
+        "alt_name": "Korsatunturin autiotupa",
+        "building": "cabin",
+        "building:levels": "1",
+        "capacity": "6",
+        "fireplace": "stove",
+        "name": "Korsatupa autiotupa",
+        "operator": "Metsähallitus",
+        "pets": "allowed",
+        "phone": "0205 64 7039",
+        "reservation": "no",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/korsatupaautiotupa"
+      }
+    },
+    {
+      "type": "way",
+      "id": 641900129,
+      "timestamp": "2019-03-26T23:09:46Z",
+      "version": 2,
+      "changeset": 68566927,
+      "center": {
+        "lat": 68.4494416,
+        "lon": 24.9771798
+      },
+      "nodes": [
+        3581075387,
+        6044203329,
+        6044203330,
+        6044203331,
+        3581075387
+      ],
+      "tags": {
+        "building": "hut",
+        "capacity": "4",
+        "fireplace": "stove",
+        "name": "Avisuoran kammi autiotupa",
+        "operator": "Metsähallitus",
+        "pets": "allowed",
+        "phone": "0205 64 7950",
+        "reservation": "no",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/avisuorankammiautiotupa"
+      }
+    },
+    {
+      "type": "way",
+      "id": 819245971,
+      "timestamp": "2020-06-24T22:10:43Z",
+      "version": 1,
+      "changeset": 87105535,
+      "center": {
+        "lat": 68.759164,
+        "lon": 26.2347967
+      },
+      "nodes": [
+        4181098506,
+        7650566164,
+        7650566168,
+        7650566169,
+        5109505215,
+        5109505216,
+        5109506621,
+        360343481,
+        360343479,
+        360343478,
+        4181098506
+      ],
+      "tags": {
+        "access": "yes",
+        "addr:city": "Lemmenjoki",
+        "addr:housenumber": "1020",
+        "addr:postcode": "99885",
+        "addr:street": "Lemmenjoentie",
+        "bbq": "yes",
+        "cabins": "yes",
+        "cafe": "yes",
+        "caravans": "yes",
+        "dog": "yes",
+        "email": "lemmenjokicamping@outlook.com",
+        "fee": "yes",
+        "name": "Lemmenjoki Camping",
+        "operator": "Elämys- ja majoituspalvelut Lemmenjoen Lumo",
+        "phone": "+358 45 197 1123",
+        "power_supply": "yes",
+        "reservation": "yes",
+        "restaurant": "yes",
+        "sauna": "yes",
+        "shower": "yes",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 846713484,
+      "timestamp": "2026-01-21T05:07:06Z",
+      "version": 2,
+      "changeset": 177504460,
+      "center": {
+        "lat": 68.7291622,
+        "lon": 26.3561507
+      },
+      "nodes": [
+        2940465346,
+        7900181193,
+        7900181194,
+        7900181195,
+        7900181196,
+        7900181197,
+        7900181198,
+        2940465346
+      ],
+      "tags": {
+        "access": "yes",
+        "addr:city": "Inari",
+        "addr:housenumber": "134",
+        "addr:postcode": "99870",
+        "addr:street": "Lemmenjoentie",
+        "bbq": "yes",
+        "cabins": "yes",
+        "caravans": "yes",
+        "charge": "20 EUR",
+        "dog": "leashed",
+        "drinking_water": "yes",
+        "email": "valkeaporo@valkeaporo.fi",
+        "fee": "yes",
+        "kitchen": "yes",
+        "name": "Valkeaporo",
+        "openfire": "yes",
+        "operator": "Lomakylä Valkeaporo",
+        "phone": "+358 40 039 4682",
+        "playground": "yes",
+        "power_supply": "yes",
+        "ref:vatin": "1239646-0",
+        "reservation": "yes",
+        "sanitary_dump_station": "yes",
+        "sauna": "yes",
+        "shower": "yes",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site",
+        "website": "https://www.valkeaporo.fi/"
+      }
+    }
+  ]
+}

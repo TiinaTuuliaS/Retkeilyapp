@@ -1,0 +1,3593 @@
+{
+  "fetchedAt": "2026-09-12T14:32:52.688Z",
+  "endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+  "query": "[out:json][timeout:25];(nwr[\"amenity\"=\"drinking_water\"](67.86076291065885,27.091481607769353,68.46818109276357,29.482589746273074);nwr[\"man_made\"=\"water_well\"](67.86076291065885,27.091481607769353,68.46818109276357,29.482589746273074);nwr[\"man_made\"=\"water_tap\"](67.86076291065885,27.091481607769353,68.46818109276357,29.482589746273074);nwr[\"natural\"=\"spring\"](67.86076291065885,27.091481607769353,68.46818109276357,29.482589746273074);nwr[\"drinking_water\"](67.86076291065885,27.091481607769353,68.46818109276357,29.482589746273074););out center meta;",
+  "osmBase": "2026-09-12T14:31:06Z",
+  "elements": [
+    {
+      "type": "node",
+      "id": 242122882,
+      "lat": 68.3618285,
+      "lon": 27.385536,
+      "timestamp": "2024-01-04T12:02:55Z",
+      "version": 5,
+      "changeset": 145877527,
+      "tags": {
+        "access": "yes",
+        "bench": "yes",
+        "capacity": "0",
+        "drinking_water": "boil",
+        "fee": "no",
+        "fireplace": "yes",
+        "name": "Rönkönlampi tulistelutupa",
+        "piste:amenity": "shelter",
+        "shelter_type": "basic_hut",
+        "toilets": "yes",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1283847764,
+      "lat": 68.2209611,
+      "lon": 28.0470337,
+      "timestamp": "2023-04-04T16:05:14Z",
+      "version": 4,
+      "changeset": 134503010,
+      "tags": {
+        "access": "yes",
+        "capacity": "2",
+        "drinking_water": "no",
+        "fee": "no",
+        "fireplace": "yes",
+        "name": "Raappanan kammi",
+        "operator": "Metsähallitus",
+        "tourism": "wilderness_hut",
+        "website": "http://www.patikka.net/Tupaluettelot/koilliskaira/tuvat/raappanan-kammi.htm"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1286739783,
+      "lat": 68.253934,
+      "lon": 28.0634515,
+      "timestamp": "2023-04-04T16:05:14Z",
+      "version": 7,
+      "changeset": 134503010,
+      "tags": {
+        "amenity": "shelter",
+        "capacity": "5",
+        "drinking_water": "yes",
+        "fireplace": "yes",
+        "name": "Pälkkimäoja laavu",
+        "operator": "Metsähallitus",
+        "shelter_type": "lean_to",
+        "website": "http://www.patikka.net/Tupaluettelot/koilliskaira/tuvat/palkimaojan-laavu.htm"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2415914594,
+      "lat": 68.336278,
+      "lon": 28.1734906,
+      "timestamp": "2013-08-12T12:20:15Z",
+      "version": 1,
+      "changeset": 17316517,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2415914627,
+      "lat": 68.3557711,
+      "lon": 28.0267265,
+      "timestamp": "2013-08-12T12:20:16Z",
+      "version": 1,
+      "changeset": 17316517,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2415914632,
+      "lat": 68.3445464,
+      "lon": 28.0196455,
+      "timestamp": "2013-08-12T12:20:16Z",
+      "version": 1,
+      "changeset": 17316517,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2415914635,
+      "lat": 68.3439754,
+      "lon": 28.0196884,
+      "timestamp": "2013-08-12T12:20:16Z",
+      "version": 1,
+      "changeset": 17316517,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2415914684,
+      "lat": 68.3386385,
+      "lon": 28.1820736,
+      "timestamp": "2013-08-12T12:20:17Z",
+      "version": 1,
+      "changeset": 17316517,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2415914698,
+      "lat": 68.3168468,
+      "lon": 28.1160333,
+      "timestamp": "2013-08-12T12:20:17Z",
+      "version": 1,
+      "changeset": 17316517,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2415914745,
+      "lat": 68.3415847,
+      "lon": 28.0194309,
+      "timestamp": "2013-08-12T12:20:18Z",
+      "version": 1,
+      "changeset": 17316517,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2415915019,
+      "lat": 68.348442,
+      "lon": 28.0203002,
+      "timestamp": "2016-01-09T19:51:33Z",
+      "version": 2,
+      "changeset": 36469853,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2415915037,
+      "lat": 68.3640007,
+      "lon": 28.0322197,
+      "timestamp": "2013-08-12T12:20:24Z",
+      "version": 1,
+      "changeset": 17316517,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2415915109,
+      "lat": 68.3363631,
+      "lon": 28.175378,
+      "timestamp": "2019-01-31T16:41:18Z",
+      "version": 2,
+      "changeset": 66807734,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2415915195,
+      "lat": 68.3584144,
+      "lon": 28.0310181,
+      "timestamp": "2013-08-12T12:20:28Z",
+      "version": 1,
+      "changeset": 17316517,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2415915660,
+      "lat": 68.3453691,
+      "lon": 28.1979094,
+      "timestamp": "2013-08-12T12:20:39Z",
+      "version": 1,
+      "changeset": 17316517,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2415916252,
+      "lat": 68.3941398,
+      "lon": 28.2621129,
+      "timestamp": "2013-08-12T12:20:52Z",
+      "version": 1,
+      "changeset": 17316517,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2415916443,
+      "lat": 68.3448789,
+      "lon": 28.0196026,
+      "timestamp": "2013-08-12T12:20:56Z",
+      "version": 1,
+      "changeset": 17316517,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2415916539,
+      "lat": 68.3457658,
+      "lon": 28.2235298,
+      "timestamp": "2013-08-12T12:20:58Z",
+      "version": 1,
+      "changeset": 17316517,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2415916692,
+      "lat": 68.3213645,
+      "lon": 28.124183,
+      "timestamp": "2013-08-12T12:21:01Z",
+      "version": 1,
+      "changeset": 17316517,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2415916794,
+      "lat": 68.3144058,
+      "lon": 28.1102756,
+      "timestamp": "2020-01-27T21:46:20Z",
+      "version": 3,
+      "changeset": 80162874,
+      "tags": {
+        "drinking_water": "yes",
+        "intermittent": "no",
+        "name": "Lähde",
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2417407517,
+      "lat": 68.3451952,
+      "lon": 27.8254539,
+      "timestamp": "2021-06-01T20:42:50Z",
+      "version": 2,
+      "changeset": 105698530,
+      "tags": {
+        "drinking_water": "yes",
+        "intermittent": "no",
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2417407918,
+      "lat": 68.3645873,
+      "lon": 28.1263763,
+      "timestamp": "2013-08-13T07:36:10Z",
+      "version": 1,
+      "changeset": 17327143,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2417408116,
+      "lat": 68.3845785,
+      "lon": 28.2927097,
+      "timestamp": "2013-08-13T07:36:14Z",
+      "version": 1,
+      "changeset": 17327143,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2417408205,
+      "lat": 68.3383854,
+      "lon": 28.0927306,
+      "timestamp": "2013-08-13T07:36:16Z",
+      "version": 1,
+      "changeset": 17327143,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2417408311,
+      "lat": 68.2391144,
+      "lon": 28.0499644,
+      "timestamp": "2013-08-13T07:36:17Z",
+      "version": 1,
+      "changeset": 17327143,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2417408782,
+      "lat": 68.3728603,
+      "lon": 28.1083947,
+      "timestamp": "2013-08-13T07:36:22Z",
+      "version": 1,
+      "changeset": 17327143,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2417409586,
+      "lat": 68.2470999,
+      "lon": 28.0568094,
+      "timestamp": "2013-08-13T07:36:35Z",
+      "version": 1,
+      "changeset": 17327143,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2417410344,
+      "lat": 68.3105982,
+      "lon": 27.7051192,
+      "timestamp": "2013-08-13T07:36:45Z",
+      "version": 1,
+      "changeset": 17327143,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2417410523,
+      "lat": 68.3651403,
+      "lon": 28.1222564,
+      "timestamp": "2013-08-13T07:36:49Z",
+      "version": 1,
+      "changeset": 17327143,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2417429966,
+      "lat": 68.293622,
+      "lon": 27.8263122,
+      "timestamp": "2013-08-13T08:08:12Z",
+      "version": 1,
+      "changeset": 17327143,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2417464222,
+      "lat": 68.3329987,
+      "lon": 28.001278,
+      "timestamp": "2021-06-03T18:09:43Z",
+      "version": 2,
+      "changeset": 105794114,
+      "tags": {
+        "drinking_water": "yes",
+        "intermittent": "no",
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2417464475,
+      "lat": 68.325407,
+      "lon": 28.0157362,
+      "timestamp": "2021-06-03T18:09:43Z",
+      "version": 2,
+      "changeset": 105794114,
+      "tags": {
+        "drinking_water": "yes",
+        "intermittent": "no",
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2417599994,
+      "lat": 68.2579371,
+      "lon": 28.2582587,
+      "timestamp": "2023-04-07T11:26:43Z",
+      "version": 8,
+      "changeset": 134611143,
+      "tags": {
+        "access": "yes",
+        "addr:city": "Sodankylä",
+        "capacity": "8",
+        "drinking_water": "yes",
+        "fee": "no",
+        "fireplace": "stove",
+        "gas": "yes",
+        "heating": "stove",
+        "kitchen": "yes",
+        "name": "Muorravaarakan autiotupa",
+        "operator": "Metsähallitus",
+        "shelter_type": "basic_hut",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/muorravaarakkaautiotupa"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2417600020,
+      "lat": 68.3148808,
+      "lon": 28.1106176,
+      "timestamp": "2023-04-05T15:57:27Z",
+      "version": 7,
+      "changeset": 134544639,
+      "tags": {
+        "addr:city": "Sodankylä",
+        "capacity": "8",
+        "drinking_water": "yes",
+        "fee": "no",
+        "fireplace": "stove",
+        "gas": "yes",
+        "heating": "fireplace",
+        "kitchen": "yes",
+        "mattress": "no",
+        "name": "Sarvioja autiotupa",
+        "operator": "Metsähallitus",
+        "reservation": "no",
+        "shelter_type": "basic_hut",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/sarviojaautiotupa",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2417600023,
+      "lat": 68.3148174,
+      "lon": 28.1105425,
+      "timestamp": "2023-04-05T15:57:27Z",
+      "version": 8,
+      "changeset": 134544639,
+      "tags": {
+        "access": "customers",
+        "addr:city": "Sodankylä",
+        "capacity": "8",
+        "charge": "12 EUR",
+        "drinking_water": "yes",
+        "fee": "yes",
+        "fireplace": "stove",
+        "heating": "stove",
+        "kitchen": "yes",
+        "lockable": "yes",
+        "locked": "yes",
+        "mattress": "yes",
+        "name": "Sarvioja varaustupa",
+        "operator": "Metsähallitus",
+        "reservation": "required",
+        "shelter_type": "basic_hut",
+        "shower": "no",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/sarviojavaraustupa"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2417600037,
+      "lat": 68.2579923,
+      "lon": 28.2582573,
+      "timestamp": "2026-01-21T05:06:07Z",
+      "version": 9,
+      "changeset": 177504446,
+      "tags": {
+        "access": "customers",
+        "addr:city": "Sodankylä",
+        "capacity": "8",
+        "charge": "16.50 EUR",
+        "drinking_water": "yes",
+        "fee": "yes",
+        "fireplace": "stove",
+        "gas": "yes",
+        "heating": "stove",
+        "kitchen": "yes",
+        "locked": "yes",
+        "mattress": "yes",
+        "name": "Muorravaarakan varaustupa",
+        "operator": "Metsähallitus",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "reservation": "required",
+        "shelter_type": "basic_hut",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/muorravaarakkavaraustupa"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2417661775,
+      "lat": 68.2831591,
+      "lon": 27.9041611,
+      "timestamp": "2013-08-13T11:37:12Z",
+      "version": 1,
+      "changeset": 17329766,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2417661805,
+      "lat": 68.2683704,
+      "lon": 27.9352747,
+      "timestamp": "2023-04-13T16:18:53Z",
+      "version": 2,
+      "changeset": 134869822,
+      "tags": {
+        "drinking_water": "yes",
+        "intermittent": "no",
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2417661824,
+      "lat": 68.271962,
+      "lon": 27.9472052,
+      "timestamp": "2023-04-13T16:18:53Z",
+      "version": 2,
+      "changeset": 134869822,
+      "tags": {
+        "drinking_water": "yes",
+        "intermittent": "no",
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2417661835,
+      "lat": 68.2681011,
+      "lon": 27.9357468,
+      "timestamp": "2023-04-13T16:18:53Z",
+      "version": 2,
+      "changeset": 134869822,
+      "tags": {
+        "drinking_water": "yes",
+        "intermittent": "no",
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2417662000,
+      "lat": 68.3010649,
+      "lon": 27.9367339,
+      "timestamp": "2013-08-13T11:37:14Z",
+      "version": 1,
+      "changeset": 17329766,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2417662031,
+      "lat": 68.2883201,
+      "lon": 27.917379,
+      "timestamp": "2013-08-13T11:37:14Z",
+      "version": 1,
+      "changeset": 17329766,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2417662526,
+      "lat": 68.2832075,
+      "lon": 27.9048907,
+      "timestamp": "2013-08-13T11:37:20Z",
+      "version": 1,
+      "changeset": 17329766,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2417662990,
+      "lat": 68.3470797,
+      "lon": 28.1038033,
+      "timestamp": "2013-08-13T11:37:26Z",
+      "version": 1,
+      "changeset": 17329766,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2417663133,
+      "lat": 68.283271,
+      "lon": 27.9060923,
+      "timestamp": "2013-08-13T11:37:29Z",
+      "version": 1,
+      "changeset": 17329766,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2417663143,
+      "lat": 68.2877001,
+      "lon": 27.9157912,
+      "timestamp": "2013-08-13T11:37:30Z",
+      "version": 1,
+      "changeset": 17329766,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2417663183,
+      "lat": 68.2872246,
+      "lon": 27.9122292,
+      "timestamp": "2013-08-13T11:37:30Z",
+      "version": 1,
+      "changeset": 17329766,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2453740264,
+      "lat": 68.3548406,
+      "lon": 27.5513305,
+      "timestamp": "2021-05-30T13:54:40Z",
+      "version": 2,
+      "changeset": 105569043,
+      "tags": {
+        "drinking_water": "yes",
+        "intermittent": "no",
+        "natural": "spring",
+        "source": "MML 2013"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2453740357,
+      "lat": 68.3111537,
+      "lon": 27.5130294,
+      "timestamp": "2013-09-11T06:20:32Z",
+      "version": 1,
+      "changeset": 17777461,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2453740424,
+      "lat": 68.343642,
+      "lon": 27.432841,
+      "timestamp": "2013-09-11T06:20:33Z",
+      "version": 1,
+      "changeset": 17777461,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2453740481,
+      "lat": 68.3717361,
+      "lon": 27.4775813,
+      "timestamp": "2013-09-11T06:20:35Z",
+      "version": 1,
+      "changeset": 17777461,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2013"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2453740781,
+      "lat": 68.3437837,
+      "lon": 27.586022,
+      "timestamp": "2013-09-11T06:20:41Z",
+      "version": 1,
+      "changeset": 17777461,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2453740858,
+      "lat": 68.3512419,
+      "lon": 27.4718736,
+      "timestamp": "2013-09-11T06:20:43Z",
+      "version": 1,
+      "changeset": 17777461,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2013"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2453752463,
+      "lat": 68.4207265,
+      "lon": 27.3824155,
+      "timestamp": "2013-09-11T06:37:55Z",
+      "version": 1,
+      "changeset": 17777461,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2453843632,
+      "lat": 68.4300599,
+      "lon": 27.4824737,
+      "timestamp": "2013-09-11T08:40:08Z",
+      "version": 1,
+      "changeset": 17777461,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2453843715,
+      "lat": 68.4426474,
+      "lon": 27.411363,
+      "timestamp": "2013-09-11T08:40:10Z",
+      "version": 1,
+      "changeset": 17777461,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2453843722,
+      "lat": 68.4577643,
+      "lon": 27.4236367,
+      "timestamp": "2013-09-11T08:40:10Z",
+      "version": 1,
+      "changeset": 17777461,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2453959849,
+      "lat": 68.4048042,
+      "lon": 27.5337958,
+      "timestamp": "2013-09-11T10:43:48Z",
+      "version": 1,
+      "changeset": 17780448,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2013"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2455041977,
+      "lat": 68.4252723,
+      "lon": 27.3727787,
+      "timestamp": "2013-09-12T06:42:45Z",
+      "version": 1,
+      "changeset": 17794224,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2455042067,
+      "lat": 68.4481663,
+      "lon": 27.453672,
+      "timestamp": "2013-09-12T06:42:47Z",
+      "version": 1,
+      "changeset": 17794224,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2455042086,
+      "lat": 68.4464711,
+      "lon": 27.4319375,
+      "timestamp": "2013-09-12T06:42:47Z",
+      "version": 1,
+      "changeset": 17794224,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2013"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3213671529,
+      "lat": 68.343215,
+      "lon": 27.3353559,
+      "timestamp": "2014-12-01T07:08:26Z",
+      "version": 1,
+      "changeset": 27147203,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3213671680,
+      "lat": 68.3311756,
+      "lon": 27.3976475,
+      "timestamp": "2014-12-01T07:08:28Z",
+      "version": 1,
+      "changeset": 27147203,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3213671694,
+      "lat": 68.3178689,
+      "lon": 27.3428446,
+      "timestamp": "2014-12-01T07:08:29Z",
+      "version": 1,
+      "changeset": 27147203,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3213672130,
+      "lat": 68.3300271,
+      "lon": 27.39842,
+      "timestamp": "2014-12-01T07:08:36Z",
+      "version": 1,
+      "changeset": 27147203,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3215343884,
+      "lat": 68.1105453,
+      "lon": 27.4412075,
+      "timestamp": "2020-01-15T17:01:17Z",
+      "version": 5,
+      "changeset": 79615277,
+      "tags": {
+        "access": "yes",
+        "backcountry": "yes",
+        "capacity": "10",
+        "drinking_water": "no",
+        "fee": "no",
+        "internet_access": "no",
+        "name": "Sompiojärven leirintäalue",
+        "openfire": "yes",
+        "operator": "Metsähallitus",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3215438346,
+      "lat": 68.4229131,
+      "lon": 27.3140272,
+      "timestamp": "2014-12-02T09:23:10Z",
+      "version": 1,
+      "changeset": 27174251,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3215439389,
+      "lat": 68.4053248,
+      "lon": 27.3268374,
+      "timestamp": "2014-12-02T09:23:24Z",
+      "version": 1,
+      "changeset": 27174251,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3215599037,
+      "lat": 68.4679496,
+      "lon": 27.3392792,
+      "timestamp": "2014-12-02T11:39:00Z",
+      "version": 1,
+      "changeset": 27176813,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3226048399,
+      "lat": 68.385537,
+      "lon": 27.723595,
+      "timestamp": "2014-12-09T07:00:36Z",
+      "version": 1,
+      "changeset": 27349797,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3226048400,
+      "lat": 68.3859717,
+      "lon": 27.728144,
+      "timestamp": "2014-12-09T07:00:36Z",
+      "version": 1,
+      "changeset": 27349797,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3226049065,
+      "lat": 68.3921439,
+      "lon": 27.7016224,
+      "timestamp": "2014-12-09T07:00:37Z",
+      "version": 1,
+      "changeset": 27349797,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3226049066,
+      "lat": 68.3911087,
+      "lon": 27.7001203,
+      "timestamp": "2014-12-09T07:00:37Z",
+      "version": 1,
+      "changeset": 27349797,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3226071132,
+      "lat": 68.378011,
+      "lon": 27.7123727,
+      "timestamp": "2014-12-09T07:31:38Z",
+      "version": 1,
+      "changeset": 27350210,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3226071787,
+      "lat": 68.3813687,
+      "lon": 27.9045396,
+      "timestamp": "2014-12-09T07:31:43Z",
+      "version": 1,
+      "changeset": 27350210,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3226276119,
+      "lat": 68.3541702,
+      "lon": 27.5523401,
+      "timestamp": "2021-05-30T13:54:40Z",
+      "version": 2,
+      "changeset": 105569043,
+      "tags": {
+        "intermittent": "no",
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3227751413,
+      "lat": 68.1652654,
+      "lon": 28.2867906,
+      "timestamp": "2014-12-10T07:50:33Z",
+      "version": 1,
+      "changeset": 27371548,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3227771163,
+      "lat": 68.2477341,
+      "lon": 28.4700507,
+      "timestamp": "2014-12-10T08:07:32Z",
+      "version": 1,
+      "changeset": 27371780,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3227963661,
+      "lat": 68.2562963,
+      "lon": 28.2570252,
+      "timestamp": "2023-04-07T11:26:43Z",
+      "version": 3,
+      "changeset": 134611143,
+      "tags": {
+        "access": "yes",
+        "backcountry": "yes",
+        "capacity": "10",
+        "capacity:tents": "10",
+        "drinking_water": "yes",
+        "fee": "no",
+        "name": "Muorravaarakka",
+        "openfire": "yes",
+        "opening_hours": "24/7",
+        "operator": "Metsähallitus",
+        "picnic_table": "yes",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3228017119,
+      "lat": 68.2101679,
+      "lon": 28.0241709,
+      "timestamp": "2023-04-04T17:12:14Z",
+      "version": 4,
+      "changeset": 134505586,
+      "tags": {
+        "access": "yes",
+        "backcountry": "yes",
+        "cabins": "yes",
+        "capacity": "10",
+        "capacity:persons": "20",
+        "capacity:tents": "10",
+        "drinking_water": "boil",
+        "fee": "no",
+        "name": "Luirojärvi",
+        "openfire": "yes",
+        "operator": "Metsähallitus",
+        "sauna": "yes",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3229357631,
+      "lat": 68.2125835,
+      "lon": 27.8434261,
+      "timestamp": "2020-01-28T11:36:41Z",
+      "version": 3,
+      "changeset": 80195186,
+      "tags": {
+        "access": "yes",
+        "addr:city": "Sodankylä",
+        "backcountry": "yes",
+        "capacity": "5",
+        "drinking_water": "yes",
+        "fee": "no",
+        "name": "Tuiskukuru",
+        "openfire": "yes",
+        "operator": "Metsähallitus",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3229363317,
+      "lat": 68.2123982,
+      "lon": 27.7922226,
+      "timestamp": "2014-12-11T07:04:59Z",
+      "version": 1,
+      "changeset": 27392217,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3229386320,
+      "lat": 68.2406779,
+      "lon": 27.6569582,
+      "timestamp": "2014-12-11T07:36:24Z",
+      "version": 1,
+      "changeset": 27392535,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3229551281,
+      "lat": 68.3119666,
+      "lon": 27.6337735,
+      "timestamp": "2025-10-10T20:13:13Z",
+      "version": 2,
+      "changeset": 173111706,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3229656620,
+      "lat": 68.3844559,
+      "lon": 28.2506534,
+      "timestamp": "2023-04-07T16:19:54Z",
+      "version": 4,
+      "changeset": 134623846,
+      "tags": {
+        "access": "yes",
+        "addr:city": "Sodankylä",
+        "backcountry": "yes",
+        "capacity": "5",
+        "capacity:tents": "5",
+        "drinking_water": "boil",
+        "fee": "no",
+        "name": "Jyrkkävaara",
+        "openfire": "yes",
+        "operator": "Metsähallitus",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3230995874,
+      "lat": 68.1158466,
+      "lon": 27.5023682,
+      "timestamp": "2014-12-12T07:04:02Z",
+      "version": 1,
+      "changeset": 27415341,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3235950814,
+      "lat": 68.0504331,
+      "lon": 28.973726,
+      "timestamp": "2020-01-28T14:44:59Z",
+      "version": 3,
+      "changeset": 80205658,
+      "tags": {
+        "access": "yes",
+        "backcountry": "yes",
+        "capacity": "5",
+        "drinking_water": "yes",
+        "fee": "no",
+        "name": "Mantoselkä",
+        "openfire": "yes",
+        "operator": "Metsähallitus",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3235963740,
+      "lat": 68.0571855,
+      "lon": 29.3214177,
+      "timestamp": "2014-12-15T11:26:26Z",
+      "version": 1,
+      "changeset": 27479434,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3235963741,
+      "lat": 68.0568904,
+      "lon": 29.3286079,
+      "timestamp": "2014-12-15T11:26:26Z",
+      "version": 1,
+      "changeset": 27479434,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3235969243,
+      "lat": 68.0684863,
+      "lon": 28.7161459,
+      "timestamp": "2014-12-15T11:35:04Z",
+      "version": 1,
+      "changeset": 27479597,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3235969244,
+      "lat": 68.0683998,
+      "lon": 28.7180797,
+      "timestamp": "2014-12-15T11:35:04Z",
+      "version": 1,
+      "changeset": 27479597,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3235969245,
+      "lat": 68.0682523,
+      "lon": 28.7160506,
+      "timestamp": "2014-12-15T11:35:04Z",
+      "version": 1,
+      "changeset": 27479597,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3235969246,
+      "lat": 68.0678759,
+      "lon": 28.7173443,
+      "timestamp": "2014-12-15T11:35:04Z",
+      "version": 1,
+      "changeset": 27479597,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3235969247,
+      "lat": 68.0682879,
+      "lon": 28.7187197,
+      "timestamp": "2014-12-15T11:35:04Z",
+      "version": 1,
+      "changeset": 27479597,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3239336997,
+      "lat": 68.1736827,
+      "lon": 27.910778,
+      "timestamp": "2014-12-17T11:14:37Z",
+      "version": 1,
+      "changeset": 27527383,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3239336998,
+      "lat": 68.1745153,
+      "lon": 27.9103506,
+      "timestamp": "2014-12-17T11:14:37Z",
+      "version": 1,
+      "changeset": 27527383,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3239336999,
+      "lat": 68.1771907,
+      "lon": 27.910607,
+      "timestamp": "2014-12-17T11:14:37Z",
+      "version": 1,
+      "changeset": 27527383,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3239505381,
+      "lat": 68.4290936,
+      "lon": 28.3982928,
+      "timestamp": "2014-12-17T13:02:10Z",
+      "version": 1,
+      "changeset": 27529458,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3239512613,
+      "lat": 68.3714944,
+      "lon": 28.4756794,
+      "timestamp": "2014-12-17T13:05:54Z",
+      "version": 1,
+      "changeset": 27529545,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3241001923,
+      "lat": 68.4229609,
+      "lon": 28.394719,
+      "timestamp": "2014-12-18T13:37:35Z",
+      "version": 1,
+      "changeset": 27550641,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3242541677,
+      "lat": 68.3712938,
+      "lon": 27.8163911,
+      "timestamp": "2014-12-19T12:17:24Z",
+      "version": 1,
+      "changeset": 27567987,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3791803616,
+      "lat": 68.2693414,
+      "lon": 28.4926205,
+      "timestamp": "2015-10-18T18:09:32Z",
+      "version": 1,
+      "changeset": 34717234,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3791803617,
+      "lat": 68.2640053,
+      "lon": 28.4976322,
+      "timestamp": "2015-10-18T18:09:32Z",
+      "version": 1,
+      "changeset": 34717234,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3791807292,
+      "lat": 68.2510448,
+      "lon": 28.4514697,
+      "timestamp": "2023-04-02T17:02:57Z",
+      "version": 3,
+      "changeset": 134422741,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3792446327,
+      "lat": 68.3789517,
+      "lon": 28.4860857,
+      "timestamp": "2015-10-19T09:38:29Z",
+      "version": 1,
+      "changeset": 34727948,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3792731602,
+      "lat": 68.2667294,
+      "lon": 27.8778459,
+      "timestamp": "2015-10-19T13:57:28Z",
+      "version": 1,
+      "changeset": 34733276,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3792731603,
+      "lat": 68.2668289,
+      "lon": 27.8613181,
+      "timestamp": "2015-10-19T13:57:28Z",
+      "version": 1,
+      "changeset": 34733276,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3792731604,
+      "lat": 68.2668538,
+      "lon": 27.8599912,
+      "timestamp": "2015-10-19T13:57:28Z",
+      "version": 1,
+      "changeset": 34733276,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3802167915,
+      "lat": 68.1863632,
+      "lon": 28.4577401,
+      "timestamp": "2023-04-02T17:02:57Z",
+      "version": 4,
+      "changeset": 134422741,
+      "tags": {
+        "access": "customers",
+        "addr:city": "Sodankylä",
+        "capacity": "3",
+        "charge": "40 EUR",
+        "drinking_water": "yes",
+        "fee": "yes",
+        "fireplace": "stove",
+        "gas": "yes",
+        "kitchen": "yes",
+        "mattress": "yes",
+        "name": "Vongoiva varauskammi",
+        "operator": "Metsähallitus, Lapin luontopalvelut",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "reservation": "required",
+        "start_date": "2016",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/vongoivakammi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3806664025,
+      "lat": 68.1225872,
+      "lon": 27.4463822,
+      "timestamp": "2015-10-28T13:21:55Z",
+      "version": 1,
+      "changeset": 34926344,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2015"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3806664026,
+      "lat": 68.1224993,
+      "lon": 27.444451,
+      "timestamp": "2015-10-28T13:21:55Z",
+      "version": 1,
+      "changeset": 34926344,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2015"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3806664027,
+      "lat": 68.1217557,
+      "lon": 27.4622394,
+      "timestamp": "2015-10-28T13:21:55Z",
+      "version": 1,
+      "changeset": 34926344,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2015"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3806664028,
+      "lat": 68.1214039,
+      "lon": 27.4616815,
+      "timestamp": "2015-10-28T13:21:55Z",
+      "version": 1,
+      "changeset": 34926344,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2015"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3806665899,
+      "lat": 68.1449785,
+      "lon": 27.4408179,
+      "timestamp": "2015-10-28T13:21:56Z",
+      "version": 1,
+      "changeset": 34926344,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2015"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3806727911,
+      "lat": 68.2807147,
+      "lon": 27.376948,
+      "timestamp": "2015-10-28T14:12:42Z",
+      "version": 1,
+      "changeset": 34927330,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2015"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3806766993,
+      "lat": 68.228187,
+      "lon": 27.3289595,
+      "timestamp": "2015-10-28T14:45:34Z",
+      "version": 1,
+      "changeset": 34928180,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3807075462,
+      "lat": 68.1778442,
+      "lon": 27.1427946,
+      "timestamp": "2015-10-28T18:08:51Z",
+      "version": 1,
+      "changeset": 34932539,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3807075463,
+      "lat": 68.1777382,
+      "lon": 27.1441953,
+      "timestamp": "2015-10-28T18:08:52Z",
+      "version": 1,
+      "changeset": 34932539,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3808131545,
+      "lat": 68.4456615,
+      "lon": 27.5483955,
+      "timestamp": "2015-10-29T09:58:22Z",
+      "version": 1,
+      "changeset": 34945054,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2015"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3808131546,
+      "lat": 68.4455629,
+      "lon": 27.5503052,
+      "timestamp": "2015-10-29T09:58:22Z",
+      "version": 1,
+      "changeset": 34945054,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2015"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3808131547,
+      "lat": 68.4455866,
+      "lon": 27.5512172,
+      "timestamp": "2015-10-29T09:58:22Z",
+      "version": 1,
+      "changeset": 34945054,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2015"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3808131548,
+      "lat": 68.4450505,
+      "lon": 27.5521828,
+      "timestamp": "2015-10-29T09:58:22Z",
+      "version": 1,
+      "changeset": 34945054,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2015"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3808142305,
+      "lat": 68.4173326,
+      "lon": 27.6253454,
+      "timestamp": "2021-05-30T12:40:56Z",
+      "version": 2,
+      "changeset": 105566515,
+      "tags": {
+        "drinking_water": "yes",
+        "intermittent": "no",
+        "natural": "spring",
+        "source": "MML 2015"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3817435737,
+      "lat": 68.4138448,
+      "lon": 28.0530526,
+      "timestamp": "2015-11-04T15:56:09Z",
+      "version": 1,
+      "changeset": 35079548,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3817817997,
+      "lat": 68.3859466,
+      "lon": 27.9127194,
+      "timestamp": "2015-11-04T20:24:43Z",
+      "version": 1,
+      "changeset": 35087431,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3817818141,
+      "lat": 68.4202221,
+      "lon": 28.1772013,
+      "timestamp": "2015-11-04T20:24:45Z",
+      "version": 1,
+      "changeset": 35087431,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3822906373,
+      "lat": 68.2018838,
+      "lon": 27.8568245,
+      "timestamp": "2015-11-07T15:59:33Z",
+      "version": 1,
+      "changeset": 35152241,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2015"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3822906771,
+      "lat": 68.1977221,
+      "lon": 27.8725217,
+      "timestamp": "2015-11-07T15:59:39Z",
+      "version": 1,
+      "changeset": 35152241,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2015"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3822906838,
+      "lat": 68.1903797,
+      "lon": 27.8711981,
+      "timestamp": "2015-11-07T15:59:40Z",
+      "version": 1,
+      "changeset": 35152241,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2015"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3822906839,
+      "lat": 68.187664,
+      "lon": 27.8726247,
+      "timestamp": "2015-11-07T15:59:41Z",
+      "version": 1,
+      "changeset": 35152241,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2015"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3823178246,
+      "lat": 68.1815889,
+      "lon": 27.8781796,
+      "timestamp": "2015-11-07T18:44:14Z",
+      "version": 1,
+      "changeset": 35155629,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2015"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3827003730,
+      "lat": 68.2427907,
+      "lon": 27.6826651,
+      "timestamp": "2015-11-09T17:04:11Z",
+      "version": 1,
+      "changeset": 35197106,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3916449068,
+      "lat": 68.2489204,
+      "lon": 28.4803578,
+      "timestamp": "2019-02-24T11:45:09Z",
+      "version": 2,
+      "changeset": 67514605,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3918513026,
+      "lat": 68.2662588,
+      "lon": 28.4641768,
+      "timestamp": "2015-12-30T12:56:38Z",
+      "version": 1,
+      "changeset": 36261434,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3918513027,
+      "lat": 68.265656,
+      "lon": 28.467618,
+      "timestamp": "2015-12-30T12:56:38Z",
+      "version": 1,
+      "changeset": 36261434,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3936389995,
+      "lat": 68.3460016,
+      "lon": 28.0184202,
+      "timestamp": "2016-01-09T19:51:31Z",
+      "version": 1,
+      "changeset": 36469853,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3939486660,
+      "lat": 68.457713,
+      "lon": 27.6141192,
+      "timestamp": "2016-01-11T13:13:31Z",
+      "version": 1,
+      "changeset": 36503077,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3996085478,
+      "lat": 68.2379668,
+      "lon": 27.2360999,
+      "timestamp": "2016-02-08T19:58:41Z",
+      "version": 1,
+      "changeset": 37087853,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4036898669,
+      "lat": 68.172432,
+      "lon": 27.2864649,
+      "timestamp": "2016-03-02T17:21:09Z",
+      "version": 1,
+      "changeset": 37571111,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4292787527,
+      "lat": 68.3751147,
+      "lon": 27.1152687,
+      "timestamp": "2016-07-09T09:46:12Z",
+      "version": 1,
+      "changeset": 40608609,
+      "tags": {
+        "natural": "spring",
+        "source": "MML 2016"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4375832342,
+      "lat": 67.9117774,
+      "lon": 29.0290946,
+      "timestamp": "2016-08-30T16:51:14Z",
+      "version": 1,
+      "changeset": 41806803,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4375832352,
+      "lat": 67.9134676,
+      "lon": 29.0286799,
+      "timestamp": "2016-08-30T16:51:14Z",
+      "version": 1,
+      "changeset": 41806803,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4375854262,
+      "lat": 67.9757507,
+      "lon": 29.0650086,
+      "timestamp": "2020-01-28T14:44:59Z",
+      "version": 3,
+      "changeset": 80205658,
+      "tags": {
+        "access": "yes",
+        "backcountry": "yes",
+        "capacity": "6",
+        "drinking_water": "yes",
+        "fee": "no",
+        "name": "Naltiojoki",
+        "openfire": "yes",
+        "operator": "Metsähallitus",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4376217057,
+      "lat": 68.1260074,
+      "lon": 28.562182,
+      "timestamp": "2023-04-06T16:14:32Z",
+      "version": 4,
+      "changeset": 134584582,
+      "tags": {
+        "access": "yes",
+        "addr:city": "Savukoski",
+        "backcountry": "yes",
+        "capacity": "5",
+        "capacity:tents": "5",
+        "drinking_water": "yes",
+        "fee": "no",
+        "name": "Tahvontupa",
+        "openfire": "yes",
+        "operator": "Metsähallitus",
+        "sauna": "yes",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4377551719,
+      "lat": 67.8973052,
+      "lon": 29.2622326,
+      "timestamp": "2020-01-28T13:34:02Z",
+      "version": 2,
+      "changeset": 80201976,
+      "tags": {
+        "access": "yes",
+        "backcountry": "yes",
+        "capacity": "5",
+        "drinking_water": "yes",
+        "fee": "no",
+        "name": "Hirvashauta",
+        "openfire": "yes",
+        "operator": "Metsähallitus",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4377585769,
+      "lat": 67.9151462,
+      "lon": 29.2251418,
+      "timestamp": "2020-01-28T13:34:02Z",
+      "version": 2,
+      "changeset": 80201976,
+      "tags": {
+        "access": "yes",
+        "backcountry": "yes",
+        "capacity": "5",
+        "drinking_water": "yes",
+        "fee": "no",
+        "name": "Karhuoja",
+        "openfire": "yes",
+        "operator": "Metsähallitus",
+        "sauna": "yes",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4377665011,
+      "lat": 67.9669613,
+      "lon": 29.4368728,
+      "timestamp": "2020-01-28T13:34:02Z",
+      "version": 2,
+      "changeset": 80201976,
+      "tags": {
+        "access": "yes",
+        "backcountry": "yes",
+        "capacity": "5",
+        "drinking_water": "yes",
+        "fee": "no",
+        "name": "Saiho",
+        "openfire": "yes",
+        "operator": "Metsähallitus",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5699328244,
+      "lat": 68.2528003,
+      "lon": 27.1500946,
+      "timestamp": "2018-06-18T12:25:36Z",
+      "version": 1,
+      "changeset": 59942879,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5736435976,
+      "lat": 68.3844097,
+      "lon": 28.2514409,
+      "timestamp": "2023-04-07T16:19:54Z",
+      "version": 3,
+      "changeset": 134623846,
+      "tags": {
+        "access": "yes",
+        "addr:city": "Sodankylä",
+        "capacity": "8",
+        "drinking_water": "boil",
+        "fee": "no",
+        "fireplace": "stove",
+        "gas": "yes",
+        "mattress": "no",
+        "name": "Jyrkkävaara autiotupa",
+        "operator": "Metsähallitus",
+        "reservation": "no",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/jyrkkavaaraautiotupa"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6239996346,
+      "lat": 68.3019447,
+      "lon": 28.2708276,
+      "timestamp": "2019-01-27T16:55:14Z",
+      "version": 1,
+      "changeset": 66681906,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6244949356,
+      "lat": 68.3400896,
+      "lon": 28.1858922,
+      "timestamp": "2019-01-29T18:13:06Z",
+      "version": 1,
+      "changeset": 66746698,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6278576020,
+      "lat": 67.9773372,
+      "lon": 29.0782689,
+      "timestamp": "2019-02-14T13:41:39Z",
+      "version": 1,
+      "changeset": 67194284,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6278576021,
+      "lat": 67.9826516,
+      "lon": 29.1167437,
+      "timestamp": "2019-02-14T13:41:39Z",
+      "version": 1,
+      "changeset": 67194284,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6279112361,
+      "lat": 67.8924192,
+      "lon": 29.0221032,
+      "timestamp": "2019-02-14T18:03:05Z",
+      "version": 1,
+      "changeset": 67202927,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6281207590,
+      "lat": 67.9025516,
+      "lon": 29.0941108,
+      "timestamp": "2019-02-15T16:16:29Z",
+      "version": 1,
+      "changeset": 67231617,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6281207591,
+      "lat": 67.904335,
+      "lon": 29.116255,
+      "timestamp": "2019-02-15T16:16:29Z",
+      "version": 1,
+      "changeset": 67231617,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6286503887,
+      "lat": 68.0315133,
+      "lon": 28.6761722,
+      "timestamp": "2019-02-18T16:50:14Z",
+      "version": 1,
+      "changeset": 67322792,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6291853135,
+      "lat": 67.9579096,
+      "lon": 28.4180494,
+      "timestamp": "2019-02-20T19:42:28Z",
+      "version": 1,
+      "changeset": 67405104,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6291853136,
+      "lat": 67.9528099,
+      "lon": 28.4269244,
+      "timestamp": "2019-02-20T19:42:28Z",
+      "version": 1,
+      "changeset": 67405104,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6291856262,
+      "lat": 67.9541129,
+      "lon": 28.4375115,
+      "timestamp": "2019-02-20T19:45:16Z",
+      "version": 1,
+      "changeset": 67405192,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6291863929,
+      "lat": 67.9083151,
+      "lon": 28.3203931,
+      "timestamp": "2019-02-20T19:49:47Z",
+      "version": 1,
+      "changeset": 67405338,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6294408474,
+      "lat": 67.903142,
+      "lon": 28.5448949,
+      "timestamp": "2019-02-21T21:20:14Z",
+      "version": 1,
+      "changeset": 67444181,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6294408475,
+      "lat": 67.9027199,
+      "lon": 28.5451388,
+      "timestamp": "2019-02-21T21:20:14Z",
+      "version": 1,
+      "changeset": 67444181,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6309103462,
+      "lat": 68.1209659,
+      "lon": 27.1948353,
+      "timestamp": "2019-02-28T21:16:44Z",
+      "version": 1,
+      "changeset": 67665040,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6309104102,
+      "lat": 68.1511981,
+      "lon": 27.2971066,
+      "timestamp": "2019-02-28T21:16:49Z",
+      "version": 1,
+      "changeset": 67665040,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6309106752,
+      "lat": 68.1405683,
+      "lon": 27.253615,
+      "timestamp": "2019-02-28T21:21:49Z",
+      "version": 1,
+      "changeset": 67665176,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7160917207,
+      "lat": 68.3948948,
+      "lon": 28.1536628,
+      "timestamp": "2020-01-26T18:34:49Z",
+      "version": 1,
+      "changeset": 80105787,
+      "tags": {
+        "access": "yes",
+        "addr:city": "Sodankylä",
+        "backcountry": "yes",
+        "capacity": "5",
+        "drinking_water": "no",
+        "fee": "no",
+        "name": "Snellmanninmaja",
+        "openfire": "no",
+        "operator": "Metsähallitus",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7160917208,
+      "lat": 68.3910643,
+      "lon": 28.0641263,
+      "timestamp": "2026-08-25T16:17:48Z",
+      "version": 3,
+      "changeset": 187999102,
+      "tags": {
+        "access": "yes",
+        "addr:city": "Sodankylä",
+        "backcountry": "yes",
+        "camp_site": "basic",
+        "capacity": "7",
+        "caravans": "no",
+        "dog": "leashed",
+        "drinking_water": "boil",
+        "fee": "no",
+        "name": "Aittajärvi",
+        "openfire": "yes",
+        "operator": "Metsähallitus",
+        "static_caravans": "no",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7161298105,
+      "lat": 68.032552,
+      "lon": 28.7232166,
+      "timestamp": "2020-01-27T13:46:17Z",
+      "version": 2,
+      "changeset": 80146820,
+      "tags": {
+        "access": "yes",
+        "addr:city": "Savukoski",
+        "backcountry": "yes",
+        "capacity": "3",
+        "drinking_water": "yes",
+        "fee": "no",
+        "name": "Härkävaara",
+        "openfire": "yes",
+        "operator": "Metsähallitus",
+        "sauna": "yes",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7161303676,
+      "lat": 68.0464628,
+      "lon": 29.1891995,
+      "timestamp": "2020-01-26T22:04:27Z",
+      "version": 1,
+      "changeset": 80110371,
+      "tags": {
+        "addr:city": "Savukoski",
+        "capacity": "6",
+        "drinking_water": "yes",
+        "fee": "no",
+        "fireplace": "stove",
+        "gas": "yes",
+        "name": "Rakitsanoja kammi",
+        "operator": "Metsähallitus",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/tuvat/rakitsanojankammi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7163563630,
+      "lat": 68.128062,
+      "lon": 28.4629085,
+      "timestamp": "2020-01-27T14:16:24Z",
+      "version": 1,
+      "changeset": 80148519,
+      "tags": {
+        "access": "yes",
+        "addr:city": "Sodankylä",
+        "backcountry": "yes",
+        "capacity": "5",
+        "drinking_water": "yes",
+        "fee": "no",
+        "name": "Siulanruoktu",
+        "openfire": "yes",
+        "operator": "Metsähallitus",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7164948989,
+      "lat": 68.3140627,
+      "lon": 28.1099002,
+      "timestamp": "2020-01-28T09:57:19Z",
+      "version": 2,
+      "changeset": 80188989,
+      "tags": {
+        "access": "yes",
+        "addr:city": "Sodankylä",
+        "backcountry": "yes",
+        "drinking_water": "yes",
+        "fee": "no",
+        "name": "Sarvioja",
+        "openfire": "yes",
+        "operator": "Metsähallitus",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7164948990,
+      "lat": 68.341019,
+      "lon": 27.8866894,
+      "timestamp": "2020-01-27T21:46:20Z",
+      "version": 1,
+      "changeset": 80162874,
+      "tags": {
+        "access": "yes",
+        "backcountry": "yes",
+        "capacity": "5",
+        "drinking_water": "yes",
+        "fee": "no",
+        "name": "Porttikoski",
+        "openfire": "yes",
+        "operator": "Metsähallitus",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7164949023,
+      "lat": 68.3089579,
+      "lon": 27.8128221,
+      "timestamp": "2023-04-09T12:05:02Z",
+      "version": 3,
+      "changeset": 134685226,
+      "tags": {
+        "access": "yes",
+        "backcountry": "yes",
+        "capacity": "5",
+        "capacity:tents": "5",
+        "drinking_water": "yes",
+        "fee": "no",
+        "name": "Lankojärvi",
+        "openfire": "yes",
+        "operator": "Metsähallitus",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7165978990,
+      "lat": 68.2504369,
+      "lon": 28.4532004,
+      "timestamp": "2020-01-28T10:02:40Z",
+      "version": 1,
+      "changeset": 80189319,
+      "tags": {
+        "access": "yes",
+        "backcountry": "yes",
+        "capacity": "5",
+        "drinking_water": "yes",
+        "fee": "no",
+        "name": "Anterinmukka",
+        "openfire": "yes",
+        "operator": "Metsähallitus",
+        "sauna": "yes",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7165993735,
+      "lat": 68.1865612,
+      "lon": 28.4576868,
+      "timestamp": "2023-04-02T17:02:57Z",
+      "version": 2,
+      "changeset": 134422741,
+      "tags": {
+        "access": "yes",
+        "addr:city": "Sodankylä",
+        "backcountry": "yes",
+        "capacity": "2",
+        "capacity:persons": "4",
+        "drinking_water": "yes",
+        "fee": "no",
+        "name": "Vongoiva",
+        "openfire": "yes",
+        "operator": "Metsähallitus",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7166827685,
+      "lat": 67.8641409,
+      "lon": 29.1989941,
+      "timestamp": "2020-01-28T14:18:50Z",
+      "version": 1,
+      "changeset": 80204574,
+      "tags": {
+        "access": "yes",
+        "backcountry": "yes",
+        "capacity": "5",
+        "drinking_water": "yes",
+        "fee": "no",
+        "name": "Kärekeoja",
+        "openfire": "yes",
+        "operator": "Metsähallitus",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7166827686,
+      "lat": 67.8999621,
+      "lon": 29.2105427,
+      "timestamp": "2020-01-28T14:18:50Z",
+      "version": 1,
+      "changeset": 80204574,
+      "tags": {
+        "access": "yes",
+        "backcountry": "yes",
+        "drinking_water": "yes",
+        "fee": "no",
+        "name": "Mettopalo",
+        "openfire": "yes",
+        "operator": "Metsähallitus",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7166880447,
+      "lat": 68.0438941,
+      "lon": 28.9694949,
+      "timestamp": "2023-04-05T20:49:20Z",
+      "version": 2,
+      "changeset": 134553705,
+      "tags": {
+        "access": "yes",
+        "backcountry": "yes",
+        "drinking_water": "yes",
+        "fee": "no",
+        "name": "Manto-oja",
+        "openfire": "yes",
+        "operator": "Metsähallitus",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7177652371,
+      "lat": 68.227945,
+      "lon": 27.8594042,
+      "timestamp": "2020-02-01T17:35:53Z",
+      "version": 1,
+      "changeset": 80416938,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8019477528,
+      "lat": 68.3130863,
+      "lon": 27.6486597,
+      "timestamp": "2024-01-27T10:33:46Z",
+      "version": 2,
+      "changeset": 146738831,
+      "tags": {
+        "access": "yes",
+        "addr:city": "Sodankylä",
+        "backcountry": "yes",
+        "capacity": "5",
+        "capacity:persons": "10",
+        "capacity:tents": "5",
+        "dog": "leashed",
+        "drinking_water": "yes",
+        "fee": "no",
+        "name": "Rautulampi",
+        "openfire": "yes",
+        "opening_hours": "24/7",
+        "operator": "Metsähallitus",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8743375810,
+      "lat": 67.939069,
+      "lon": 28.5305974,
+      "timestamp": "2021-05-18T18:07:05Z",
+      "version": 1,
+      "changeset": 104907897,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8753870188,
+      "lat": 67.9973045,
+      "lon": 27.5169619,
+      "timestamp": "2021-05-21T18:32:18Z",
+      "version": 1,
+      "changeset": 105105711,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8753870189,
+      "lat": 67.9972107,
+      "lon": 27.5279192,
+      "timestamp": "2021-05-21T18:32:18Z",
+      "version": 1,
+      "changeset": 105105711,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8753870190,
+      "lat": 67.9963114,
+      "lon": 27.5340761,
+      "timestamp": "2021-05-21T18:32:18Z",
+      "version": 1,
+      "changeset": 105105711,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8753870191,
+      "lat": 67.9961394,
+      "lon": 27.5342639,
+      "timestamp": "2021-05-21T18:32:18Z",
+      "version": 1,
+      "changeset": 105105711,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8753870192,
+      "lat": 67.9949286,
+      "lon": 27.5591071,
+      "timestamp": "2021-05-21T18:32:18Z",
+      "version": 1,
+      "changeset": 105105711,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8753870309,
+      "lat": 68.0141975,
+      "lon": 27.5639333,
+      "timestamp": "2021-05-21T18:32:18Z",
+      "version": 1,
+      "changeset": 105105711,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8779963757,
+      "lat": 68.394476,
+      "lon": 27.4243982,
+      "timestamp": "2024-01-03T15:55:11Z",
+      "version": 2,
+      "changeset": 145845454,
+      "tags": {
+        "access": "yes",
+        "addr:city": "Saariselkä",
+        "capacity": "0",
+        "drinking_water": "no",
+        "fee": "no",
+        "fireplace": "yes",
+        "name": "Prospektorin kämppä päivätupa",
+        "name:en": "Day trip hut",
+        "operator": "Metsähallitus",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/prospektorinkaivoskamppapaivatupa",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8781002032,
+      "lat": 68.4272163,
+      "lon": 27.57025,
+      "timestamp": "2021-05-30T12:40:56Z",
+      "version": 1,
+      "changeset": 105566515,
+      "tags": {
+        "access": "yes",
+        "backcountry": "yes",
+        "capacity": "5",
+        "drinking_water": "yes",
+        "fee": "no",
+        "name": "Vellinsärpimä",
+        "openfire": "yes",
+        "operator": "Metsähallitus",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8781002110,
+      "lat": 68.439051,
+      "lon": 27.577095,
+      "timestamp": "2021-05-30T12:40:56Z",
+      "version": 1,
+      "changeset": 105566515,
+      "tags": {
+        "access": "yes",
+        "addr:city": "Ivalo",
+        "backcountry": "yes",
+        "capacity": "5",
+        "drinking_water": "yes",
+        "fee": "no",
+        "openfire": "yes",
+        "operator": "Metsähallitus",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8781108038,
+      "lat": 68.3548678,
+      "lon": 27.5518114,
+      "timestamp": "2021-05-30T13:54:40Z",
+      "version": 1,
+      "changeset": 105569043,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10784801110,
+      "lat": 68.2097158,
+      "lon": 28.0231237,
+      "timestamp": "2026-01-21T05:06:07Z",
+      "version": 2,
+      "changeset": 177504446,
+      "tags": {
+        "access": "customers",
+        "capacity": "12",
+        "charge": "16.50 EUR",
+        "drinking_water": "boil",
+        "fee": "yes",
+        "fireplace": "yes",
+        "kitchen": "yes",
+        "mattress": "yes",
+        "name": "Luirojärven varaustupa",
+        "operator": "Metsähallitus",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "reservation": "required",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/luirojarvivaraustupa"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10788781818,
+      "lat": 68.1281131,
+      "lon": 28.701701,
+      "timestamp": "2023-04-05T20:49:20Z",
+      "version": 1,
+      "changeset": 134553705,
+      "tags": {
+        "backcountry": "yes",
+        "capacity:tents": "5",
+        "drinking_water": "yes",
+        "fee": "no",
+        "openfire": "yes",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10790521216,
+      "lat": 68.1261342,
+      "lon": 28.5633248,
+      "timestamp": "2023-04-06T16:14:32Z",
+      "version": 1,
+      "changeset": 134584582,
+      "tags": {
+        "access": "yes",
+        "addr:city": "Savukoski",
+        "bin": "no",
+        "capacity": "6",
+        "drinking_water": "yes",
+        "fee": "no",
+        "fireplace": "stove",
+        "kitchen": "outside",
+        "mattress": "no",
+        "name": "Tahvontupa autiotupa",
+        "operator": "Metsähallitus",
+        "reservation": "no",
+        "shelter_type": "basic_hut",
+        "start_date": "1968",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/tahvontupaautiotupa",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10790521217,
+      "lat": 68.1260962,
+      "lon": 28.5632771,
+      "timestamp": "2026-01-21T05:06:07Z",
+      "version": 2,
+      "changeset": 177504446,
+      "tags": {
+        "access": "customers",
+        "bin": "no",
+        "capacity": "4",
+        "charge": "16.50 EUR",
+        "drinking_water": "yes",
+        "fee": "yes",
+        "fireplace": "stove",
+        "kitchen": "yes",
+        "mattress": "yes",
+        "name": "Tahvontupa varaustupa",
+        "operator": "Metsähallitus",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "reservation": "required",
+        "shelter_type": "basic_hut",
+        "start_date": "1968",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/tahvontupavaraustupa",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10791094140,
+      "lat": 68.1659362,
+      "lon": 28.2964248,
+      "timestamp": "2023-04-06T21:37:17Z",
+      "version": 1,
+      "changeset": 134593934,
+      "tags": {
+        "access": "yes",
+        "backcountry": "yes",
+        "capacity:tents": "5",
+        "drinking_water": "yes",
+        "fee": "no",
+        "name": "Hammaskuru",
+        "openfire": "yes",
+        "operator": "Metsähallitus",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10791094141,
+      "lat": 68.1659131,
+      "lon": 28.2980834,
+      "timestamp": "2023-04-06T21:42:21Z",
+      "version": 2,
+      "changeset": 134594039,
+      "tags": {
+        "access": "yes",
+        "capacity": "8",
+        "cooking": "gas",
+        "drinking_water": "yes",
+        "fee": "no",
+        "fireplace": "stove",
+        "mattress": "no",
+        "name": "Hammaskuru autiotupa",
+        "operator": "Metsähallitus, Lapin luontopalvelut",
+        "reservation": "no",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/hammaskuruautiotupa"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10791097325,
+      "lat": 68.1658535,
+      "lon": 28.2980032,
+      "timestamp": "2026-01-21T05:06:07Z",
+      "version": 2,
+      "changeset": 177504446,
+      "tags": {
+        "access": "customers",
+        "capacity": "8",
+        "charge": "15 EUR",
+        "cooking": "gas",
+        "drinking_water": "yes",
+        "fee": "yes",
+        "fireplace": "yes",
+        "kitchen": "yes",
+        "mattress": "yes",
+        "name": "Hammaskuru varaustupa",
+        "operator": "Metsähallitus, Lapin luontopalvelut",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "reservation": "required",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/hammaskuruvaraustupa"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10793176087,
+      "lat": 68.384345,
+      "lon": 28.2513793,
+      "timestamp": "2026-01-21T05:06:07Z",
+      "version": 2,
+      "changeset": 177504446,
+      "tags": {
+        "access": "customers",
+        "addr:city": "Sodankylä",
+        "alt_name": "Pahtajärven tupa",
+        "capacity": "8",
+        "charge": "16.50 EUR",
+        "drinking_water": "boil",
+        "fee": "yes",
+        "fireplace": "yes",
+        "heating": "stove",
+        "kitchen": "yes",
+        "locked": "yes",
+        "mattress": "yes",
+        "name": "Jyrkkävaara varaustupa",
+        "operator": "Metsähallitus",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "reservation": "required",
+        "start_date": "1969",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/jyrkkavaaravaraustupa",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10811583612,
+      "lat": 68.4546942,
+      "lon": 27.5921002,
+      "timestamp": "2023-04-14T14:52:42Z",
+      "version": 1,
+      "changeset": 134907179,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11455380664,
+      "lat": 68.4135614,
+      "lon": 27.4288817,
+      "timestamp": "2023-12-26T12:31:22Z",
+      "version": 1,
+      "changeset": 145531914,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11482580002,
+      "lat": 68.462414,
+      "lon": 27.4286224,
+      "timestamp": "2024-01-03T12:10:45Z",
+      "version": 1,
+      "changeset": 145836909,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11556269125,
+      "lat": 68.3133619,
+      "lon": 27.6490133,
+      "timestamp": "2026-01-21T05:06:07Z",
+      "version": 2,
+      "changeset": 177504446,
+      "tags": {
+        "access": "customers",
+        "addr:city": "Sodankylä",
+        "capacity": "8",
+        "charge": "16.50 EUR/person/day",
+        "drinking_water": "yes",
+        "fee": "yes",
+        "fireplace": "stove",
+        "gas": "yes",
+        "kitchen": "yes",
+        "mattress": "yes",
+        "name": "Rautulampi varaustupa",
+        "name:fi": "Rautulampi varaustupa",
+        "operator": "Metsähallitus",
+        "reservation": "required",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/rautulampivaraustupa",
+        "wheelchair": "no",
+        "wood_provided": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11556269126,
+      "lat": 68.3133501,
+      "lon": 27.6491904,
+      "timestamp": "2024-01-27T10:33:46Z",
+      "version": 1,
+      "changeset": 146738831,
+      "tags": {
+        "access": "yes",
+        "addr:city": "Sodankylä",
+        "capacity": "8",
+        "drinking_water": "yes",
+        "fee": "no",
+        "fireplace": "stove",
+        "gas": "yes",
+        "kitchen": "yes",
+        "mattress": "no",
+        "name": "Rautulampi autiotupa",
+        "name:en": "Rautulampi Open Wilderness Hut",
+        "name:fi": "Rautulampi autiotupa",
+        "operator": "Metsähallitus",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/rautulampiautiotupa",
+        "wheelchair": "no",
+        "wood_provided": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11556269135,
+      "lat": 68.3134074,
+      "lon": 27.6479225,
+      "timestamp": "2024-01-27T10:33:46Z",
+      "version": 1,
+      "changeset": 146738831,
+      "tags": {
+        "access": "yes",
+        "addr:city": "Sodankylä",
+        "capacity": "0",
+        "drinking_water": "yes",
+        "fee": "no",
+        "fireplace": "stove",
+        "name": "Rautulampi päivätupa",
+        "name:en": "Rautulampi Day-use Hut",
+        "name:fi": "Rautulampi päivätupa",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/rautulampipaivatupa"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12615330831,
+      "lat": 68.3465559,
+      "lon": 27.4581581,
+      "timestamp": "2025-02-24T09:27:23Z",
+      "version": 2,
+      "changeset": 162883074,
+      "tags": {
+        "access": "customers",
+        "drinking_water": "yes",
+        "informal": "no",
+        "leisure": "bathing_place",
+        "picnic_table": "no",
+        "shower": "yes",
+        "toilets": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13590828631,
+      "lat": 68.4247669,
+      "lon": 27.5206985,
+      "timestamp": "2026-02-22T16:46:49Z",
+      "version": 1,
+      "changeset": 178906938,
+      "tags": {
+        "drinking_water": "yes",
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14081251687,
+      "lat": 68.3770494,
+      "lon": 28.5298851,
+      "timestamp": "2026-08-09T02:12:06Z",
+      "version": 1,
+      "changeset": 187158964,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "way",
+      "id": 233239776,
+      "timestamp": "2023-04-07T11:26:43Z",
+      "version": 9,
+      "changeset": 134611143,
+      "center": {
+        "lat": 68.2583787,
+        "lon": 28.258208
+      },
+      "nodes": [
+        2415915695,
+        2415915324,
+        2415914759,
+        2415914755,
+        2415915695
+      ],
+      "tags": {
+        "access": "customers",
+        "addr:city": "Saariselkä",
+        "building": "cabin",
+        "building:levels": "1",
+        "capacity": "4",
+        "charge": "60 €",
+        "drinking_water": "yes",
+        "fee": "yes",
+        "fireplace": "stove",
+        "heating": "stove",
+        "internet_access": "no",
+        "kitchen": "yes",
+        "locked": "yes",
+        "mattress": "yes",
+        "name": "Muorravaarakanruoktu varaustupa",
+        "operator": "Metsähallitus",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "reservation": "required",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/muorravaarakanruoktuvarauskammi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 233362882,
+      "timestamp": "2026-01-21T05:06:07Z",
+      "version": 8,
+      "changeset": 177504446,
+      "center": {
+        "lat": 68.3140216,
+        "lon": 28.0900289
+      },
+      "nodes": [
+        2417599956,
+        2417599955,
+        2417599920,
+        2417599996,
+        2417599956
+      ],
+      "tags": {
+        "access": "customers",
+        "addr:city": "Sodankylä",
+        "building": "cabin",
+        "building:levels": "1",
+        "capacity": "5",
+        "charge": "75 EUR",
+        "drinking_water": "boil",
+        "fee": "yes",
+        "fireplace": "yes",
+        "heating": "fireplace",
+        "kitchen": "yes",
+        "locked": "yes",
+        "mattress": "yes",
+        "name": "Sudenpesä varauskammi",
+        "operator": "Metsähallitus",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "reservation": "required",
+        "shelter_type": "basic_hut",
+        "shower": "no",
+        "start_date": "1952",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/sudenpesavarauskammi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 316633307,
+      "timestamp": "2023-04-02T17:02:57Z",
+      "version": 6,
+      "changeset": 134422741,
+      "center": {
+        "lat": 68.2505357,
+        "lon": 28.4514084
+      },
+      "nodes": [
+        3227771100,
+        3227771101,
+        3227771102,
+        3227771103,
+        3227771100
+      ],
+      "tags": {
+        "access": "yes",
+        "addr:city": "Sodankylä",
+        "alt_name": "Keskon kämppä",
+        "building": "cabin",
+        "building:levels": "1",
+        "capacity": "13",
+        "drinking_water": "yes",
+        "fee": "no",
+        "fireplace": "stove",
+        "gas": "yes",
+        "name": "Anterinmukka autiotupa",
+        "operator": "Metsähallitus",
+        "start_date": "1964",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/anterinmukkaautiotupa"
+      }
+    },
+    {
+      "type": "way",
+      "id": 316657933,
+      "timestamp": "2023-04-04T16:54:09Z",
+      "version": 9,
+      "changeset": 134504935,
+      "center": {
+        "lat": 68.2097543,
+        "lon": 28.0232137
+      },
+      "nodes": [
+        3228008959,
+        3228008960,
+        3228009361,
+        3228009362,
+        3228008959
+      ],
+      "tags": {
+        "access": "yes",
+        "addr:city": "Sodankylä",
+        "alt_name": "Luiron Hillton",
+        "building": "cabin",
+        "building:levels": "1",
+        "capacity": "12",
+        "drinking_water": "boil",
+        "fee": "no",
+        "fireplace": "yes",
+        "mattress": "no",
+        "name": "Luirojärven autiotupa",
+        "operator": "Metsähallitus",
+        "reservation": "no",
+        "start_date": "1991",
+        "toilets": "yes",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/luirojarviautiotupa"
+      }
+    },
+    {
+      "type": "way",
+      "id": 316770882,
+      "timestamp": "2025-09-24T17:41:55Z",
+      "version": 3,
+      "changeset": 172405801,
+      "center": {
+        "lat": 68.3182159,
+        "lon": 27.513011
+      },
+      "nodes": [
+        3229502074,
+        3229502075,
+        3229502076,
+        3229502077,
+        3229502074
+      ],
+      "tags": {
+        "access": "yes",
+        "addr:city": "Sodankylä",
+        "bench": "yes",
+        "building": "cabin",
+        "building:levels": "1",
+        "capacity": "0",
+        "drinking_water": "no",
+        "fee": "no",
+        "fireplace": "fireplace",
+        "height": "3",
+        "name": "Niilanpää päivätupa",
+        "name:en": "Niilanpaa Day Trip Hut",
+        "name:fi": "Niilanpää päivätupa",
+        "note": "no overnights allowed",
+        "operator": "Metsähallitus",
+        "shelter_type": "basic_hut",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "way",
+      "id": 317348871,
+      "timestamp": "2026-05-12T14:31:34Z",
+      "version": 6,
+      "changeset": 182558955,
+      "center": {
+        "lat": 68.0507151,
+        "lon": 28.9728501
+      },
+      "nodes": [
+        3235950810,
+        3235950811,
+        3235950812,
+        3235950813,
+        3235950810
+      ],
+      "tags": {
+        "access": "yes",
+        "building": "cabin",
+        "building:levels": "1",
+        "capacity": "6+6",
+        "drinking_water": "yes",
+        "fee": "no",
+        "fireplace": "yes",
+        "name": "Mantoselkä autio- ja varaustupa",
+        "operator": "Metsähallitus",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/mantoselkavaraustupa"
+      }
+    },
+    {
+      "type": "way",
+      "id": 317348879,
+      "timestamp": "2026-05-12T14:31:34Z",
+      "version": 7,
+      "changeset": 182558955,
+      "center": {
+        "lat": 68.0304461,
+        "lon": 29.0613096
+      },
+      "nodes": [
+        3235951395,
+        3235951396,
+        3235951397,
+        3235951398,
+        3235951395
+      ],
+      "tags": {
+        "access": "yes",
+        "addr:city": "Savukoski",
+        "building": "cabin",
+        "building:levels": "1",
+        "capacity": "9",
+        "drinking_water": "yes",
+        "fee": "no",
+        "fireplace": "stove",
+        "gas": "yes",
+        "mattress": "no",
+        "name": "Vieriharju autiotupa",
+        "operator": "Metsähallitus",
+        "reservation": "no",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/vieriharjuautiotupa",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 317355270,
+      "timestamp": "2026-05-12T14:31:34Z",
+      "version": 5,
+      "changeset": 182558955,
+      "center": {
+        "lat": 68.1281951,
+        "lon": 28.7021915
+      },
+      "nodes": [
+        3236023008,
+        3236023009,
+        3236023010,
+        3236023011,
+        3236023008
+      ],
+      "tags": {
+        "access": "yes",
+        "bench": "yes",
+        "bin": "no",
+        "building": "cabin",
+        "building:levels": "1",
+        "capacity": "5",
+        "drinking_water": "yes",
+        "fee": "no",
+        "fireplace": "stove",
+        "mattress": "no",
+        "name": "Peuraselkä autiotupa",
+        "operator": "Metsähallitus",
+        "reservation": "no",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/peuraselkaautiotupa",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 317359096,
+      "timestamp": "2023-04-06T16:25:30Z",
+      "version": 5,
+      "changeset": 134584894,
+      "center": {
+        "lat": 68.1278658,
+        "lon": 28.4621704
+      },
+      "nodes": [
+        3236059353,
+        3236059354,
+        3236059355,
+        3236059356,
+        3236059353
+      ],
+      "tags": {
+        "access": "yes",
+        "addr:city": "Sodankylä",
+        "building": "cabin",
+        "building:levels": "1",
+        "capacity": "6",
+        "cooking": "gas",
+        "drinking_water": "yes",
+        "fee": "no",
+        "fireplace": "yes",
+        "mattress": "no",
+        "name": "Siulanruoktu autiotupa",
+        "operator": "Metsähallitus",
+        "reservation": "no",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/siulanruoktuautiotupa",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 326776933,
+      "timestamp": "2024-01-03T15:55:11Z",
+      "version": 2,
+      "changeset": 145845454,
+      "center": {
+        "lat": 68.3938371,
+        "lon": 27.4238694
+      },
+      "nodes": [
+        3334397475,
+        3334397473,
+        3334397474,
+        3334397476,
+        3334397475
+      ],
+      "tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "shed",
+        "changing_table": "no",
+        "drinking_water": "no",
+        "toilets:disposal": "pitlatrine",
+        "toilets:handwashing": "no",
+        "unisex": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 440053207,
+      "timestamp": "2026-05-12T14:31:37Z",
+      "version": 4,
+      "changeset": 182558955,
+      "center": {
+        "lat": 67.8641353,
+        "lon": 29.1978181
+      },
+      "nodes": [
+        4377551525,
+        4377551526,
+        4377551527,
+        4377551528,
+        4377551525
+      ],
+      "tags": {
+        "access": "yes",
+        "building": "cabin",
+        "capacity": "6+3",
+        "drinking_water": "boil",
+        "fee": "no",
+        "fireplace": "stove",
+        "gas": "yes",
+        "name": "Kärekeoja autio- ja varaustupa",
+        "operator": "Metsähallitus",
+        "shelter_type": "basic_hut",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/karekeojaautiotupa"
+      }
+    },
+    {
+      "type": "way",
+      "id": 440056470,
+      "timestamp": "2026-05-12T14:31:37Z",
+      "version": 5,
+      "changeset": 182558955,
+      "center": {
+        "lat": 67.9155583,
+        "lon": 29.2243671
+      },
+      "nodes": [
+        4377585761,
+        4377585762,
+        4377585763,
+        4377585764,
+        4377585761
+      ],
+      "tags": {
+        "access": "yes",
+        "building": "cabin",
+        "capacity": "6+6",
+        "drinking_water": "yes",
+        "fee": "no",
+        "fireplace": "stove",
+        "gas": "yes",
+        "name": "Karhuoja autiotupa",
+        "note": "Karhuojan varaustupa on poistunut käytöstä 1.6.2020",
+        "operator": "Metsähallitus",
+        "shelter_type": "basic_hut",
+        "tourism": "wilderness_hut",
+        "website": "https://www.luontoon.fi/karhuojaautiotupa",
+        "website_1": "http://www.luontoon.fi/karhuojavaraustupa"
+      }
+    }
+  ]
+}

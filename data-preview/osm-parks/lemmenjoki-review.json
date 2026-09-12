@@ -1,0 +1,327 @@
+{
+  "checkedAt": "2026-09-12T20:30:24.573Z",
+  "databaseChanged": false,
+  "nearLipas": [
+    {
+      "lipasId": 73872,
+      "name": "Kultahaminan sääsuoja",
+      "nearby": [
+        {
+          "osmId": "osm:node:7653540611",
+          "name": null,
+          "metres": 32
+        },
+        {
+          "osmId": "osm:way:417638716",
+          "name": "Kultasatama autiotupa",
+          "metres": 36
+        },
+        {
+          "osmId": "osm:node:4181552112",
+          "name": null,
+          "metres": 66
+        },
+        {
+          "osmId": "osm:node:4181552109",
+          "name": "Kultasatama",
+          "metres": 77
+        },
+        {
+          "osmId": "osm:node:4181552111",
+          "name": null,
+          "metres": 82
+        },
+        {
+          "osmId": "osm:node:7653540610",
+          "name": "Kultahamina telttailualue",
+          "metres": 88
+        }
+      ]
+    },
+    {
+      "lipasId": 73951,
+      "name": "Sotkajärven puolilaavu",
+      "nearby": [
+        {
+          "osmId": "osm:node:4181161248",
+          "name": "Sotkajärvi laavu",
+          "metres": 4
+        },
+        {
+          "osmId": "osm:node:4362851202",
+          "name": null,
+          "metres": 5
+        }
+      ]
+    },
+    {
+      "lipasId": 74120,
+      "name": "Juurakkojoen sääsuoja",
+      "nearby": [
+        {
+          "osmId": "osm:node:4181161991",
+          "name": "Kota",
+          "metres": 9
+        },
+        {
+          "osmId": "osm:node:4181161990",
+          "name": null,
+          "metres": 58
+        }
+      ]
+    }
+  ],
+  "nearbyOsmPairs": [
+    {
+      "a": "osm:node:2940473050",
+      "b": "osm:node:3740267313",
+      "metres": 13
+    },
+    {
+      "a": "osm:node:3581077417",
+      "b": "osm:node:6690791763",
+      "metres": 16
+    },
+    {
+      "a": "osm:node:3581078188",
+      "b": "osm:node:3581078189",
+      "metres": 4
+    },
+    {
+      "a": "osm:node:4176685868",
+      "b": "osm:node:7652702564",
+      "metres": 36
+    },
+    {
+      "a": "osm:node:4176685881",
+      "b": "osm:node:4266007428",
+      "metres": 36
+    },
+    {
+      "a": "osm:node:4176685881",
+      "b": "osm:way:417030916",
+      "metres": 52
+    },
+    {
+      "a": "osm:node:4181161248",
+      "b": "osm:node:4362851202",
+      "metres": 5
+    },
+    {
+      "a": "osm:node:4181161990",
+      "b": "osm:node:4181161991",
+      "metres": 56
+    },
+    {
+      "a": "osm:node:4181162587",
+      "b": "osm:node:5109552447",
+      "metres": 32
+    },
+    {
+      "a": "osm:node:4181162587",
+      "b": "osm:node:6690924515",
+      "metres": 13
+    },
+    {
+      "a": "osm:node:4181162588",
+      "b": "osm:node:5109506800",
+      "metres": 41
+    },
+    {
+      "a": "osm:node:4181162588",
+      "b": "osm:node:14175483827",
+      "metres": 35
+    },
+    {
+      "a": "osm:node:4181184278",
+      "b": "osm:node:5109552492",
+      "metres": 15
+    },
+    {
+      "a": "osm:node:4181237421",
+      "b": "osm:node:5109552494",
+      "metres": 15
+    },
+    {
+      "a": "osm:node:4181473143",
+      "b": "osm:node:7653583523",
+      "metres": 42
+    },
+    {
+      "a": "osm:node:4181502082",
+      "b": "osm:node:5109552512",
+      "metres": 21
+    },
+    {
+      "a": "osm:node:4181552109",
+      "b": "osm:node:4181552111",
+      "metres": 46
+    },
+    {
+      "a": "osm:node:4181552109",
+      "b": "osm:node:7653540610",
+      "metres": 25
+    },
+    {
+      "a": "osm:node:4181552112",
+      "b": "osm:node:7653540611",
+      "metres": 58
+    },
+    {
+      "a": "osm:node:4181552112",
+      "b": "osm:way:417638716",
+      "metres": 47
+    },
+    {
+      "a": "osm:node:4181554783",
+      "b": "osm:node:5109552511",
+      "metres": 16
+    },
+    {
+      "a": "osm:node:4181639186",
+      "b": "osm:node:7653859086",
+      "metres": 55
+    },
+    {
+      "a": "osm:node:4181639186",
+      "b": "osm:way:417646253",
+      "metres": 20
+    },
+    {
+      "a": "osm:node:4181639186",
+      "b": "osm:way:417646259",
+      "metres": 11
+    },
+    {
+      "a": "osm:node:4181691472",
+      "b": "osm:node:5109552495",
+      "metres": 9
+    },
+    {
+      "a": "osm:node:4181691472",
+      "b": "osm:node:9045110631",
+      "metres": 40
+    },
+    {
+      "a": "osm:node:4266007428",
+      "b": "osm:way:417030916",
+      "metres": 18
+    },
+    {
+      "a": "osm:node:4592739514",
+      "b": "osm:node:4592739515",
+      "metres": 17
+    },
+    {
+      "a": "osm:node:4592739514",
+      "b": "osm:node:7653583524",
+      "metres": 23
+    },
+    {
+      "a": "osm:node:4592739514",
+      "b": "osm:way:417628245",
+      "metres": 28
+    },
+    {
+      "a": "osm:node:4592739515",
+      "b": "osm:node:7653583524",
+      "metres": 36
+    },
+    {
+      "a": "osm:node:4592739515",
+      "b": "osm:way:417628245",
+      "metres": 18
+    },
+    {
+      "a": "osm:node:5109506800",
+      "b": "osm:node:14175483827",
+      "metres": 11
+    },
+    {
+      "a": "osm:node:5109552447",
+      "b": "osm:node:6690924515",
+      "metres": 41
+    },
+    {
+      "a": "osm:node:5109552495",
+      "b": "osm:node:9045110631",
+      "metres": 39
+    },
+    {
+      "a": "osm:node:5747218573",
+      "b": "osm:node:7653529067",
+      "metres": 13
+    },
+    {
+      "a": "osm:node:5747218573",
+      "b": "osm:way:606075960",
+      "metres": 19
+    },
+    {
+      "a": "osm:node:6042710254",
+      "b": "osm:way:641693683",
+      "metres": 29
+    },
+    {
+      "a": "osm:node:7652702564",
+      "b": "osm:way:417030907",
+      "metres": 37
+    },
+    {
+      "a": "osm:node:7653529065",
+      "b": "osm:node:7653529066",
+      "metres": 31
+    },
+    {
+      "a": "osm:node:7653529065",
+      "b": "osm:way:606067690",
+      "metres": 32
+    },
+    {
+      "a": "osm:node:7653529066",
+      "b": "osm:way:606067690",
+      "metres": 19
+    },
+    {
+      "a": "osm:node:7653529067",
+      "b": "osm:way:606075960",
+      "metres": 29
+    },
+    {
+      "a": "osm:node:7653540611",
+      "b": "osm:way:417638716",
+      "metres": 11
+    },
+    {
+      "a": "osm:node:7653583524",
+      "b": "osm:way:417628245",
+      "metres": 37
+    },
+    {
+      "a": "osm:node:7653859086",
+      "b": "osm:way:417646253",
+      "metres": 35
+    },
+    {
+      "a": "osm:node:12330282077",
+      "b": "osm:node:12330282078",
+      "metres": 59
+    },
+    {
+      "a": "osm:node:14175483816",
+      "b": "osm:node:14175483817",
+      "metres": 9
+    },
+    {
+      "a": "osm:way:417646253",
+      "b": "osm:way:417646259",
+      "metres": 30
+    }
+  ],
+  "proposed": [
+    "osm:node:4176627279",
+    "osm:node:4181473143",
+    "osm:node:4181554783"
+  ],
+  "caveat": "Proximity is not proof of a duplicate. Campsite fields are not merged into proposed firepit records."
+}

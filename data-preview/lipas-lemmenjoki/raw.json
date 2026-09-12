@@ -1,0 +1,479 @@
+[
+  {
+    "fetchedAt": "2026-09-12T20:19:58.095Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/73872",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "kultahaminan sääsuoja",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Laavu, kota tai kammi",
+            "se": "Vindskydd eller kåta",
+            "en": "Lean-to, goahti (Lapp tent shelter) or 'kammi' earth lodge"
+          },
+          "tags": {
+            "fi": [
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            25.8628045543509,
+            68.6528737367804
+          ],
+          "wgs84-center": [
+            25.8628045543509,
+            68.6528737367804
+          ],
+          "wgs84-end": [
+            25.8628045543509,
+            68.6528737367804
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  25.8628045543509,
+                  68.6528737367804
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Inari",
+              "se": "Enare",
+              "en": "Inari"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Lappi",
+              "en": "Lappi",
+              "se": "Lappland"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Lapin AVI",
+              "en": "Lapin AVI",
+              "se": "Lappland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    25.8628045543509,
+                    68.6528737367804
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Kultahaminan sääsuoja",
+      "type": {
+        "type-code": 301
+      },
+      "lipas-id": 73872,
+      "status": "active",
+      "comment": "-",
+      "event-date": "2021-01-04T11:33:44.438Z",
+      "location": {
+        "city": {
+          "city-code": 148
+        },
+        "address": "Morgamjärvi/Kultasatama",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  25.8628045543509,
+                  68.6528737367804
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "99870",
+        "postal-office": "Inari"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-12T20:19:58.146Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/73951",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "sotkajärven puolilaavu",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Laavu, kota tai kammi",
+            "se": "Vindskydd eller kåta",
+            "en": "Lean-to, goahti (Lapp tent shelter) or 'kammi' earth lodge"
+          },
+          "tags": {
+            "fi": [
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            26.1318631695045,
+            68.7363188127971
+          ],
+          "wgs84-center": [
+            26.1318631695045,
+            68.7363188127971
+          ],
+          "wgs84-end": [
+            26.1318631695045,
+            68.7363188127971
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  26.1318631695045,
+                  68.7363188127971
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Inari",
+              "se": "Enare",
+              "en": "Inari"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Lappi",
+              "en": "Lappi",
+              "se": "Lappland"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Lapin AVI",
+              "en": "Lapin AVI",
+              "se": "Lappland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    26.1318631695045,
+                    68.7363188127971
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Sotkajärven puolilaavu",
+      "construction-year": 2000,
+      "type": {
+        "type-code": 301
+      },
+      "lipas-id": 73951,
+      "status": "active",
+      "event-date": "2021-01-04T11:34:37.684Z",
+      "location": {
+        "city": {
+          "city-code": 148
+        },
+        "address": "Lemmenjoki",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  26.1318631695045,
+                  68.7363188127971
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "99870",
+        "postal-office": "Inari"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-12T20:19:58.193Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/74120",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "juurakkojoen sääsuoja",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Laavu, kota tai kammi",
+            "se": "Vindskydd eller kåta",
+            "en": "Lean-to, goahti (Lapp tent shelter) or 'kammi' earth lodge"
+          },
+          "tags": {
+            "fi": [
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            26.1700055564961,
+            68.7148729969274
+          ],
+          "wgs84-center": [
+            26.1700055564961,
+            68.7148729969274
+          ],
+          "wgs84-end": [
+            26.1700055564961,
+            68.7148729969274
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  26.1700055564961,
+                  68.7148729969274
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Inari",
+              "se": "Enare",
+              "en": "Inari"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Lappi",
+              "en": "Lappi",
+              "se": "Lappland"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Lapin AVI",
+              "en": "Lapin AVI",
+              "se": "Lappland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    26.1700055564961,
+                    68.7148729969274
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Juurakkojoen sääsuoja",
+      "construction-year": 1987,
+      "type": {
+        "type-code": 301
+      },
+      "lipas-id": 74120,
+      "status": "active",
+      "event-date": "2021-01-04T11:35:11.939Z",
+      "location": {
+        "city": {
+          "city-code": 148
+        },
+        "address": "Juurakkojoki",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  26.1700055564961,
+                  68.7148729969274
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "99870",
+        "postal-office": "Inari"
+      },
+      "owner": "state"
+    }
+  }
+]

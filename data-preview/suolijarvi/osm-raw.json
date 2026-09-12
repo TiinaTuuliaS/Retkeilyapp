@@ -1,0 +1,306 @@
+{
+  "fetchedAt": "2026-09-12T19:43:28.548Z",
+  "url": "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+  "query": "[out:json][timeout:25];(nwr[amenity=shelter](61.438,23.797,61.455,23.847);nwr[leisure=firepit](61.438,23.797,61.455,23.847);nwr[amenity=bbq](61.438,23.797,61.455,23.847);nwr[tourism=picnic_site](61.438,23.797,61.455,23.847);nwr[leisure=picnic_table](61.438,23.797,61.455,23.847);nwr[amenity=drinking_water](61.438,23.797,61.455,23.847);nwr[man_made=water_well](61.438,23.797,61.455,23.847);nwr[man_made=water_tap](61.438,23.797,61.455,23.847););out center meta;",
+  "elements": [
+    {
+      "type": "node",
+      "id": 5678269076,
+      "lat": 61.4423092,
+      "lon": 23.7975128,
+      "timestamp": "2025-09-29T15:32:47Z",
+      "version": 3,
+      "changeset": 172619382,
+      "tags": {
+        "covered": "no",
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5678269077,
+      "lat": 61.4422739,
+      "lon": 23.7975708,
+      "timestamp": "2025-09-29T15:32:49Z",
+      "version": 3,
+      "changeset": 172619382,
+      "tags": {
+        "covered": "no",
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7923012109,
+      "lat": 61.4459338,
+      "lon": 23.8019704,
+      "timestamp": "2026-01-04T15:20:24Z",
+      "version": 3,
+      "changeset": 176823490,
+      "tags": {
+        "covered": "no",
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8944828686,
+      "lat": 61.4459837,
+      "lon": 23.8017736,
+      "timestamp": "2026-01-04T15:20:24Z",
+      "version": 2,
+      "changeset": 176823490,
+      "tags": {
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8944828687,
+      "lat": 61.4458844,
+      "lon": 23.8020106,
+      "timestamp": "2025-07-30T19:53:35Z",
+      "version": 2,
+      "changeset": 169738960,
+      "tags": {
+        "check_date": "2025-07-30",
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9376116704,
+      "lat": 61.4484124,
+      "lon": 23.8137356,
+      "timestamp": "2025-03-27T16:08:15Z",
+      "version": 5,
+      "changeset": 164171051,
+      "tags": {
+        "access": "yes",
+        "leisure": "firepit",
+        "name": "Suoliojan nuotiopaikka",
+        "seasonal": "no",
+        "toilets": "no",
+        "wood_provided": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9846551577,
+      "lat": 61.4420211,
+      "lon": 23.8397225,
+      "timestamp": "2022-06-25T16:02:57Z",
+      "version": 1,
+      "changeset": 122842232,
+      "tags": {
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11896647426,
+      "lat": 61.4469092,
+      "lon": 23.8196255,
+      "timestamp": "2024-05-11T11:16:01Z",
+      "version": 1,
+      "changeset": 151181297,
+      "tags": {
+        "leisure": "firepit",
+        "name": "Pieni nuotiopaikka"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12063016015,
+      "lat": 61.4434024,
+      "lon": 23.8343565,
+      "timestamp": "2024-08-15T14:41:09Z",
+      "version": 2,
+      "changeset": 155286390,
+      "tags": {
+        "covered": "no",
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12063016016,
+      "lat": 61.44338,
+      "lon": 23.8343483,
+      "timestamp": "2024-08-15T14:41:08Z",
+      "version": 2,
+      "changeset": 155286390,
+      "tags": {
+        "covered": "no",
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13713194824,
+      "lat": 61.4531795,
+      "lon": 23.8438303,
+      "timestamp": "2026-04-07T07:55:06Z",
+      "version": 1,
+      "changeset": 180983485,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13824860360,
+      "lat": 61.4381122,
+      "lon": 23.8456193,
+      "timestamp": "2026-05-13T14:18:51Z",
+      "version": 1,
+      "changeset": 182604452,
+      "tags": {
+        "leisure": "picnic_table",
+        "source": "Tampereen virastokartta; Tampere ilmakuva 2025"
+      }
+    },
+    {
+      "type": "way",
+      "id": 112379751,
+      "timestamp": "2022-01-25T13:33:34Z",
+      "version": 3,
+      "changeset": 116585955,
+      "center": {
+        "lat": 61.4537736,
+        "lon": 23.8454127
+      },
+      "nodes": [
+        1277413372,
+        1277413440,
+        1277413289,
+        1277413385,
+        1277413372
+      ],
+      "tags": {
+        "access": "private",
+        "building": "roof",
+        "building:levels": "1",
+        "roof:shape": "skillion",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1203974614,
+      "timestamp": "2023-08-31T16:09:35Z",
+      "version": 1,
+      "changeset": 140643248,
+      "center": {
+        "lat": 61.4386497,
+        "lon": 23.8461316
+      },
+      "nodes": [
+        11159301672,
+        11159301673,
+        11159301674,
+        11159301675,
+        11159301672
+      ],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1204093480,
+      "timestamp": "2023-09-01T07:24:29Z",
+      "version": 1,
+      "changeset": 140665420,
+      "center": {
+        "lat": 61.4527474,
+        "lon": 23.8445311
+      },
+      "nodes": [
+        11160296421,
+        11160296422,
+        11160296423,
+        11160296424,
+        11160296421
+      ],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1320477399,
+      "timestamp": "2024-10-03T21:37:44Z",
+      "version": 1,
+      "changeset": 157437709,
+      "center": {
+        "lat": 61.4542495,
+        "lon": 23.8469251
+      },
+      "nodes": [
+        12219466069,
+        12219466070,
+        12219466071,
+        12219466072,
+        12219466069
+      ],
+      "tags": {
+        "amenity": "shelter",
+        "building": "roof",
+        "layer": "1",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1320477400,
+      "timestamp": "2024-10-03T21:37:44Z",
+      "version": 1,
+      "changeset": 157437709,
+      "center": {
+        "lat": 61.4542286,
+        "lon": 23.8467423
+      },
+      "nodes": [
+        12219466073,
+        12219466074,
+        12219466075,
+        12219466076,
+        12219466073
+      ],
+      "tags": {
+        "amenity": "shelter",
+        "building": "roof",
+        "layer": "1",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1497271594,
+      "timestamp": "2026-04-07T07:02:14Z",
+      "version": 1,
+      "changeset": 180981561,
+      "center": {
+        "lat": 61.4458858,
+        "lon": 23.8443484
+      },
+      "nodes": [
+        13713032272,
+        13713032273,
+        13713032274,
+        13713032275,
+        13713032272
+      ],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    }
+  ]
+}
