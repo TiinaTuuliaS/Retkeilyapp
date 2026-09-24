@@ -1,0 +1,62 @@
+{
+  "type": "FeatureCollection",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "osm:node:1350040125",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8960005,
+          61.1764619
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1350040125",
+        "name": "Lojukoski",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2024-01-17T16:56:52Z",
+        "osmVersion": 4,
+        "tags": {
+          "access": "yes",
+          "covered": "no",
+          "fireplace": "yes",
+          "fuel": "wood",
+          "name": "Lojukoski",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2185581285",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8963582,
+          61.1772953
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2185581285",
+        "name": "Lojukosken kaivo",
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2024-01-17T16:56:52Z",
+        "osmVersion": 2,
+        "tags": {
+          "access": "yes",
+          "amenity": "drinking_water",
+          "bottle": "yes",
+          "fee": "no",
+          "name": "Lojukosken kaivo"
+        }
+      }
+    }
+  ]
+}

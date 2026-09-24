@@ -9,7 +9,7 @@ describe('Park pages', () => {
   beforeEach(() => query.mockReset());
   it('lists parks without loading detailed geometries or the database', () => {
     const parks = controller.list();
-    expect(parks.map(p => p.slug)).toEqual(['koli', 'oulanka', 'lemmenjoki', 'pallas', 'ukk', 'seitseminen', 'helvetinjarvi']);
+    expect(parks.map(p => p.slug)).toEqual(['repovesi', 'koli', 'oulanka', 'lemmenjoki', 'pallas', 'ukk', 'seitseminen', 'helvetinjarvi']);
     expect(parks[0]).not.toHaveProperty('directory');
     expect(query).not.toHaveBeenCalled();
   });
@@ -42,6 +42,13 @@ describe('Park pages', () => {
     const park = await controller.detail('koli');
     expect(park.boundaryId).toBe('KPU070027');
     expect(park.locationIds).toEqual([300]);
+  });
+  it('selects Repovesi using its verified boundary', async () => {
+    query.mockResolvedValue([{ id: 400 }]);
+    const park = await controller.detail('repovesi');
+    expect(park.boundaryId).toBe('KPU050034');
+    expect(park.locationIds).toEqual([400]);
+    expect(query).toHaveBeenCalledWith(expect.stringContaining('ST_Covers'), [JSON.stringify(park.geometry)]);
   });
   it('returns Seitseminen and its coverage explanation even without locations', async () => {
     query.mockResolvedValue([]);

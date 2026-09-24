@@ -6,6 +6,13 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
+    "preview:osm-repovesi": "node scripts/preview-osm-repovesi.cjs",
+    "summarize:osm-repovesi": "node scripts/summarize-osm-repovesi.cjs && node scripts/review-osm-repovesi.cjs",
+    "test:osm-repovesi": "ts-node scripts/import-osm-repovesi.ts --verify",
+    "import:osm-repovesi": "ts-node scripts/import-osm-repovesi.ts",
+    "preview:lipas-repovesi": "node scripts/preview-lipas-repovesi.cjs",
+    "import:lipas-repovesi": "ts-node scripts/import-lipas-repovesi.ts",
+    "test:repovesi-import": "ts-node scripts/import-lipas-repovesi.ts --verify",
     "db:community": "ts-node scripts/migrate-community.ts",
     "test:community": "ts-node scripts/verify-community.ts",
     "db:profile-journal": "ts-node scripts/migrate-profile-journal.ts",

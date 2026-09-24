@@ -1,0 +1,2096 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "osm:node:275206599",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8366067,
+          61.1607751
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/275206599",
+        "name": "Repoveden kansallispuisto",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-10-20T15:47:48Z",
+        "osmVersion": 11,
+        "tags": {
+          "addr:city": "Hillosensalmi",
+          "addr:housenumber": "55",
+          "addr:postcode": "47910",
+          "addr:street": "Riippusillantie",
+          "amenity": "shelter",
+          "board_type": "nature",
+          "direction": "110",
+          "hiking": "yes",
+          "information": "board",
+          "map_size": "region",
+          "map_type": "topo",
+          "name": "Repoveden kansallispuisto",
+          "name:en": "Repovesi National Park",
+          "shelter_type": "weather_shelter",
+          "tourism": "information"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:275206866",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8362441,
+          61.1605929
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/275206866",
+        "name": null,
+        "category": "water-tag-on-other-feature",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2022-08-28T12:41:29Z",
+        "osmVersion": 7,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "changing_table": "no",
+          "drinking_water": "no",
+          "fee": "no",
+          "female": "yes",
+          "opening_hours": "24/7",
+          "piste:amenity": "toilets",
+          "toilets:disposal": "pitlatrine",
+          "toilets:handwashing": "no",
+          "toilets:position": "seated"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:326032558",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8500423,
+          61.1705613
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/326032558",
+        "name": "Katajajärvi",
+        "category": "camp",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-09-24T14:47:03Z",
+        "osmVersion": 6,
+        "tags": {
+          "access": "yes",
+          "backcountry": "yes",
+          "capacity": "4",
+          "drinking_water": "no",
+          "fee": "no",
+          "internet_access": "no",
+          "maxtents": "4",
+          "name": "Katajajärvi",
+          "openfire": "yes",
+          "operator": "Metsähallitus",
+          "operator:wikidata": "Q630486",
+          "tents": "yes",
+          "toilets": "yes",
+          "toilets:disposal": "pitlatrine",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:326032566",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8366152,
+          61.1644761
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/326032566",
+        "name": "Lapinsalmi",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2024-01-16T19:41:19Z",
+        "osmVersion": 11,
+        "tags": {
+          "access": "yes",
+          "covered": "no",
+          "fireplace": "yes",
+          "grate": "yes",
+          "kettle_hook": "yes",
+          "leisure": "firepit",
+          "name": "Lapinsalmi",
+          "seasonal": "no",
+          "wood_provided": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:958583755",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8426202,
+          61.1837388
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/958583755",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-08-19T08:06:25Z",
+        "osmVersion": 9,
+        "tags": {
+          "access": "yes",
+          "amenity": "drinking_water",
+          "bottle": "yes",
+          "covered": "no",
+          "fee": "no",
+          "indoor": "no",
+          "lit": "no",
+          "man_made": "water_well",
+          "seasonal": "no"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1270221014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8377081,
+          61.1647293
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1270221014",
+        "name": null,
+        "category": "water-tag-on-other-feature",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-07-22T14:15:51Z",
+        "osmVersion": 5,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "drinking_water": "no",
+          "fee": "no",
+          "female": "yes",
+          "male": "yes",
+          "opening_hours": "24/7",
+          "piste:amenity": "toilets",
+          "toilets:disposal": "pitlatrine",
+          "toilets:position": "seated"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1350036044",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8795508,
+          61.1956981
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1350036044",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2020-01-07T18:49:23Z",
+        "osmVersion": 3,
+        "tags": {
+          "access": "yes",
+          "amenity": "drinking_water",
+          "fee": "no",
+          "wheelchair": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1350040119",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8393624,
+          61.1834612
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1350040119",
+        "name": "Olhava",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-09-24T14:47:03Z",
+        "osmVersion": 8,
+        "tags": {
+          "amenity": "shelter",
+          "fireplace": "yes",
+          "name": "Olhava",
+          "operator": "Metsähallitus",
+          "operator:wikidata": "Q630486",
+          "shelter_type": "lean_to"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1350040121",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8636661,
+          61.1750779
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1350040121",
+        "name": "Kuutinkanava",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2024-01-18T16:40:03Z",
+        "osmVersion": 5,
+        "tags": {
+          "covered": "yes",
+          "fireplace": "yes",
+          "name": "Kuutinkanava",
+          "smoking": "outside",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1350040125",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8960005,
+          61.1764619
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1350040125",
+        "name": "Lojukoski",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2024-01-17T16:56:52Z",
+        "osmVersion": 4,
+        "tags": {
+          "access": "yes",
+          "covered": "no",
+          "fireplace": "yes",
+          "fuel": "wood",
+          "name": "Lojukoski",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1350040126",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8960941,
+          61.1763953
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1350040126",
+        "name": "Lojukoski",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-09-24T14:47:03Z",
+        "osmVersion": 7,
+        "tags": {
+          "access": "yes",
+          "backcountry": "yes",
+          "bbq": "yes",
+          "capacity": "6",
+          "capacity:persons": "10",
+          "capacity:tents": "5",
+          "caravans": "no",
+          "dog": "leashed",
+          "drinking_water": "yes",
+          "fee": "no",
+          "internet_access": "no",
+          "maxtents": "5",
+          "name": "Lojukoski",
+          "openfire": "yes",
+          "operator": "Metsähallitus",
+          "operator:wikidata": "Q630486",
+          "static_caravans": "no",
+          "tents": "yes",
+          "toilets": "yes",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1350040128",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8661539,
+          61.1919086
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1350040128",
+        "name": "Sukeltajaniemi",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-01-30T13:44:02Z",
+        "osmVersion": 3,
+        "tags": {
+          "name": "Sukeltajaniemi",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1350040130",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8582006,
+          61.1864065
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1350040130",
+        "name": "Valkjärvi",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2015-06-10T11:52:05Z",
+        "osmVersion": 4,
+        "tags": {
+          "fireplace": "yes",
+          "name": "Valkjärvi",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1350040134",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8557129,
+          61.1861998
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1350040134",
+        "name": "Valkjärvi",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2012-10-31T11:44:49Z",
+        "osmVersion": 2,
+        "tags": {
+          "fireplace": "yes",
+          "name": "Valkjärvi",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1352489089",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8470936,
+          61.1786093
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1352489089",
+        "name": "Kuutinkämppä",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2020-01-17T19:48:50Z",
+        "osmVersion": 14,
+        "tags": {
+          "addr:city": "Kouvola",
+          "addr:street": "Mustalammenpolku",
+          "capacity": "6",
+          "fee": "yes",
+          "fireplace": "stove",
+          "locked": "yes",
+          "mattress": "yes",
+          "name": "Kuutinkämppä",
+          "operator": "Tervarumpu",
+          "power_supply": "no",
+          "reservation": "required",
+          "sauna": "yes",
+          "shower": "no",
+          "tourism": "wilderness_hut",
+          "website": "https://www.tervarumpu.fi/"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1352489106",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8667063,
+          61.1740209
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1352489106",
+        "name": "Kuutin WC",
+        "category": "water-tag-on-other-feature",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-09-24T14:47:03Z",
+        "osmVersion": 11,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "drinking_water": "no",
+          "fee": "no",
+          "name": "Kuutin WC",
+          "opening_hours": "24/7",
+          "operator": "Metsähallitus",
+          "operator:wikidata": "Q630486",
+          "toilets:disposal": "pitlatrine",
+          "toilets:handwashing": "no",
+          "toilets:position": "seated",
+          "unisex": "yes",
+          "wheelchair": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1356170610",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8437947,
+          61.1628639
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1356170610",
+        "name": "Kapiavesi",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-09-10T11:57:14Z",
+        "osmVersion": 4,
+        "tags": {
+          "covered": "no",
+          "fireplace": "yes",
+          "name": "Kapiavesi",
+          "piste:tourism": "picnic_site",
+          "tables": "yes",
+          "toilets": "yes",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1356170620",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8788896,
+          61.1588155
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1356170620",
+        "name": "Talas",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-09-24T14:47:03Z",
+        "osmVersion": 8,
+        "tags": {
+          "access": "yes",
+          "covered": "no",
+          "fireplace": "yes",
+          "name": "Talas",
+          "operator": "Metsähallitus",
+          "operator:wikidata": "Q630486",
+          "piste:location": "Talas",
+          "smoking": "yes",
+          "toilets": "yes",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1369239806",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8792253,
+          61.1836386
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1369239806",
+        "name": null,
+        "category": "water-tag-on-other-feature",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-09-24T14:47:03Z",
+        "osmVersion": 7,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "changing_table": "no",
+          "drinking_water": "no",
+          "fee": "no",
+          "opening_hours": "24/7",
+          "operator": "Metsähallitus",
+          "operator:wikidata": "Q630486",
+          "toilets:disposal": "pitlatrine",
+          "toilets:handwashing": "no",
+          "toilets:position": "seated",
+          "unisex": "yes",
+          "wheelchair": "no"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1369239812",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8962858,
+          61.1762564
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1369239812",
+        "name": null,
+        "category": "water-tag-on-other-feature",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2024-05-02T06:13:21Z",
+        "osmVersion": 5,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "changing_table": "no",
+          "drinking_water": "no",
+          "fee": "no",
+          "female": "yes",
+          "male": "yes",
+          "opening_hours": "24/7",
+          "toilets:disposal": "pitlatrine",
+          "toilets:handwashing": "no",
+          "toilets:position": "seated"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1693761484",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.849794,
+          61.1776102
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1693761484",
+        "name": "Mustavuoren varauskota",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-09-24T14:47:03Z",
+        "osmVersion": 12,
+        "tags": {
+          "access": "yes",
+          "capacity": "20",
+          "charge": "60.00 EUR",
+          "description": "sleeping places for 5 + 4 on floor, stove",
+          "fee": "yes",
+          "fireplace": "stove",
+          "locked": "yes",
+          "mattress": "no",
+          "name": "Mustavuoren varauskota",
+          "name:en": "Mustavuori Lapp hut",
+          "operator": "Metsähallitus",
+          "operator:wikidata": "Q630486",
+          "payment:credit_cards": "yes",
+          "reservation": "required",
+          "shower": "no",
+          "tourism": "wilderness_hut",
+          "website": "https://www.luontoon.fi/mustavuorivuokrakota"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1732348639",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8446016,
+          61.1823817
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1732348639",
+        "name": "Pihkapirtti",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2020-01-16T12:40:37Z",
+        "osmVersion": 11,
+        "tags": {
+          "addr:city": "Kouvola",
+          "addr:street": "Mustalammenpolku",
+          "capacity": "8",
+          "fireplace": "yes",
+          "locked": "yes",
+          "mattress": "yes",
+          "name": "Pihkapirtti",
+          "name:en": "Resin Cottage",
+          "power_supply": "no",
+          "reservation": "required",
+          "sauna": "yes",
+          "shower": "no",
+          "tourism": "wilderness_hut",
+          "website": "http://www.repovesi.com/pihkapirtti"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1802523722",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8636897,
+          61.1751984
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1802523722",
+        "name": "Kuutinlahden keittokatos",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2024-01-18T16:40:03Z",
+        "osmVersion": 4,
+        "tags": {
+          "amenity": "shelter",
+          "fireplace": "yes",
+          "lit": "no",
+          "lockable": "no",
+          "name": "Kuutinlahden keittokatos",
+          "shelter_type": "picnic_shelter",
+          "wheelchair": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1802523933",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8365455,
+          61.1646457
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1802523933",
+        "name": "Kota",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-09-24T14:47:03Z",
+        "osmVersion": 5,
+        "tags": {
+          "amenity": "shelter",
+          "bin": "no",
+          "fireplace": "yes",
+          "grate": "yes",
+          "lit": "no",
+          "name": "Kota",
+          "operator": "Metsähallitus",
+          "operator:wikidata": "Q630486",
+          "shelter_type": "picnic_shelter",
+          "wood_provided": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1802523980",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8368405,
+          61.1645655
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1802523980",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2024-01-16T19:41:19Z",
+        "osmVersion": 4,
+        "tags": {
+          "amenity": "shelter",
+          "bench": "yes",
+          "leisure": "firepit",
+          "lit": "no",
+          "shelter_type": "picnic_shelter",
+          "tables": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1802524256",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8439978,
+          61.1627314
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1802524256",
+        "name": "Puuliiteri",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2020-08-25T13:23:33Z",
+        "osmVersion": 6,
+        "tags": {
+          "amenity": "shelter",
+          "bench": "no",
+          "name": "Puuliiteri",
+          "piste:amenity": "shelter",
+          "shelter_type": "wood_shelter"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1804987402",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8750332,
+          61.1946434
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1804987402",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2018-05-07T22:56:17Z",
+        "osmVersion": 4,
+        "tags": {
+          "mml:class": "36100",
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1804987405",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8797224,
+          61.1833775
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1804987405",
+        "name": "Kirnukangas laavu",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-09-24T14:47:03Z",
+        "osmVersion": 6,
+        "tags": {
+          "amenity": "shelter",
+          "name": "Kirnukangas laavu",
+          "operator": "Metsähallitus",
+          "operator:wikidata": "Q630486",
+          "piste:tourism": "lean_to",
+          "shelter_type": "lean_to"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1804987416",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8391882,
+          61.1848089
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1804987416",
+        "name": "Olhava",
+        "category": "camp",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-09-24T14:47:03Z",
+        "osmVersion": 7,
+        "tags": {
+          "access": "yes",
+          "addr:city": "Olhava",
+          "backcountry": "yes",
+          "camp_site": "standard",
+          "capacity": "10",
+          "caravans": "no",
+          "dog": "leashed",
+          "drinking_water": "yes",
+          "fee": "no",
+          "internet_access": "no",
+          "name": "Olhava",
+          "openfire": "no",
+          "operator": "Metsähallitus",
+          "operator:wikidata": "Q630486",
+          "power_supply": "no",
+          "shower": "no",
+          "smoking": "yes",
+          "static_caravans": "no",
+          "tents": "yes",
+          "toilets": "yes",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1804987429",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8498064,
+          61.177529
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1804987429",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2024-01-18T16:40:03Z",
+        "osmVersion": 7,
+        "tags": {
+          "access": "private",
+          "grate": "yes",
+          "kettle_hook": "yes",
+          "leisure": "firepit",
+          "seasonal": "no",
+          "tourism": "picnic_site",
+          "width": "1",
+          "wood_provided": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1804988539",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.839096,
+          61.1848909
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1804988539",
+        "name": "Olhava",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2014-09-09T07:55:40Z",
+        "osmVersion": 2,
+        "tags": {
+          "name": "Olhava",
+          "smoking": "outside",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2134901806",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8570541,
+          61.1866971
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2134901806",
+        "name": "Valkjärven varausleirialue",
+        "category": "camp",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-09-24T14:47:03Z",
+        "osmVersion": 10,
+        "tags": {
+          "access": "customers",
+          "bbq": "yes",
+          "camp_site": "standard",
+          "capacity": "100",
+          "caravans": "no",
+          "description": "Varausleirialueeseen kuuluu noin 1,5 hehtaarin alue, jossa leirituvan, kaksi tulentekopaikkaa, maakellari, ruuanlaitto- ja astioidenpesukatos, kaivo, kuivakäymälät ja lukittu puuliiteri.",
+          "drinking_water": "yes",
+          "email": "info@tervarumpu.fi",
+          "fee": "yes",
+          "group_only": "yes",
+          "internet_access": "no",
+          "kitchen": "yes",
+          "name": "Valkjärven varausleirialue",
+          "openfire": "yes",
+          "operator": "Metsähallitus",
+          "operator:wikidata": "Q630486",
+          "payment:credit_cards": "yes",
+          "phone": "+358 400 718 248",
+          "picnic_table": "yes",
+          "reservation": "required",
+          "tents": "yes",
+          "toilets": "yes",
+          "tourism": "camp_site",
+          "website": "https://www.repovedenkansallispuisto.fi/fi_FI/categories/4-valkjarvi/products/33-repovesi-valkjarven-varausleirialue"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2134901808",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.843571,
+          61.1629669
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2134901808",
+        "name": "Kapiavesi",
+        "category": "camp",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-09-24T14:47:03Z",
+        "osmVersion": 5,
+        "tags": {
+          "access": "yes",
+          "backcountry": "yes",
+          "capacity": "3",
+          "dog": "leashed",
+          "drinking_water": "no",
+          "fee": "no",
+          "maxtents": "2",
+          "name": "Kapiavesi",
+          "openfire": "yes",
+          "operator": "Metsähallitus",
+          "operator:wikidata": "Q630486",
+          "picnic_table": "yes",
+          "tents": "yes",
+          "toilets": "yes",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2134901809",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8659345,
+          61.1919061
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2134901809",
+        "name": "Sukeltajaniemi",
+        "category": "camp",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-09-24T14:47:03Z",
+        "osmVersion": 4,
+        "tags": {
+          "access": "yes",
+          "addr:street": "Kuismantie",
+          "backcountry": "yes",
+          "capacity": "4",
+          "drinking_water": "no",
+          "fee": "no",
+          "internet_access": "no",
+          "name": "Sukeltajaniemi",
+          "openfire": "yes",
+          "operator": "Metsähallitus",
+          "operator:wikidata": "Q630486",
+          "toilets": "yes",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2134901810",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8367912,
+          61.165147
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2134901810",
+        "name": "Lapinsalmi",
+        "category": "camp",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-09-24T14:47:03Z",
+        "osmVersion": 6,
+        "tags": {
+          "access": "yes",
+          "backcountry": "yes",
+          "capacity": "8",
+          "drinking_water": "no",
+          "fee": "no",
+          "internet_access": "no",
+          "maxtents": "8",
+          "name": "Lapinsalmi",
+          "openfire": "yes",
+          "operator": "Metsähallitus",
+          "operator:wikidata": "Q630486",
+          "tents": "yes",
+          "toilets": "yes",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2134901811",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.877807,
+          61.1591015
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2134901811",
+        "name": "Talas",
+        "category": "camp",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-09-24T14:47:03Z",
+        "osmVersion": 5,
+        "tags": {
+          "access": "yes",
+          "backcountry": "yes",
+          "capacity": "3",
+          "dog": "leashed",
+          "drinking_water": "no",
+          "fee": "no",
+          "fireplace": "campfire",
+          "internet_access": "no",
+          "name": "Talas",
+          "openfire": "yes",
+          "operator": "Metsähallitus",
+          "operator:wikidata": "Q630486",
+          "toilets": "yes",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2185561142",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8468873,
+          61.1786566
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2185561142",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2020-01-07T18:49:23Z",
+        "osmVersion": 6,
+        "tags": {
+          "access": "private",
+          "covered": "no",
+          "fuel": "wood",
+          "leisure": "firepit",
+          "seasonal": "no"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2185581285",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8963582,
+          61.1772953
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2185581285",
+        "name": "Lojukosken kaivo",
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2024-01-17T16:56:52Z",
+        "osmVersion": 2,
+        "tags": {
+          "access": "yes",
+          "amenity": "drinking_water",
+          "bottle": "yes",
+          "fee": "no",
+          "name": "Lojukosken kaivo"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2185582998",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8796034,
+          61.1835716
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2185582998",
+        "name": "Kirnukangas",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-09-24T14:47:03Z",
+        "osmVersion": 6,
+        "tags": {
+          "access": "yes",
+          "backcountry": "yes",
+          "bbq": "yes",
+          "capacity": "5",
+          "fee": "no",
+          "maxtents": "5",
+          "name": "Kirnukangas",
+          "openfire": "yes",
+          "operator": "Metsähallitus",
+          "operator:wikidata": "Q630486",
+          "tents": "yes",
+          "toilets": "yes",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2185583000",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8665526,
+          61.1740575
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2185583000",
+        "name": "Kuutinkanava",
+        "category": "camp",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-09-24T14:47:03Z",
+        "osmVersion": 5,
+        "tags": {
+          "access": "yes",
+          "backcountry": "yes",
+          "capacity": "5",
+          "drinking_water": "yes",
+          "fee": "no",
+          "internet_access": "no",
+          "maxtents": "5",
+          "name": "Kuutinkanava",
+          "openfire": "yes",
+          "operator": "Metsähallitus",
+          "operator:wikidata": "Q630486",
+          "tents": "yes",
+          "toilets": "yes",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2668625119",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8437743,
+          61.1628198
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2668625119",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2024-01-16T19:41:19Z",
+        "osmVersion": 3,
+        "tags": {
+          "access": "yes",
+          "grate": "yes",
+          "kettle_hook": "yes",
+          "leisure": "firepit",
+          "seasonal": "no",
+          "wood_provided": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2723107183",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8677836,
+          61.1741251
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2723107183",
+        "name": null,
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-07-22T14:15:51Z",
+        "osmVersion": 3,
+        "tags": {
+          "fuel": "wood",
+          "leisure": "firepit",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2723107217",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8495162,
+          61.1708327
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2723107217",
+        "name": "Katajajärvi",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2019-02-13T19:31:10Z",
+        "osmVersion": 2,
+        "tags": {
+          "amenity": "bbq",
+          "leisure": "firepit",
+          "name": "Katajajärvi"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2723143826",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8377264,
+          61.1647953
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2723143826",
+        "name": "Puuliiteri",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-07-22T14:15:51Z",
+        "osmVersion": 2,
+        "tags": {
+          "amenity": "shelter",
+          "name": "Puuliiteri",
+          "shelter_type": "wood_shelter"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3585709694",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8580906,
+          61.1863974
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3585709694",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2015-06-10T11:52:03Z",
+        "osmVersion": 1,
+        "tags": {
+          "leisure": "firepit"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:4369878208",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8562978,
+          61.1866018
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/4369878208",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2020-01-07T18:49:23Z",
+        "osmVersion": 2,
+        "tags": {
+          "bench": "yes",
+          "leisure": "picnic_table",
+          "material": "wood"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:4369878209",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8565437,
+          61.1865747
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/4369878209",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2020-01-07T18:49:23Z",
+        "osmVersion": 2,
+        "tags": {
+          "bench": "yes",
+          "leisure": "picnic_table",
+          "material": "wood"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:4369892914",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8798317,
+          61.1834726
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/4369892914",
+        "name": null,
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2020-01-17T19:48:50Z",
+        "osmVersion": 2,
+        "tags": {
+          "access": "yes",
+          "leisure": "firepit",
+          "seasonal": "no"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:4663276494",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.867092,
+          61.1738778
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/4663276494",
+        "name": "Kuutinkanavan kaivo",
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-07-22T14:15:51Z",
+        "osmVersion": 3,
+        "tags": {
+          "drinking_water": "yes",
+          "man_made": "water_well",
+          "name": "Kuutinkanavan kaivo"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:5619581908",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8789301,
+          61.1588433
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/5619581908",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-08-10T09:18:44Z",
+        "osmVersion": 3,
+        "tags": {
+          "leisure": "firepit"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:5690503808",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8824743,
+          61.1977591
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/5690503808",
+        "name": "Saarijärven savottakämppä",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-08-19T05:16:25Z",
+        "osmVersion": 4,
+        "tags": {
+          "access": "customers",
+          "addr:city": "Voikoski",
+          "addr:housenumber": "985",
+          "addr:street": "Kuismantie",
+          "fee": "yes",
+          "name": "Saarijärven savottakämppä",
+          "name:en": "Saarijärvi Forestry Hut",
+          "operator": "Tervarumpu",
+          "power_supply": "no",
+          "reservation": "required",
+          "sauna": "yes",
+          "tourism": "wilderness_hut"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:6079667574",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8799213,
+          61.1834092
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/6079667574",
+        "name": "Kirnukangas",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2020-01-17T19:48:50Z",
+        "osmVersion": 2,
+        "tags": {
+          "access": "yes",
+          "amenity": "bbq",
+          "covered": "no",
+          "fireplace": "yes",
+          "fuel": "wood",
+          "name": "Kirnukangas",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:7843459174",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8362429,
+          61.1605121
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/7843459174",
+        "name": null,
+        "category": "water-tag-on-other-feature",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2022-08-28T12:41:29Z",
+        "osmVersion": 2,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "changing_table": "no",
+          "drinking_water": "no",
+          "fee": "no",
+          "male": "yes",
+          "opening_hours": "24/7",
+          "piste:amenity": "toilets",
+          "toilets:disposal": "pitlatrine",
+          "toilets:handwashing": "no",
+          "toilets:position": "seated"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:7843459183",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8437856,
+          61.1626232
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/7843459183",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2024-01-16T19:41:19Z",
+        "osmVersion": 2,
+        "tags": {
+          "access": "yes",
+          "leisure": "firepit",
+          "seasonal": "no",
+          "wood_provided": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:7843459184",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8435989,
+          61.1628635
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/7843459184",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2020-08-25T13:23:33Z",
+        "osmVersion": 1,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:11522937338",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8366481,
+          61.1645561
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/11522937338",
+        "name": "Lapinsalmi",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2024-01-16T19:41:19Z",
+        "osmVersion": 1,
+        "tags": {
+          "access": "yes",
+          "capacity": "20",
+          "name": "Lapinsalmi",
+          "operator": "Metsähallituss´",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:11525171325",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8966254,
+          61.1774357
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/11525171325",
+        "name": null,
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2024-01-17T16:56:52Z",
+        "osmVersion": 1,
+        "tags": {
+          "access": "customers",
+          "leisure": "firepit",
+          "seasonal": "no"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:11525171326",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8967993,
+          61.1774464
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/11525171326",
+        "name": null,
+        "category": "table",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2024-01-17T16:56:52Z",
+        "osmVersion": 1,
+        "tags": {
+          "bench": "yes",
+          "leisure": "picnic_table",
+          "lit": "no",
+          "material": "wood"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:11525171327",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8969165,
+          61.1774221
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/11525171327",
+        "name": null,
+        "category": "table",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2024-01-17T16:56:52Z",
+        "osmVersion": 1,
+        "tags": {
+          "bench": "yes",
+          "leisure": "picnic_table",
+          "lit": "no",
+          "material": "wood"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:11525171344",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8954645,
+          61.1766204
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/11525171344",
+        "name": null,
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2024-01-17T16:56:52Z",
+        "osmVersion": 1,
+        "tags": {
+          "access": "yes",
+          "grate": "yes",
+          "leisure": "firepit",
+          "seasonal": "no",
+          "wood_provided": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:11528355302",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8499612,
+          61.1775271
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/11528355302",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2024-01-18T16:40:03Z",
+        "osmVersion": 1,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:11528355303",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8496781,
+          61.1775749
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/11528355303",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2024-01-18T16:40:03Z",
+        "osmVersion": 1,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:13030512228",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8517328,
+          61.1767074
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/13030512228",
+        "name": "Kuutti",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-07-27T21:54:48Z",
+        "osmVersion": 1,
+        "tags": {
+          "access": "yes",
+          "covered": "no",
+          "fireplace": "yes",
+          "grate": "yes",
+          "kettle_hook": "yes",
+          "leisure": "firepit",
+          "name": "Kuutti",
+          "seasonal": "no",
+          "wood_provided": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:14085071317",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8788805,
+          61.1587803
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/14085071317",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-08-10T09:18:44Z",
+        "osmVersion": 1,
+        "tags": {
+          "bench": "yes",
+          "leisure": "picnic_table",
+          "lit": "no",
+          "material": "wood"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:14102519095",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8795184,
+          61.195968
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/14102519095",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-08-18T08:05:49Z",
+        "osmVersion": 1,
+        "tags": {
+          "access": "yes",
+          "bench": "yes",
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:14107418777",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8392562,
+          61.1848313
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/14107418777",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-08-20T12:42:11Z",
+        "osmVersion": 1,
+        "tags": {
+          "leisure": "firepit"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:14107418778",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8392945,
+          61.184802
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/14107418778",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-08-20T12:42:11Z",
+        "osmVersion": 1,
+        "tags": {
+          "bench": "yes",
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:439366890",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8564381,
+          61.1866291
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/439366890",
+        "name": "Leiritupa",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2020-01-16T12:40:37Z",
+        "osmVersion": 5,
+        "tags": {
+          "amenity": "shelter",
+          "bench": "yes",
+          "bin": "no",
+          "building": "cabin",
+          "building:levels": "1",
+          "capacity": "50-100",
+          "description": "Varausleirialueeseen kuuluu noin 1,5 hehtaarin alue, jossa leiritupa, kaksi tulentekopaikkaa, maakellari, ruuanlaitto- ja astioidenpesukatos, kaivo, kuivakäymälät ja lukittu puuliiteri.",
+          "description:fi": "Varausleirialueeseen kuuluu noin 1,5 hehtaarin alue, jossa leirituvan, kaksi tulentekopaikkaa, maakellari, ruuanlaitto- ja astioidenpesukatos, kaivo, kuivakäymälät ja lukittu puuliiteri.",
+          "lit": "yes",
+          "lockable": "yes",
+          "name": "Leiritupa",
+          "pets": "no",
+          "power_supply": "solar",
+          "shelter_type": "basic_hut",
+          "smoking": "outside",
+          "website": "https://www.repovedenkansallispuisto.fi/fi/valkjarvenleirialue",
+          "wheelchair": "limited"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:557583307",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8365533,
+          61.1607875
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/557583307",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2020-08-25T13:23:33Z",
+        "osmVersion": 2,
+        "tags": {
+          "amenity": "shelter",
+          "bench": "yes",
+          "bin": "no",
+          "building": "hut",
+          "shelter_type": "weather_shelter"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:1240490411",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8967636,
+          61.1773291
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/1240490411",
+        "name": "Lojukoski varauskota",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2026-09-24T14:47:03Z",
+        "osmVersion": 3,
+        "tags": {
+          "access": "yes",
+          "building": "hut",
+          "building:levels": "1",
+          "capacity": "10",
+          "charge": "80.00 EUR",
+          "description": "sleeping places for 6 + 4 on floor, fireplace but not stove",
+          "ele": "15",
+          "fee": "yes",
+          "fireplace": "yes",
+          "height": "3",
+          "locked": "yes",
+          "mattress": "no",
+          "name": "Lojukoski varauskota",
+          "name:en": "Lojukoski Rental Campfire Hut",
+          "operator": "Metsähallitus",
+          "operator:wikidata": "Q630486",
+          "reservation": "required",
+          "tourism": "wilderness_hut",
+          "website": "https://www.luontoon.fi/lojukoskivuokrakota",
+          "wheelchair": "yes"
+        }
+      }
+    }
+  ]
+}

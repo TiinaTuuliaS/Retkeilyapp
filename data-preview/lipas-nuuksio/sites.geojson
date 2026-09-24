@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73487",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4999996875898,
+          60.3367134525369
+        ]
+      },
+      "properties": {
+        "source_id": 73487,
+        "name": "Takalan laavu",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73487",
+        "source_event_date": "2020-09-16T09:41:19.653Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73851",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4955518584013,
+          60.3013282405018
+        ]
+      },
+      "properties": {
+        "source_id": 73851,
+        "name": "Holma-Saarijärven laavu",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73851",
+        "source_event_date": "2020-09-16T10:29:39.082Z"
+      }
+    }
+  ]
+}

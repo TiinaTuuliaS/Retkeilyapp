@@ -1,0 +1,28 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73643",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8791475706419,
+          61.1834210455767
+        ]
+      },
+      "properties": {
+        "source_id": 73643,
+        "name": "Repoveden Kirnukankaan laavu",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73643",
+        "source_event_date": "2025-10-07T07:13:26.761Z"
+      }
+    }
+  ]
+}

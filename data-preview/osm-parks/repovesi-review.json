@@ -1,0 +1,174 @@
+{
+  "checkedAt": "2026-09-24T17:12:32.935Z",
+  "databaseChanged": false,
+  "nearLipas": [
+    {
+      "lipasId": 73643,
+      "name": "Repoveden Kirnukankaan laavu",
+      "nearby": [
+        {
+          "osmId": "osm:node:1369239806",
+          "name": null,
+          "metres": 25
+        },
+        {
+          "osmId": "osm:node:2185582998",
+          "name": "Kirnukangas",
+          "metres": 30
+        },
+        {
+          "osmId": "osm:node:1804987405",
+          "name": "Kirnukangas laavu",
+          "metres": 31
+        },
+        {
+          "osmId": "osm:node:4369892914",
+          "name": null,
+          "metres": 37
+        },
+        {
+          "osmId": "osm:node:6079667574",
+          "name": "Kirnukangas",
+          "metres": 41
+        }
+      ]
+    }
+  ],
+  "nearbyOsmPairs": [
+    {
+      "a": "osm:node:1350040125",
+      "b": "osm:node:1350040126",
+      "metres": 9
+    },
+    {
+      "a": "osm:node:1350040125",
+      "b": "osm:node:1369239812",
+      "metres": 27
+    },
+    {
+      "a": "osm:node:1350040125",
+      "b": "osm:node:11525171344",
+      "metres": 34
+    },
+    {
+      "a": "osm:node:1350040126",
+      "b": "osm:node:1369239812",
+      "metres": 19
+    },
+    {
+      "a": "osm:node:1350040126",
+      "b": "osm:node:11525171344",
+      "metres": 42
+    },
+    {
+      "a": "osm:node:1369239806",
+      "b": "osm:node:1804987405",
+      "metres": 39
+    },
+    {
+      "a": "osm:node:1369239806",
+      "b": "osm:node:2185582998",
+      "metres": 22
+    },
+    {
+      "a": "osm:node:1369239806",
+      "b": "osm:node:4369892914",
+      "metres": 37
+    },
+    {
+      "a": "osm:node:1369239806",
+      "b": "osm:node:6079667574",
+      "metres": 45
+    },
+    {
+      "a": "osm:node:1369239812",
+      "b": "osm:node:11525171344",
+      "metres": 60
+    },
+    {
+      "a": "osm:node:1804987405",
+      "b": "osm:node:2185582998",
+      "metres": 23
+    },
+    {
+      "a": "osm:node:1804987405",
+      "b": "osm:node:4369892914",
+      "metres": 12
+    },
+    {
+      "a": "osm:node:1804987405",
+      "b": "osm:node:6079667574",
+      "metres": 11
+    },
+    {
+      "a": "osm:node:2185581285",
+      "b": "osm:node:11525171325",
+      "metres": 21
+    },
+    {
+      "a": "osm:node:2185581285",
+      "b": "osm:node:11525171326",
+      "metres": 29
+    },
+    {
+      "a": "osm:node:2185581285",
+      "b": "osm:node:11525171327",
+      "metres": 33
+    },
+    {
+      "a": "osm:node:2185581285",
+      "b": "osm:way:1240490411",
+      "metres": 22
+    },
+    {
+      "a": "osm:node:2185582998",
+      "b": "osm:node:4369892914",
+      "metres": 16
+    },
+    {
+      "a": "osm:node:2185582998",
+      "b": "osm:node:6079667574",
+      "metres": 25
+    },
+    {
+      "a": "osm:node:4369892914",
+      "b": "osm:node:6079667574",
+      "metres": 9
+    },
+    {
+      "a": "osm:node:11525171325",
+      "b": "osm:node:11525171326",
+      "metres": 9
+    },
+    {
+      "a": "osm:node:11525171325",
+      "b": "osm:node:11525171327",
+      "metres": 16
+    },
+    {
+      "a": "osm:node:11525171325",
+      "b": "osm:way:1240490411",
+      "metres": 14
+    },
+    {
+      "a": "osm:node:11525171326",
+      "b": "osm:node:11525171327",
+      "metres": 7
+    },
+    {
+      "a": "osm:node:11525171326",
+      "b": "osm:way:1240490411",
+      "metres": 13
+    },
+    {
+      "a": "osm:node:11525171327",
+      "b": "osm:way:1240490411",
+      "metres": 13
+    }
+  ],
+  "proposed": [
+    "osm:node:1350040125",
+    "osm:node:2185581285"
+  ],
+  "caveat": "Proximity is not proof of a duplicate. Campsite fields are not merged into proposed firepit records."
+}

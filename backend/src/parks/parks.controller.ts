@@ -7,6 +7,12 @@ import { backendRoot } from '../../database.config';
 import { Location } from '../locations/location.entity';
 
 const catalog = [
+  { slug: 'repovesi', name: 'Repoveden kansallispuisto', region: 'Kaakkois-Suomi',
+    description: 'Repoveden sivulla voit tutustua Konkarissa mukana oleviin taukopaikkoihin ja jakaa havaintoja niiden kunnosta ja palveluista.',
+    descriptionSource: 'https://www.luontoon.fi/fi/kohteet/repoveden-kansallispuisto',
+    officialUrl: 'https://www.luontoon.fi/fi/kohteet/repoveden-kansallispuisto',
+    coverage: 'Mukana ovat Kirnukankaan laavu LIPASista sekä Lojukosken taukopaikka ja kaivo OpenStreetMapista. Otos ei kata kaikkia Repoveden taukopaikkoja eikä puistorajan ulkopuolisen Aarnikotkan metsän kohteita. Kaivon veden saatavuus ja juomakelpoisuus eivät ole vahvistettuja.',
+    directory: 'lipas-repovesi', boundaryId: 'KPU050034' },
   { slug: 'koli', name: 'Kolin kansallispuisto', region: 'Pohjois-Karjala',
     description: 'Kolin kansallispuiston sivulla voit tutustua Konkarissa mukana oleviin taukopaikkoihin sekä jakaa havaintoja niiden kunnosta ja palveluista.',
     descriptionSource: 'https://www.luontoon.fi/fi/kohteet/kolin-kansallispuisto',
@@ -77,6 +83,6 @@ export class ParksController {
       boundarySource: 'https://gtkdata.gtk.fi/arcgis/rest/services/Tukes/suojelualueet/MapServer/5',
       boundaryAttribution: 'Metsähallitus / Syke, jakelu GTK · CC BY 4.0',
       boundaryUpdatedOn: new Date(boundary.features[0].properties.MuutosPvm).toISOString().slice(0,10),
-      descriptionCheckedOn: ['oulanka','koli'].includes(park.slug) ? '2026-09-24' : ['helvetinjarvi','pallas','lemmenjoki'].includes(park.slug) ? '2026-09-12' : '2026-09-08' };
+      descriptionCheckedOn: ['repovesi','oulanka','koli'].includes(park.slug) ? '2026-09-24' : ['helvetinjarvi','pallas','lemmenjoki'].includes(park.slug) ? '2026-09-12' : '2026-09-08' };
   }
 }
