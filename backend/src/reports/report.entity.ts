@@ -13,6 +13,9 @@ export class Report {
   @Column()
   user_id: number;
 
+  @Column({ type: 'integer', nullable: true, select: false })
+  account_id: number | null;
+
   @Column()
   status: string;
 

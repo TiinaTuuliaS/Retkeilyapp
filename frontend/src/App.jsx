@@ -1,13 +1,15 @@
 import { useCallback, useEffect, useState } from 'react';
 import { MapContainer, TileLayer, CircleMarker, Popup, GeoJSON, useMap } from 'react-leaflet';
 import './App.css';
+import { AccountLink, SaveLocation, useAccount } from './Account';
+import ParkNavigation from './ParkNavigation';
 import WaterObservations from './WaterObservations';
 import UsageObservations from './UsageObservations';
 import { geoJSON } from 'leaflet';
 import { filterLocations, hasPoint } from './location-list';
 
 const API = 'http://localhost:3000';
-const typeNames = { weather_shelter: 'Sääsuoja', lean_to: 'Laavu', shelter: 'Laavu, kota tai kammi', fireplace: 'Tulentekopaikka', water: 'Vesipiste', rest_area: 'Taukopaikka', campsite: 'Telttailupaikka' };
+const typeNames = { rest_shelter: 'Taukokatos', weather_shelter: 'Sääsuoja', lean_to: 'Laavu', shelter: 'Laavu, kota tai kammi', fireplace: 'Tulentekopaikka', water: 'Vesipiste', rest_area: 'Taukopaikka', campsite: 'Telttailupaikka' };
 const targetNames = { general: 'Kohde yleisesti', toilet: 'Käymälä', water: 'Vesipiste' };
 const yesNo = value => value === true ? 'Kyllä' : value === false ? 'Ei' : 'Ei tietoa';
 function MapFocus({ point, boundary }) {
@@ -38,10 +40,11 @@ function MapArea({ onChange }) {
   return null;
 }
 
-export default function App({ park = null, parks = [] }) {
+export default function App({ park = null, parks = [], initialLocationId = null }) {
+  const { user } = useAccount();
   const [locations, setLocations] = useState([]);
   const [reports, setReports] = useState([]);
-  const [selectedId, setSelectedId] = useState(null);
+  const [selectedId, setSelectedId] = useState(initialLocationId);
   const [userLocation, setUserLocation] = useState(null);
   const [focus, setFocus] = useState(null);
   const [search, setSearch] = useState('');
@@ -63,11 +66,11 @@ export default function App({ park = null, parks = [] }) {
       const data = await response.json();
       if (!Array.isArray(data)) throw new Error('Palvelimen vastaus ei ollut odotettu.');
       return data;
-    })).then(([places, observations]) => { setLocations(places); setReports(observations); })
+    })).then(([places, observations]) => { setLocations(places); setReports(observations); const initial = places.find(p => p.id === initialLocationId); if (initial && Number.isFinite(initial.latitude) && Number.isFinite(initial.longitude)) setFocus([initial.latitude, initial.longitude]); })
       .catch(error => { if (error.name !== 'AbortError') setLoadError('Tietoja ei saatu. Tarkista backend ja lataa sivu uudelleen.'); })
       .finally(() => { if (!controller.signal.aborted) setLoading(false); });
     return () => controller.abort();
-  }, [park]);
+  }, [park, initialLocationId]);
 
   const selected = locations.find(location => location.id === selectedId);
   const draft = drafts[selectedId] || { comment: '', status: 'ok', target: 'general' };
@@ -95,7 +98,7 @@ export default function App({ park = null, parks = [] }) {
     const id = selected.id;
     setSaving(true); setMessage(null);
     try {
-      const response = await fetch(`${API}/reports`, { method: 'POST', headers: { 'Content-Type': 'application/json' },
+      const response = await fetch(`${API}/reports`, { method: 'POST', credentials: 'include', headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ location: { id }, status: draft.status, target: draft.target, comment: draft.comment }) });
       const result = await response.json();
       if (!response.ok) throw new Error(typeof result.message === 'string' ? result.message : 'Tallennus epäonnistui.');
@@ -107,7 +110,7 @@ export default function App({ park = null, parks = [] }) {
   };
 
   return <div className="app-shell">
-    <header className="site-header"><a className="brand" href="#/">⌁ <span>Konkari</span></a><nav className="park-nav" aria-label="Päänavigaatio"><a href="#/">Kaikki kohteet</a>{parks.map(p => <a key={p.slug} href={`#/parks/${p.slug}`} aria-current={park?.slug === p.slug ? 'page' : undefined}>{p.slug === 'ukk' ? 'UKK' : p.name.replace(' kansallispuisto', '')}</a>)}</nav></header>
+    <header className="site-header"><a className="brand" href="#/">⌁ <span>Konkari</span></a><div className="header-actions"><ParkNavigation parks={parks} selectedSlug={park?.slug} /><AccountLink /></div></header>
     <main>
       {park ? <section className="intro park-intro">
         <a href="#/">← Kaikki retkikohteet</a><p className="eyebrow">KANSALLISPUISTO · {park.region}</p>
@@ -139,17 +142,18 @@ export default function App({ park = null, parks = [] }) {
             <h2>{selected.name}</h2>{selected.description && <p className="description">{selected.description}</p>}
             {selected.sourceStatus === 'out-of-service-temporarily' && <p className="error-banner"><strong>Tilapäisesti pois käytöstä · {selected.source?.name}</strong><br />Lähteen muokkauspäivä: {selected.sourceStatusDate?.slice(0,10).split('-').reverse().join('.') || 'Ei tietoa'}. Käyttäjähavainnot näytetään erikseen.</p>}
             <UsageObservations key={`usage-${selected.id}`} locationId={selected.id} api={API} />
+            <SaveLocation key={`save-${selected.id}-${user?.id || 0}`} locationId={selected.id} />
             <h3>Paikan palvelut</h3>
             <dl className="services"><div><dt>Käymälä</dt><dd>{yesNo(selected.services?.toilet)}</dd></div><div><dt>Vesipiste</dt><dd>{({ 'year-round': 'Ympärivuotinen', seasonal: 'Kausittainen', exists: 'Kaivo · saatavuus havaintojen mukaan' })[selected.services?.waterPoint] || 'Ei tietoa'}</dd></div><div><dt>Vapaa käyttö</dt><dd>{yesNo(selected.services?.freeUse)}</dd></div></dl>
             <p className="source-note">{selected.source ? <>Perustiedot: <a href={selected.source.url} target="_blank" rel="noreferrer">{selected.source.name}</a>.{selected.source.license && <> {selected.source.attribution} · <a href={selected.source.licenseUrl} target="_blank" rel="noreferrer">{selected.source.license}</a> · <a href={`${API}${selected.source.downloadUrl}`} target="_blank" rel="noreferrer">Lataa OSM-kohdeaineisto</a>.</>}</> : 'Palvelutietojen lähdettä ei ole saatavilla.'} Ei tietoa tarkoittaa, ettei palvelusta ole vahvistettua tietoa.</p>
             <p className="source-note">Vesipisteen kausikäyttö ei kerro veden juomakelpoisuudesta tai tämänhetkisestä toimivuudesta.</p>
             <WaterObservations key={selected.id} locationId={selected.id} api={API} knownWell={selected.type === 'water' && selected.services?.waterPoint === 'exists'} />
-            <form onSubmit={submit} className="report-form"><h3>Jätä retkiraportti</h3><p>Valitse, mitä havaintosi koskee. Eri palveluista voit jättää erilliset raportit.</p>
+            {user ? <form onSubmit={submit} className="report-form"><h3>Jätä retkiraportti</h3><p>Valitse, mitä havaintosi koskee. Eri palveluista voit jättää erilliset raportit.</p>
               <fieldset className="report-targets" disabled={saving}><legend>Mitä arvioit?</legend>
                 {['general', ...(selected.services?.toilet === true ? ['toilet'] : []), ...(['year-round', 'seasonal'].includes(selected.services?.waterPoint) ? ['water'] : [])].map(target =>
                   <label key={target}><input type="radio" name="report-target" value={target} checked={draft.target === target} onChange={() => updateDraft({ target, status: 'ok' })} />{targetNames[target]}</label>)}
               </fieldset>
-              <label htmlFor="condition">{draft.target === 'water' ? 'Vesipisteen toimivuus' : draft.target === 'toilet' ? 'Käymälän kunto' : 'Kohteen yleiskunto'}</label><select id="condition" value={draft.status} disabled={saving} onChange={e => updateDraft({ status: e.target.value })}><option value="ok">{draft.target === 'water' ? 'Toimii' : 'Kunnossa'}</option><option value="not_ok">{draft.target === 'water' ? 'Ei toimi' : 'Ei kunnossa'}</option></select><label htmlFor="comment">Havaintosi</label><textarea id="comment" placeholder={draft.target === 'toilet' ? 'Esimerkiksi: käymälä on siisti, mutta paperi on loppu.' : draft.target === 'water' ? 'Esimerkiksi: hanasta ei tule vettä.' : 'Esimerkiksi: laavun katto vuotaa.'} maxLength={2000} value={draft.comment} disabled={saving} onChange={e => updateDraft({ comment: e.target.value })} /><button className="primary" disabled={saving}>{saving ? 'Tallennetaan…' : 'Jaa havainto'}</button>{message?.id === selectedId && <p role={message.error ? 'alert' : 'status'}>{message.text}</p>}</form>
+              <label htmlFor="condition">{draft.target === 'water' ? 'Vesipisteen toimivuus' : draft.target === 'toilet' ? 'Käymälän kunto' : 'Kohteen yleiskunto'}</label><select id="condition" value={draft.status} disabled={saving} onChange={e => updateDraft({ status: e.target.value })}><option value="ok">{draft.target === 'water' ? 'Toimii' : 'Kunnossa'}</option><option value="not_ok">{draft.target === 'water' ? 'Ei toimi' : 'Ei kunnossa'}</option></select><label htmlFor="comment">Havaintosi</label><textarea id="comment" placeholder={draft.target === 'toilet' ? 'Esimerkiksi: käymälä on siisti, mutta paperi on loppu.' : draft.target === 'water' ? 'Esimerkiksi: hanasta ei tule vettä.' : 'Esimerkiksi: laavun katto vuotaa.'} maxLength={2000} value={draft.comment} disabled={saving} onChange={e => updateDraft({ comment: e.target.value })} /><button className="primary" disabled={saving}>{saving ? 'Tallennetaan…' : 'Jaa havainto'}</button>{message?.id === selectedId && <p role={message.error ? 'alert' : 'status'}>{message.text}</p>}</form> : <p className="source-note"><a href="#/account">Kirjaudu sisään</a> jättääksesi retkiraportin.</p>}
             <section className="observations"><h3>Retkeilijöiden havainnot</h3>{reports.filter(r => r.location?.id === selectedId).length === 0 ? <p>Ei vielä raportteja. Kerro ensimmäinen havainto.</p> : reports.filter(r => r.location?.id === selectedId).slice().reverse().map(report => <article className="observation" key={report.id}><strong className="observation-target">{targetNames[report.target] || targetNames.general}</strong><span className={report.status === 'ok' ? 'good' : 'attention'}>{report.target === 'water' ? (report.status === 'ok' ? '✓ Toimii' : '! Ei toimi') : (report.status === 'ok' ? '✓ Kunnossa' : '! Ei kunnossa')}</span>{report.comment && <p>{report.comment}</p>}</article>)}</section>
           </>}
         </aside>

@@ -1,3 +1,4 @@
+import { AccountsModule } from './accounts/accounts';
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { AppController } from './app.controller';
@@ -21,6 +22,7 @@ const database = getDatabaseConfig();
       autoLoadEntities: true,
       synchronize: false,
     }),
+    AccountsModule,
     LocationsModule,
     ReportsModule,
     ParksModule,

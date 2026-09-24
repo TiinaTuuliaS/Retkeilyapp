@@ -1,5 +1,117 @@
 # Retkeilyapp – paikallinen kehitys Windowsissa
 
+## Konkari: käyttäjätilit ja oma sivu
+
+Yläreunan **Kirjaudu**-linkistä voi luoda tilin sähköpostilla, näyttönimellä ja
+vähintään 12 merkin salasanalla. Kirjautuneen käyttäjän **Oma sivu** näyttää
+omat havainnot ja tallennetut kohteet. Kohdekortin tallennuspainikkeella voi
+lisätä tai poistaa kohteen omasta listasta. Lista on yksityinen; kohteisiin
+lähetetyt havainnot näkyvät edelleen julkisesti kohdekorteissa.
+
+Karttaa ja havaintoja voi selata kirjautumatta. Uudet kuntoraportit,
+vesipistehavainnot ja käyttötilahavainnot edellyttävät kirjautumista.
+Vanhat kokeiluhavainnot säilyvät, mutta niitä ei liitetä uusien tilien omiin
+havaintoihin. Omistajuus tallennetaan palvelimella `account_id`-kenttään;
+vanha `user_id` jää yhteensopivuussyistä ennalleen.
+
+Nykyiseen kehitystietokantaan tilimigraatio on ajettu. Muissa ympäristöissä
+aja aiempien migraatioiden jälkeen ennen backendin käynnistystä:
+
+```powershell
+.\retki.cmd backend db:accounts
+.\retki.cmd backend db:account-roles
+.\retki.cmd backend db:profile-journal
+.\retki.cmd backend db:community
+```
+
+Omalla sivulla voi tallentaa enintään 500 merkin esittelyn ja profiilikuvan.
+Selain rajaa kuvan keskeltä 192 × 192 pikselin JPEG-avatariksi ennen lähetystä;
+alkuperäistä kuvaa ei tallenneta. Kuvan ja esittelyn muutokset tallennetaan
+Tallenna profiili -painikkeella. Profiili näkyy tässä versiossa vain omistajalle.
+
+Retkipäiväkirjaan voi lisätä päivättyjä merkintöjä (otsikko,
+paikka/reitti, teksti ja vapaaehtoinen eläinhavainto), muokata niitä ja poistaa vahvistuksen jälkeen.
+Uusimmat retkipäivät näkyvät ensin. Merkinnät eivät tule kohteiden kuntoraportteihin,
+eikä ylläpitäjärooli anna pääsyä toisten päiväkirjoihin sovelluksen API:n kautta.
+Tietokantaan pääsevä palvelun ylläpitäjä voi teknisesti lukea tietoja; päiväkirja
+ei ole päästä päähän salattu. Tallennus vaatii verkkoyhteyden, ja tallentamaton
+luonnos katoaa sivulta poistuttaessa. Offline-luonnokset ja monipäiväisten
+retkien erilliset aikajanat eivät vielä kuulu tähän vaiheeseen.
+
+API: `GET/PUT /account/profile`, `GET/POST /account/journal` ja
+`PUT/DELETE /account/journal/:id`. Omistaja määräytyy aina istunnosta.
+Integraatiotesti tarkistaa myös profiilin ja päiväkirjan käyttäjäkohtaisuuden.
+
+Tileillä on tietokannassa rooli `user` tai `admin`. Rekisteröinti luo aina
+tavallisen käyttäjän; roolia ei voi lähettää rekisteröintilomakkeessa.
+Ylläpitäjärooli on pohja tuleville ylläpitotoiminnoille, eikä vielä avaa
+erillistä hallintanäkymää. Ylläpitäjäksi korotus tehdään vain paikallisella
+operaattorikomennolla (olemassa olevan tilin sähköposti viimeisenä):
+
+```powershell
+.\.tools\node-v22.23.2-win-x64\node.exe backend/node_modules/ts-node/dist/bin.js --project backend/tsconfig.json backend/scripts/account-roles.ts user@example.com
+```
+
+Komento ei muuta salasanaa tai luo uutta tiliä. Ilman sähköpostia se tekee
+vain roolisarakkeen migraation.
+
+Salasanat tallennetaan suolattuina scrypt-tiivisteinä. Seitsemän päivän
+istunnon tunniste on HttpOnly/SameSite-evästeessä, tietokannassa vain sen
+tiiviste. Uloskirjautuminen mitätöi istunnon palvelimella. `FRONTEND_ORIGIN`
+on oletuksena `http://localhost:5173`; palvelin tarkistaa kirjoituspyyntöjen
+Origin-otsakkeen ja sallii CORS-pyynnöt tästä osoitteesta. Tuotannossa
+`NODE_ENV=production` ottaa käyttöön Secure-evästeen ja edellyttää HTTPS:ää.
+Nykyinen frontend käyttää paikallista API-osoitetta, joten julkaisuympäristön
+osoitteet täytyy vielä määrittää ennen julkaisua.
+
+API: `/auth/register`, `/auth/login`, `/auth/logout`, `/auth/me`, `/account`
+ja `/account/saved/:id`. Tilin tietoja ei palauteta julkisten havaintojen mukana.
+Kirjautumisyritysten rajoitus on palvelinprosessikohtainen. Sähköpostin
+vahvistus, salasanan palautus, tilin poistaminen sekä usean palvelininstanssin
+yhteinen yritysrajoitus sekä retkeilijäpisteet ovat myöhempää työtä.
+
+Testit: `.\retki.cmd backend test:accounts` ja
+`.\retki.cmd backend test:accounts-integration`. Jälkimmäinen käyttää
+kehitystietokantaa, luo kaksi väliaikaista tiliä ja poistaa testin tiedot lopuksi.
+
+## Retkikuulumiset, eläinhavainnot ja Konkari-kaverit
+
+Päiväkirjan uudet ja vanhat merkinnät ovat oletuksena yksityisiä. Merkinnän
+**Näkyvyys ja julkaisu** -toiminnolla voi valita `private`, `friends` tai `public`.
+Jakaminen julkaisee koko merkinnän tekstin, paikan, retkipäivän, mahdollisen
+eläinhavainnon ja kirjoittajan nimimerkin. Profiilin kuvausta, profiilikuvaa tai
+sähköpostia ei julkaista samalla. Sisällön myöhemmät muokkaukset näkyvät samalle
+yleisölle. Näkyvyyden voi palauttaa yksityiseksi; se poistaa merkinnän syötteestä,
+mutta ei voi perua muiden jo lukemaa tai tallentamaa tietoa.
+
+**Retkikuulumiset** (`#/community`) näyttää enintään 100 uusinta sallittua
+merkintää retkipäivän mukaan. Kirjautumaton näkee julkiset, kirjautunut lisäksi
+hyväksyttyjen kavereidensa jakamat merkinnät. Eläinhavaintoja voi suodattaa.
+Eläinhavainto on tässä vaiheessa päiväkirjamerkinnän lajiteksti, ei varmennettu
+lajitunnistus eikä automaattisesti kansallispuistoon tai karttapisteeseen liitetty tieto.
+
+Oman sivun **Konkari-kaverit** näyttää tilin numeromuotoisen kaveritunnuksen.
+Kaverin tunnuksella voi lähettää pyynnön, jonka vastaanottaja hyväksyy tai hylkää.
+Sähköpostihakua tai julkista käyttäjäluetteloa ei ole. Kaveruuden poistaminen
+poistaa pääsyn kavereille jaettuihin merkintöihin seuraavalla haulla.
+
+**Retkisuunnitelmassa** on nimi, kohde/reitti, alku- ja loppupäivä sekä yhteiset
+muistiinpanot. Järjestäjä muokkaa perustietoja, poistaa suunnitelman ja kutsuu
+hyväksyttyjä kavereita. Kutsuttu näkee perustiedot ennen hyväksymistä; vasta
+hyväksytty osallistuja näkee retkiporukan ja muistiinpanot ja voi muokata niitä.
+Osallistuja voi poistua ja järjestäjä poistaa osallistujan. Retkijäsenyys on
+erillinen kaveruudesta. Muistiinpanojen samanaikainen muutos torjutaan, jotta
+vanha luonnos ei korvaa toisen tallennusta. Tällöin kopioi luonnos talteen,
+päivitä tiedot ja avaa muokkaus uudelleen. Luonnokset eivät tallennu offlineen.
+Kutsut näkyvät sovelluksessa; sähköposteja tai push-ilmoituksia ei lähetetä.
+
+Migraatio: `.\retki.cmd backend db:community` (aiempien tilimigraatioiden jälkeen).
+API: julkinen `GET /community`; kirjautumista vaativat `/account/feed`,
+`/account/friends`, `/account/trips` ja `/account/journal/:id/visibility`.
+Testi `.\retki.cmd backend test:community` käyttää kolmea väliaikaista tiliä
+ja poistaa niiden tiedot lopuksi. Se kattaa näkyvyydet, pyyntöjen hyväksymisen,
+omistajuuden, kutsut, poistumisen ja muistiinpanojen päällekkäisen muokkauksen.
+
 ## Kansallispuistosivut
 
 Etusivulta ja ylänavigaatiosta voi avata UKK:n, Seitsemisen ja Helvetinjärven
@@ -42,8 +154,8 @@ Nykyiseen kehitystietokantaan päivitys on ajettu. API:
 POST hyväksyy vain `kind`, `directions` (1–1000 merkkiä), `availability`
 (`available`, `unavailable`, `unknown`) ja `observedOn` (`YYYY-MM-DD`).
 Käyntipäivä ei saa olla tulevaisuudessa (Suomen päivä) eikä ennen vuotta 2000.
-Palvelin asettaa tallennusajan ja toistaiseksi demokäyttäjän 1 kuten raporteissakin.
-Kirjautuminen ja moderointi tarvitaan ennen avointa julkaisua; nykyinen havainto
+Palvelin asettaa tallennusajan ja kirjautuneen käyttäjän tunnisteen.
+Moderointi tarvitaan ennen avointa julkaisua; nykyinen havainto
 näkyy heti nimenomaisesti käyttäjän ilmoittamana ja vahvistamattomana.
 
 Testit: `.\retki.cmd backend test:water-observations`.

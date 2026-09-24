@@ -5,6 +5,7 @@ import request from 'supertest';
 import { LocationsController } from './locations.controller';
 import { LocationsService } from './locations.service';
 import { Location } from './location.entity';
+import { UsageObservationsService } from './usage-observations.service';
 import { WaterObservationsService } from './water-observations.service';
 
 describe('Water observations HTTP', () => {
@@ -14,6 +15,7 @@ describe('Water observations HTTP', () => {
   beforeAll(async () => {
     const module = await Test.createTestingModule({ controllers: [LocationsController], providers: [
       WaterObservationsService,
+      { provide: UsageObservationsService, useValue: {} },
       { provide: LocationsService, useValue: {} },
       { provide: getRepositoryToken(Location), useValue: repo },
     ] }).compile();
@@ -30,7 +32,7 @@ describe('Water observations HTTP', () => {
     expect(response.body.locationId).toBe(54);
     expect(repo.query).toHaveBeenCalledTimes(1);
     expect(repo.query).toHaveBeenCalledWith(expect.stringContaining('INSERT INTO public.water_observations'),
-      [54, 'well', 'Polun vieressä', 'unknown', '2026-01-01']);
+      [54, 'well', 'Polun vieressä', 'unknown', '2026-01-01', null]);
   });
   it.each([
     { ...valid, id: 9 }, { ...valid, user_id: 20 }, { ...valid, locationId: 2 },

@@ -9,7 +9,7 @@ describe('Park pages', () => {
   beforeEach(() => query.mockReset());
   it('lists parks without loading detailed geometries or the database', () => {
     const parks = controller.list();
-    expect(parks.map(p => p.slug)).toEqual(['lemmenjoki', 'pallas', 'ukk', 'seitseminen', 'helvetinjarvi']);
+    expect(parks.map(p => p.slug)).toEqual(['koli', 'oulanka', 'lemmenjoki', 'pallas', 'ukk', 'seitseminen', 'helvetinjarvi']);
     expect(parks[0]).not.toHaveProperty('directory');
     expect(query).not.toHaveBeenCalled();
   });
@@ -30,6 +30,18 @@ describe('Park pages', () => {
     expect(park.boundaryId).toBe('KPU120024');
     expect(park.locationIds).toEqual([200]);
     expect(query).toHaveBeenCalledWith(expect.stringContaining('ST_Covers'), [JSON.stringify(park.geometry)]);
+  });
+  it('selects Oulanka with its verified boundary', async () => {
+    query.mockResolvedValue([{ id: 200 }]);
+    const park = await controller.detail('oulanka');
+    expect(park.boundaryId).toBe('KPU110020');
+    expect(park.locationIds).toEqual([200]);
+  });
+  it('selects Koli using its verified boundary', async () => {
+    query.mockResolvedValue([{ id: 300 }]);
+    const park = await controller.detail('koli');
+    expect(park.boundaryId).toBe('KPU070027');
+    expect(park.locationIds).toEqual([300]);
   });
   it('returns Seitseminen and its coverage explanation even without locations', async () => {
     query.mockResolvedValue([]);

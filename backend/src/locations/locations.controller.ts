@@ -1,4 +1,4 @@
-import { Body, Controller, Get, Param, ParseIntPipe, Post } from '@nestjs/common';
+import { Body, Controller, Get, Param, ParseIntPipe, Post, Req } from '@nestjs/common';
 import { WaterObservationsService } from './water-observations.service';
 import { LocationsService } from './locations.service';
 import { UsageObservationsService } from './usage-observations.service';
@@ -11,7 +11,7 @@ export class LocationsController {
   getUsage(@Param('id', ParseIntPipe) id: number) { return this.usage.find(id); }
 
   @Post(':id/usage-observations')
-  addUsage(@Param('id', ParseIntPipe) id: number, @Body() body: unknown) { return this.usage.create(id, body); }
+  addUsage(@Param('id', ParseIntPipe) id: number, @Body() body: unknown, @Req() req: any) { return this.usage.create(id, body, req.account?.id); }
 
   @Get('osm.geojson')
   getOsmData() { return this.service.osmExport(); }
@@ -20,7 +20,7 @@ export class LocationsController {
   getWater(@Param('id', ParseIntPipe) id: number) { return this.water.find(id); }
 
   @Post(':id/water-observations')
-  addWater(@Param('id', ParseIntPipe) id: number, @Body() body: unknown) { return this.water.create(id, body); }
+  addWater(@Param('id', ParseIntPipe) id: number, @Body() body: unknown, @Req() req: any) { return this.water.create(id, body, req.account?.id); }
 
   @Get()
   getAll() {

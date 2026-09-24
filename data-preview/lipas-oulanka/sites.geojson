@@ -1,0 +1,954 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73132",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3707161813043,
+          66.3568884565557
+        ]
+      },
+      "properties": {
+        "source_id": 73132,
+        "name": "Merenojan tulentekopaikka",
+        "type_code": 206,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73132",
+        "source_event_date": "2020-08-26T13:27:17.617Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73411",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.334408222515105,
+          66.3675753172385
+        ]
+      },
+      "properties": {
+        "source_id": 73411,
+        "name": "Kiutakönkään taukokatos",
+        "type_code": 206,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73411",
+        "source_event_date": "2020-08-26T13:33:33.231Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73463",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.5195955329641,
+          66.3033262091489
+        ]
+      },
+      "properties": {
+        "source_id": 73463,
+        "name": "Jussinkämpän tulentekopaikat",
+        "type_code": 206,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73463",
+        "source_event_date": "2020-08-26T13:11:58.515Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73532",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.2926450678932,
+          66.3718605422825
+        ]
+      },
+      "properties": {
+        "source_id": 73532,
+        "name": "Oulangan leirintäalueen tulentekopaikat",
+        "type_code": 206,
+        "status": "active",
+        "classification": "inside",
+        "services": {},
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73532",
+        "source_event_date": "2020-08-24T08:26:11.194Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73560",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.5404387118639,
+          66.273768753407
+        ]
+      },
+      "properties": {
+        "source_id": 73560,
+        "name": "Ylikodan tulentekopaikka",
+        "type_code": 206,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73560",
+        "source_event_date": "2020-08-26T12:33:27.093Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73593",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1881759882805,
+          66.4094519703092
+        ]
+      },
+      "properties": {
+        "source_id": 73593,
+        "name": "Taivalkönkään telttailualueen tulentekopaikka",
+        "type_code": 206,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73593",
+        "source_event_date": "2020-09-02T08:20:48.584Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73595",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.4736061719479,
+          66.3310356390635
+        ]
+      },
+      "properties": {
+        "source_id": 73595,
+        "name": "Kulmakkopuron tulentekopaikka",
+        "type_code": 206,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73595",
+        "source_event_date": "2020-09-02T11:37:45.996Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73659",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.6001490602194,
+          66.2755695852512
+        ]
+      },
+      "properties": {
+        "source_id": 73659,
+        "name": "Ahvenperän tulentekopaikka",
+        "type_code": 206,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73659",
+        "source_event_date": "2020-08-26T12:45:55.532Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73674",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.4364948873948,
+          66.2539601877867
+        ]
+      },
+      "properties": {
+        "source_id": 73674,
+        "name": "Siilastuvan tulentekopaikka",
+        "type_code": 206,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73674",
+        "source_event_date": "2020-08-26T10:54:14.569Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73683",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3369813562439,
+          66.36922494643
+        ]
+      },
+      "properties": {
+        "source_id": 73683,
+        "name": "Kiutakönkään telttailualueen tulentekopaikka 1",
+        "type_code": 206,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73683",
+        "source_event_date": "2020-08-26T13:32:21.406Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73703",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1524845973989,
+          66.419882877473
+        ]
+      },
+      "properties": {
+        "source_id": 73703,
+        "name": "Puikkojärven tulentekopaikka",
+        "type_code": 206,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73703",
+        "source_event_date": "2020-09-02T11:43:00.328Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73794",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.4372444516271,
+          66.2547081483679
+        ]
+      },
+      "properties": {
+        "source_id": 73794,
+        "name": "Siilastuvan taukokatos",
+        "type_code": 206,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73794",
+        "source_event_date": "2020-08-26T10:53:02.115Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73856",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.4704498285653,
+          66.2669088086599
+        ]
+      },
+      "properties": {
+        "source_id": 73856,
+        "name": "Harrisuvannon alamutkan tulentekopaikka",
+        "type_code": 206,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73856",
+        "source_event_date": "2020-08-26T11:37:34.496Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73988",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.6526118586631,
+          66.2803604861175
+        ]
+      },
+      "properties": {
+        "source_id": 73988,
+        "name": "Likokankaan tulentekopaikka",
+        "type_code": 206,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73988",
+        "source_event_date": "2020-08-26T13:09:10.679Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:74165",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.4438910591423,
+          66.3486465807486
+        ]
+      },
+      "properties": {
+        "source_id": 74165,
+        "name": "Ansakämpän tulentekopaikka",
+        "type_code": 206,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/74165",
+        "source_event_date": "2020-08-26T13:21:56.244Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:74229",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.4452423854903,
+          66.3482573671851
+        ]
+      },
+      "properties": {
+        "source_id": 74229,
+        "name": "Nurmisaarenniemen tulentekopaikka",
+        "type_code": 206,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/74229",
+        "source_event_date": "2020-08-26T13:21:30.190Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:74234",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.336163532554597,
+          66.36979081412406
+        ]
+      },
+      "properties": {
+        "source_id": 74234,
+        "name": "Kiutakönkään esteetön tulipaikka",
+        "type_code": 206,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/74234",
+        "source_event_date": "2020-08-26T13:29:15.701Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:74265",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.2483564035383,
+          66.3908512244027
+        ]
+      },
+      "properties": {
+        "source_id": 74265,
+        "name": "Runsulammen tulentekopaikka",
+        "type_code": 206,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/74265",
+        "source_event_date": "2020-09-02T08:24:58.949Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:74362",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3390384171252,
+          66.370400862697
+        ]
+      },
+      "properties": {
+        "source_id": 74362,
+        "name": "Mataraniemen tulentekopaikka 1",
+        "type_code": 206,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/74362",
+        "source_event_date": "2020-08-26T13:27:58.864Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:74407",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.4347745722046,
+          66.2547469165357
+        ]
+      },
+      "properties": {
+        "source_id": 74407,
+        "name": "Jyrävän pohjoispuolinen tulentekopaikka",
+        "type_code": 206,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/74407",
+        "source_event_date": "2020-08-26T10:53:34.934Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:603973",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.452930021626774,
+          66.26400171312416
+        ]
+      },
+      "properties": {
+        "source_id": 603973,
+        "name": "Harrisuvannon taukokatos",
+        "type_code": 206,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/603973",
+        "source_event_date": "2020-08-26T11:13:22.534Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:604074",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.13263752389111,
+          66.43753109446592
+        ]
+      },
+      "properties": {
+        "source_id": 604074,
+        "name": "Kirkasvetisenlammen tulentekopaikka",
+        "type_code": 206,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/604074",
+        "source_event_date": "2020-09-02T09:38:28.806Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:72957",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.5238368449564,
+          66.268920396129
+        ]
+      },
+      "properties": {
+        "source_id": 72957,
+        "name": "Pähkänän laavu",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/72957",
+        "source_event_date": "2020-08-26T12:18:39.727Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:72968",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.5389310790951,
+          66.2738261706397
+        ]
+      },
+      "properties": {
+        "source_id": 72968,
+        "name": "Kitkajoen Ylikota",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/72968",
+        "source_event_date": "2020-08-26T12:32:58.005Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1887092169642,
+          66.4131697439076
+        ]
+      },
+      "properties": {
+        "source_id": 73001,
+        "name": "Taivalkönkään yläpuolinen laavu ohjelmapalveluyrittäjille",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73001",
+        "source_event_date": "2026-05-27T14:03:32.706Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73020",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.5500723633525,
+          66.276653995679
+        ]
+      },
+      "properties": {
+        "source_id": 73020,
+        "name": "Talvitienmutkan laavu",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73020",
+        "source_event_date": "2020-08-26T12:34:01.165Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73066",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.6469697614679,
+          66.2826548064014
+        ]
+      },
+      "properties": {
+        "source_id": 73066,
+        "name": "Kitkajokihaaran laavu",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73066",
+        "source_event_date": "2020-08-26T13:08:35.448Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73095",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.5040525177459,
+          66.3341403420918
+        ]
+      },
+      "properties": {
+        "source_id": 73095,
+        "name": "Sirkkapuron laavu",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73095",
+        "source_event_date": "2020-08-26T13:20:25.902Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73130",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.5195532808511,
+          66.3035745662458
+        ]
+      },
+      "properties": {
+        "source_id": 73130,
+        "name": "Jussinkämpän kota",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73130",
+        "source_event_date": "2020-08-26T13:12:20.380Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73349",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.4633982029024,
+          66.2659515757326
+        ]
+      },
+      "properties": {
+        "source_id": 73349,
+        "name": "Harrisuvannonniskan laavu",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73349",
+        "source_event_date": "2020-08-26T11:36:51.805Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73407",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.4535779270978,
+          66.2642446095675
+        ]
+      },
+      "properties": {
+        "source_id": 73407,
+        "name": "Harrisuvannon ylälaavu",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73407",
+        "source_event_date": "2020-08-26T11:12:35.699Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73501",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.312192510358706,
+          66.49013395116515
+        ]
+      },
+      "properties": {
+        "source_id": 73501,
+        "name": "Elijoki laavu",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {},
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73501",
+        "source_event_date": "2025-10-20T11:35:09.978Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73675",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.5310205156728,
+          66.2705758824396
+        ]
+      },
+      "properties": {
+        "source_id": 73675,
+        "name": "Vennäänmutkan laavu",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73675",
+        "source_event_date": "2020-08-26T12:19:09.139Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73803",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.5770797123644,
+          66.2760458767663
+        ]
+      },
+      "properties": {
+        "source_id": 73803,
+        "name": "Lohisuoran laavu",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73803",
+        "source_event_date": "2020-08-26T12:44:47.662Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73887",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.583557045587,
+          66.3043710863614
+        ]
+      },
+      "properties": {
+        "source_id": 73887,
+        "name": "Alaniemen laavu",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73887",
+        "source_event_date": "2020-08-26T13:09:57.082Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73926",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1678335014743,
+          66.4936898123641
+        ]
+      },
+      "properties": {
+        "source_id": 73926,
+        "name": "Perttumakosken laavu",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73926",
+        "source_event_date": "2020-09-02T09:39:34.507Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:73927",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.4545226243087,
+          66.4168903260149
+        ]
+      },
+      "properties": {
+        "source_id": 73927,
+        "name": "Kirkonnurkanlammen laavu",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/73927",
+        "source_event_date": "2020-09-02T13:11:12.142Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:74047",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.5939016171864,
+          66.2736019798893
+        ]
+      },
+      "properties": {
+        "source_id": 74047,
+        "name": "Kaijankiven laavu",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/74047",
+        "source_event_date": "2020-08-26T12:45:21.992Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:74385",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.568010619183,
+          66.2779707031864
+        ]
+      },
+      "properties": {
+        "source_id": 74385,
+        "name": "Harrihaudan laavu",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/74385",
+        "source_event_date": "2020-08-26T12:44:18.222Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:74394",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1845588317067,
+          66.4461001093728
+        ]
+      },
+      "properties": {
+        "source_id": 74394,
+        "name": "Vasaojan laavu",
+        "type_code": 301,
+        "status": "active",
+        "classification": "inside",
+        "services": {},
+        "source_url": "https://api.lipas.fi/v2/sports-sites/74394",
+        "source_event_date": "2017-05-29T11:03:13.106Z"
+      }
+    }
+  ]
+}

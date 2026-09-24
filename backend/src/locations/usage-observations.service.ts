@@ -31,15 +31,15 @@ export class UsageObservationsService {
       to_char(observed_on,'YYYY-MM-DD') AS "observedOn", created_at AS "createdAt"
       FROM public.usage_observations WHERE location_id=$1 ORDER BY observed_on DESC, created_at DESC, id DESC`, [id]);
   }
-  async create(id: number, value: unknown) {
+  async create(id: number, value: unknown, accountId?: number) {
     const input = parseUsageObservation(value);
     await this.checkLocation(id);
-    // Development demo user, same as reports; authentication is not implemented yet.
+    // account_id owns new observations; old demo records retain null ownership.
     const rows = await this.locations.query(`INSERT INTO public.usage_observations
-      (location_id,user_id,status,comment,observed_on) VALUES ($1,1,$2,$3,$4)
+      (location_id,user_id,status,comment,observed_on,account_id) VALUES ($1,1,$2,$3,$4,$5)
       RETURNING id, location_id AS "locationId", status, comment,
       to_char(observed_on,'YYYY-MM-DD') AS "observedOn", created_at AS "createdAt"`,
-    [id, input.status, input.comment, input.observedOn]);
+    [id, input.status, input.comment, input.observedOn, accountId ?? null]);
     return rows[0];
   }
 }

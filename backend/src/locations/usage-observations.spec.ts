@@ -15,7 +15,7 @@ describe('Usage observations', () => {
     const repo = { findOneBy: jest.fn().mockResolvedValue({ id: 18 }), query: jest.fn().mockResolvedValue([{ id: 1, locationId: 18 }]) };
     const service = new UsageObservationsService(repo as unknown as Repository<Location>);
     await service.create(18, valid);
-    expect(repo.query).toHaveBeenCalledWith(expect.stringContaining('INSERT INTO public.usage_observations'), [18,'in_use','Kohde oli käytössä.','2026-01-01']);
+    expect(repo.query).toHaveBeenCalledWith(expect.stringContaining('INSERT INTO public.usage_observations'), [18,'in_use','Kohde oli käytössä.','2026-01-01',null]);
     expect(repo.query.mock.calls[0][0]).not.toMatch(/UPDATE|location_sources/);
   });
   it('rejects unknown locations without writing', async () => {

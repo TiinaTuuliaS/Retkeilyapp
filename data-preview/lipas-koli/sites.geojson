@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:509040",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.8291532691235,
+          63.074655536097
+        ]
+      },
+      "properties": {
+        "source_id": 509040,
+        "name": "Ikolanahon tulentekopaikka",
+        "type_code": 206,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/509040",
+        "source_event_date": "2020-11-03T13:38:41.946Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:509042",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.7917342812079,
+          63.1030184526295
+        ]
+      },
+      "properties": {
+        "source_id": 509042,
+        "name": "Turulan tulentekopaikka",
+        "type_code": 206,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/509042",
+        "source_event_date": "2020-11-05T07:32:43.844Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lipas:sports-sites:511172",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.8119125849053,
+          63.0822066561406
+        ]
+      },
+      "properties": {
+        "source_id": 511172,
+        "name": "Paimenenvaaran tulentekopaikka",
+        "type_code": 206,
+        "status": "active",
+        "classification": "inside",
+        "services": {
+          "toilet?": true,
+          "free-use?": true
+        },
+        "source_url": "https://api.lipas.fi/v2/sports-sites/511172",
+        "source_event_date": "2020-11-03T13:39:06.851Z"
+      }
+    }
+  ]
+}

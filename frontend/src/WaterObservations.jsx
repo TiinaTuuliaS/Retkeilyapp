@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { useAccount } from './Account';
 
 const kinds = { tap: 'Hana', well: 'Kaivo', spring: 'Lähde', other: 'Muu vesipiste' };
 const availabilityNames = { available: 'Vettä oli saatavilla', unavailable: 'Vettä ei ollut saatavilla', unknown: 'Saatavuutta ei tarkistettu' };
@@ -6,6 +7,7 @@ const today = () => new Intl.DateTimeFormat('sv-SE', { timeZone: 'Europe/Helsink
 const emptyDraft = () => ({ kind: '', directions: '', availability: 'unknown', observedOn: today() });
 
 export default function WaterObservations({ locationId, api, knownWell = false }) {
+  const { user } = useAccount();
   const [observations, setObservations] = useState([]);
   const [draft, setDraft] = useState(() => ({ ...emptyDraft(), kind: knownWell ? 'well' : '' }));
   const [loading, setLoading] = useState(true);
@@ -35,7 +37,7 @@ export default function WaterObservations({ locationId, api, knownWell = false }
     if (saving) return;
     setSaving(true); setMessage(null);
     try {
-      const response = await fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(draft) });
+      const response = await fetch(url, { method: 'POST', credentials: 'include', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(draft) });
       const result = await response.json();
       if (!response.ok) throw new Error(typeof result.message === 'string' ? result.message : 'Tallennus epäonnistui.');
       setObservations(previous => [...previous, result].sort((a,b) => b.observedOn.localeCompare(a.observedOn) || b.createdAt.localeCompare(a.createdAt) || b.id-a.id));
@@ -57,10 +59,11 @@ export default function WaterObservations({ locationId, api, knownWell = false }
         <p><time dateTime={item.observedOn}>{item.observedOn.split('-').reverse().join('.')}</time> · {availabilityNames[item.availability]}</p>
         <p>{item.directions}</p>
       </article>)}
-      <button type="button" className="secondary" aria-expanded={open} aria-controls="water-form" onClick={() => setOpen(value => !value)} disabled={saving}>
+      {!user && <p><a href="#/account">Kirjaudu</a> lisätäksesi vesihavainnon.</p>}
+      <button type="button" className="secondary" aria-expanded={open} aria-controls="water-form" onClick={() => setOpen(value => !value)} disabled={saving || !user}>
         {open ? 'Sulje vesipistelomake' : knownWell ? 'Kerro kaivon veden saatavuudesta' : observations.length ? 'Lisää vesipistehavainto' : 'Ilmoita vesipisteestä'}
       </button>
-      {open && <form id="water-form" className="report-form" onSubmit={submit}>
+      {open && user && <form id="water-form" className="report-form" onSubmit={submit}>
         <h4>{knownWell ? 'Havainto tästä kaivosta' : 'Vesipiste tämän taukopaikan yhteydessä'}</h4>
         <label htmlFor="water-kind">Vesipisteen tyyppi</label>
         <select id="water-kind" required value={draft.kind} disabled={saving || knownWell} onChange={e => update({ kind: e.target.value })}>

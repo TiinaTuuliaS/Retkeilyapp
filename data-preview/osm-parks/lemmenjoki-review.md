@@ -1,6 +1,19 @@
 # Lemmenjoen OSM-täydennysten tarkistus
 
-Haettu 12.9.2026. **Ei tietokantatuontia tai käyttöliittymämuutoksia.**
+Haettu 12.9.2026. **Kolme hyväksyttyä tulipaikkaa tuotiin 24.9.2026.**
+
+Pajuoja tulipaikka (ID 161), Pitkäniemi (162) ja Kapsuoja (163) on tuotu
+OSM-lähdemerkintöineen. Lähdeotos on edelleen 12.9.2026, ei uusi maastohavainto.
+Lemmenjoella on nyt yhteensä kuusi kohdetta. Palvelutietoja ei siirretty
+läheisiltä telttailupaikoilta. Kohteet sisältyvät ODbL-vientiin `/locations/osm.geojson`.
+
+Tuonti projektin juuresta: `.\retki.cmd backend import:osm-lemmenjoki`.
+Koetuonti: `.\retki.cmd backend test:osm-lemmenjoki`.
+Koetuonti tarkisti puistorajan, pysyvät tunnisteet, uusintatuonnin sekä raporttien,
+vesi- ja käyttötilahavaintojen säilymisen. Testimuutokset peruttiin.
+Tuonti käyttää vain hyväksyttyjä kolmea OSM-tunnistetta eikä ole ajastettu.
+Alkuperäisen koneellisen tarkistusraportin `databaseChanged: false` kuvaa
+kartoitusvaihetta ennen tätä tuontia.
 
 Hakulaatikossa oli 93 merkintää. Puistorajan sisälle osui 73 pistettä tai
 aluekohteen hakulaatikkokeskipistettä: 45 taukopaikka-/tupamerkintää,

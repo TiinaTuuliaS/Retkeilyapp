@@ -1,0 +1,493 @@
+[
+  {
+    "fetchedAt": "2026-09-24T14:53:34.595Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/509040",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "ikolanahon tulentekopaikka",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Ruoanlaitto-/tulentekopaikka",
+            "se": "Matlagningsplats",
+            "en": "Cooking facilities"
+          },
+          "tags": {
+            "fi": [
+              "nuotiopaikka",
+              "keittokatos",
+              "grillauspaikka",
+              "ruoka",
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.8291532691235,
+            63.074655536097
+          ],
+          "wgs84-center": [
+            29.8291532691235,
+            63.074655536097
+          ],
+          "wgs84-end": [
+            29.8291532691235,
+            63.074655536097
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.8291532691235,
+                  63.074655536097
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Lieksa",
+              "se": "Lieksa",
+              "en": "Lieksa"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Karjala",
+              "en": "Pohjois-Karjala",
+              "se": "Norra Karelen"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Itä-Suomen AVI",
+              "en": "Itä-Suomen AVI",
+              "se": "Östra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.8291532691235,
+                    63.074655536097
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Ikolanahon tulentekopaikka",
+      "type": {
+        "type-code": 206
+      },
+      "lipas-id": 509040,
+      "status": "active",
+      "comment": "Ukko-Kolin reittien varrella.",
+      "event-date": "2020-11-03T13:38:41.946Z",
+      "location": {
+        "city": {
+          "city-code": 422
+        },
+        "address": "Ikolanaho",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.8291532691235,
+                  63.074655536097
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "83960",
+        "postal-office": "Koli"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:53:34.651Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/509042",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "turulan tulentekopaikka",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Ruoanlaitto-/tulentekopaikka",
+            "se": "Matlagningsplats",
+            "en": "Cooking facilities"
+          },
+          "tags": {
+            "fi": [
+              "nuotiopaikka",
+              "keittokatos",
+              "grillauspaikka",
+              "ruoka",
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.7917342812079,
+            63.1030184526295
+          ],
+          "wgs84-center": [
+            29.7917342812079,
+            63.1030184526295
+          ],
+          "wgs84-end": [
+            29.7917342812079,
+            63.1030184526295
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.7917342812079,
+                  63.1030184526295
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Lieksa",
+              "se": "Lieksa",
+              "en": "Lieksa"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Karjala",
+              "en": "Pohjois-Karjala",
+              "se": "Norra Karelen"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Itä-Suomen AVI",
+              "en": "Itä-Suomen AVI",
+              "se": "Östra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.7917342812079,
+                    63.1030184526295
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Turulan tulentekopaikka",
+      "type": {
+        "type-code": 206
+      },
+      "lipas-id": 509042,
+      "status": "active",
+      "event-date": "2020-11-05T07:32:43.844Z",
+      "location": {
+        "city": {
+          "city-code": 422,
+          "neighborhood": "Koli"
+        },
+        "address": "Ylä-Kolintie 12",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.7917342812079,
+                  63.1030184526295
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "83960",
+        "postal-office": "Koli"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:53:34.740Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/511172",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "paimenenvaaran tulentekopaikka",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Ruoanlaitto-/tulentekopaikka",
+            "se": "Matlagningsplats",
+            "en": "Cooking facilities"
+          },
+          "tags": {
+            "fi": [
+              "nuotiopaikka",
+              "keittokatos",
+              "grillauspaikka",
+              "ruoka",
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.8119125849053,
+            63.0822066561406
+          ],
+          "wgs84-center": [
+            29.8119125849053,
+            63.0822066561406
+          ],
+          "wgs84-end": [
+            29.8119125849053,
+            63.0822066561406
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.8119125849053,
+                  63.0822066561406
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Lieksa",
+              "se": "Lieksa",
+              "en": "Lieksa"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Karjala",
+              "en": "Pohjois-Karjala",
+              "se": "Norra Karelen"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Itä-Suomen AVI",
+              "en": "Itä-Suomen AVI",
+              "se": "Östra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.8119125849053,
+                    63.0822066561406
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "www": "www.luontoon.fi/koli",
+      "name": "Paimenenvaaran tulentekopaikka",
+      "type": {
+        "type-code": 206
+      },
+      "lipas-id": 511172,
+      "status": "active",
+      "comment": "Tulentekopaikka, käymälä, kaivo.",
+      "event-date": "2020-11-03T13:39:06.851Z",
+      "location": {
+        "city": {
+          "city-code": 422,
+          "neighborhood": "Koli"
+        },
+        "address": "Kotaniementie 10",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.8119125849053,
+                  63.0822066561406
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "83960",
+        "postal-office": "Koli"
+      },
+      "owner": "state"
+    }
+  }
+]

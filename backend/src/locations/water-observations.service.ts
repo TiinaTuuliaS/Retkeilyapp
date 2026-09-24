@@ -32,15 +32,15 @@ export class WaterObservationsService {
       to_char(observed_on,'YYYY-MM-DD') AS "observedOn", created_at AS "createdAt"
       FROM public.water_observations WHERE location_id=$1 ORDER BY observed_on DESC, created_at DESC, id DESC`, [id]);
   }
-  async create(id: number, value: unknown) {
+  async create(id: number, value: unknown, accountId?: number) {
     const input = parseWaterObservation(value);
     await this.checkLocation(id);
-    // Development demo user, same as reports; authentication is not implemented yet.
+    // account_id owns new observations; old demo records retain null ownership.
     const rows = await this.locations.query(`INSERT INTO public.water_observations
-      (location_id,user_id,kind,directions,availability,observed_on) VALUES ($1,1,$2,$3,$4,$5)
+      (location_id,user_id,kind,directions,availability,observed_on,account_id) VALUES ($1,1,$2,$3,$4,$5,$6)
       RETURNING id, location_id AS "locationId", kind, directions, availability,
       to_char(observed_on,'YYYY-MM-DD') AS "observedOn", created_at AS "createdAt"`,
-    [id, input.kind, input.directions, input.availability, input.observedOn]);
+    [id, input.kind, input.directions, input.availability, input.observedOn, accountId ?? null]);
     return rows[0];
   }
 }

@@ -1,4 +1,4 @@
-import { Controller, Get, Post, Body } from '@nestjs/common';
+import { Controller, Get, Post, Body, Req } from '@nestjs/common';
 import { ReportsService } from './reports.service';
 
 @Controller('reports')
@@ -11,7 +11,7 @@ export class ReportsController {
   }
 
   @Post()
-  create(@Body() data: unknown) {
-    return this.service.create(data);
+  create(@Body() data: unknown, @Req() req: any) {
+    return this.service.create(data, req.account?.id);
   }
 }

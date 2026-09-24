@@ -7,11 +7,23 @@ import { backendRoot } from '../../database.config';
 import { Location } from '../locations/location.entity';
 
 const catalog = [
+  { slug: 'koli', name: 'Kolin kansallispuisto', region: 'Pohjois-Karjala',
+    description: 'Kolin kansallispuiston sivulla voit tutustua Konkarissa mukana oleviin taukopaikkoihin sekä jakaa havaintoja niiden kunnosta ja palveluista.',
+    descriptionSource: 'https://www.luontoon.fi/fi/kohteet/kolin-kansallispuisto',
+    officialUrl: 'https://www.luontoon.fi/fi/kohteet/kolin-kansallispuisto',
+    coverage: 'Mukana on rajattu kolmen LIPAS-tulentekopaikan otos. Kaikki puiston palvelut eivät vielä sisälly sovellukseen. Kaivomaininta lähdekuvauksessa ei vahvista veden saatavuutta tai juomakelpoisuutta.',
+    directory: 'lipas-koli', boundaryId: 'KPU070027' },
+  { slug: 'oulanka', name: 'Oulangan kansallispuisto', region: 'Pohjois-Suomi',
+    description: 'Oulangan kansallispuiston sivulle on koottu Konkarissa mukana olevat laavut, kodat ja tulentekopaikat. Kohdekorteilla voit jakaa havaintoja niiden kunnosta ja palveluista.',
+    descriptionSource: 'https://www.luontoon.fi/fi/kohteet/oulangan-kansallispuisto',
+    officialUrl: 'https://www.luontoon.fi/fi/kohteet/oulangan-kansallispuisto',
+    coverage: 'Mukana on rajattu 36 LIPAS-kohteen otos. Kaikki puiston palvelut eivät vielä sisälly sovellukseen. Käyttöehdoiltaan epäselvät kohteet ja osa lähekkäisistä rakenteista odottavat tarkistusta.',
+    directory: 'lipas-oulanka', boundaryId: 'KPU110020' },
   { slug: 'lemmenjoki', name: 'Lemmenjoen kansallispuisto', region: 'Lappi',
     description: 'Lemmenjoki on Lapin kansallispuisto. Konkarissa voit tutustua puiston mukana oleviin taukopaikkoihin ja jakaa havaintoja niiden kunnosta ja palveluista.',
     descriptionSource: 'https://www.luontoon.fi/fi/kohteet/lemmenjoen-kansallispuisto',
     officialUrl: 'https://www.luontoon.fi/fi/kohteet/lemmenjoen-kansallispuisto',
-    coverage: 'Mukana on rajattu kolmen LIPAS-kohteen otos: kaksi sääsuojaa ja puolilaavu. Kaikki puiston tuvat, tulipaikat ja vesipisteet eivät vielä sisälly sovellukseen.',
+    coverage: 'Mukana on kolme LIPAS-kohdetta ja kolme OpenStreetMapista tuotua tulipaikkaa. Kaikki puiston tuvat, tulipaikat ja vesipisteet eivät vielä sisälly sovellukseen.',
     directory: 'lipas-lemmenjoki', boundaryId: 'KPU120024' },
   { slug: 'pallas', name: 'Pallas–Yllästunturin kansallispuisto', region: 'Lappi',
     description: 'Pallas–Yllästunturi on Lapin kansallispuisto. Konkarissa voit tutustua rajattuun joukkoon puiston laavuja ja kotia sekä jakaa havaintoja niiden kunnosta ja palveluista.',
@@ -65,6 +77,6 @@ export class ParksController {
       boundarySource: 'https://gtkdata.gtk.fi/arcgis/rest/services/Tukes/suojelualueet/MapServer/5',
       boundaryAttribution: 'Metsähallitus / Syke, jakelu GTK · CC BY 4.0',
       boundaryUpdatedOn: new Date(boundary.features[0].properties.MuutosPvm).toISOString().slice(0,10),
-      descriptionCheckedOn: ['helvetinjarvi','pallas','lemmenjoki'].includes(park.slug) ? '2026-09-12' : '2026-09-08' };
+      descriptionCheckedOn: ['oulanka','koli'].includes(park.slug) ? '2026-09-24' : ['helvetinjarvi','pallas','lemmenjoki'].includes(park.slug) ? '2026-09-12' : '2026-09-08' };
   }
 }

@@ -20,7 +20,7 @@ export class ReportsService {
     });
   }
 
-  async create(data: unknown) {
+  async create(data: unknown, accountId?: number) {
     const input = parseCreateReport(data);
     const location = await this.locations.findOneBy({ id: input.location.id });
     if (!location) {
@@ -40,10 +40,11 @@ export class ReportsService {
       if (!allowed) throw new BadRequestException('Tästä palvelusta ei ole kohteessa vahvistettua tietoa. Valitse yleinen arvio.');
     }
 
-    // Temporary demo user until authentication is implemented.
+    // Legacy user_id retained for compatibility; account_id owns authenticated reports.
     const report = {
       location: { id: location.id },
       user_id: 1,
+      ...(accountId ? { account_id: accountId } : {}),
       status: input.status,
       target: input.target,
       comment: input.comment,

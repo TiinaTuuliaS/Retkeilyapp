@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
 import App from './App';
+import AccountPage from './Account';
+import { CommunityPage } from './Community';
 
 const API = 'http://localhost:3000';
 export default function ParkRouter() {
@@ -28,7 +30,9 @@ export default function ParkRouter() {
     load().catch(e => { if (e.name !== 'AbortError') setError(e.message); });
     return () => abort.abort();
   }, [route, attempt]);
+  if (route === '#/account') return <AccountPage />;
+  if (route === '#/community') return <CommunityPage />;
   if (!page || page.route !== route) return <main className="route-status"><a href="#/">← Kaikki kohteet</a>
     {error ? <><p role="alert">{error}</p><button onClick={() => { setError(''); setAttempt(n => n+1); }}>Yritä uudelleen</button></> : <p role="status">Ladataan puistotietoja…</p>}</main>;
-  return <App key={route} parks={page.parks} park={page.park} />;
+  return <App initialLocationId={/^#\/location\/\d+$/.test(route) ? Number(route.split('/')[2]) : null} key={route} parks={page.parks} park={page.park} />;
 }

@@ -1,7 +1,9 @@
 import { useEffect, useState } from 'react';
+import { useAccount } from './Account';
 const labels = { in_use: 'Kohde oli käytössä käynnilläni', not_in_use: 'Kohde ei ollut käytössä', unknown: 'Käyttötilaa ei voinut varmistaa' };
 const today = () => new Intl.DateTimeFormat('sv-SE', { timeZone: 'Europe/Helsinki' }).format(new Date());
 export default function UsageObservations({ locationId, api }) {
+  const { user } = useAccount();
   const [items, setItems] = useState([]);
   const [loaded, setLoaded] = useState(false);
   const [error, setError] = useState('');
@@ -25,7 +27,7 @@ export default function UsageObservations({ locationId, api }) {
     e.preventDefault(); if (saving) return;
     setSaving(true); setMessage('');
     try {
-      const r = await fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(draft) });
+      const r = await fetch(url, { method: 'POST', credentials: 'include', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(draft) });
       const data = await r.json();
       if (!r.ok) throw Error(typeof data.message === 'string' ? data.message : 'Tallennus epäonnistui.');
       setItems(previous => [...previous, data].sort((a,b) => b.observedOn.localeCompare(a.observedOn) || b.id-a.id));
@@ -40,8 +42,9 @@ export default function UsageObservations({ locationId, api }) {
     {error ? <p role="alert">{error} <button type="button" onClick={() => { setError(''); setReload(n => n+1); }}>Yritä uudelleen</button></p> : !loaded ? <p>Ladataan…</p> : <>
       {!items.length && <p>Ei vielä päivättyjä käyttötilahavaintoja.</p>}
       {items.map(item => <article className="observation" key={item.id}><strong>{labels[item.status]}</strong><p><time dateTime={item.observedOn}>{item.observedOn.split('-').reverse().join('.')}</time> · Käyttäjähavainto</p><p>{item.comment}</p></article>)}
-      <button className="secondary" type="button" disabled={saving} aria-expanded={open} onClick={() => setOpen(v => !v)}>{open ? 'Sulje lomake' : 'Kerro havainto käyttötilasta'}</button>
-      {open && <form className="report-form" onSubmit={submit}>
+      {!user && <p><a href="#/account">Kirjaudu</a> lisätäksesi käyttötilahavainnon.</p>}
+      <button className="secondary" type="button" disabled={saving || !user} aria-expanded={open} onClick={() => setOpen(v => !v)}>{open ? 'Sulje lomake' : 'Kerro havainto käyttötilasta'}</button>
+      {open && user && <form className="report-form" onSubmit={submit}>
         <label htmlFor="usage-status">Mitä havaitsit?</label><select id="usage-status" disabled={saving} value={draft.status} onChange={e => setDraft({ ...draft, status: e.target.value })}>{Object.entries(labels).map(([key,label]) => <option key={key} value={key}>{label}</option>)}</select>
         <label htmlFor="usage-date">Käyntipäivä</label><input id="usage-date" type="date" required min="2000-01-01" max={today()} disabled={saving} value={draft.observedOn} onChange={e => setDraft({ ...draft, observedOn: e.target.value })} />
         <label htmlFor="usage-comment">Kuvaile havaintosi</label><textarea id="usage-comment" required maxLength={1000} disabled={saving} value={draft.comment} onChange={e => setDraft({ ...draft, comment: e.target.value })} />

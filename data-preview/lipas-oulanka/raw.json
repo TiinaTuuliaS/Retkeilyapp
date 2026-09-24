@@ -1,0 +1,6443 @@
+[
+  {
+    "fetchedAt": "2026-09-24T14:46:35.923Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/73132",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "merenojan tulentekopaikka",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Ruoanlaitto-/tulentekopaikka",
+            "se": "Matlagningsplats",
+            "en": "Cooking facilities"
+          },
+          "tags": {
+            "fi": [
+              "nuotiopaikka",
+              "keittokatos",
+              "grillauspaikka",
+              "ruoka",
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.3707161813043,
+            66.3568884565557
+          ],
+          "wgs84-center": [
+            29.3707161813043,
+            66.3568884565557
+          ],
+          "wgs84-end": [
+            29.3707161813043,
+            66.3568884565557
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.3707161813043,
+                  66.3568884565557
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.3707161813043,
+                    66.3568884565557
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Merenojan tulentekopaikka",
+      "type": {
+        "type-code": 206
+      },
+      "lipas-id": 73132,
+      "status": "active",
+      "comment": "Alueella myös kompostikäymälä.",
+      "event-date": "2020-08-26T13:27:17.617Z",
+      "location": {
+        "city": {
+          "city-code": 305
+        },
+        "address": "Merenoja",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.3707161813043,
+                  66.3568884565557
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:35.978Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/73411",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "kiutakönkään taukokatos",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Ruoanlaitto-/tulentekopaikka",
+            "se": "Matlagningsplats",
+            "en": "Cooking facilities"
+          },
+          "tags": {
+            "fi": [
+              "nuotiopaikka",
+              "keittokatos",
+              "grillauspaikka",
+              "ruoka",
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.334408222515105,
+            66.3675753172385
+          ],
+          "wgs84-center": [
+            29.334408222515105,
+            66.3675753172385
+          ],
+          "wgs84-end": [
+            29.334408222515105,
+            66.3675753172385
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.334408222515105,
+                  66.3675753172385
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.334408222515105,
+                    66.3675753172385
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Kiutakönkään taukokatos",
+      "type": {
+        "type-code": 206
+      },
+      "lipas-id": 73411,
+      "status": "active",
+      "event-date": "2020-08-26T13:33:33.231Z",
+      "location": {
+        "city": {
+          "city-code": 305
+        },
+        "address": "Kiutaköngäs",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.334408222515105,
+                  66.3675753172385
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:36.025Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/73463",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "jussinkämpän tulentekopaikat",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Ruoanlaitto-/tulentekopaikka",
+            "se": "Matlagningsplats",
+            "en": "Cooking facilities"
+          },
+          "tags": {
+            "fi": [
+              "nuotiopaikka",
+              "keittokatos",
+              "grillauspaikka",
+              "ruoka",
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.5195955329641,
+            66.3033262091489
+          ],
+          "wgs84-center": [
+            29.5195955329641,
+            66.3033262091489
+          ],
+          "wgs84-end": [
+            29.5195955329641,
+            66.3033262091489
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.5195955329641,
+                  66.3033262091489
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.5195955329641,
+                    66.3033262091489
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Jussinkämpän tulentekopaikat",
+      "type": {
+        "type-code": 206
+      },
+      "lipas-id": 73463,
+      "status": "active",
+      "event-date": "2020-08-26T13:11:58.515Z",
+      "location": {
+        "city": {
+          "city-code": 305
+        },
+        "address": "Kulmakkojärvi",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.5195955329641,
+                  66.3033262091489
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:36.072Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/73532",
+    "site": {
+      "properties": {},
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Yritys",
+            "en": "Private / Company",
+            "se": "Privat / aktiebolag"
+          }
+        },
+        "name": "oulangan leirintäalueen tulentekopaikat",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Ruoanlaitto-/tulentekopaikka",
+            "se": "Matlagningsplats",
+            "en": "Cooking facilities"
+          },
+          "tags": {
+            "fi": [
+              "nuotiopaikka",
+              "keittokatos",
+              "grillauspaikka",
+              "ruoka",
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.2926450678932,
+            66.3718605422825
+          ],
+          "wgs84-center": [
+            29.2926450678932,
+            66.3718605422825
+          ],
+          "wgs84-end": [
+            29.2926450678932,
+            66.3718605422825
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.2926450678932,
+                  66.3718605422825
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.2926450678932,
+                    66.3718605422825
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Yritys",
+            "en": "Company ltd",
+            "se": "Aktiebolag"
+          }
+        }
+      },
+      "admin": "private-company",
+      "name": "Oulangan leirintäalueen tulentekopaikat",
+      "type": {
+        "type-code": 206
+      },
+      "lipas-id": 73532,
+      "status": "active",
+      "event-date": "2020-08-24T08:26:11.194Z",
+      "location": {
+        "city": {
+          "city-code": 305
+        },
+        "address": "Liikasenvaarantie 137",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.2926450678932,
+                  66.3718605422825
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "company-ltd"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:36.126Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/73560",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "ylikodan tulentekopaikka",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Ruoanlaitto-/tulentekopaikka",
+            "se": "Matlagningsplats",
+            "en": "Cooking facilities"
+          },
+          "tags": {
+            "fi": [
+              "nuotiopaikka",
+              "keittokatos",
+              "grillauspaikka",
+              "ruoka",
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.5404387118639,
+            66.273768753407
+          ],
+          "wgs84-center": [
+            29.5404387118639,
+            66.273768753407
+          ],
+          "wgs84-end": [
+            29.5404387118639,
+            66.273768753407
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.5404387118639,
+                  66.273768753407
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.5404387118639,
+                    66.273768753407
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Ylikodan tulentekopaikka",
+      "type": {
+        "type-code": 206
+      },
+      "lipas-id": 73560,
+      "status": "active",
+      "event-date": "2020-08-26T12:33:27.093Z",
+      "location": {
+        "city": {
+          "city-code": 305
+        },
+        "address": "Venäänniemi",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.5404387118639,
+                  66.273768753407
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:36.185Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/73593",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "taivalkönkään telttailualueen tulentekopaikka",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Ruoanlaitto-/tulentekopaikka",
+            "se": "Matlagningsplats",
+            "en": "Cooking facilities"
+          },
+          "tags": {
+            "fi": [
+              "nuotiopaikka",
+              "keittokatos",
+              "grillauspaikka",
+              "ruoka",
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.1881759882805,
+            66.4094519703092
+          ],
+          "wgs84-center": [
+            29.1881759882805,
+            66.4094519703092
+          ],
+          "wgs84-end": [
+            29.1881759882805,
+            66.4094519703092
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.1881759882805,
+                  66.4094519703092
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.1881759882805,
+                    66.4094519703092
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Taivalkönkään telttailualueen tulentekopaikka",
+      "type": {
+        "type-code": 206
+      },
+      "lipas-id": 73593,
+      "status": "active",
+      "comment": "Alueella myös kuivakäymälä.",
+      "event-date": "2020-09-02T08:20:48.584Z",
+      "location": {
+        "city": {
+          "city-code": 305,
+          "neighborhood": "Käylä"
+        },
+        "address": "Taivalköngäs",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.1881759882805,
+                  66.4094519703092
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:36.226Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/73595",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "kulmakkopuron tulentekopaikka",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Ruoanlaitto-/tulentekopaikka",
+            "se": "Matlagningsplats",
+            "en": "Cooking facilities"
+          },
+          "tags": {
+            "fi": [
+              "nuotiopaikka",
+              "keittokatos",
+              "grillauspaikka",
+              "ruoka",
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.4736061719479,
+            66.3310356390635
+          ],
+          "wgs84-center": [
+            29.4736061719479,
+            66.3310356390635
+          ],
+          "wgs84-end": [
+            29.4736061719479,
+            66.3310356390635
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.4736061719479,
+                  66.3310356390635
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.4736061719479,
+                    66.3310356390635
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Kulmakkopuron tulentekopaikka",
+      "type": {
+        "type-code": 206
+      },
+      "lipas-id": 73595,
+      "status": "active",
+      "comment": "Alueella myös kompostikäymälä.",
+      "event-date": "2020-09-02T11:37:45.996Z",
+      "location": {
+        "city": {
+          "city-code": 305
+        },
+        "address": "Kulmakkopuro",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.4736061719479,
+                  66.3310356390635
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:36.290Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/73659",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "ahvenperän tulentekopaikka",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Ruoanlaitto-/tulentekopaikka",
+            "se": "Matlagningsplats",
+            "en": "Cooking facilities"
+          },
+          "tags": {
+            "fi": [
+              "nuotiopaikka",
+              "keittokatos",
+              "grillauspaikka",
+              "ruoka",
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.6001490602194,
+            66.2755695852512
+          ],
+          "wgs84-center": [
+            29.6001490602194,
+            66.2755695852512
+          ],
+          "wgs84-end": [
+            29.6001490602194,
+            66.2755695852512
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.6001490602194,
+                  66.2755695852512
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.6001490602194,
+                    66.2755695852512
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Ahvenperän tulentekopaikka",
+      "construction-year": 1991,
+      "type": {
+        "type-code": 206
+      },
+      "lipas-id": 73659,
+      "status": "active",
+      "comment": "Alueella myös käymälä.",
+      "event-date": "2020-08-26T12:45:55.532Z",
+      "location": {
+        "city": {
+          "city-code": 305
+        },
+        "address": "Ahvenperä",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.6001490602194,
+                  66.2755695852512
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:36.333Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/73674",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "siilastuvan tulentekopaikka",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Ruoanlaitto-/tulentekopaikka",
+            "se": "Matlagningsplats",
+            "en": "Cooking facilities"
+          },
+          "tags": {
+            "fi": [
+              "nuotiopaikka",
+              "keittokatos",
+              "grillauspaikka",
+              "ruoka",
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.4364948873948,
+            66.2539601877867
+          ],
+          "wgs84-center": [
+            29.4364948873948,
+            66.2539601877867
+          ],
+          "wgs84-end": [
+            29.4364948873948,
+            66.2539601877867
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.4364948873948,
+                  66.2539601877867
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.4364948873948,
+                    66.2539601877867
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Siilastuvan tulentekopaikka",
+      "type": {
+        "type-code": 206
+      },
+      "lipas-id": 73674,
+      "status": "active",
+      "event-date": "2020-08-26T10:54:14.569Z",
+      "location": {
+        "city": {
+          "city-code": 305
+        },
+        "address": "Jyrävä",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.4364948873948,
+                  66.2539601877867
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:36.401Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/73683",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "kiutakönkään telttailualueen tulentekopaikka 1",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Ruoanlaitto-/tulentekopaikka",
+            "se": "Matlagningsplats",
+            "en": "Cooking facilities"
+          },
+          "tags": {
+            "fi": [
+              "nuotiopaikka",
+              "keittokatos",
+              "grillauspaikka",
+              "ruoka",
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.3369813562439,
+            66.36922494643
+          ],
+          "wgs84-center": [
+            29.3369813562439,
+            66.36922494643
+          ],
+          "wgs84-end": [
+            29.3369813562439,
+            66.36922494643
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.3369813562439,
+                  66.36922494643
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.3369813562439,
+                    66.36922494643
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Kiutakönkään telttailualueen tulentekopaikka 1",
+      "type": {
+        "type-code": 206
+      },
+      "lipas-id": 73683,
+      "status": "active",
+      "event-date": "2020-08-26T13:32:21.406Z",
+      "location": {
+        "city": {
+          "city-code": 305
+        },
+        "address": "Kiutaköngäs",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.3369813562439,
+                  66.36922494643
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:36.443Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/73703",
+    "site": {
+      "properties": {
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "puikkojärven tulentekopaikka",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Ruoanlaitto-/tulentekopaikka",
+            "se": "Matlagningsplats",
+            "en": "Cooking facilities"
+          },
+          "tags": {
+            "fi": [
+              "nuotiopaikka",
+              "keittokatos",
+              "grillauspaikka",
+              "ruoka",
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.1524845973989,
+            66.419882877473
+          ],
+          "wgs84-center": [
+            29.1524845973989,
+            66.419882877473
+          ],
+          "wgs84-end": [
+            29.1524845973989,
+            66.419882877473
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.1524845973989,
+                  66.419882877473
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.1524845973989,
+                    66.419882877473
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Puikkojärven tulentekopaikka",
+      "type": {
+        "type-code": 206
+      },
+      "lipas-id": 73703,
+      "status": "active",
+      "event-date": "2020-09-02T11:43:00.328Z",
+      "location": {
+        "city": {
+          "city-code": 305,
+          "neighborhood": "Käylä"
+        },
+        "address": "Puikkojärvi",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.1524845973989,
+                  66.419882877473
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:36.492Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/73794",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "siilastuvan taukokatos",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Ruoanlaitto-/tulentekopaikka",
+            "se": "Matlagningsplats",
+            "en": "Cooking facilities"
+          },
+          "tags": {
+            "fi": [
+              "nuotiopaikka",
+              "keittokatos",
+              "grillauspaikka",
+              "ruoka",
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.4372444516271,
+            66.2547081483679
+          ],
+          "wgs84-center": [
+            29.4372444516271,
+            66.2547081483679
+          ],
+          "wgs84-end": [
+            29.4372444516271,
+            66.2547081483679
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.4372444516271,
+                  66.2547081483679
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.4372444516271,
+                    66.2547081483679
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Siilastuvan taukokatos",
+      "type": {
+        "type-code": 206
+      },
+      "lipas-id": 73794,
+      "status": "active",
+      "event-date": "2020-08-26T10:53:02.115Z",
+      "location": {
+        "city": {
+          "city-code": 305
+        },
+        "address": "Jyrävä",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.4372444516271,
+                  66.2547081483679
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:36.561Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/73856",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "harrisuvannon alamutkan tulentekopaikka",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Ruoanlaitto-/tulentekopaikka",
+            "se": "Matlagningsplats",
+            "en": "Cooking facilities"
+          },
+          "tags": {
+            "fi": [
+              "nuotiopaikka",
+              "keittokatos",
+              "grillauspaikka",
+              "ruoka",
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.4704498285653,
+            66.2669088086599
+          ],
+          "wgs84-center": [
+            29.4704498285653,
+            66.2669088086599
+          ],
+          "wgs84-end": [
+            29.4704498285653,
+            66.2669088086599
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.4704498285653,
+                  66.2669088086599
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.4704498285653,
+                    66.2669088086599
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Harrisuvannon alamutkan tulentekopaikka",
+      "type": {
+        "type-code": 206
+      },
+      "lipas-id": 73856,
+      "status": "active",
+      "comment": "Alueella myös käymälä.",
+      "event-date": "2020-08-26T11:37:34.496Z",
+      "location": {
+        "city": {
+          "city-code": 305
+        },
+        "address": "Harrisuvanto",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.4704498285653,
+                  66.2669088086599
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:36.620Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/73988",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "likokankaan tulentekopaikka",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Ruoanlaitto-/tulentekopaikka",
+            "se": "Matlagningsplats",
+            "en": "Cooking facilities"
+          },
+          "tags": {
+            "fi": [
+              "nuotiopaikka",
+              "keittokatos",
+              "grillauspaikka",
+              "ruoka",
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.6526118586631,
+            66.2803604861175
+          ],
+          "wgs84-center": [
+            29.6526118586631,
+            66.2803604861175
+          ],
+          "wgs84-end": [
+            29.6526118586631,
+            66.2803604861175
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.6526118586631,
+                  66.2803604861175
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.6526118586631,
+                    66.2803604861175
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Likokankaan tulentekopaikka",
+      "type": {
+        "type-code": 206
+      },
+      "lipas-id": 73988,
+      "status": "active",
+      "event-date": "2020-08-26T13:09:10.679Z",
+      "location": {
+        "city": {
+          "city-code": 305
+        },
+        "address": "Likokangas",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.6526118586631,
+                  66.2803604861175
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:36.668Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/74165",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "ansakämpän tulentekopaikka",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Ruoanlaitto-/tulentekopaikka",
+            "se": "Matlagningsplats",
+            "en": "Cooking facilities"
+          },
+          "tags": {
+            "fi": [
+              "nuotiopaikka",
+              "keittokatos",
+              "grillauspaikka",
+              "ruoka",
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.4438910591423,
+            66.3486465807486
+          ],
+          "wgs84-center": [
+            29.4438910591423,
+            66.3486465807486
+          ],
+          "wgs84-end": [
+            29.4438910591423,
+            66.3486465807486
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.4438910591423,
+                  66.3486465807486
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.4438910591423,
+                    66.3486465807486
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Ansakämpän tulentekopaikka",
+      "type": {
+        "type-code": 206
+      },
+      "lipas-id": 74165,
+      "status": "active",
+      "event-date": "2020-08-26T13:21:56.244Z",
+      "location": {
+        "city": {
+          "city-code": 305
+        },
+        "address": "Ansakämppä",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.4438910591423,
+                  66.3486465807486
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:36.732Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/74229",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "nurmisaarenniemen tulentekopaikka",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Ruoanlaitto-/tulentekopaikka",
+            "se": "Matlagningsplats",
+            "en": "Cooking facilities"
+          },
+          "tags": {
+            "fi": [
+              "nuotiopaikka",
+              "keittokatos",
+              "grillauspaikka",
+              "ruoka",
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.4452423854903,
+            66.3482573671851
+          ],
+          "wgs84-center": [
+            29.4452423854903,
+            66.3482573671851
+          ],
+          "wgs84-end": [
+            29.4452423854903,
+            66.3482573671851
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.4452423854903,
+                  66.3482573671851
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.4452423854903,
+                    66.3482573671851
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Nurmisaarenniemen tulentekopaikka",
+      "type": {
+        "type-code": 206
+      },
+      "lipas-id": 74229,
+      "status": "active",
+      "comment": "Alueella myös kompostikäymälä.",
+      "event-date": "2020-08-26T13:21:30.190Z",
+      "location": {
+        "city": {
+          "city-code": 305
+        },
+        "address": "Nurmisaarenniemi",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.4452423854903,
+                  66.3482573671851
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:36.824Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/74234",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "kiutakönkään esteetön tulipaikka",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Ruoanlaitto-/tulentekopaikka",
+            "se": "Matlagningsplats",
+            "en": "Cooking facilities"
+          },
+          "tags": {
+            "fi": [
+              "nuotiopaikka",
+              "keittokatos",
+              "grillauspaikka",
+              "ruoka",
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.336163532554597,
+            66.36979081412406
+          ],
+          "wgs84-center": [
+            29.336163532554597,
+            66.36979081412406
+          ],
+          "wgs84-end": [
+            29.336163532554597,
+            66.36979081412406
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.336163532554597,
+                  66.36979081412406
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.336163532554597,
+                    66.36979081412406
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Kiutakönkään esteetön tulipaikka",
+      "type": {
+        "type-code": 206
+      },
+      "lipas-id": 74234,
+      "status": "active",
+      "event-date": "2020-08-26T13:29:15.701Z",
+      "location": {
+        "city": {
+          "city-code": 305
+        },
+        "address": "Liikasenvaarantie 150",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.336163532554597,
+                  66.36979081412406
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:36.885Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/74265",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "runsulammen tulentekopaikka",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Ruoanlaitto-/tulentekopaikka",
+            "se": "Matlagningsplats",
+            "en": "Cooking facilities"
+          },
+          "tags": {
+            "fi": [
+              "nuotiopaikka",
+              "keittokatos",
+              "grillauspaikka",
+              "ruoka",
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.2483564035383,
+            66.3908512244027
+          ],
+          "wgs84-center": [
+            29.2483564035383,
+            66.3908512244027
+          ],
+          "wgs84-end": [
+            29.2483564035383,
+            66.3908512244027
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.2483564035383,
+                  66.3908512244027
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.2483564035383,
+                    66.3908512244027
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Runsulammen tulentekopaikka",
+      "type": {
+        "type-code": 206
+      },
+      "lipas-id": 74265,
+      "status": "active",
+      "comment": "Alueella myös kuivakäymälä.",
+      "event-date": "2020-09-02T08:24:58.949Z",
+      "location": {
+        "city": {
+          "city-code": 305
+        },
+        "address": "Runsulampi",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.2483564035383,
+                  66.3908512244027
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:36.936Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/74362",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "mataraniemen tulentekopaikka 1",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Ruoanlaitto-/tulentekopaikka",
+            "se": "Matlagningsplats",
+            "en": "Cooking facilities"
+          },
+          "tags": {
+            "fi": [
+              "nuotiopaikka",
+              "keittokatos",
+              "grillauspaikka",
+              "ruoka",
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.3390384171252,
+            66.370400862697
+          ],
+          "wgs84-center": [
+            29.3390384171252,
+            66.370400862697
+          ],
+          "wgs84-end": [
+            29.3390384171252,
+            66.370400862697
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.3390384171252,
+                  66.370400862697
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.3390384171252,
+                    66.370400862697
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Mataraniemen tulentekopaikka 1",
+      "type": {
+        "type-code": 206
+      },
+      "lipas-id": 74362,
+      "status": "active",
+      "comment": "Lähellä myös kompostikäymälä.",
+      "event-date": "2020-08-26T13:27:58.864Z",
+      "location": {
+        "city": {
+          "city-code": 305
+        },
+        "address": "Liikasenvaarantie 150",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.3390384171252,
+                  66.370400862697
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:36.992Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/74407",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "jyrävän pohjoispuolinen tulentekopaikka",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Ruoanlaitto-/tulentekopaikka",
+            "se": "Matlagningsplats",
+            "en": "Cooking facilities"
+          },
+          "tags": {
+            "fi": [
+              "nuotiopaikka",
+              "keittokatos",
+              "grillauspaikka",
+              "ruoka",
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.4347745722046,
+            66.2547469165357
+          ],
+          "wgs84-center": [
+            29.4347745722046,
+            66.2547469165357
+          ],
+          "wgs84-end": [
+            29.4347745722046,
+            66.2547469165357
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.4347745722046,
+                  66.2547469165357
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.4347745722046,
+                    66.2547469165357
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Jyrävän pohjoispuolinen tulentekopaikka",
+      "type": {
+        "type-code": 206
+      },
+      "lipas-id": 74407,
+      "status": "active",
+      "comment": "Alueella myös käymälä.",
+      "event-date": "2020-08-26T10:53:34.934Z",
+      "location": {
+        "city": {
+          "city-code": 305
+        },
+        "address": "Jyrävä",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.4347745722046,
+                  66.2547469165357
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:37.101Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/603973",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "harrisuvannon taukokatos",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Ruoanlaitto-/tulentekopaikka",
+            "se": "Matlagningsplats",
+            "en": "Cooking facilities"
+          },
+          "tags": {
+            "fi": [
+              "nuotiopaikka",
+              "keittokatos",
+              "grillauspaikka",
+              "ruoka",
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.452930021626774,
+            66.26400171312416
+          ],
+          "wgs84-center": [
+            29.452930021626774,
+            66.26400171312416
+          ],
+          "wgs84-end": [
+            29.452930021626774,
+            66.26400171312416
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.452930021626774,
+                  66.26400171312416
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.452930021626774,
+                    66.26400171312416
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Harrisuvannon taukokatos",
+      "type": {
+        "type-code": 206
+      },
+      "lipas-id": 603973,
+      "status": "active",
+      "comment": "Alueella myös käymälä.",
+      "event-date": "2020-08-26T11:13:22.534Z",
+      "location": {
+        "city": {
+          "city-code": 305
+        },
+        "address": "Harrisuvanto",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.452930021626774,
+                  66.26400171312416
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:37.183Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/604074",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "kirkasvetisenlammen tulentekopaikka",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Ruoanlaitto-/tulentekopaikka",
+            "se": "Matlagningsplats",
+            "en": "Cooking facilities"
+          },
+          "tags": {
+            "fi": [
+              "nuotiopaikka",
+              "keittokatos",
+              "grillauspaikka",
+              "ruoka",
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.13263752389111,
+            66.43753109446592
+          ],
+          "wgs84-center": [
+            29.13263752389111,
+            66.43753109446592
+          ],
+          "wgs84-end": [
+            29.13263752389111,
+            66.43753109446592
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.13263752389111,
+                  66.43753109446592
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Salla",
+              "se": "Salla",
+              "en": "Salla"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Lappi",
+              "en": "Lappi",
+              "se": "Lappland"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Lapin AVI",
+              "en": "Lapin AVI",
+              "se": "Lappland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.13263752389111,
+                    66.43753109446592
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Kirkasvetisenlammen tulentekopaikka",
+      "type": {
+        "type-code": 206
+      },
+      "lipas-id": 604074,
+      "status": "active",
+      "event-date": "2020-09-02T09:38:28.806Z",
+      "location": {
+        "city": {
+          "city-code": 732
+        },
+        "address": "Kirkasvetinenlampi",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.13263752389111,
+                  66.43753109446592
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "98995",
+        "postal-office": "Hautajärvi"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:37.320Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/72957",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "pähkänän laavu",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Laavu, kota tai kammi",
+            "se": "Vindskydd eller kåta",
+            "en": "Lean-to, goahti (Lapp tent shelter) or 'kammi' earth lodge"
+          },
+          "tags": {
+            "fi": [
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.5238368449564,
+            66.268920396129
+          ],
+          "wgs84-center": [
+            29.5238368449564,
+            66.268920396129
+          ],
+          "wgs84-end": [
+            29.5238368449564,
+            66.268920396129
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.5238368449564,
+                  66.268920396129
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.5238368449564,
+                    66.268920396129
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Pähkänän laavu",
+      "construction-year": 1986,
+      "type": {
+        "type-code": 301
+      },
+      "lipas-id": 72957,
+      "status": "active",
+      "comment": "Alueella myös käymälä.",
+      "event-date": "2020-08-26T12:18:39.727Z",
+      "location": {
+        "city": {
+          "city-code": 305
+        },
+        "address": "Pähkänänkallio",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.5238368449564,
+                  66.268920396129
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:37.452Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/72968",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "kitkajoen ylikota",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Laavu, kota tai kammi",
+            "se": "Vindskydd eller kåta",
+            "en": "Lean-to, goahti (Lapp tent shelter) or 'kammi' earth lodge"
+          },
+          "tags": {
+            "fi": [
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.5389310790951,
+            66.2738261706397
+          ],
+          "wgs84-center": [
+            29.5389310790951,
+            66.2738261706397
+          ],
+          "wgs84-end": [
+            29.5389310790951,
+            66.2738261706397
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.5389310790951,
+                  66.2738261706397
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.5389310790951,
+                    66.2738261706397
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Kitkajoen Ylikota",
+      "construction-year": 1991,
+      "type": {
+        "type-code": 301
+      },
+      "lipas-id": 72968,
+      "status": "active",
+      "comment": "Alueella myös käymälä.",
+      "event-date": "2020-08-26T12:32:58.005Z",
+      "location": {
+        "city": {
+          "city-code": 305
+        },
+        "address": "Venäänniemi",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.5389310790951,
+                  66.2738261706397
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:37.585Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/73001",
+    "site": {
+      "properties": {
+        "toilet?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "taivalkönkään yläpuolinen laavu ohjelmapalveluyrittäjille",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Laavu, kota tai kammi",
+            "se": "Vindskydd eller kåta",
+            "en": "Lean-to, goahti (Lapp tent shelter) or 'kammi' earth lodge"
+          },
+          "tags": {
+            "fi": [
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.1887092169642,
+            66.4131697439076
+          ],
+          "wgs84-center": [
+            29.1887092169642,
+            66.4131697439076
+          ],
+          "wgs84-end": [
+            29.1887092169642,
+            66.4131697439076
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.1887092169642,
+                  66.4131697439076
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.1887092169642,
+                    66.4131697439076
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Taivalkönkään yläpuolinen laavu ohjelmapalveluyrittäjille",
+      "construction-year": 1998,
+      "type": {
+        "type-code": 301
+      },
+      "lipas-id": 73001,
+      "status": "active",
+      "event-date": "2026-05-27T14:03:32.706Z",
+      "location": {
+        "city": {
+          "city-code": 305
+        },
+        "address": "Taivalköngäs",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.1887092169642,
+                  66.4131697439076
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:37.754Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/73020",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "talvitienmutkan laavu",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Laavu, kota tai kammi",
+            "se": "Vindskydd eller kåta",
+            "en": "Lean-to, goahti (Lapp tent shelter) or 'kammi' earth lodge"
+          },
+          "tags": {
+            "fi": [
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.5500723633525,
+            66.276653995679
+          ],
+          "wgs84-center": [
+            29.5500723633525,
+            66.276653995679
+          ],
+          "wgs84-end": [
+            29.5500723633525,
+            66.276653995679
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.5500723633525,
+                  66.276653995679
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.5500723633525,
+                    66.276653995679
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Talvitienmutkan laavu",
+      "construction-year": 1991,
+      "type": {
+        "type-code": 301
+      },
+      "lipas-id": 73020,
+      "status": "active",
+      "comment": "Alueella myös käymälä.",
+      "event-date": "2020-08-26T12:34:01.165Z",
+      "location": {
+        "city": {
+          "city-code": 305
+        },
+        "address": "Talvitienmutka",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.5500723633525,
+                  66.276653995679
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:37.918Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/73066",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "kitkajokihaaran laavu",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Laavu, kota tai kammi",
+            "se": "Vindskydd eller kåta",
+            "en": "Lean-to, goahti (Lapp tent shelter) or 'kammi' earth lodge"
+          },
+          "tags": {
+            "fi": [
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.6469697614679,
+            66.2826548064014
+          ],
+          "wgs84-center": [
+            29.6469697614679,
+            66.2826548064014
+          ],
+          "wgs84-end": [
+            29.6469697614679,
+            66.2826548064014
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.6469697614679,
+                  66.2826548064014
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.6469697614679,
+                    66.2826548064014
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Kitkajokihaaran laavu",
+      "type": {
+        "type-code": 301
+      },
+      "lipas-id": 73066,
+      "status": "active",
+      "event-date": "2020-08-26T13:08:35.448Z",
+      "location": {
+        "city": {
+          "city-code": 305
+        },
+        "address": "Kitkajokihaara",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.6469697614679,
+                  66.2826548064014
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:37.982Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/73095",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "sirkkapuron laavu",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Laavu, kota tai kammi",
+            "se": "Vindskydd eller kåta",
+            "en": "Lean-to, goahti (Lapp tent shelter) or 'kammi' earth lodge"
+          },
+          "tags": {
+            "fi": [
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.5040525177459,
+            66.3341403420918
+          ],
+          "wgs84-center": [
+            29.5040525177459,
+            66.3341403420918
+          ],
+          "wgs84-end": [
+            29.5040525177459,
+            66.3341403420918
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.5040525177459,
+                  66.3341403420918
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.5040525177459,
+                    66.3341403420918
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Sirkkapuron laavu",
+      "construction-year": 2002,
+      "type": {
+        "type-code": 301
+      },
+      "lipas-id": 73095,
+      "status": "active",
+      "comment": "Alueella käymälä.",
+      "event-date": "2020-08-26T13:20:25.902Z",
+      "location": {
+        "city": {
+          "city-code": 305
+        },
+        "address": "Sirkkapuro",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.5040525177459,
+                  66.3341403420918
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:38.146Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/73130",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "jussinkämpän kota",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Laavu, kota tai kammi",
+            "se": "Vindskydd eller kåta",
+            "en": "Lean-to, goahti (Lapp tent shelter) or 'kammi' earth lodge"
+          },
+          "tags": {
+            "fi": [
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.5195532808511,
+            66.3035745662458
+          ],
+          "wgs84-center": [
+            29.5195532808511,
+            66.3035745662458
+          ],
+          "wgs84-end": [
+            29.5195532808511,
+            66.3035745662458
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.5195532808511,
+                  66.3035745662458
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.5195532808511,
+                    66.3035745662458
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Jussinkämpän kota",
+      "construction-year": 1998,
+      "type": {
+        "type-code": 301
+      },
+      "lipas-id": 73130,
+      "status": "active",
+      "event-date": "2020-08-26T13:12:20.380Z",
+      "location": {
+        "city": {
+          "city-code": 305
+        },
+        "address": "Kulmakkojärvi",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.5195532808511,
+                  66.3035745662458
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:38.284Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/73349",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "harrisuvannonniskan laavu",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Laavu, kota tai kammi",
+            "se": "Vindskydd eller kåta",
+            "en": "Lean-to, goahti (Lapp tent shelter) or 'kammi' earth lodge"
+          },
+          "tags": {
+            "fi": [
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.4633982029024,
+            66.2659515757326
+          ],
+          "wgs84-center": [
+            29.4633982029024,
+            66.2659515757326
+          ],
+          "wgs84-end": [
+            29.4633982029024,
+            66.2659515757326
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.4633982029024,
+                  66.2659515757326
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.4633982029024,
+                    66.2659515757326
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Harrisuvannonniskan laavu",
+      "construction-year": 1994,
+      "type": {
+        "type-code": 301
+      },
+      "lipas-id": 73349,
+      "status": "active",
+      "comment": "Alueella myös käymälä.",
+      "event-date": "2020-08-26T11:36:51.805Z",
+      "location": {
+        "city": {
+          "city-code": 305
+        },
+        "address": "Harrisuvanto",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.4633982029024,
+                  66.2659515757326
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:38.377Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/73407",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "harrisuvannon ylälaavu",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Laavu, kota tai kammi",
+            "se": "Vindskydd eller kåta",
+            "en": "Lean-to, goahti (Lapp tent shelter) or 'kammi' earth lodge"
+          },
+          "tags": {
+            "fi": [
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.4535779270978,
+            66.2642446095675
+          ],
+          "wgs84-center": [
+            29.4535779270978,
+            66.2642446095675
+          ],
+          "wgs84-end": [
+            29.4535779270978,
+            66.2642446095675
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.4535779270978,
+                  66.2642446095675
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.4535779270978,
+                    66.2642446095675
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Harrisuvannon ylälaavu",
+      "construction-year": 1991,
+      "type": {
+        "type-code": 301
+      },
+      "lipas-id": 73407,
+      "status": "active",
+      "comment": "Alueella myös käymälä.",
+      "event-date": "2020-08-26T11:12:35.699Z",
+      "location": {
+        "city": {
+          "city-code": 305
+        },
+        "address": "Harrisuvanto",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.4535779270978,
+                  66.2642446095675
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:38.550Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/73501",
+    "site": {
+      "properties": {},
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "elijoki laavu",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Laavu, kota tai kammi",
+            "se": "Vindskydd eller kåta",
+            "en": "Lean-to, goahti (Lapp tent shelter) or 'kammi' earth lodge"
+          },
+          "tags": {
+            "fi": [
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.312192510358706,
+            66.49013395116515
+          ],
+          "wgs84-center": [
+            29.312192510358706,
+            66.49013395116515
+          ],
+          "wgs84-end": [
+            29.312192510358706,
+            66.49013395116515
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.312192510358706,
+                  66.49013395116515
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Salla",
+              "se": "Salla",
+              "en": "Salla"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Lappi",
+              "en": "Lappi",
+              "se": "Lappland"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Lapin AVI",
+              "en": "Lapin AVI",
+              "se": "Lappland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.312192510358706,
+                    66.49013395116515
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Elijoki laavu",
+      "construction-year": 1994,
+      "type": {
+        "type-code": 301
+      },
+      "lipas-id": 73501,
+      "status": "active",
+      "event-date": "2025-10-20T11:35:09.978Z",
+      "location": {
+        "city": {
+          "city-code": 732,
+          "neighborhood": "Hautajärvi"
+        },
+        "address": "Keroharjun reitti",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.312192510358706,
+                  66.49013395116515
+                ]
+              },
+              "properties": {}
+            }
+          ]
+        },
+        "postal-code": "98995",
+        "postal-office": "Hautajärvi"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:38.640Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/73675",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "vennäänmutkan laavu",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Laavu, kota tai kammi",
+            "se": "Vindskydd eller kåta",
+            "en": "Lean-to, goahti (Lapp tent shelter) or 'kammi' earth lodge"
+          },
+          "tags": {
+            "fi": [
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.5310205156728,
+            66.2705758824396
+          ],
+          "wgs84-center": [
+            29.5310205156728,
+            66.2705758824396
+          ],
+          "wgs84-end": [
+            29.5310205156728,
+            66.2705758824396
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.5310205156728,
+                  66.2705758824396
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.5310205156728,
+                    66.2705758824396
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Vennäänmutkan laavu",
+      "construction-year": 1991,
+      "type": {
+        "type-code": 301
+      },
+      "lipas-id": 73675,
+      "status": "active",
+      "comment": "Alueella myös käymälä.",
+      "event-date": "2020-08-26T12:19:09.139Z",
+      "location": {
+        "city": {
+          "city-code": 305
+        },
+        "address": "Venäänmutka",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.5310205156728,
+                  66.2705758824396
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:38.729Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/73803",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "lohisuoran laavu",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Laavu, kota tai kammi",
+            "se": "Vindskydd eller kåta",
+            "en": "Lean-to, goahti (Lapp tent shelter) or 'kammi' earth lodge"
+          },
+          "tags": {
+            "fi": [
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.5770797123644,
+            66.2760458767663
+          ],
+          "wgs84-center": [
+            29.5770797123644,
+            66.2760458767663
+          ],
+          "wgs84-end": [
+            29.5770797123644,
+            66.2760458767663
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.5770797123644,
+                  66.2760458767663
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.5770797123644,
+                    66.2760458767663
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Lohisuoran laavu",
+      "construction-year": 1991,
+      "type": {
+        "type-code": 301
+      },
+      "lipas-id": 73803,
+      "status": "active",
+      "comment": "Alueella myös käymälä.",
+      "event-date": "2020-08-26T12:44:47.662Z",
+      "location": {
+        "city": {
+          "city-code": 305
+        },
+        "address": "Saunavaarantie",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.5770797123644,
+                  66.2760458767663
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:38.818Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/73887",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "alaniemen laavu",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Laavu, kota tai kammi",
+            "se": "Vindskydd eller kåta",
+            "en": "Lean-to, goahti (Lapp tent shelter) or 'kammi' earth lodge"
+          },
+          "tags": {
+            "fi": [
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.583557045587,
+            66.3043710863614
+          ],
+          "wgs84-center": [
+            29.583557045587,
+            66.3043710863614
+          ],
+          "wgs84-end": [
+            29.583557045587,
+            66.3043710863614
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.583557045587,
+                  66.3043710863614
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.583557045587,
+                    66.3043710863614
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Alaniemen laavu",
+      "construction-year": 1992,
+      "type": {
+        "type-code": 301
+      },
+      "lipas-id": 73887,
+      "status": "active",
+      "comment": "Alueella myös käymälä.",
+      "event-date": "2020-08-26T13:09:57.082Z",
+      "location": {
+        "city": {
+          "city-code": 305
+        },
+        "address": "Alaniemi",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.583557045587,
+                  66.3043710863614
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:39.009Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/73926",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "perttumakosken laavu",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Laavu, kota tai kammi",
+            "se": "Vindskydd eller kåta",
+            "en": "Lean-to, goahti (Lapp tent shelter) or 'kammi' earth lodge"
+          },
+          "tags": {
+            "fi": [
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.1678335014743,
+            66.4936898123641
+          ],
+          "wgs84-center": [
+            29.1678335014743,
+            66.4936898123641
+          ],
+          "wgs84-end": [
+            29.1678335014743,
+            66.4936898123641
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.1678335014743,
+                  66.4936898123641
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Salla",
+              "se": "Salla",
+              "en": "Salla"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Lappi",
+              "en": "Lappi",
+              "se": "Lappland"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Lapin AVI",
+              "en": "Lapin AVI",
+              "se": "Lappland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.1678335014743,
+                    66.4936898123641
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Perttumakosken laavu",
+      "construction-year": 1990,
+      "type": {
+        "type-code": 301
+      },
+      "lipas-id": 73926,
+      "status": "active",
+      "event-date": "2020-09-02T09:39:34.507Z",
+      "location": {
+        "city": {
+          "city-code": 732,
+          "neighborhood": "Hautajärvi"
+        },
+        "address": "Niitselys",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.1678335014743,
+                  66.4936898123641
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "98995",
+        "postal-office": "Hautajärvi"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:39.176Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/73927",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "kirkonnurkanlammen laavu",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Laavu, kota tai kammi",
+            "se": "Vindskydd eller kåta",
+            "en": "Lean-to, goahti (Lapp tent shelter) or 'kammi' earth lodge"
+          },
+          "tags": {
+            "fi": [
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.4545226243087,
+            66.4168903260149
+          ],
+          "wgs84-center": [
+            29.4545226243087,
+            66.4168903260149
+          ],
+          "wgs84-end": [
+            29.4545226243087,
+            66.4168903260149
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.4545226243087,
+                  66.4168903260149
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.4545226243087,
+                    66.4168903260149
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Kirkonnurkanlammen laavu",
+      "construction-year": 2003,
+      "type": {
+        "type-code": 301
+      },
+      "lipas-id": 73927,
+      "status": "active",
+      "event-date": "2020-09-02T13:11:12.142Z",
+      "location": {
+        "city": {
+          "city-code": 305
+        },
+        "address": "Kirkonnurkanlampi",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.4545226243087,
+                  66.4168903260149
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:39.355Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/74047",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "kaijankiven laavu",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Laavu, kota tai kammi",
+            "se": "Vindskydd eller kåta",
+            "en": "Lean-to, goahti (Lapp tent shelter) or 'kammi' earth lodge"
+          },
+          "tags": {
+            "fi": [
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.5939016171864,
+            66.2736019798893
+          ],
+          "wgs84-center": [
+            29.5939016171864,
+            66.2736019798893
+          ],
+          "wgs84-end": [
+            29.5939016171864,
+            66.2736019798893
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.5939016171864,
+                  66.2736019798893
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.5939016171864,
+                    66.2736019798893
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Kaijankiven laavu",
+      "construction-year": 1995,
+      "type": {
+        "type-code": 301
+      },
+      "lipas-id": 74047,
+      "status": "active",
+      "comment": "Alueella myös käymälä.",
+      "event-date": "2020-08-26T12:45:21.992Z",
+      "location": {
+        "city": {
+          "city-code": 305
+        },
+        "address": "Saunavaarantie",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.5939016171864,
+                  66.2736019798893
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:39.537Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/74385",
+    "site": {
+      "properties": {
+        "toilet?": true,
+        "free-use?": true
+      },
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "harrihaudan laavu",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Laavu, kota tai kammi",
+            "se": "Vindskydd eller kåta",
+            "en": "Lean-to, goahti (Lapp tent shelter) or 'kammi' earth lodge"
+          },
+          "tags": {
+            "fi": [
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.568010619183,
+            66.2779707031864
+          ],
+          "wgs84-center": [
+            29.568010619183,
+            66.2779707031864
+          ],
+          "wgs84-end": [
+            29.568010619183,
+            66.2779707031864
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.568010619183,
+                  66.2779707031864
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Kuusamo",
+              "se": "Kuusamo",
+              "en": "Kuusamo"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Pohjois-Pohjanmaa",
+              "en": "Pohjois-Pohjanmaa",
+              "se": "Norra Österbotten"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Pohjois-Suomen AVI",
+              "en": "Pohjois-Suomen AVI",
+              "se": "Norra Finland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.568010619183,
+                    66.2779707031864
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Harrihaudan laavu",
+      "construction-year": 1998,
+      "type": {
+        "type-code": 301
+      },
+      "lipas-id": 74385,
+      "status": "active",
+      "comment": "Alueella myös käymälä.",
+      "event-date": "2020-08-26T12:44:18.222Z",
+      "location": {
+        "city": {
+          "city-code": 305
+        },
+        "address": "Harrihauta",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.568010619183,
+                  66.2779707031864
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "93900",
+        "postal-office": "Kuusamo"
+      },
+      "owner": "state"
+    }
+  },
+  {
+    "fetchedAt": "2026-09-24T14:46:39.624Z",
+    "url": "https://api.lipas.fi/v2/sports-sites/74394",
+    "site": {
+      "search-meta": {
+        "editor-org-ids": null,
+        "audits": {
+          "latest-audit-date": null
+        },
+        "admin": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        },
+        "name": "vasaojan laavu",
+        "fields": {
+          "field-types": []
+        },
+        "type": {
+          "name": {
+            "fi": "Laavu, kota tai kammi",
+            "se": "Vindskydd eller kåta",
+            "en": "Lean-to, goahti (Lapp tent shelter) or 'kammi' earth lodge"
+          },
+          "tags": {
+            "fi": [
+              "taukopaikka"
+            ]
+          },
+          "main-category": {
+            "name": {
+              "fi": "Virkistyskohteet ja palvelut",
+              "se": "Rekreationsanläggningar och tjänster",
+              "en": "Recreational destinations and services"
+            }
+          },
+          "sub-category": {
+            "name": {
+              "fi": "Retkeilyn palvelut",
+              "se": "Utflyktstjänster",
+              "en": "Hiking facilities"
+            }
+          }
+        },
+        "owner-org-id": null,
+        "owner-org-name": null,
+        "activities": null,
+        "location": {
+          "wgs84-point": [
+            29.1845588317067,
+            66.4461001093728
+          ],
+          "wgs84-center": [
+            29.1845588317067,
+            66.4461001093728
+          ],
+          "wgs84-end": [
+            29.1845588317067,
+            66.4461001093728
+          ],
+          "geometries": {
+            "type": "geometrycollection",
+            "geometries": [
+              {
+                "type": "Point",
+                "coordinates": [
+                  29.1845588317067,
+                  66.4461001093728
+                ]
+              }
+            ]
+          },
+          "city": {
+            "name": {
+              "fi": "Salla",
+              "se": "Salla",
+              "en": "Salla"
+            }
+          },
+          "province": {
+            "name": {
+              "fi": "Lappi",
+              "en": "Lappi",
+              "se": "Lappland"
+            }
+          },
+          "avi-area": {
+            "name": {
+              "fi": "Lapin AVI",
+              "en": "Lapin AVI",
+              "se": "Lappland"
+            }
+          },
+          "simple-geoms": {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    29.1845588317067,
+                    66.4461001093728
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "owner": {
+          "name": {
+            "fi": "Valtio",
+            "en": "State",
+            "se": "Staten"
+          }
+        }
+      },
+      "admin": "state",
+      "name": "Vasaojan laavu",
+      "construction-year": 1992,
+      "type": {
+        "type-code": 301
+      },
+      "lipas-id": 74394,
+      "status": "active",
+      "event-date": "2017-05-29T11:03:13.106Z",
+      "location": {
+        "city": {
+          "city-code": 732,
+          "neighborhood": "Hautajärvi"
+        },
+        "address": "Niitselys",
+        "geometries": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.1845588317067,
+                  66.4461001093728
+                ]
+              }
+            }
+          ]
+        },
+        "postal-code": "98995",
+        "postal-office": "Hautajärvi"
+      },
+      "owner": "state"
+    }
+  }
+]
