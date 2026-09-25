@@ -1,0 +1,3232 @@
+{
+  "fetchedAt": "2026-09-25T13:39:33.704Z",
+  "endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+  "query": "[out:json][timeout:25];(nwr[\"amenity\"=\"drinking_water\"](60.243877844218105,24.4176933032533,60.3748367875332,24.704661211640467);nwr[\"man_made\"=\"water_well\"](60.243877844218105,24.4176933032533,60.3748367875332,24.704661211640467);nwr[\"man_made\"=\"water_tap\"](60.243877844218105,24.4176933032533,60.3748367875332,24.704661211640467);nwr[\"natural\"=\"spring\"](60.243877844218105,24.4176933032533,60.3748367875332,24.704661211640467);nwr[\"drinking_water\"](60.243877844218105,24.4176933032533,60.3748367875332,24.704661211640467);nwr[\"amenity\"=\"shelter\"](60.243877844218105,24.4176933032533,60.3748367875332,24.704661211640467);nwr[\"tourism\"=\"picnic_site\"](60.243877844218105,24.4176933032533,60.3748367875332,24.704661211640467);nwr[\"leisure\"=\"firepit\"](60.243877844218105,24.4176933032533,60.3748367875332,24.704661211640467);nwr[\"amenity\"=\"bbq\"](60.243877844218105,24.4176933032533,60.3748367875332,24.704661211640467);nwr[\"tourism\"=\"wilderness_hut\"](60.243877844218105,24.4176933032533,60.3748367875332,24.704661211640467);nwr[\"tourism\"=\"camp_site\"](60.243877844218105,24.4176933032533,60.3748367875332,24.704661211640467);nwr[\"leisure\"=\"picnic_table\"](60.243877844218105,24.4176933032533,60.3748367875332,24.704661211640467););out center meta;",
+  "osmBase": "2026-09-25T13:36:36Z",
+  "elements": [
+    {
+      "type": "node",
+      "id": 303078535,
+      "lat": 60.3123717,
+      "lon": 24.4852606,
+      "timestamp": "2025-01-08T17:37:58Z",
+      "version": 9,
+      "changeset": 161142484,
+      "tags": {
+        "caravans": "no",
+        "drinking_water": "no",
+        "name": "Iso-Holman telttailualue",
+        "power_supply": "no",
+        "shower": "no",
+        "tents": "yes",
+        "toilets": "no",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 309848938,
+      "lat": 60.2982805,
+      "lon": 24.620385,
+      "timestamp": "2023-12-30T16:58:16Z",
+      "version": 5,
+      "changeset": 145705633,
+      "tags": {
+        "name": "Kattilajärvi tulipaikka",
+        "shelter": "yes",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 332552941,
+      "lat": 60.3009794,
+      "lon": 24.6220313,
+      "timestamp": "2017-11-21T10:25:19Z",
+      "version": 5,
+      "changeset": 53971745,
+      "tags": {
+        "description": "Kaupungin leirikeskus yhdistyksille ym.",
+        "ele": "69",
+        "name": "Kattilaniemen leirikeskus",
+        "tourism": "camp_site",
+        "url": "http://www.espoo.fi/fi-FI/Nuoret/Vuokrattavia_tiloja_ja_avustuksia/Vuokrattavat_tilat/Vuokrattavat_tilat(70559)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 336582800,
+      "lat": 60.3115491,
+      "lon": 24.4887678,
+      "timestamp": "2025-01-12T09:06:03Z",
+      "version": 3,
+      "changeset": 161265013,
+      "tags": {
+        "backcountry": "yes",
+        "caravans": "no",
+        "drinking_water": "no",
+        "name": "Iso-Holman pieni telttailualue",
+        "openfire": "yes",
+        "power_supply": "no",
+        "shower": "no",
+        "tents": "yes",
+        "toilets": "no",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 449072131,
+      "lat": 60.296919,
+      "lon": 24.6171685,
+      "timestamp": "2022-04-26T07:36:37Z",
+      "version": 3,
+      "changeset": 120197995,
+      "tags": {
+        "amenity": "shelter",
+        "bin": "no",
+        "lit": "no",
+        "name": "Kattilajärven keittokatos",
+        "shelter_type": "picnic_shelter",
+        "source": "survey;local knowledge",
+        "tourism": "picnic_site",
+        "url": "https://www.espoo.fi/en/units/53487"
+      }
+    },
+    {
+      "type": "node",
+      "id": 463763040,
+      "lat": 60.2988437,
+      "lon": 24.6199368,
+      "timestamp": "2009-08-13T16:12:23Z",
+      "version": 1,
+      "changeset": 2132783,
+      "tags": {
+        "shelter": "yes",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 618806514,
+      "lat": 60.3100328,
+      "lon": 24.5126627,
+      "timestamp": "2010-11-12T13:54:11Z",
+      "version": 2,
+      "changeset": 6350766,
+      "tags": {
+        "fireplace": "no",
+        "source": "survey",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 638380530,
+      "lat": 60.3255835,
+      "lon": 24.4941456,
+      "timestamp": "2010-02-13T13:36:48Z",
+      "version": 1,
+      "changeset": 3864725,
+      "tags": {
+        "fireplace": "yes",
+        "source": "survey",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 638380531,
+      "lat": 60.3254569,
+      "lon": 24.4940496,
+      "timestamp": "2010-02-13T13:36:48Z",
+      "version": 1,
+      "changeset": 3864725,
+      "tags": {
+        "fireplace": "yes",
+        "source": "survey",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 638380533,
+      "lat": 60.3259512,
+      "lon": 24.4927807,
+      "timestamp": "2010-02-13T13:36:48Z",
+      "version": 1,
+      "changeset": 3864725,
+      "tags": {
+        "amenity": "shelter",
+        "fireplace": "yes",
+        "source": "survey",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 649291366,
+      "lat": 60.3097952,
+      "lon": 24.5147158,
+      "timestamp": "2025-07-26T10:36:45Z",
+      "version": 4,
+      "changeset": 169498427,
+      "tags": {
+        "access": "yes",
+        "amenity": "drinking_water",
+        "man_made": "water_tap",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 888747755,
+      "lat": 60.3498801,
+      "lon": 24.6006042,
+      "timestamp": "2026-09-03T16:48:38Z",
+      "version": 5,
+      "changeset": 188483587,
+      "tags": {
+        "amenity": "shelter",
+        "check_date": "2023-05-07",
+        "firepit": "yes",
+        "fixme": "fix tagging (survey)",
+        "name": "Kämmenlammen laavu",
+        "shelter_type": "lean_to",
+        "source": "survey;https://www.vihti.fi/kulttuuri-ja-vapaa-aika/liikunta/retkeily-ja-ulkoilu/laavut-kodat-ja-nuotiopaikat/",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 889077934,
+      "lat": 60.3651443,
+      "lon": 24.4840595,
+      "timestamp": "2022-01-02T12:21:30Z",
+      "version": 3,
+      "changeset": 115666915,
+      "tags": {
+        "alt_name": "Paratiisi Sa2",
+        "fireplace": "yes",
+        "name": "Paratiisi",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 889110991,
+      "lat": 60.2699277,
+      "lon": 24.6482225,
+      "timestamp": "2010-08-30T18:08:50Z",
+      "version": 1,
+      "changeset": 5638667,
+      "tags": {
+        "fireplace": "yes",
+        "name": "Pirttimäki",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 915621349,
+      "lat": 60.3209549,
+      "lon": 24.4547896,
+      "timestamp": "2025-01-08T17:37:58Z",
+      "version": 3,
+      "changeset": 161142484,
+      "tags": {
+        "backcountry": "yes",
+        "name": "Saarilammen telttailualue",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 918826422,
+      "lat": 60.33462,
+      "lon": 24.46458,
+      "timestamp": "2017-04-01T18:28:21Z",
+      "version": 3,
+      "changeset": 47363779,
+      "tags": {
+        "addr:housenumber": "69",
+        "addr:street": "Ruuhilammentie",
+        "fee": "yes",
+        "name": "Oravankolo",
+        "reservation": "required",
+        "tourism": "wilderness_hut",
+        "url": "http://www.luontoon.fi/oravankolovuokratupa"
+      }
+    },
+    {
+      "type": "node",
+      "id": 959428042,
+      "lat": 60.2688419,
+      "lon": 24.6885514,
+      "timestamp": "2020-11-06T17:24:45Z",
+      "version": 2,
+      "changeset": 93677381,
+      "tags": {
+        "amenity": "shelter",
+        "source": "gl_orto"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1128184377,
+      "lat": 60.2716835,
+      "lon": 24.6213813,
+      "timestamp": "2026-01-06T21:30:02Z",
+      "version": 7,
+      "changeset": 176920406,
+      "tags": {
+        "description": "Tulipaikka mökissä",
+        "end_date": "2011..2013",
+        "fireplace": "no",
+        "name": "Sulalampi",
+        "name:fi": "Sulalampi",
+        "name:sv": "Sultingsträsk",
+        "piste:amenity": "shelter",
+        "source": "survey",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1139720838,
+      "lat": 60.256169,
+      "lon": 24.632276,
+      "timestamp": "2025-07-09T07:30:08Z",
+      "version": 4,
+      "changeset": 168680734,
+      "tags": {
+        "description": "Oittaan Isosuon lähde sijaitsee suon koillisosassa. Lähde on kaksiosainen; suurempi allas on noin viisi metriä leveä ja pienempi muutaman metrin. Syvyyttä niillä on noin 1,5–2 metriä. Ympäristön metsä on lähes luonnontilaista.  Source: City of Espoo",
+        "name": "Oittaan Isosuon lähde",
+        "name:fi": "Oittaan Isosuon lähde",
+        "name:sv": "Oitans Stormossens källa",
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1167723425,
+      "lat": 60.3237994,
+      "lon": 24.5764452,
+      "timestamp": "2025-01-08T17:37:58Z",
+      "version": 4,
+      "changeset": 161142484,
+      "tags": {
+        "backcountry": "yes",
+        "fireplace": "no",
+        "name": "Valkealammen telttailualue",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1167723437,
+      "lat": 60.3020247,
+      "lon": 24.4906159,
+      "timestamp": "2025-08-04T06:19:24Z",
+      "version": 4,
+      "changeset": 169935299,
+      "tags": {
+        "access": "yes",
+        "backcountry": "yes",
+        "camp_site": "basic",
+        "caravans": "no",
+        "fee": "no",
+        "name": "Holma-Saarijärven läntinen telttailualue",
+        "static_caravans": "no",
+        "tents": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1167723450,
+      "lat": 60.3258727,
+      "lon": 24.4925813,
+      "timestamp": "2011-02-23T11:36:14Z",
+      "version": 2,
+      "changeset": 7371607,
+      "tags": {
+        "covered": "yes",
+        "fireplace": "yes",
+        "name": "Kattilan keittokatos",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1167723461,
+      "lat": 60.3164197,
+      "lon": 24.4525244,
+      "timestamp": "2025-08-06T04:41:25Z",
+      "version": 3,
+      "changeset": 170036293,
+      "tags": {
+        "access": "customers",
+        "fireplace": "yes",
+        "leisure": "firepit",
+        "name": "Tikankolon tulipaikka"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1167723519,
+      "lat": 60.3088462,
+      "lon": 24.6228563,
+      "timestamp": "2025-08-24T12:29:43Z",
+      "version": 7,
+      "changeset": 170921895,
+      "tags": {
+        "backcountry": "yes",
+        "drinking_water": "no",
+        "name": "Vääräjärven telttailualue",
+        "power_supply": "no",
+        "shower": "no",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1167723549,
+      "lat": 60.3256378,
+      "lon": 24.4941015,
+      "timestamp": "2011-02-23T11:36:16Z",
+      "version": 2,
+      "changeset": 7371607,
+      "tags": {
+        "fireplace": "yes",
+        "name": "Kattilan tulentekopaikka",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1167723560,
+      "lat": 60.3097385,
+      "lon": 24.5062365,
+      "timestamp": "2026-01-08T07:32:31Z",
+      "version": 4,
+      "changeset": 176972498,
+      "tags": {
+        "leisure": "firepit",
+        "name": "Haukanholman tulentekopaikka",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1167723568,
+      "lat": 60.295382,
+      "lon": 24.5141527,
+      "timestamp": "2025-10-17T04:42:16Z",
+      "version": 13,
+      "changeset": 173391643,
+      "tags": {
+        "addr:city": "Espoo",
+        "addr:postcode": "02860",
+        "addr:street": "Kolmoislammentie",
+        "backcountry": "yes",
+        "drinking_water": "no",
+        "name": "Kolmoislammen varaustelttailualue ja -tulentekopaikka",
+        "name:fi": "Kolmoislammen varaustelttailualue ja -tulentekopaikka",
+        "payment:cash": "no",
+        "power_supply": "no",
+        "sauna": "no",
+        "shower": "no",
+        "swimming_pool": "no",
+        "toilets": "yes",
+        "tourism": "camp_site",
+        "website": "https://www.eraluvat.fi/kohteet/kolmoislampi-varaustelttapaikka-1220",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1167723590,
+      "lat": 60.3060661,
+      "lon": 24.512361,
+      "timestamp": "2025-01-08T17:37:58Z",
+      "version": 2,
+      "changeset": 161142484,
+      "tags": {
+        "backcountry": "yes",
+        "name": "Mustalammen itäpuolen telttailualue",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1167723603,
+      "lat": 60.3125905,
+      "lon": 24.4853921,
+      "timestamp": "2011-02-23T11:36:17Z",
+      "version": 2,
+      "changeset": 7371607,
+      "tags": {
+        "fireplace": "yes",
+        "name": "Iso-Holman tulentekopaikka",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1167723657,
+      "lat": 60.2955153,
+      "lon": 24.60072,
+      "timestamp": "2025-01-08T17:37:58Z",
+      "version": 4,
+      "changeset": 161142484,
+      "tags": {
+        "backcountry": "yes",
+        "name": "Valkialammen telttailualue",
+        "tents": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1167723672,
+      "lat": 60.3271139,
+      "lon": 24.4927203,
+      "timestamp": "2011-02-23T07:04:27Z",
+      "version": 1,
+      "changeset": 7369868,
+      "tags": {
+        "fee": "yes",
+        "name": "Kattilan torppa",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1167723687,
+      "lat": 60.3057363,
+      "lon": 24.5099546,
+      "timestamp": "2023-01-07T22:34:10Z",
+      "version": 3,
+      "changeset": 130998182,
+      "tags": {
+        "amenity": "shelter",
+        "covered": "yes",
+        "fireplace": "yes",
+        "name": "Mustalammen pieni keittokatos",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1167723720,
+      "lat": 60.2969223,
+      "lon": 24.594374,
+      "timestamp": "2025-01-08T17:37:58Z",
+      "version": 2,
+      "changeset": 161142484,
+      "tags": {
+        "backcountry": "yes",
+        "name": "Urjan telttailualue",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1167723729,
+      "lat": 60.3098315,
+      "lon": 24.5072377,
+      "timestamp": "2011-02-23T07:04:30Z",
+      "version": 1,
+      "changeset": 7369868,
+      "tags": {
+        "name": "Haukanholman telttailualue",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1167723770,
+      "lat": 60.3019515,
+      "lon": 24.4912708,
+      "timestamp": "2025-08-04T06:19:24Z",
+      "version": 3,
+      "changeset": 169935299,
+      "tags": {
+        "access": "yes",
+        "fireplace": "yes",
+        "leisure": "firepit",
+        "name": "Holma-Saarijärven läntinen tulentekopaikka"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1167723840,
+      "lat": 60.301437,
+      "lon": 24.4942361,
+      "timestamp": "2025-08-04T06:19:24Z",
+      "version": 3,
+      "changeset": 169935299,
+      "tags": {
+        "access": "yes",
+        "fireplace": "yes",
+        "leisure": "firepit",
+        "name": "Holma-Saarijärven itäinen tulentekopaikka"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1167723987,
+      "lat": 60.3206014,
+      "lon": 24.5832724,
+      "timestamp": "2025-01-08T17:37:58Z",
+      "version": 5,
+      "changeset": 161142484,
+      "tags": {
+        "access": "yes",
+        "backcountry": "yes",
+        "caravans": "no",
+        "fee": "no",
+        "fireplace": "no",
+        "name": "Pöksynhaaran telttailualue",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1167723996,
+      "lat": 60.3059829,
+      "lon": 24.5095749,
+      "timestamp": "2025-01-08T17:37:58Z",
+      "version": 2,
+      "changeset": 161142484,
+      "tags": {
+        "backcountry": "yes",
+        "name": "Mustalammen länsipuolen telttailualue",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1167724010,
+      "lat": 60.3116544,
+      "lon": 24.4885618,
+      "timestamp": "2011-02-23T11:36:12Z",
+      "version": 2,
+      "changeset": 7371607,
+      "tags": {
+        "fireplace": "yes",
+        "name": "Iso-Holman pieni tulentekopaikka",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1167724020,
+      "lat": 60.334473,
+      "lon": 24.4645055,
+      "timestamp": "2011-02-23T11:36:12Z",
+      "version": 2,
+      "changeset": 7371607,
+      "tags": {
+        "fireplace": "yes",
+        "name": "Oravankolon tulentekopaikka",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1167724046,
+      "lat": 60.2969313,
+      "lon": 24.5946408,
+      "timestamp": "2023-12-30T14:36:08Z",
+      "version": 3,
+      "changeset": 145700272,
+      "tags": {
+        "fireplace": "yes",
+        "name": "Urjan tulentekopaikka",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1167724100,
+      "lat": 60.3055044,
+      "lon": 24.5120923,
+      "timestamp": "2021-08-30T00:21:18Z",
+      "version": 3,
+      "changeset": 110430352,
+      "tags": {
+        "leisure": "firepit",
+        "name": "Mustalammen tulentekopaikka",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1167724109,
+      "lat": 60.3255109,
+      "lon": 24.4940319,
+      "timestamp": "2011-02-23T11:36:14Z",
+      "version": 2,
+      "changeset": 7371607,
+      "tags": {
+        "fireplace": "yes",
+        "name": "Kattilan uusi tulipaikka",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1423373229,
+      "lat": 60.2984616,
+      "lon": 24.5847554,
+      "timestamp": "2011-09-04T20:09:35Z",
+      "version": 1,
+      "changeset": 9212017,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1659407393,
+      "lat": 60.314349,
+      "lon": 24.6938963,
+      "timestamp": "2013-06-05T10:53:39Z",
+      "version": 4,
+      "changeset": 16430748,
+      "tags": {
+        "amenity": "drinking_water",
+        "drinking_water": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1659423272,
+      "lat": 60.3151328,
+      "lon": 24.693601,
+      "timestamp": "2014-02-10T17:52:55Z",
+      "version": 4,
+      "changeset": 20489720,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1846917134,
+      "lat": 60.3155791,
+      "lon": 24.6928615,
+      "timestamp": "2024-09-01T05:58:59Z",
+      "version": 4,
+      "changeset": 156039706,
+      "tags": {
+        "fireplace": "no",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1846917135,
+      "lat": 60.3154489,
+      "lon": 24.692958,
+      "timestamp": "2024-09-01T05:58:59Z",
+      "version": 4,
+      "changeset": 156039706,
+      "tags": {
+        "fireplace": "no",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1998328474,
+      "lat": 60.3490102,
+      "lon": 24.5073382,
+      "timestamp": "2024-05-12T10:30:01Z",
+      "version": 4,
+      "changeset": 151218328,
+      "tags": {
+        "amenity": "bbq",
+        "covered": "yes",
+        "fuel": "wood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2124203549,
+      "lat": 60.2791762,
+      "lon": 24.5192392,
+      "timestamp": "2013-01-22T19:38:32Z",
+      "version": 1,
+      "changeset": 14749651,
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "shelter_type": "weather_shelter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2273726143,
+      "lat": 60.2787606,
+      "lon": 24.6510188,
+      "timestamp": "2013-04-20T13:29:29Z",
+      "version": 1,
+      "changeset": 15797413,
+      "tags": {
+        "natural": "spring",
+        "source": "MML"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2333021271,
+      "lat": 60.3156004,
+      "lon": 24.692695,
+      "timestamp": "2024-09-01T05:58:59Z",
+      "version": 3,
+      "changeset": 156039706,
+      "tags": {
+        "fireplace": "no",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2335353218,
+      "lat": 60.3157398,
+      "lon": 24.6926021,
+      "timestamp": "2024-09-01T05:58:59Z",
+      "version": 2,
+      "changeset": 156039706,
+      "tags": {
+        "fireplace": "no",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2338203303,
+      "lat": 60.3185035,
+      "lon": 24.6815691,
+      "timestamp": "2013-06-09T14:05:06Z",
+      "version": 1,
+      "changeset": 16482426,
+      "tags": {
+        "fireplace": "no",
+        "name": "Levähdyspaikka",
+        "source": "http://www.hel.fi/static/liv/ulkoilu/Luukki.pdf",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2338203304,
+      "lat": 60.3191329,
+      "lon": 24.6773481,
+      "timestamp": "2013-06-09T14:05:06Z",
+      "version": 1,
+      "changeset": 16482426,
+      "tags": {
+        "fireplace": "no",
+        "name": "Levähdyspaikka",
+        "source": "http://www.hel.fi/static/liv/ulkoilu/Luukki.pdf",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2338203305,
+      "lat": 60.3175537,
+      "lon": 24.6799781,
+      "timestamp": "2021-03-27T18:04:10Z",
+      "version": 2,
+      "changeset": 101848325,
+      "tags": {
+        "fireplace": "no",
+        "name": "Levähdyspaikka",
+        "source": "http://www.hel.fi/static/liv/ulkoilu/Luukki.pdf",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2338232387,
+      "lat": 60.3340493,
+      "lon": 24.6639671,
+      "timestamp": "2025-04-13T19:49:45Z",
+      "version": 2,
+      "changeset": 164910535,
+      "tags": {
+        "fireplace": "no",
+        "name": "Levähdyspaikka Väärälampi",
+        "source": "http://www.hel.fi/static/liv/ulkoilu/Luukki.pdf",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2338234056,
+      "lat": 60.3387463,
+      "lon": 24.6703964,
+      "timestamp": "2013-06-09T14:30:40Z",
+      "version": 1,
+      "changeset": 16482426,
+      "tags": {
+        "fireplace": "no",
+        "name": "Levähdyspaikka Mustalampi",
+        "source": "http://www.hel.fi/static/liv/ulkoilu/Luukki.pdf",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2338239389,
+      "lat": 60.3347163,
+      "lon": 24.6844506,
+      "timestamp": "2013-06-09T14:35:46Z",
+      "version": 1,
+      "changeset": 16482426,
+      "tags": {
+        "fireplace": "no",
+        "name": "Levähdyspaikka Hauklampi",
+        "source": "http://www.hel.fi/static/liv/ulkoilu/Luukki.pdf",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2351501140,
+      "lat": 60.3303221,
+      "lon": 24.6974331,
+      "timestamp": "2013-06-18T19:05:12Z",
+      "version": 1,
+      "changeset": 16607786,
+      "tags": {
+        "natural": "spring",
+        "source": "MML"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2995980661,
+      "lat": 60.373135,
+      "lon": 24.5011584,
+      "timestamp": "2018-12-21T12:18:36Z",
+      "version": 2,
+      "changeset": 65667016,
+      "tags": {
+        "leisure": "firepit",
+        "name": "Kanaholman nuotiopaikka",
+        "source": "MML 2012;https://www.vihti.fi/kulttuuri-ja-vapaa-aika/liikunta/retkeily-ja-ulkoilu/laavut-kodat-ja-nuotiopaikat/",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2995992194,
+      "lat": 60.3728206,
+      "lon": 24.5058968,
+      "timestamp": "2017-06-03T17:13:58Z",
+      "version": 2,
+      "changeset": 49224959,
+      "tags": {
+        "access": "yes",
+        "amenity": "bbq",
+        "fireplace": "yes",
+        "fuel": "wood",
+        "source": "MML 2012",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3142133533,
+      "lat": 60.3138114,
+      "lon": 24.560462,
+      "timestamp": "2026-04-14T15:26:26Z",
+      "version": 2,
+      "changeset": 181328966,
+      "tags": {
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3634880418,
+      "lat": 60.2809525,
+      "lon": 24.5026446,
+      "timestamp": "2015-07-05T05:52:16Z",
+      "version": 1,
+      "changeset": 32418462,
+      "tags": {
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3655412664,
+      "lat": 60.2573234,
+      "lon": 24.6208856,
+      "timestamp": "2025-02-09T18:05:33Z",
+      "version": 3,
+      "changeset": 162323949,
+      "tags": {
+        "access": "yes",
+        "check_date": "2025-02-09",
+        "leisure": "firepit",
+        "seasonal": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3740394484,
+      "lat": 60.3493899,
+      "lon": 24.4982756,
+      "timestamp": "2022-01-02T12:21:30Z",
+      "version": 2,
+      "changeset": 115666915,
+      "tags": {
+        "covered": "no",
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3810427079,
+      "lat": 60.2944259,
+      "lon": 24.5029472,
+      "timestamp": "2021-08-30T01:41:02Z",
+      "version": 3,
+      "changeset": 110431329,
+      "tags": {
+        "access": "customers",
+        "name": "Kolmoislammenranta varaustulentekopaikka",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4056445513,
+      "lat": 60.280082,
+      "lon": 24.6515731,
+      "timestamp": "2022-03-31T16:44:29Z",
+      "version": 2,
+      "changeset": 119169328,
+      "tags": {
+        "amenity": "drinking_water",
+        "fee": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4056445514,
+      "lat": 60.2699387,
+      "lon": 24.6488008,
+      "timestamp": "2023-07-23T12:34:45Z",
+      "version": 3,
+      "changeset": 138892004,
+      "tags": {
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4335116418,
+      "lat": 60.3606153,
+      "lon": 24.4859317,
+      "timestamp": "2016-08-04T08:29:45Z",
+      "version": 1,
+      "changeset": 41232086,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4377134591,
+      "lat": 60.3274164,
+      "lon": 24.4954264,
+      "timestamp": "2024-05-12T17:05:25Z",
+      "version": 2,
+      "changeset": 151234432,
+      "tags": {
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4623471079,
+      "lat": 60.2934761,
+      "lon": 24.5561517,
+      "timestamp": "2026-01-14T20:40:46Z",
+      "version": 3,
+      "changeset": 177235791,
+      "tags": {
+        "check_date": "2021-07-02",
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4623471080,
+      "lat": 60.2937654,
+      "lon": 24.5550626,
+      "timestamp": "2026-01-14T20:40:46Z",
+      "version": 3,
+      "changeset": 177235791,
+      "tags": {
+        "check_date": "2021-07-02",
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4856905982,
+      "lat": 60.3515531,
+      "lon": 24.6293361,
+      "timestamp": "2017-05-16T04:44:26Z",
+      "version": 1,
+      "changeset": 48718429,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4856905983,
+      "lat": 60.3544792,
+      "lon": 24.6282938,
+      "timestamp": "2017-05-16T04:44:26Z",
+      "version": 1,
+      "changeset": 48718429,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4894033012,
+      "lat": 60.3742548,
+      "lon": 24.4900463,
+      "timestamp": "2017-06-03T16:41:29Z",
+      "version": 1,
+      "changeset": 49224287,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4894076986,
+      "lat": 60.3739091,
+      "lon": 24.5060443,
+      "timestamp": "2017-06-03T17:13:56Z",
+      "version": 1,
+      "changeset": 49224959,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4894077017,
+      "lat": 60.3728211,
+      "lon": 24.5052841,
+      "timestamp": "2017-06-03T17:13:57Z",
+      "version": 1,
+      "changeset": 49224959,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4894077018,
+      "lat": 60.3730982,
+      "lon": 24.5045599,
+      "timestamp": "2017-06-03T17:13:57Z",
+      "version": 1,
+      "changeset": 49224959,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4894077123,
+      "lat": 60.3737419,
+      "lon": 24.5048603,
+      "timestamp": "2017-06-03T17:13:57Z",
+      "version": 1,
+      "changeset": 49224959,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4894077126,
+      "lat": 60.3741622,
+      "lon": 24.5045974,
+      "timestamp": "2017-06-03T17:13:57Z",
+      "version": 1,
+      "changeset": 49224959,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5116275675,
+      "lat": 60.2905977,
+      "lon": 24.633646,
+      "timestamp": "2020-06-02T07:11:32Z",
+      "version": 3,
+      "changeset": 86072524,
+      "tags": {
+        "amenity": "shelter",
+        "name": "Jänisniemen laavu",
+        "shelter_type": "lean_to"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5126908669,
+      "lat": 60.293682,
+      "lon": 24.5640148,
+      "timestamp": "2022-09-08T14:45:11Z",
+      "version": 2,
+      "changeset": 125946493,
+      "tags": {
+        "covered": "no",
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5126908670,
+      "lat": 60.2912985,
+      "lon": 24.5675481,
+      "timestamp": "2023-12-30T14:36:08Z",
+      "version": 3,
+      "changeset": 145700272,
+      "tags": {
+        "covered": "no",
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5215734831,
+      "lat": 60.3366109,
+      "lon": 24.5000522,
+      "timestamp": "2026-05-30T10:57:14Z",
+      "version": 2,
+      "changeset": 183394687,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5409619950,
+      "lat": 60.2864664,
+      "lon": 24.5860505,
+      "timestamp": "2018-02-13T10:39:39Z",
+      "version": 1,
+      "changeset": 56320283,
+      "tags": {
+        "natural": "spring",
+        "source": "Maanmittauslaitos Peruskarttarasteri 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5409648706,
+      "lat": 60.2972812,
+      "lon": 24.6160483,
+      "timestamp": "2018-02-13T10:54:38Z",
+      "version": 1,
+      "changeset": 56320585,
+      "tags": {
+        "man_made": "water_well",
+        "source": "Maanmittauslaitos Peruskarttarasteri 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5876379701,
+      "lat": 60.3162693,
+      "lon": 24.6928865,
+      "timestamp": "2018-09-02T16:24:46Z",
+      "version": 1,
+      "changeset": 62223126,
+      "tags": {
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6151539617,
+      "lat": 60.3535155,
+      "lon": 24.5622488,
+      "timestamp": "2018-12-21T12:18:34Z",
+      "version": 1,
+      "changeset": 65667016,
+      "tags": {
+        "amenity": "shelter",
+        "leisure": "firepit",
+        "name": "Pihkalammen laavu",
+        "shelter_type": "lean_to",
+        "source": "https://www.vihti.fi/kulttuuri-ja-vapaa-aika/liikunta/retkeily-ja-ulkoilu/laavut-kodat-ja-nuotiopaikat/",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6359947202,
+      "lat": 60.3049634,
+      "lon": 24.5903381,
+      "timestamp": "2019-03-25T08:59:16Z",
+      "version": 1,
+      "changeset": 68498050,
+      "tags": {
+        "amenity": "bbq",
+        "covered": "no",
+        "fuel": "wood",
+        "note": "Bring your own firewood."
+      }
+    },
+    {
+      "type": "node",
+      "id": 6448098480,
+      "lat": 60.2946255,
+      "lon": 24.5326832,
+      "timestamp": "2025-01-16T07:18:59Z",
+      "version": 4,
+      "changeset": 161406058,
+      "tags": {
+        "access": "customers",
+        "addr:city": "Espoo",
+        "addr:housenumber": "21-23",
+        "addr:postcode": "02860",
+        "addr:street": "Suokalliontie",
+        "capacity": "30",
+        "club": "scout",
+        "drinking_water": "yes",
+        "fee": "yes",
+        "name": "Partiokämpät Suositko ja Louhi",
+        "operator": "Partiolippukunta Jeanne d'Arc kannatusyhdistys",
+        "reservation": "required",
+        "tourism": "wilderness_hut",
+        "website": "https://www.jda.fi/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6697000633,
+      "lat": 60.3374554,
+      "lon": 24.6021869,
+      "timestamp": "2026-08-14T08:43:57Z",
+      "version": 2,
+      "changeset": 187428977,
+      "tags": {
+        "access": "private",
+        "drinking_water": "yes",
+        "man_made": "water_well",
+        "operator": "Helsingin Latu ja Polku ry",
+        "private": "members"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7438982292,
+      "lat": 60.250344,
+      "lon": 24.625058,
+      "timestamp": "2020-04-23T17:13:39Z",
+      "version": 2,
+      "changeset": 84015193,
+      "tags": {
+        "covered": "no",
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7487021865,
+      "lat": 60.3695594,
+      "lon": 24.4847754,
+      "timestamp": "2021-06-01T19:56:26Z",
+      "version": 2,
+      "changeset": 105696899,
+      "tags": {
+        "access": "customers",
+        "amenity": "shelter",
+        "operator": "Nuuksion Taika",
+        "shelter_type": "lean_to"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7487021866,
+      "lat": 60.3698256,
+      "lon": 24.4848436,
+      "timestamp": "2020-05-05T19:13:54Z",
+      "version": 1,
+      "changeset": 84714464,
+      "tags": {
+        "access": "customers",
+        "leisure": "firepit",
+        "operator": "Nuuksion Taika"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7487021873,
+      "lat": 60.3696248,
+      "lon": 24.4862255,
+      "timestamp": "2020-05-05T19:13:54Z",
+      "version": 1,
+      "changeset": 84714464,
+      "tags": {
+        "access": "customers",
+        "leisure": "firepit",
+        "name": "Taikatuli"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7505611518,
+      "lat": 60.3233156,
+      "lon": 24.6639172,
+      "timestamp": "2025-10-05T12:52:24Z",
+      "version": 2,
+      "changeset": 172865942,
+      "tags": {
+        "check_date": "2025-10-05",
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7505611519,
+      "lat": 60.3197603,
+      "lon": 24.663705,
+      "timestamp": "2025-10-05T12:51:04Z",
+      "version": 2,
+      "changeset": 172865942,
+      "tags": {
+        "check_date": "2025-10-05",
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7505611520,
+      "lat": 60.3174828,
+      "lon": 24.6628505,
+      "timestamp": "2024-09-05T07:06:04Z",
+      "version": 2,
+      "changeset": 156215833,
+      "tags": {
+        "access": "yes",
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7752553422,
+      "lat": 60.3087789,
+      "lon": 24.6225534,
+      "timestamp": "2025-08-24T10:53:23Z",
+      "version": 2,
+      "changeset": 170917612,
+      "tags": {
+        "check_date": "2025-08-24",
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7752562547,
+      "lat": 60.2699048,
+      "lon": 24.6483201,
+      "timestamp": "2026-07-20T14:48:19Z",
+      "version": 2,
+      "changeset": 186064424,
+      "tags": {
+        "access": "private",
+        "charge": "10 EUR",
+        "fee": "yes",
+        "grate": "yes",
+        "leisure": "firepit",
+        "wood_provided": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7752562548,
+      "lat": 60.2699889,
+      "lon": 24.650384,
+      "timestamp": "2023-07-23T12:34:45Z",
+      "version": 2,
+      "changeset": 138892004,
+      "tags": {
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "description": "Vesihana kahvilan seinässä. Hanasta saa vettä 24/7 painamalla vesihanan painiketta.",
+        "description:en": "Water tap in the wall of the building. One can get drinking water 24/7 from the tap by pushing the button.",
+        "drinking_water": "yes",
+        "drinking_water:legal": "yes",
+        "fee": "no",
+        "indoor": "no",
+        "man_made": "water_tap",
+        "name": "Pirttimäen juomavesipiste"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8270854349,
+      "lat": 60.2572418,
+      "lon": 24.6208122,
+      "timestamp": "2025-02-09T18:05:33Z",
+      "version": 3,
+      "changeset": 162323949,
+      "tags": {
+        "bench": "yes",
+        "covered": "yes",
+        "leisure": "picnic_table",
+        "lit": "no",
+        "material": "wood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8286992257,
+      "lat": 60.297127,
+      "lon": 24.5597605,
+      "timestamp": "2021-01-03T17:58:40Z",
+      "version": 1,
+      "changeset": 96858394,
+      "tags": {
+        "covered": "yes",
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8286992258,
+      "lat": 60.2971895,
+      "lon": 24.5597997,
+      "timestamp": "2021-01-03T17:58:40Z",
+      "version": 1,
+      "changeset": 96858394,
+      "tags": {
+        "covered": "yes",
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8286992259,
+      "lat": 60.2972526,
+      "lon": 24.5597635,
+      "timestamp": "2021-01-03T17:58:40Z",
+      "version": 1,
+      "changeset": 96858394,
+      "tags": {
+        "covered": "yes",
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8286992260,
+      "lat": 60.2972879,
+      "lon": 24.5597488,
+      "timestamp": "2021-01-03T17:58:40Z",
+      "version": 1,
+      "changeset": 96858394,
+      "tags": {
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9064731020,
+      "lat": 60.3125543,
+      "lon": 24.5768378,
+      "timestamp": "2021-09-05T21:36:25Z",
+      "version": 1,
+      "changeset": 110766142,
+      "tags": {
+        "bench": "yes",
+        "leisure": "picnic_table",
+        "lit": "no",
+        "material": "wood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9146700802,
+      "lat": 60.3039666,
+      "lon": 24.6800968,
+      "timestamp": "2021-10-04T19:51:14Z",
+      "version": 1,
+      "changeset": 112093213,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9385573434,
+      "lat": 60.3577862,
+      "lon": 24.5005323,
+      "timestamp": "2022-01-02T12:21:30Z",
+      "version": 1,
+      "changeset": 115666915,
+      "tags": {
+        "covered": "no",
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9385573452,
+      "lat": 60.3517926,
+      "lon": 24.492078,
+      "timestamp": "2022-01-02T12:21:30Z",
+      "version": 1,
+      "changeset": 115666915,
+      "tags": {
+        "covered": "no",
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9725473078,
+      "lat": 60.3210249,
+      "lon": 24.4548178,
+      "timestamp": "2025-03-16T11:58:55Z",
+      "version": 2,
+      "changeset": 163685365,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9725473079,
+      "lat": 60.3210642,
+      "lon": 24.4548543,
+      "timestamp": "2025-03-16T11:58:55Z",
+      "version": 2,
+      "changeset": 163685365,
+      "tags": {
+        "firewood": "yes",
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10140159277,
+      "lat": 60.2980398,
+      "lon": 24.55511,
+      "timestamp": "2022-10-30T15:11:53Z",
+      "version": 1,
+      "changeset": 128251090,
+      "tags": {
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10897494856,
+      "lat": 60.3747712,
+      "lon": 24.5049942,
+      "timestamp": "2023-07-23T12:48:37Z",
+      "version": 2,
+      "changeset": 138892627,
+      "tags": {
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "cold_water": "yes",
+        "description": "Water tap in the wall of the building to get drinking water. Very useful for e.g. people cycling Route 2000 mtb route which goes next to this building.",
+        "drinking_water": "yes",
+        "drinking_water:legal": "yes",
+        "inscription": "Juomavettä",
+        "man_made": "water_tap",
+        "note": "Keep running the water for 10 sec or so to get cold water. It starts as warm water if not used for a while."
+      }
+    },
+    {
+      "type": "node",
+      "id": 10897494859,
+      "lat": 60.3746516,
+      "lon": 24.5051765,
+      "timestamp": "2023-05-14T21:22:48Z",
+      "version": 1,
+      "changeset": 136101661,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10897501120,
+      "lat": 60.2984757,
+      "lon": 24.5558301,
+      "timestamp": "2023-05-14T21:27:01Z",
+      "version": 1,
+      "changeset": 136101746,
+      "tags": {
+        "leisure": "picnic_table",
+        "surface": "wood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10970967697,
+      "lat": 60.3267391,
+      "lon": 24.4928809,
+      "timestamp": "2026-07-17T12:12:14Z",
+      "version": 2,
+      "changeset": 185901794,
+      "tags": {
+        "amenity": "drinking_water",
+        "man_made": "water_well",
+        "pump": "manual"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10980522678,
+      "lat": 60.3092687,
+      "lon": 24.5143914,
+      "timestamp": "2023-06-18T19:54:54Z",
+      "version": 2,
+      "changeset": 137491348,
+      "tags": {
+        "amenity": "drinking_water",
+        "indoor": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11063148754,
+      "lat": 60.2699671,
+      "lon": 24.6488082,
+      "timestamp": "2023-07-23T12:34:45Z",
+      "version": 1,
+      "changeset": 138892004,
+      "tags": {
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11063148755,
+      "lat": 60.2699678,
+      "lon": 24.6487498,
+      "timestamp": "2023-07-23T12:34:45Z",
+      "version": 1,
+      "changeset": 138892004,
+      "tags": {
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11063148756,
+      "lat": 60.2699432,
+      "lon": 24.6487425,
+      "timestamp": "2023-07-23T12:34:45Z",
+      "version": 1,
+      "changeset": 138892004,
+      "tags": {
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11063148763,
+      "lat": 60.2700014,
+      "lon": 24.6502472,
+      "timestamp": "2023-07-23T12:34:45Z",
+      "version": 1,
+      "changeset": 138892004,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11063148765,
+      "lat": 60.2699725,
+      "lon": 24.6503484,
+      "timestamp": "2023-07-23T12:34:45Z",
+      "version": 1,
+      "changeset": 138892004,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11063148766,
+      "lat": 60.2699811,
+      "lon": 24.6503169,
+      "timestamp": "2023-07-23T12:34:45Z",
+      "version": 1,
+      "changeset": 138892004,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11063148767,
+      "lat": 60.2699911,
+      "lon": 24.6502827,
+      "timestamp": "2023-07-23T12:34:45Z",
+      "version": 1,
+      "changeset": 138892004,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11067205035,
+      "lat": 60.2653365,
+      "lon": 24.5232402,
+      "timestamp": "2025-01-08T08:49:56Z",
+      "version": 2,
+      "changeset": 161124382,
+      "tags": {
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "no",
+        "drinking_water": "yes",
+        "operator": "Helsingin seudun ympäristöpalvelut",
+        "operator:short": "HSY",
+        "operator:wikidata": "Q10520595",
+        "pump": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11313926539,
+      "lat": 60.3518049,
+      "lon": 24.6174246,
+      "timestamp": "2023-11-04T13:32:45Z",
+      "version": 1,
+      "changeset": 143614006,
+      "tags": {
+        "man_made": "water_well"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11470177847,
+      "lat": 60.3106799,
+      "lon": 24.554545,
+      "timestamp": "2023-12-30T17:54:23Z",
+      "version": 1,
+      "changeset": 145707456,
+      "tags": {
+        "access": "private",
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11470177848,
+      "lat": 60.3119995,
+      "lon": 24.5558659,
+      "timestamp": "2023-12-30T17:54:23Z",
+      "version": 1,
+      "changeset": 145707456,
+      "tags": {
+        "access": "private",
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11470177849,
+      "lat": 60.3113231,
+      "lon": 24.5557519,
+      "timestamp": "2023-12-30T17:54:23Z",
+      "version": 1,
+      "changeset": 145707456,
+      "tags": {
+        "access": "private",
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11578442103,
+      "lat": 60.334107,
+      "lon": 24.6639756,
+      "timestamp": "2024-02-02T09:17:53Z",
+      "version": 1,
+      "changeset": 146976638,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12059410670,
+      "lat": 60.3424294,
+      "lon": 24.6093197,
+      "timestamp": "2024-07-17T14:14:20Z",
+      "version": 1,
+      "changeset": 154060617,
+      "tags": {
+        "backcountry": "yes",
+        "camp_site": "basic",
+        "capacity:tents": "2",
+        "caravans": "no",
+        "drinking_water": "no",
+        "fee": "no",
+        "lit": "no",
+        "note": "Tilapäinen telttailu sallittua Vaakkoin alueella vuodesta 2024 alkaen, tätä aikaisemmin oli kielletty",
+        "openfire": "no",
+        "picnic_table": "no",
+        "source:tents": "https://uuvi.fi/fi/kohde/vaakkoi/",
+        "tents": "yes",
+        "toilets": "no",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12214228702,
+      "lat": 60.3138807,
+      "lon": 24.5602589,
+      "timestamp": "2026-04-14T15:26:26Z",
+      "version": 2,
+      "changeset": 181328966,
+      "tags": {
+        "access": "private",
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12669913815,
+      "lat": 60.3210118,
+      "lon": 24.4549817,
+      "timestamp": "2025-03-16T11:58:55Z",
+      "version": 1,
+      "changeset": 163685365,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12669913816,
+      "lat": 60.3209904,
+      "lon": 24.4549565,
+      "timestamp": "2025-03-16T11:58:55Z",
+      "version": 1,
+      "changeset": 163685365,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12669913817,
+      "lat": 60.3209997,
+      "lon": 24.454973,
+      "timestamp": "2025-03-16T11:58:55Z",
+      "version": 1,
+      "changeset": 163685365,
+      "tags": {
+        "firewood": "yes",
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13047658799,
+      "lat": 60.3012446,
+      "lon": 24.4962104,
+      "timestamp": "2025-08-04T06:19:24Z",
+      "version": 1,
+      "changeset": 169935299,
+      "tags": {
+        "access": "yes",
+        "leisure": "firepit",
+        "name": "Holma-Saarijärven laavun tulentekopaikka"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13047668303,
+      "lat": 60.3012329,
+      "lon": 24.495077,
+      "timestamp": "2025-08-04T06:19:24Z",
+      "version": 1,
+      "changeset": 169935299,
+      "tags": {
+        "access": "yes",
+        "backcountry": "yes",
+        "camp_site": "standard",
+        "caravans": "no",
+        "fee": "no",
+        "name": "Holma-Saarijärven itäinen telttailualue",
+        "static_caravans": "no",
+        "tents": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13047668309,
+      "lat": 60.3013479,
+      "lon": 24.4940063,
+      "timestamp": "2025-08-04T06:19:24Z",
+      "version": 1,
+      "changeset": 169935299,
+      "tags": {
+        "access": "yes",
+        "drinking_water": "no",
+        "informal": "yes",
+        "leisure": "bathing_place",
+        "name": "Holma-Saarijärven itäinen uimapaikka",
+        "shower": "no",
+        "toilets": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13047668310,
+      "lat": 60.3020877,
+      "lon": 24.491565,
+      "timestamp": "2025-08-04T06:19:24Z",
+      "version": 1,
+      "changeset": 169935299,
+      "tags": {
+        "access": "yes",
+        "drinking_water": "no",
+        "informal": "yes",
+        "leisure": "bathing_place",
+        "name": "Holma-Saarijärven läntinen uimapaikka",
+        "shower": "no",
+        "toilets": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13047668313,
+      "lat": 60.3028899,
+      "lon": 24.4954539,
+      "timestamp": "2025-08-04T06:19:24Z",
+      "version": 1,
+      "changeset": 169935299,
+      "tags": {
+        "access": "yes",
+        "drinking_water": "no",
+        "informal": "yes",
+        "leisure": "bathing_place",
+        "name": "Holma-Saarijärven pohjoinen uimapaikka",
+        "picnic_table": "no",
+        "shower": "no",
+        "toilets": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13264707230,
+      "lat": 60.2689515,
+      "lon": 24.4425538,
+      "timestamp": "2025-10-28T10:11:03Z",
+      "version": 1,
+      "changeset": 173875576,
+      "tags": {
+        "access": "yes",
+        "amenity": "drinking_water",
+        "fee": "no",
+        "operator": "Kirkkonummen kunta",
+        "website": "https://kirkkonummi.fi/wp-content/uploads/files/5dee236cc91058c835000405/Yleiset_vesipostit.pdf",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13873499607,
+      "lat": 60.2942762,
+      "lon": 24.6809467,
+      "timestamp": "2026-05-24T18:26:44Z",
+      "version": 1,
+      "changeset": 183121502,
+      "tags": {
+        "access": "customers",
+        "shelter_type": "hut",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13886738252,
+      "lat": 60.2955953,
+      "lon": 24.6503118,
+      "timestamp": "2026-05-27T05:03:32Z",
+      "version": 1,
+      "changeset": 183237267,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13887376654,
+      "lat": 60.2699624,
+      "lon": 24.6496498,
+      "timestamp": "2026-05-27T07:48:52Z",
+      "version": 1,
+      "changeset": 183242055,
+      "tags": {
+        "bench": "yes",
+        "leisure": "picnic_table",
+        "material": "wood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13895545357,
+      "lat": 60.3363936,
+      "lon": 24.499832,
+      "timestamp": "2026-05-30T10:57:14Z",
+      "version": 1,
+      "changeset": 183394687,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13895565781,
+      "lat": 60.3366477,
+      "lon": 24.5000559,
+      "timestamp": "2026-05-30T10:52:47Z",
+      "version": 1,
+      "changeset": 183394472,
+      "tags": {
+        "leisure": "firepit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13983841665,
+      "lat": 60.3693341,
+      "lon": 24.5690604,
+      "timestamp": "2026-07-02T18:46:24Z",
+      "version": 1,
+      "changeset": 184993855,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14014572011,
+      "lat": 60.3139791,
+      "lon": 24.5189652,
+      "timestamp": "2026-07-14T12:50:37Z",
+      "version": 1,
+      "changeset": 185715637,
+      "tags": {
+        "armrest": "no",
+        "backrest": "no",
+        "colour": "brown",
+        "covered": "no",
+        "leisure": "picnic_table",
+        "material": "wood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14017211201,
+      "lat": 60.3130618,
+      "lon": 24.577185,
+      "timestamp": "2026-07-15T09:52:48Z",
+      "version": 1,
+      "changeset": 185772980,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14022087901,
+      "lat": 60.3115838,
+      "lon": 24.5579598,
+      "timestamp": "2026-07-17T11:06:25Z",
+      "version": 1,
+      "changeset": 185898654,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14022088001,
+      "lat": 60.3116272,
+      "lon": 24.5579432,
+      "timestamp": "2026-07-17T11:06:25Z",
+      "version": 1,
+      "changeset": 185898654,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "way",
+      "id": 35310579,
+      "timestamp": "2024-09-01T05:58:59Z",
+      "version": 8,
+      "changeset": 156039706,
+      "center": {
+        "lat": 60.3147422,
+        "lon": 24.6946801
+      },
+      "nodes": [
+        413880756,
+        413880758,
+        413880760,
+        413880762,
+        413880756
+      ],
+      "tags": {
+        "amenity": "bbq",
+        "building": "roof",
+        "description": "Grillikatos Luukki",
+        "fireplace": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 81254609,
+      "timestamp": "2020-01-10T15:49:41Z",
+      "version": 6,
+      "changeset": 79425498,
+      "center": {
+        "lat": 60.3590211,
+        "lon": 24.5110193
+      },
+      "nodes": [
+        4721599279,
+        946740699,
+        946740761,
+        946740685,
+        2996077244,
+        946740649,
+        946740923,
+        946740969,
+        946740749,
+        2996077251,
+        946741043,
+        946740647,
+        2996077253,
+        946740779,
+        946740828,
+        946741040,
+        946740965,
+        946740816,
+        946740956,
+        946741006,
+        946740912,
+        946740679,
+        946741085,
+        946740773,
+        946740813,
+        946740677,
+        946797429,
+        946740739,
+        946797420,
+        946740898,
+        946740935,
+        946740795,
+        946741049,
+        946740650,
+        946740982,
+        946740691,
+        946740909,
+        946740670,
+        946741082,
+        946740772,
+        946740731,
+        946740954,
+        4721599268,
+        4721599269,
+        4721599270,
+        4721599272,
+        4721599274,
+        4721599273,
+        4721599271,
+        4721599276,
+        4721599278,
+        4721599279
+      ],
+      "tags": {
+        "source": "gl_orto",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 81307752,
+      "timestamp": "2026-09-24T14:45:19Z",
+      "version": 5,
+      "changeset": 189502705,
+      "center": {
+        "lat": 60.2572816,
+        "lon": 24.6208475
+      },
+      "nodes": [
+        947230404,
+        947230419,
+        947230352,
+        947230400,
+        947230404
+      ],
+      "tags": {
+        "amenity": "shelter",
+        "bin": "yes",
+        "building": "roof",
+        "fireplace": "yes",
+        "leisure": "picnic_table",
+        "lit": "no",
+        "name": "Sorlammen keittokatos",
+        "name:fi": "Sorlammen keittokatos",
+        "operator": "Helsingin kaupunki",
+        "operator:wikidata": "Q20251620",
+        "operator:wikipedia": "fi:Helsingin hallinto",
+        "piste:amenity": "picnic_site",
+        "shelter_type": "picnic_shelter",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 81420143,
+      "timestamp": "2023-01-11T14:56:01Z",
+      "version": 2,
+      "changeset": 131149725,
+      "center": {
+        "lat": 60.3528476,
+        "lon": 24.6542626
+      },
+      "nodes": [
+        948710500,
+        948710501,
+        948710504,
+        948710505,
+        948710507,
+        948710508,
+        948710510,
+        948710512,
+        948710500
+      ],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "gazebo",
+        "source": "gl_orto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 82678849,
+      "timestamp": "2026-09-20T16:34:07Z",
+      "version": 4,
+      "changeset": 189306375,
+      "center": {
+        "lat": 60.327408,
+        "lon": 24.4911205
+      },
+      "nodes": [
+        962277458,
+        2494265090,
+        2494265088,
+        2494265085,
+        962277459,
+        2494265083,
+        2494265081,
+        2494265084,
+        962277461,
+        2494265086,
+        2494265089,
+        2494265091,
+        962277462,
+        2494265093,
+        2494265094,
+        2494265092,
+        962277458
+      ],
+      "tags": {
+        "access": "customers",
+        "amenity": "events_venue",
+        "building": "yes",
+        "name": "Kattilankota",
+        "note": "Vain varauskäyttöön",
+        "phone": "+358 40 7506001",
+        "tourism": "wilderness_hut",
+        "website": "https://greenwindow.fi/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 82828564,
+      "timestamp": "2012-11-26T19:23:07Z",
+      "version": 2,
+      "changeset": 14049301,
+      "center": {
+        "lat": 60.2671599,
+        "lon": 24.4357345
+      },
+      "nodes": [
+        963940808,
+        963940951,
+        963940888,
+        963940703,
+        963940876,
+        956973684,
+        963940808
+      ],
+      "tags": {
+        "amenity": "shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 83134096,
+      "timestamp": "2018-08-10T16:15:18Z",
+      "version": 4,
+      "changeset": 61543612,
+      "center": {
+        "lat": 60.3197012,
+        "lon": 24.6637478
+      },
+      "nodes": [
+        967334389,
+        967334263,
+        967334385,
+        967334387,
+        967334389
+      ],
+      "tags": {
+        "building": "roof",
+        "fireplace": "yes",
+        "name": "Keittokatos Kaitalammenlahti",
+        "name:fi": "Keittokatos Kaitalammenlahti",
+        "name:sv": "Kokskjul Kaitalampiviken",
+        "source": "http://www.hel.fi/static/liv/ulkoilu/Luukki.pdf",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 86199159,
+      "timestamp": "2025-01-16T06:59:41Z",
+      "version": 8,
+      "changeset": 161405595,
+      "center": {
+        "lat": 60.2696005,
+        "lon": 24.6159562
+      },
+      "nodes": [
+        1000513489,
+        1000513491,
+        1000513492,
+        1000513493,
+        1000513489
+      ],
+      "tags": {
+        "building": "yes",
+        "fireplace": "yes",
+        "name": "Hynkänlammen keittokatos",
+        "piste:amenity": "lean_to",
+        "shelter": "yes",
+        "shelter_type": "lean_to",
+        "source": "gl_orto",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 86930089,
+      "timestamp": "2020-06-02T07:11:32Z",
+      "version": 3,
+      "changeset": 86072524,
+      "center": {
+        "lat": 60.3160439,
+        "lon": 24.6900092
+      },
+      "nodes": [
+        1011300088,
+        1011299926,
+        1011300116,
+        1011300004,
+        1011300088
+      ],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "name": "Luukin taukotupa",
+        "shelter_type": "lean_to",
+        "source": "gl_orto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 224479924,
+      "timestamp": "2024-09-01T05:57:41Z",
+      "version": 3,
+      "changeset": 156039693,
+      "center": {
+        "lat": 60.3143598,
+        "lon": 24.6947359
+      },
+      "nodes": [
+        2333021263,
+        2333021203,
+        2333021226,
+        2333021258,
+        2333021263
+      ],
+      "tags": {
+        "amenity": "bbq",
+        "building": "roof",
+        "description": "Grillikatos Luukki",
+        "fireplace": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 224989953,
+      "timestamp": "2018-08-10T16:15:18Z",
+      "version": 3,
+      "changeset": 61543612,
+      "center": {
+        "lat": 60.3174904,
+        "lon": 24.6628496
+      },
+      "nodes": [
+        2338216011,
+        2338216030,
+        2338216014,
+        2338216016,
+        2338216011
+      ],
+      "tags": {
+        "building": "roof",
+        "fireplace": "yes",
+        "name": "Keittokatos Kaitalammensuo",
+        "name:fi": "Keittokatos Kaitalammensuo",
+        "name:sv": "Kokskjul Kaitalampimossen",
+        "source": "http://www.hel.fi/static/liv/ulkoilu/Luukki.pdf",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 224990517,
+      "timestamp": "2018-08-10T16:15:18Z",
+      "version": 2,
+      "changeset": 61543612,
+      "center": {
+        "lat": 60.3232687,
+        "lon": 24.6639633
+      },
+      "nodes": [
+        2338220096,
+        2338220100,
+        2338220098,
+        2338220102,
+        2338220096
+      ],
+      "tags": {
+        "building": "roof",
+        "fireplace": "yes",
+        "name": "Keittokatos Kaitalampi",
+        "name:fi": "Keittokatos Kaitalampi",
+        "name:sv": "Kokskjul Kaitalampi",
+        "source": "http://www.hel.fi/static/liv/ulkoilu/Luukki.pdf",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 224991168,
+      "timestamp": "2018-08-10T16:15:19Z",
+      "version": 2,
+      "changeset": 61543612,
+      "center": {
+        "lat": 60.3291665,
+        "lon": 24.6655291
+      },
+      "nodes": [
+        2338226775,
+        2338226764,
+        2338226785,
+        2338226766,
+        2338226775
+      ],
+      "tags": {
+        "building": "roof",
+        "fireplace": "yes",
+        "name": "Keittokatos Halkolampi",
+        "name:fi": "Keittokatos Halkolampi",
+        "name:sv": "Kokskjul Halkolampi",
+        "source": "http://www.hel.fi/static/liv/ulkoilu/Luukki.pdf",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 224991169,
+      "timestamp": "2018-08-10T16:15:19Z",
+      "version": 2,
+      "changeset": 61543612,
+      "center": {
+        "lat": 60.3319274,
+        "lon": 24.6701734
+      },
+      "nodes": [
+        2338226770,
+        2338226768,
+        2338226772,
+        2338226788,
+        2338226770
+      ],
+      "tags": {
+        "building": "roof",
+        "fireplace": "yes",
+        "name": "Keittokatos Halkolammenoja",
+        "name:fi": "Keittokatos Halkolammenoja",
+        "name:sv": "Kokskjul Halkolampibäcken",
+        "source": "http://www.hel.fi/static/liv/ulkoilu/Luukki.pdf",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 226766533,
+      "timestamp": "2017-09-24T18:41:09Z",
+      "version": 2,
+      "changeset": 52336148,
+      "center": {
+        "lat": 60.2934679,
+        "lon": 24.5549379
+      },
+      "nodes": [
+        2355264228,
+        2355264235,
+        2355264226,
+        2355264225,
+        2355264228
+      ],
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 538933710,
+      "timestamp": "2021-08-31T02:30:53Z",
+      "version": 2,
+      "changeset": 110485415,
+      "center": {
+        "lat": 60.3367102,
+        "lon": 24.50003
+      },
+      "nodes": [
+        5215734835,
+        5215734834,
+        5215734833,
+        5215734832,
+        5215734835
+      ],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "name": "Takalan laavu",
+        "shelter_type": "lean_to"
+      }
+    },
+    {
+      "type": "way",
+      "id": 603985761,
+      "timestamp": "2022-01-02T12:21:30Z",
+      "version": 3,
+      "changeset": 115666915,
+      "center": {
+        "lat": 60.3651216,
+        "lon": 24.4839892
+      },
+      "nodes": [
+        5731987275,
+        5731987276,
+        5731987277,
+        5731987278,
+        5731987275
+      ],
+      "tags": {
+        "amenity": "shelter",
+        "bin": "yes",
+        "building": "roof",
+        "fireplace": "yes",
+        "firewood": "yes",
+        "leisure": "firepit",
+        "shelter_type": "picnic_shelter",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 842034984,
+      "timestamp": "2020-08-28T23:59:38Z",
+      "version": 1,
+      "changeset": 90103122,
+      "center": {
+        "lat": 60.3737025,
+        "lon": 24.5067394
+      },
+      "nodes": [
+        889077936,
+        4894077001,
+        2996032397,
+        7855638986,
+        7855638987,
+        7855638988,
+        7855638989,
+        889077936
+      ],
+      "tags": {
+        "fee": "no",
+        "name": "Salmi",
+        "phone": "+358 9 310 28629",
+        "tourism": "camp_site",
+        "url": "https://www.hel.fi/helsinki/fi/kulttuuri-ja-vapaa-aika/ulkoilu/mantereella-helsingissa-espoossa-ja-vihdissa/salmi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 891589797,
+      "timestamp": "2025-10-24T08:36:22Z",
+      "version": 6,
+      "changeset": 173706114,
+      "center": {
+        "lat": 60.2906973,
+        "lon": 24.5666365
+      },
+      "nodes": [
+        8286992245,
+        8286992241,
+        8286992244,
+        8286992240,
+        8286992243,
+        8286992242,
+        8286992245
+      ],
+      "tags": {
+        "drinking_water": "no",
+        "fee": "yes",
+        "name": "Solvallan Mäntykota",
+        "name:de": "Grillhütte",
+        "name:en": "Barbecue Hut",
+        "name:sv": "Solvalla Tallboet",
+        "power_supply": "no",
+        "reservation": "required",
+        "shower": "no",
+        "source": "https://www.folkhalsan.fi/fi/motesrum/solvalla-mantykota/",
+        "toilets": "yes",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "way",
+      "id": 891589799,
+      "timestamp": "2021-01-03T17:58:40Z",
+      "version": 1,
+      "changeset": 96858394,
+      "center": {
+        "lat": 60.2971979,
+        "lon": 24.559776
+      },
+      "nodes": [
+        8286992264,
+        8286992263,
+        8286992262,
+        8286992261,
+        8286992264
+      ],
+      "tags": {
+        "access": "customers",
+        "covered": "yes",
+        "fireplace": "yes",
+        "name": "Aarnitulen varaustulipaikka",
+        "tourism": "picnic_site",
+        "website": "https://shop.haltia.com/fi_FI/varattavat-tulipaikat-nuuksiossa/aarnitulen-varauspaikka"
+      }
+    },
+    {
+      "type": "way",
+      "id": 977681656,
+      "timestamp": "2026-01-08T07:32:31Z",
+      "version": 2,
+      "changeset": 176972498,
+      "center": {
+        "lat": 60.310061,
+        "lon": 24.5060634
+      },
+      "nodes": [
+        9046600272,
+        13439192442,
+        9046600273,
+        9046600274,
+        9046600275,
+        9046600272
+      ],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "name": "Haukanholman keittokatos",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 977681666,
+      "timestamp": "2023-01-07T22:34:10Z",
+      "version": 2,
+      "changeset": 130998182,
+      "center": {
+        "lat": 60.3056008,
+        "lon": 24.5120783
+      },
+      "nodes": [
+        9046603184,
+        9046603185,
+        9046603186,
+        9046603187,
+        9046603184
+      ],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "fireplace": "yes",
+        "name": "Mustalammen keittokatos",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1017555290,
+      "timestamp": "2022-01-02T12:21:30Z",
+      "version": 1,
+      "changeset": 115666915,
+      "center": {
+        "lat": 60.3489942,
+        "lon": 24.5073372
+      },
+      "nodes": [
+        9385573444,
+        9385573443,
+        9385573442,
+        9385573441,
+        9385573444
+      ],
+      "tags": {
+        "amenity": "shelter",
+        "building": "roof",
+        "fireplace": "yes",
+        "firewood": "yes",
+        "shelter_type": "picnic_shelter",
+        "source": "MML 2012",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1017555292,
+      "timestamp": "2022-01-02T12:21:30Z",
+      "version": 1,
+      "changeset": 115666915,
+      "center": {
+        "lat": 60.3608452,
+        "lon": 24.4856625
+      },
+      "nodes": [
+        9385573469,
+        9385573468,
+        9385573467,
+        9385573466,
+        9385573469
+      ],
+      "tags": {
+        "amenity": "shelter",
+        "bin": "yes",
+        "building": "roof",
+        "fireplace": "yes",
+        "firewood": "yes",
+        "leisure": "firepit",
+        "name": "Iso-Parikas",
+        "shelter_type": "picnic_shelter",
+        "source": "survey;https://www.vihti.fi/kulttuuri-ja-vapaa-aika/liikunta/retkeily-ja-ulkoilu/laavut-kodat-ja-nuotiopaikat/",
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1128084554,
+      "timestamp": "2023-01-07T22:06:02Z",
+      "version": 1,
+      "changeset": 130997639,
+      "center": {
+        "lat": 60.3731339,
+        "lon": 24.5011606
+      },
+      "nodes": [
+        10313718329,
+        10313718328,
+        10313718327,
+        10313718326,
+        10313718329
+      ],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "fireplace": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1312197783,
+      "timestamp": "2024-08-30T10:02:35Z",
+      "version": 1,
+      "changeset": 155965512,
+      "center": {
+        "lat": 60.2674516,
+        "lon": 24.4509768
+      },
+      "nodes": [
+        12145857328,
+        12145857329,
+        12145857330,
+        12145857331,
+        12145857332,
+        12145857314,
+        12145857315,
+        12145857316,
+        12145857317,
+        12145857322,
+        12145857323,
+        12145857324,
+        12145857325,
+        12145857326,
+        12145857327,
+        12145857318,
+        12145857319,
+        12145857320,
+        12145857321,
+        12145857328
+      ],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "gazebo"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1337959551,
+      "timestamp": "2024-11-26T10:25:01Z",
+      "version": 1,
+      "changeset": 159608831,
+      "center": {
+        "lat": 60.2678918,
+        "lon": 24.4566461
+      },
+      "nodes": [
+        12375972667,
+        12375972668,
+        12375972669,
+        12375972670,
+        12375972667
+      ],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1337959553,
+      "timestamp": "2024-11-26T10:25:01Z",
+      "version": 1,
+      "changeset": 159608831,
+      "center": {
+        "lat": 60.2673698,
+        "lon": 24.4586022
+      },
+      "nodes": [
+        12375972674,
+        12375972675,
+        12375972676,
+        12375972677,
+        12375972674
+      ],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1384000548,
+      "timestamp": "2025-05-06T11:14:48Z",
+      "version": 1,
+      "changeset": 165886717,
+      "center": {
+        "lat": 60.270028,
+        "lon": 24.4441827
+      },
+      "nodes": [
+        12814007589,
+        12814007588,
+        12814007587,
+        12814007586,
+        12814007589
+      ],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1384000550,
+      "timestamp": "2025-05-06T11:14:48Z",
+      "version": 1,
+      "changeset": 165886717,
+      "center": {
+        "lat": 60.2696983,
+        "lon": 24.4439275
+      },
+      "nodes": [
+        12814031604,
+        12814031603,
+        12814031602,
+        12814031601,
+        12814031604
+      ],
+      "tags": {
+        "amenity": "shelter",
+        "name": "Veikkola",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1393834682,
+      "timestamp": "2025-06-10T11:23:35Z",
+      "version": 1,
+      "changeset": 167439763,
+      "center": {
+        "lat": 60.3571401,
+        "lon": 24.6854211
+      },
+      "nodes": [
+        12901947871,
+        12901947870,
+        12901947869,
+        12901947868,
+        12901947871
+      ],
+      "tags": {
+        "amenity": "shelter",
+        "building": "canopy",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1419895577,
+      "timestamp": "2025-08-04T06:19:24Z",
+      "version": 1,
+      "changeset": 169935299,
+      "center": {
+        "lat": 60.3012863,
+        "lon": 24.4960867
+      },
+      "nodes": [
+        13047658775,
+        13047658776,
+        13047658777,
+        13047658778,
+        13047658775
+      ],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "name": "Holma-Saarijärven laavu",
+        "shelter_type": "lean_to"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1420314933,
+      "timestamp": "2026-09-24T14:47:03Z",
+      "version": 2,
+      "changeset": 189502783,
+      "center": {
+        "lat": 60.3162865,
+        "lon": 24.452458
+      },
+      "nodes": [
+        13051477560,
+        13051477561,
+        13051477562,
+        13051477563,
+        13051477560
+      ],
+      "tags": {
+        "access": "customers",
+        "addr:housenumber": "40",
+        "addr:street": "Kurjolammentie",
+        "building": "yes",
+        "fee": "yes",
+        "fireplace": "yes",
+        "name": "Tikankolo",
+        "operator": "Metsähallitus",
+        "operator:wikidata": "Q630486",
+        "tourism": "wilderness_hut",
+        "website": "https://www.outdoors.fi/Huts/southernfinland/tikankolorentalhut/Pages/Default.aspx"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1420314934,
+      "timestamp": "2026-09-24T14:47:03Z",
+      "version": 2,
+      "changeset": 189502783,
+      "center": {
+        "lat": 60.3162553,
+        "lon": 24.452765
+      },
+      "nodes": [
+        13051477564,
+        13051477565,
+        13051477566,
+        13051477567,
+        13051477564
+      ],
+      "tags": {
+        "access": "customers",
+        "building": "yes",
+        "fee": "yes",
+        "fireplace": "yes",
+        "name": "Tikankolo",
+        "operator": "Metsähallitus",
+        "operator:wikidata": "Q630486",
+        "tourism": "wilderness_hut",
+        "website": "https://www.outdoors.fi/Huts/southernfinland/tikankolorentalhut/Pages/Default.aspx"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1547392696,
+      "timestamp": "2026-08-05T06:25:54Z",
+      "version": 1,
+      "changeset": 186959457,
+      "center": {
+        "lat": 60.283824,
+        "lon": 24.6761344
+      },
+      "nodes": [
+        14074234917,
+        14074234918,
+        14074234919,
+        14074234920,
+        14074234917
+      ],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1549269270,
+      "timestamp": "2026-08-17T11:59:14Z",
+      "version": 2,
+      "changeset": 187583752,
+      "center": {
+        "lat": 60.2470156,
+        "lon": 24.4448928
+      },
+      "nodes": [
+        14091352943,
+        14091352944,
+        14100868287,
+        14091352945,
+        14091352946,
+        14100868286,
+        14091352943
+      ],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1550410163,
+      "timestamp": "2026-08-17T19:43:44Z",
+      "version": 1,
+      "changeset": 187606627,
+      "center": {
+        "lat": 60.3094814,
+        "lon": 24.5066915
+      },
+      "nodes": [
+        14101622935,
+        14101622936,
+        14101622937,
+        14101622938,
+        14101622935
+      ],
+      "tags": {
+        "amenity": "shelter",
+        "barbecue_grill": "yes",
+        "bench": "yes",
+        "building": "yes",
+        "tourism": "picnic_site"
+      }
+    }
+  ]
+}

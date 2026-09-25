@@ -7,7 +7,7 @@ async function thumbnail(file) {
   try {
     const canvas = document.createElement('canvas'); canvas.width = canvas.height = 192;
     const ctx = canvas.getContext('2d'), side = Math.min(bitmap.width, bitmap.height);
-    ctx.fillStyle = '#F5F5DC'; ctx.fillRect(0,0,192,192);
+    ctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue('--sand').trim(); ctx.fillRect(0,0,192,192);
     ctx.drawImage(bitmap,(bitmap.width-side)/2,(bitmap.height-side)/2,side,side,0,0,192,192);
     return canvas.toDataURL('image/jpeg',0.8);
   } finally { bitmap.close(); }

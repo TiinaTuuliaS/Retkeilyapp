@@ -7,6 +7,12 @@ import { backendRoot } from '../../database.config';
 import { Location } from '../locations/location.entity';
 
 const catalog = [
+  { slug: 'nuuksio', name: 'Nuuksion kansallispuisto', region: 'Uusimaa',
+    description: 'Nuuksion sivulle on koottu Konkarissa mukana olevia laavuja, tulentekopaikkoja, katoksia, telttailualueita ja vesipisteitä. Kohdekorteilla voit jakaa päivättyjä havaintoja palveluiden tilanteesta.',
+    descriptionSource: 'https://www.luontoon.fi/fi/kohteet/nuuksion-kansallispuisto',
+    officialUrl: 'https://www.luontoon.fi/fi/kohteet/nuuksion-kansallispuisto',
+    coverage: 'Mukana on kaksi LIPAS-laavua ja 16 OpenStreetMap-kohdetta. Lisäksi kartalla on kolme vanhaa lähteetöntä kehityskohdetta, joiden sijainteja ei ole vahvistettu. Rajattu otos ei kata kaikkia palveluita. Varauspaikat ja epäselvät kohteet odottavat tarkistusta. Vesipisteiden saatavuutta tai juomakelpoisuutta ei ole vahvistettu.',
+    directory: 'lipas-nuuksio', boundaryId: 'KPU010030' },
   { slug: 'repovesi', name: 'Repoveden kansallispuisto', region: 'Kaakkois-Suomi',
     description: 'Repoveden sivulla voit tutustua Konkarissa mukana oleviin taukopaikkoihin ja jakaa havaintoja niiden kunnosta ja palveluista.',
     descriptionSource: 'https://www.luontoon.fi/fi/kohteet/repoveden-kansallispuisto',
@@ -83,6 +89,6 @@ export class ParksController {
       boundarySource: 'https://gtkdata.gtk.fi/arcgis/rest/services/Tukes/suojelualueet/MapServer/5',
       boundaryAttribution: 'Metsähallitus / Syke, jakelu GTK · CC BY 4.0',
       boundaryUpdatedOn: new Date(boundary.features[0].properties.MuutosPvm).toISOString().slice(0,10),
-      descriptionCheckedOn: ['repovesi','oulanka','koli'].includes(park.slug) ? '2026-09-24' : ['helvetinjarvi','pallas','lemmenjoki'].includes(park.slug) ? '2026-09-12' : '2026-09-08' };
+      descriptionCheckedOn: park.slug === 'nuuksio' ? '2026-09-25' : ['repovesi','oulanka','koli'].includes(park.slug) ? '2026-09-24' : ['helvetinjarvi','pallas','lemmenjoki'].includes(park.slug) ? '2026-09-12' : '2026-09-08' };
   }
 }

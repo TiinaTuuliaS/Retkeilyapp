@@ -1,6 +1,6 @@
 # Nuuksion tuontiehdotus
 
-LIPAS-luokat 301 (laavu, kota tai kammi) ja 206 (tulentekopaikka). Ei vielä tuotu sovellukseen.
+LIPAS-luokat 301 (laavu, kota tai kammi) ja 206 (tulentekopaikka). Lähde-esikatselu; tietokantaan tehdyt päivitykset on kuvattu READMEs­sä.
 
 | LIPAS-ID | Kohde | Tyyppi | Tila | Rajatarkistus | Käymälä | Vesipiste |
 | --- | --- | --- | --- | --- | --- | --- |

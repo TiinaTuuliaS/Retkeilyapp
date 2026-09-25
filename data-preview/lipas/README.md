@@ -1,5 +1,8 @@
 # Nuuksion kahden laavun aineistokokeilu
 
+Nuuksion [puistosivu ja laajempi aineistopäivitys](../lipas-nuuksio/README.md)
+valmistuivat 25.9.2026. Tämä kansio säilyttää alkuperäisen kahden laavun kokeilun.
+
 [Koko Suomen taukopaikkojen ja palvelutietojen esikatselu](../lipas-finland/README.md) on nyt saatavilla.
 
 [Vesipisteiden saatavuuden jatkoselvitys ja valmis aineistokysely](../../docs/vesipisteet-ja-aineistopyynto.md).

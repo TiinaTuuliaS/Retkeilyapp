@@ -164,7 +164,7 @@ Testit: `.\retki.cmd backend test:water-observations`.
 
 Karttapisteen tai luettelon kohteen valinta avaa kohdekortin. Kortissa näkyvät
 palvelut, lähde ja kohteen raportit sekä raportointilomake. Väripaletti:
-Leaf Green `#3D9970`, Sand Beige `#F5F5DC`, valkoinen `#FFFFFF`.
+Metsänvihreä `#607456`, hiekka `#EEE0CC`, terrakotta `#BA6A4C` ja tumma punainen `#7B2525`. Värit on poimittu käyttäjän palettikuvasta 25.9.2026; keskitetyt värimuuttujat ovat `frontend/src/index.css`-tiedostossa.
 Puhelimella kortti sijoittuu kartan alle. Kohteita voi hakea nimellä ja
 oma sijainti haetaan painamalla "Paikanna minut".
 

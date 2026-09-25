@@ -55,7 +55,7 @@ async function main() {
     limitation: 'Candidates from 2026-09-07 snapshot, types 301 and 206 only. Individual records refreshed; newly added sites may be missing. No database changes.' };
   fs.writeFileSync(path.join(dir,'summary.json'),JSON.stringify(summary,null,2));
   const rows = features.map(f => { const p=f.properties; return `| ${p.source_id} | ${p.name.replaceAll('|','/')} | ${p.type_code} | ${p.status} | ${p.classification} | ${p.services['toilet?'] === true ? 'Kyllä' : p.services['toilet?'] === false ? 'Ei' : 'Ei tietoa'} | ${p.services['water-point'] || 'Ei tietoa'} |`; });
-  fs.writeFileSync(path.join(dir,'kohteet.md'),'# Nuuksion tuontiehdotus\n\nLIPAS-luokat 301 (laavu, kota tai kammi) ja 206 (tulentekopaikka). Ei vielä tuotu sovellukseen.\n\n| LIPAS-ID | Kohde | Tyyppi | Tila | Rajatarkistus | Käymälä | Vesipiste |\n| --- | --- | --- | --- | --- | --- | --- |\n'+rows.join('\n')+'\n');
+  fs.writeFileSync(path.join(dir,'kohteet.md'),'# Nuuksion tuontiehdotus\n\nLIPAS-luokat 301 (laavu, kota tai kammi) ja 206 (tulentekopaikka). Lähde-esikatselu; tietokantaan tehdyt päivitykset on kuvattu READMEs­sä.\n\n| LIPAS-ID | Kohde | Tyyppi | Tila | Rajatarkistus | Käymälä | Vesipiste |\n| --- | --- | --- | --- | --- | --- | --- |\n'+rows.join('\n')+'\n');
   console.log(JSON.stringify(summary));
 }
 main().catch(error => { console.error(error.message); process.exitCode = 1; });

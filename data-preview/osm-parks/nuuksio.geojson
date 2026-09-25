@@ -1,0 +1,4898 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "osm:node:303078535",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4852606,
+          60.3123717
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/303078535",
+        "name": "Iso-Holman telttailualue",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-01-08T17:37:58Z",
+        "osmVersion": 9,
+        "tags": {
+          "caravans": "no",
+          "drinking_water": "no",
+          "name": "Iso-Holman telttailualue",
+          "power_supply": "no",
+          "shower": "no",
+          "tents": "yes",
+          "toilets": "no",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:309848938",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.620385,
+          60.2982805
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/309848938",
+        "name": "Kattilajärvi tulipaikka",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-12-30T16:58:16Z",
+        "osmVersion": 5,
+        "tags": {
+          "name": "Kattilajärvi tulipaikka",
+          "shelter": "yes",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:332552941",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6220313,
+          60.3009794
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/332552941",
+        "name": "Kattilaniemen leirikeskus",
+        "category": "camp",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2017-11-21T10:25:19Z",
+        "osmVersion": 5,
+        "tags": {
+          "description": "Kaupungin leirikeskus yhdistyksille ym.",
+          "ele": "69",
+          "name": "Kattilaniemen leirikeskus",
+          "tourism": "camp_site",
+          "url": "http://www.espoo.fi/fi-FI/Nuoret/Vuokrattavia_tiloja_ja_avustuksia/Vuokrattavat_tilat/Vuokrattavat_tilat(70559)"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:336582800",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4887678,
+          60.3115491
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/336582800",
+        "name": "Iso-Holman pieni telttailualue",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-01-12T09:06:03Z",
+        "osmVersion": 3,
+        "tags": {
+          "backcountry": "yes",
+          "caravans": "no",
+          "drinking_water": "no",
+          "name": "Iso-Holman pieni telttailualue",
+          "openfire": "yes",
+          "power_supply": "no",
+          "shower": "no",
+          "tents": "yes",
+          "toilets": "no",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:449072131",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6171685,
+          60.296919
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/449072131",
+        "name": "Kattilajärven keittokatos",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2022-04-26T07:36:37Z",
+        "osmVersion": 3,
+        "tags": {
+          "amenity": "shelter",
+          "bin": "no",
+          "lit": "no",
+          "name": "Kattilajärven keittokatos",
+          "shelter_type": "picnic_shelter",
+          "source": "survey;local knowledge",
+          "tourism": "picnic_site",
+          "url": "https://www.espoo.fi/en/units/53487"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:463763040",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6199368,
+          60.2988437
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/463763040",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2009-08-13T16:12:23Z",
+        "osmVersion": 1,
+        "tags": {
+          "shelter": "yes",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:618806514",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5126627,
+          60.3100328
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/618806514",
+        "name": null,
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2010-11-12T13:54:11Z",
+        "osmVersion": 2,
+        "tags": {
+          "fireplace": "no",
+          "source": "survey",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:638380530",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4941456,
+          60.3255835
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/638380530",
+        "name": null,
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2010-02-13T13:36:48Z",
+        "osmVersion": 1,
+        "tags": {
+          "fireplace": "yes",
+          "source": "survey",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:638380531",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4940496,
+          60.3254569
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/638380531",
+        "name": null,
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2010-02-13T13:36:48Z",
+        "osmVersion": 1,
+        "tags": {
+          "fireplace": "yes",
+          "source": "survey",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:638380533",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4927807,
+          60.3259512
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/638380533",
+        "name": null,
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2010-02-13T13:36:48Z",
+        "osmVersion": 1,
+        "tags": {
+          "amenity": "shelter",
+          "fireplace": "yes",
+          "source": "survey",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:649291366",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5147158,
+          60.3097952
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/649291366",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-07-26T10:36:45Z",
+        "osmVersion": 4,
+        "tags": {
+          "access": "yes",
+          "amenity": "drinking_water",
+          "man_made": "water_tap",
+          "source": "survey"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:888747755",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6006042,
+          60.3498801
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/888747755",
+        "name": "Kämmenlammen laavu",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-09-03T16:48:38Z",
+        "osmVersion": 5,
+        "tags": {
+          "amenity": "shelter",
+          "check_date": "2023-05-07",
+          "firepit": "yes",
+          "fixme": "fix tagging (survey)",
+          "name": "Kämmenlammen laavu",
+          "shelter_type": "lean_to",
+          "source": "survey;https://www.vihti.fi/kulttuuri-ja-vapaa-aika/liikunta/retkeily-ja-ulkoilu/laavut-kodat-ja-nuotiopaikat/",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:889077934",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4840595,
+          60.3651443
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/889077934",
+        "name": "Paratiisi",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2022-01-02T12:21:30Z",
+        "osmVersion": 3,
+        "tags": {
+          "alt_name": "Paratiisi Sa2",
+          "fireplace": "yes",
+          "name": "Paratiisi",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:889110991",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6482225,
+          60.2699277
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/889110991",
+        "name": "Pirttimäki",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2010-08-30T18:08:50Z",
+        "osmVersion": 1,
+        "tags": {
+          "fireplace": "yes",
+          "name": "Pirttimäki",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:915621349",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4547896,
+          60.3209549
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/915621349",
+        "name": "Saarilammen telttailualue",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-01-08T17:37:58Z",
+        "osmVersion": 3,
+        "tags": {
+          "backcountry": "yes",
+          "name": "Saarilammen telttailualue",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:918826422",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.46458,
+          60.33462
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/918826422",
+        "name": "Oravankolo",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2017-04-01T18:28:21Z",
+        "osmVersion": 3,
+        "tags": {
+          "addr:housenumber": "69",
+          "addr:street": "Ruuhilammentie",
+          "fee": "yes",
+          "name": "Oravankolo",
+          "reservation": "required",
+          "tourism": "wilderness_hut",
+          "url": "http://www.luontoon.fi/oravankolovuokratupa"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:959428042",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6885514,
+          60.2688419
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/959428042",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2020-11-06T17:24:45Z",
+        "osmVersion": 2,
+        "tags": {
+          "amenity": "shelter",
+          "source": "gl_orto"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1128184377",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6213813,
+          60.2716835
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1128184377",
+        "name": "Sulalampi",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-01-06T21:30:02Z",
+        "osmVersion": 7,
+        "tags": {
+          "description": "Tulipaikka mökissä",
+          "end_date": "2011..2013",
+          "fireplace": "no",
+          "name": "Sulalampi",
+          "name:fi": "Sulalampi",
+          "name:sv": "Sultingsträsk",
+          "piste:amenity": "shelter",
+          "source": "survey",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1139720838",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.632276,
+          60.256169
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1139720838",
+        "name": "Oittaan Isosuon lähde",
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-07-09T07:30:08Z",
+        "osmVersion": 4,
+        "tags": {
+          "description": "Oittaan Isosuon lähde sijaitsee suon koillisosassa. Lähde on kaksiosainen; suurempi allas on noin viisi metriä leveä ja pienempi muutaman metrin. Syvyyttä niillä on noin 1,5–2 metriä. Ympäristön metsä on lähes luonnontilaista.  Source: City of Espoo",
+          "name": "Oittaan Isosuon lähde",
+          "name:fi": "Oittaan Isosuon lähde",
+          "name:sv": "Oitans Stormossens källa",
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167723425",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5764452,
+          60.3237994
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167723425",
+        "name": "Valkealammen telttailualue",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-01-08T17:37:58Z",
+        "osmVersion": 4,
+        "tags": {
+          "backcountry": "yes",
+          "fireplace": "no",
+          "name": "Valkealammen telttailualue",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167723437",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4906159,
+          60.3020247
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167723437",
+        "name": "Holma-Saarijärven läntinen telttailualue",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-08-04T06:19:24Z",
+        "osmVersion": 4,
+        "tags": {
+          "access": "yes",
+          "backcountry": "yes",
+          "camp_site": "basic",
+          "caravans": "no",
+          "fee": "no",
+          "name": "Holma-Saarijärven läntinen telttailualue",
+          "static_caravans": "no",
+          "tents": "yes",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167723450",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4925813,
+          60.3258727
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167723450",
+        "name": "Kattilan keittokatos",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2011-02-23T11:36:14Z",
+        "osmVersion": 2,
+        "tags": {
+          "covered": "yes",
+          "fireplace": "yes",
+          "name": "Kattilan keittokatos",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167723461",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4525244,
+          60.3164197
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167723461",
+        "name": "Tikankolon tulipaikka",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-08-06T04:41:25Z",
+        "osmVersion": 3,
+        "tags": {
+          "access": "customers",
+          "fireplace": "yes",
+          "leisure": "firepit",
+          "name": "Tikankolon tulipaikka"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167723519",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6228563,
+          60.3088462
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167723519",
+        "name": "Vääräjärven telttailualue",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-08-24T12:29:43Z",
+        "osmVersion": 7,
+        "tags": {
+          "backcountry": "yes",
+          "drinking_water": "no",
+          "name": "Vääräjärven telttailualue",
+          "power_supply": "no",
+          "shower": "no",
+          "toilets": "yes",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167723549",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4941015,
+          60.3256378
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167723549",
+        "name": "Kattilan tulentekopaikka",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2011-02-23T11:36:16Z",
+        "osmVersion": 2,
+        "tags": {
+          "fireplace": "yes",
+          "name": "Kattilan tulentekopaikka",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167723560",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5062365,
+          60.3097385
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167723560",
+        "name": "Haukanholman tulentekopaikka",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-01-08T07:32:31Z",
+        "osmVersion": 4,
+        "tags": {
+          "leisure": "firepit",
+          "name": "Haukanholman tulentekopaikka",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167723568",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5141527,
+          60.295382
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167723568",
+        "name": "Kolmoislammen varaustelttailualue ja -tulentekopaikka",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-10-17T04:42:16Z",
+        "osmVersion": 13,
+        "tags": {
+          "addr:city": "Espoo",
+          "addr:postcode": "02860",
+          "addr:street": "Kolmoislammentie",
+          "backcountry": "yes",
+          "drinking_water": "no",
+          "name": "Kolmoislammen varaustelttailualue ja -tulentekopaikka",
+          "name:fi": "Kolmoislammen varaustelttailualue ja -tulentekopaikka",
+          "payment:cash": "no",
+          "power_supply": "no",
+          "sauna": "no",
+          "shower": "no",
+          "swimming_pool": "no",
+          "toilets": "yes",
+          "tourism": "camp_site",
+          "website": "https://www.eraluvat.fi/kohteet/kolmoislampi-varaustelttapaikka-1220",
+          "wheelchair": "no"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167723590",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.512361,
+          60.3060661
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167723590",
+        "name": "Mustalammen itäpuolen telttailualue",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-01-08T17:37:58Z",
+        "osmVersion": 2,
+        "tags": {
+          "backcountry": "yes",
+          "name": "Mustalammen itäpuolen telttailualue",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167723603",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4853921,
+          60.3125905
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167723603",
+        "name": "Iso-Holman tulentekopaikka",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2011-02-23T11:36:17Z",
+        "osmVersion": 2,
+        "tags": {
+          "fireplace": "yes",
+          "name": "Iso-Holman tulentekopaikka",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167723657",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.60072,
+          60.2955153
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167723657",
+        "name": "Valkialammen telttailualue",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-01-08T17:37:58Z",
+        "osmVersion": 4,
+        "tags": {
+          "backcountry": "yes",
+          "name": "Valkialammen telttailualue",
+          "tents": "yes",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167723672",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4927203,
+          60.3271139
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167723672",
+        "name": "Kattilan torppa",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2011-02-23T07:04:27Z",
+        "osmVersion": 1,
+        "tags": {
+          "fee": "yes",
+          "name": "Kattilan torppa",
+          "tourism": "wilderness_hut"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167723687",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5099546,
+          60.3057363
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167723687",
+        "name": "Mustalammen pieni keittokatos",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-01-07T22:34:10Z",
+        "osmVersion": 3,
+        "tags": {
+          "amenity": "shelter",
+          "covered": "yes",
+          "fireplace": "yes",
+          "name": "Mustalammen pieni keittokatos",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167723720",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.594374,
+          60.2969223
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167723720",
+        "name": "Urjan telttailualue",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-01-08T17:37:58Z",
+        "osmVersion": 2,
+        "tags": {
+          "backcountry": "yes",
+          "name": "Urjan telttailualue",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167723729",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5072377,
+          60.3098315
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167723729",
+        "name": "Haukanholman telttailualue",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2011-02-23T07:04:30Z",
+        "osmVersion": 1,
+        "tags": {
+          "name": "Haukanholman telttailualue",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167723770",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4912708,
+          60.3019515
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167723770",
+        "name": "Holma-Saarijärven läntinen tulentekopaikka",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-08-04T06:19:24Z",
+        "osmVersion": 3,
+        "tags": {
+          "access": "yes",
+          "fireplace": "yes",
+          "leisure": "firepit",
+          "name": "Holma-Saarijärven läntinen tulentekopaikka"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167723840",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4942361,
+          60.301437
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167723840",
+        "name": "Holma-Saarijärven itäinen tulentekopaikka",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-08-04T06:19:24Z",
+        "osmVersion": 3,
+        "tags": {
+          "access": "yes",
+          "fireplace": "yes",
+          "leisure": "firepit",
+          "name": "Holma-Saarijärven itäinen tulentekopaikka"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167723987",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5832724,
+          60.3206014
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167723987",
+        "name": "Pöksynhaaran telttailualue",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-01-08T17:37:58Z",
+        "osmVersion": 5,
+        "tags": {
+          "access": "yes",
+          "backcountry": "yes",
+          "caravans": "no",
+          "fee": "no",
+          "fireplace": "no",
+          "name": "Pöksynhaaran telttailualue",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167723996",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5095749,
+          60.3059829
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167723996",
+        "name": "Mustalammen länsipuolen telttailualue",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-01-08T17:37:58Z",
+        "osmVersion": 2,
+        "tags": {
+          "backcountry": "yes",
+          "name": "Mustalammen länsipuolen telttailualue",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167724010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4885618,
+          60.3116544
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167724010",
+        "name": "Iso-Holman pieni tulentekopaikka",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2011-02-23T11:36:12Z",
+        "osmVersion": 2,
+        "tags": {
+          "fireplace": "yes",
+          "name": "Iso-Holman pieni tulentekopaikka",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167724020",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4645055,
+          60.334473
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167724020",
+        "name": "Oravankolon tulentekopaikka",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2011-02-23T11:36:12Z",
+        "osmVersion": 2,
+        "tags": {
+          "fireplace": "yes",
+          "name": "Oravankolon tulentekopaikka",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167724046",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5946408,
+          60.2969313
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167724046",
+        "name": "Urjan tulentekopaikka",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-12-30T14:36:08Z",
+        "osmVersion": 3,
+        "tags": {
+          "fireplace": "yes",
+          "name": "Urjan tulentekopaikka",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167724100",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5120923,
+          60.3055044
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167724100",
+        "name": "Mustalammen tulentekopaikka",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2021-08-30T00:21:18Z",
+        "osmVersion": 3,
+        "tags": {
+          "leisure": "firepit",
+          "name": "Mustalammen tulentekopaikka",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167724109",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4940319,
+          60.3255109
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167724109",
+        "name": "Kattilan uusi tulipaikka",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2011-02-23T11:36:14Z",
+        "osmVersion": 2,
+        "tags": {
+          "fireplace": "yes",
+          "name": "Kattilan uusi tulipaikka",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1423373229",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5847554,
+          60.2984616
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1423373229",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2011-09-04T20:09:35Z",
+        "osmVersion": 1,
+        "tags": {
+          "amenity": "drinking_water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1659407393",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6938963,
+          60.314349
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1659407393",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-06-05T10:53:39Z",
+        "osmVersion": 4,
+        "tags": {
+          "amenity": "drinking_water",
+          "drinking_water": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1659423272",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.693601,
+          60.3151328
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1659423272",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2014-02-10T17:52:55Z",
+        "osmVersion": 4,
+        "tags": {
+          "amenity": "drinking_water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1846917134",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6928615,
+          60.3155791
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1846917134",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2024-09-01T05:58:59Z",
+        "osmVersion": 4,
+        "tags": {
+          "fireplace": "no",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1846917135",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.692958,
+          60.3154489
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1846917135",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2024-09-01T05:58:59Z",
+        "osmVersion": 4,
+        "tags": {
+          "fireplace": "no",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1998328474",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5073382,
+          60.3490102
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1998328474",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2024-05-12T10:30:01Z",
+        "osmVersion": 4,
+        "tags": {
+          "amenity": "bbq",
+          "covered": "yes",
+          "fuel": "wood"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2124203549",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5192392,
+          60.2791762
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2124203549",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-01-22T19:38:32Z",
+        "osmVersion": 1,
+        "tags": {
+          "amenity": "shelter",
+          "bench": "yes",
+          "shelter_type": "weather_shelter"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2273726143",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6510188,
+          60.2787606
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2273726143",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-04-20T13:29:29Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2333021271",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.692695,
+          60.3156004
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2333021271",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2024-09-01T05:58:59Z",
+        "osmVersion": 3,
+        "tags": {
+          "fireplace": "no",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2335353218",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6926021,
+          60.3157398
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2335353218",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2024-09-01T05:58:59Z",
+        "osmVersion": 2,
+        "tags": {
+          "fireplace": "no",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2338203303",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6815691,
+          60.3185035
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2338203303",
+        "name": "Levähdyspaikka",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-06-09T14:05:06Z",
+        "osmVersion": 1,
+        "tags": {
+          "fireplace": "no",
+          "name": "Levähdyspaikka",
+          "source": "http://www.hel.fi/static/liv/ulkoilu/Luukki.pdf",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2338203304",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6773481,
+          60.3191329
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2338203304",
+        "name": "Levähdyspaikka",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-06-09T14:05:06Z",
+        "osmVersion": 1,
+        "tags": {
+          "fireplace": "no",
+          "name": "Levähdyspaikka",
+          "source": "http://www.hel.fi/static/liv/ulkoilu/Luukki.pdf",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2338203305",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6799781,
+          60.3175537
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2338203305",
+        "name": "Levähdyspaikka",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2021-03-27T18:04:10Z",
+        "osmVersion": 2,
+        "tags": {
+          "fireplace": "no",
+          "name": "Levähdyspaikka",
+          "source": "http://www.hel.fi/static/liv/ulkoilu/Luukki.pdf",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2338232387",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6639671,
+          60.3340493
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2338232387",
+        "name": "Levähdyspaikka Väärälampi",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-04-13T19:49:45Z",
+        "osmVersion": 2,
+        "tags": {
+          "fireplace": "no",
+          "name": "Levähdyspaikka Väärälampi",
+          "source": "http://www.hel.fi/static/liv/ulkoilu/Luukki.pdf",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2338234056",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6703964,
+          60.3387463
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2338234056",
+        "name": "Levähdyspaikka Mustalampi",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-06-09T14:30:40Z",
+        "osmVersion": 1,
+        "tags": {
+          "fireplace": "no",
+          "name": "Levähdyspaikka Mustalampi",
+          "source": "http://www.hel.fi/static/liv/ulkoilu/Luukki.pdf",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2338239389",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6844506,
+          60.3347163
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2338239389",
+        "name": "Levähdyspaikka Hauklampi",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-06-09T14:35:46Z",
+        "osmVersion": 1,
+        "tags": {
+          "fireplace": "no",
+          "name": "Levähdyspaikka Hauklampi",
+          "source": "http://www.hel.fi/static/liv/ulkoilu/Luukki.pdf",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2351501140",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6974331,
+          60.3303221
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2351501140",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2013-06-18T19:05:12Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "MML"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2995980661",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5011584,
+          60.373135
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2995980661",
+        "name": "Kanaholman nuotiopaikka",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2018-12-21T12:18:36Z",
+        "osmVersion": 2,
+        "tags": {
+          "leisure": "firepit",
+          "name": "Kanaholman nuotiopaikka",
+          "source": "MML 2012;https://www.vihti.fi/kulttuuri-ja-vapaa-aika/liikunta/retkeily-ja-ulkoilu/laavut-kodat-ja-nuotiopaikat/",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:2995992194",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5058968,
+          60.3728206
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/2995992194",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2017-06-03T17:13:58Z",
+        "osmVersion": 2,
+        "tags": {
+          "access": "yes",
+          "amenity": "bbq",
+          "fireplace": "yes",
+          "fuel": "wood",
+          "source": "MML 2012",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3142133533",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.560462,
+          60.3138114
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3142133533",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-04-14T15:26:26Z",
+        "osmVersion": 2,
+        "tags": {
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3634880418",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5026446,
+          60.2809525
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3634880418",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2015-07-05T05:52:16Z",
+        "osmVersion": 1,
+        "tags": {
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3655412664",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6208856,
+          60.2573234
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3655412664",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-02-09T18:05:33Z",
+        "osmVersion": 3,
+        "tags": {
+          "access": "yes",
+          "check_date": "2025-02-09",
+          "leisure": "firepit",
+          "seasonal": "no"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3740394484",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4982756,
+          60.3493899
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3740394484",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2022-01-02T12:21:30Z",
+        "osmVersion": 2,
+        "tags": {
+          "covered": "no",
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:3810427079",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5029472,
+          60.2944259
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/3810427079",
+        "name": "Kolmoislammenranta varaustulentekopaikka",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2021-08-30T01:41:02Z",
+        "osmVersion": 3,
+        "tags": {
+          "access": "customers",
+          "name": "Kolmoislammenranta varaustulentekopaikka",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:4056445513",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6515731,
+          60.280082
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/4056445513",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2022-03-31T16:44:29Z",
+        "osmVersion": 2,
+        "tags": {
+          "amenity": "drinking_water",
+          "fee": "no"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:4056445514",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6488008,
+          60.2699387
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/4056445514",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-07-23T12:34:45Z",
+        "osmVersion": 3,
+        "tags": {
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:4335116418",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4859317,
+          60.3606153
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/4335116418",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2016-08-04T08:29:45Z",
+        "osmVersion": 1,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:4377134591",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4954264,
+          60.3274164
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/4377134591",
+        "name": null,
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2024-05-12T17:05:25Z",
+        "osmVersion": 2,
+        "tags": {
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:4623471079",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5561517,
+          60.2934761
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/4623471079",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-01-14T20:40:46Z",
+        "osmVersion": 3,
+        "tags": {
+          "check_date": "2021-07-02",
+          "leisure": "firepit"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:4623471080",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5550626,
+          60.2937654
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/4623471080",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-01-14T20:40:46Z",
+        "osmVersion": 3,
+        "tags": {
+          "check_date": "2021-07-02",
+          "leisure": "firepit"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:4856905982",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6293361,
+          60.3515531
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/4856905982",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2017-05-16T04:44:26Z",
+        "osmVersion": 1,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:4856905983",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6282938,
+          60.3544792
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/4856905983",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2017-05-16T04:44:26Z",
+        "osmVersion": 1,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:4894033012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4900463,
+          60.3742548
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/4894033012",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2017-06-03T16:41:29Z",
+        "osmVersion": 1,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:4894076986",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5060443,
+          60.3739091
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/4894076986",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2017-06-03T17:13:56Z",
+        "osmVersion": 1,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:4894077017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5052841,
+          60.3728211
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/4894077017",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2017-06-03T17:13:57Z",
+        "osmVersion": 1,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:4894077018",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5045599,
+          60.3730982
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/4894077018",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2017-06-03T17:13:57Z",
+        "osmVersion": 1,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:4894077123",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5048603,
+          60.3737419
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/4894077123",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2017-06-03T17:13:57Z",
+        "osmVersion": 1,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:4894077126",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5045974,
+          60.3741622
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/4894077126",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2017-06-03T17:13:57Z",
+        "osmVersion": 1,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:5116275675",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.633646,
+          60.2905977
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/5116275675",
+        "name": "Jänisniemen laavu",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2020-06-02T07:11:32Z",
+        "osmVersion": 3,
+        "tags": {
+          "amenity": "shelter",
+          "name": "Jänisniemen laavu",
+          "shelter_type": "lean_to"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:5126908669",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5640148,
+          60.293682
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/5126908669",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2022-09-08T14:45:11Z",
+        "osmVersion": 2,
+        "tags": {
+          "covered": "no",
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:5126908670",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5675481,
+          60.2912985
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/5126908670",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-12-30T14:36:08Z",
+        "osmVersion": 3,
+        "tags": {
+          "covered": "no",
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:5215734831",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5000522,
+          60.3366109
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/5215734831",
+        "name": null,
+        "category": "table",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-05-30T10:57:14Z",
+        "osmVersion": 2,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:5409619950",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5860505,
+          60.2864664
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/5409619950",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2018-02-13T10:39:39Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring",
+          "source": "Maanmittauslaitos Peruskarttarasteri 2017"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:5409648706",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6160483,
+          60.2972812
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/5409648706",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2018-02-13T10:54:38Z",
+        "osmVersion": 1,
+        "tags": {
+          "man_made": "water_well",
+          "source": "Maanmittauslaitos Peruskarttarasteri 2017"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:5876379701",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6928865,
+          60.3162693
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/5876379701",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2018-09-02T16:24:46Z",
+        "osmVersion": 1,
+        "tags": {
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:6151539617",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5622488,
+          60.3535155
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/6151539617",
+        "name": "Pihkalammen laavu",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2018-12-21T12:18:34Z",
+        "osmVersion": 1,
+        "tags": {
+          "amenity": "shelter",
+          "leisure": "firepit",
+          "name": "Pihkalammen laavu",
+          "shelter_type": "lean_to",
+          "source": "https://www.vihti.fi/kulttuuri-ja-vapaa-aika/liikunta/retkeily-ja-ulkoilu/laavut-kodat-ja-nuotiopaikat/",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:6359947202",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5903381,
+          60.3049634
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/6359947202",
+        "name": null,
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2019-03-25T08:59:16Z",
+        "osmVersion": 1,
+        "tags": {
+          "amenity": "bbq",
+          "covered": "no",
+          "fuel": "wood",
+          "note": "Bring your own firewood."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:6448098480",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5326832,
+          60.2946255
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/6448098480",
+        "name": "Partiokämpät Suositko ja Louhi",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-01-16T07:18:59Z",
+        "osmVersion": 4,
+        "tags": {
+          "access": "customers",
+          "addr:city": "Espoo",
+          "addr:housenumber": "21-23",
+          "addr:postcode": "02860",
+          "addr:street": "Suokalliontie",
+          "capacity": "30",
+          "club": "scout",
+          "drinking_water": "yes",
+          "fee": "yes",
+          "name": "Partiokämpät Suositko ja Louhi",
+          "operator": "Partiolippukunta Jeanne d'Arc kannatusyhdistys",
+          "reservation": "required",
+          "tourism": "wilderness_hut",
+          "website": "https://www.jda.fi/"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:6697000633",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6021869,
+          60.3374554
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/6697000633",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-08-14T08:43:57Z",
+        "osmVersion": 2,
+        "tags": {
+          "access": "private",
+          "drinking_water": "yes",
+          "man_made": "water_well",
+          "operator": "Helsingin Latu ja Polku ry",
+          "private": "members"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:7438982292",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.625058,
+          60.250344
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/7438982292",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2020-04-23T17:13:39Z",
+        "osmVersion": 2,
+        "tags": {
+          "covered": "no",
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:7487021865",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4847754,
+          60.3695594
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/7487021865",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2021-06-01T19:56:26Z",
+        "osmVersion": 2,
+        "tags": {
+          "access": "customers",
+          "amenity": "shelter",
+          "operator": "Nuuksion Taika",
+          "shelter_type": "lean_to"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:7487021866",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4848436,
+          60.3698256
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/7487021866",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2020-05-05T19:13:54Z",
+        "osmVersion": 1,
+        "tags": {
+          "access": "customers",
+          "leisure": "firepit",
+          "operator": "Nuuksion Taika"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:7487021873",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4862255,
+          60.3696248
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/7487021873",
+        "name": "Taikatuli",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2020-05-05T19:13:54Z",
+        "osmVersion": 1,
+        "tags": {
+          "access": "customers",
+          "leisure": "firepit",
+          "name": "Taikatuli"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:7505611518",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6639172,
+          60.3233156
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/7505611518",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-10-05T12:52:24Z",
+        "osmVersion": 2,
+        "tags": {
+          "check_date": "2025-10-05",
+          "leisure": "firepit"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:7505611519",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.663705,
+          60.3197603
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/7505611519",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-10-05T12:51:04Z",
+        "osmVersion": 2,
+        "tags": {
+          "check_date": "2025-10-05",
+          "leisure": "firepit"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:7505611520",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6628505,
+          60.3174828
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/7505611520",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2024-09-05T07:06:04Z",
+        "osmVersion": 2,
+        "tags": {
+          "access": "yes",
+          "leisure": "firepit"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:7752553422",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6225534,
+          60.3087789
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/7752553422",
+        "name": null,
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-08-24T10:53:23Z",
+        "osmVersion": 2,
+        "tags": {
+          "check_date": "2025-08-24",
+          "leisure": "firepit"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:7752562547",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6483201,
+          60.2699048
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/7752562547",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-07-20T14:48:19Z",
+        "osmVersion": 2,
+        "tags": {
+          "access": "private",
+          "charge": "10 EUR",
+          "fee": "yes",
+          "grate": "yes",
+          "leisure": "firepit",
+          "wood_provided": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:7752562548",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.650384,
+          60.2699889
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/7752562548",
+        "name": "Pirttimäen juomavesipiste",
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-07-23T12:34:45Z",
+        "osmVersion": 2,
+        "tags": {
+          "access": "yes",
+          "amenity": "drinking_water",
+          "bottle": "yes",
+          "description": "Vesihana kahvilan seinässä. Hanasta saa vettä 24/7 painamalla vesihanan painiketta.",
+          "description:en": "Water tap in the wall of the building. One can get drinking water 24/7 from the tap by pushing the button.",
+          "drinking_water": "yes",
+          "drinking_water:legal": "yes",
+          "fee": "no",
+          "indoor": "no",
+          "man_made": "water_tap",
+          "name": "Pirttimäen juomavesipiste"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:8270854349",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6208122,
+          60.2572418
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/8270854349",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-02-09T18:05:33Z",
+        "osmVersion": 3,
+        "tags": {
+          "bench": "yes",
+          "covered": "yes",
+          "leisure": "picnic_table",
+          "lit": "no",
+          "material": "wood"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:8286992257",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5597605,
+          60.297127
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/8286992257",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2021-01-03T17:58:40Z",
+        "osmVersion": 1,
+        "tags": {
+          "covered": "yes",
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:8286992258",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5597997,
+          60.2971895
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/8286992258",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2021-01-03T17:58:40Z",
+        "osmVersion": 1,
+        "tags": {
+          "covered": "yes",
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:8286992259",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5597635,
+          60.2972526
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/8286992259",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2021-01-03T17:58:40Z",
+        "osmVersion": 1,
+        "tags": {
+          "covered": "yes",
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:8286992260",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5597488,
+          60.2972879
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/8286992260",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2021-01-03T17:58:40Z",
+        "osmVersion": 1,
+        "tags": {
+          "leisure": "firepit"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:9064731020",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5768378,
+          60.3125543
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/9064731020",
+        "name": null,
+        "category": "table",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2021-09-05T21:36:25Z",
+        "osmVersion": 1,
+        "tags": {
+          "bench": "yes",
+          "leisure": "picnic_table",
+          "lit": "no",
+          "material": "wood"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:9146700802",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6800968,
+          60.3039666
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/9146700802",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2021-10-04T19:51:14Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:9385573434",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5005323,
+          60.3577862
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/9385573434",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2022-01-02T12:21:30Z",
+        "osmVersion": 1,
+        "tags": {
+          "covered": "no",
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:9385573452",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.492078,
+          60.3517926
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/9385573452",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2022-01-02T12:21:30Z",
+        "osmVersion": 1,
+        "tags": {
+          "covered": "no",
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:9725473078",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4548178,
+          60.3210249
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/9725473078",
+        "name": null,
+        "category": "table",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-03-16T11:58:55Z",
+        "osmVersion": 2,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:9725473079",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4548543,
+          60.3210642
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/9725473079",
+        "name": null,
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-03-16T11:58:55Z",
+        "osmVersion": 2,
+        "tags": {
+          "firewood": "yes",
+          "leisure": "firepit"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:10140159277",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.55511,
+          60.2980398
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/10140159277",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2022-10-30T15:11:53Z",
+        "osmVersion": 1,
+        "tags": {
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:10897494856",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5049942,
+          60.3747712
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/10897494856",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-07-23T12:48:37Z",
+        "osmVersion": 2,
+        "tags": {
+          "access": "yes",
+          "amenity": "drinking_water",
+          "bottle": "yes",
+          "cold_water": "yes",
+          "description": "Water tap in the wall of the building to get drinking water. Very useful for e.g. people cycling Route 2000 mtb route which goes next to this building.",
+          "drinking_water": "yes",
+          "drinking_water:legal": "yes",
+          "inscription": "Juomavettä",
+          "man_made": "water_tap",
+          "note": "Keep running the water for 10 sec or so to get cold water. It starts as warm water if not used for a while."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:10897494859",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5051765,
+          60.3746516
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/10897494859",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-05-14T21:22:48Z",
+        "osmVersion": 1,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:10897501120",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5558301,
+          60.2984757
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/10897501120",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-05-14T21:27:01Z",
+        "osmVersion": 1,
+        "tags": {
+          "leisure": "picnic_table",
+          "surface": "wood"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:10970967697",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4928809,
+          60.3267391
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/10970967697",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-07-17T12:12:14Z",
+        "osmVersion": 2,
+        "tags": {
+          "amenity": "drinking_water",
+          "man_made": "water_well",
+          "pump": "manual"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:10980522678",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5143914,
+          60.3092687
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/10980522678",
+        "name": null,
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-06-18T19:54:54Z",
+        "osmVersion": 2,
+        "tags": {
+          "amenity": "drinking_water",
+          "indoor": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:11063148754",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6488082,
+          60.2699671
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/11063148754",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-07-23T12:34:45Z",
+        "osmVersion": 1,
+        "tags": {
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:11063148755",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6487498,
+          60.2699678
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/11063148755",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-07-23T12:34:45Z",
+        "osmVersion": 1,
+        "tags": {
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:11063148756",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6487425,
+          60.2699432
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/11063148756",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-07-23T12:34:45Z",
+        "osmVersion": 1,
+        "tags": {
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:11063148763",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6502472,
+          60.2700014
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/11063148763",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-07-23T12:34:45Z",
+        "osmVersion": 1,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:11063148765",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6503484,
+          60.2699725
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/11063148765",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-07-23T12:34:45Z",
+        "osmVersion": 1,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:11063148766",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6503169,
+          60.2699811
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/11063148766",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-07-23T12:34:45Z",
+        "osmVersion": 1,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:11063148767",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6502827,
+          60.2699911
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/11063148767",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-07-23T12:34:45Z",
+        "osmVersion": 1,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:11067205035",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5232402,
+          60.2653365
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/11067205035",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-01-08T08:49:56Z",
+        "osmVersion": 2,
+        "tags": {
+          "access": "yes",
+          "amenity": "drinking_water",
+          "bottle": "no",
+          "drinking_water": "yes",
+          "operator": "Helsingin seudun ympäristöpalvelut",
+          "operator:short": "HSY",
+          "operator:wikidata": "Q10520595",
+          "pump": "yes",
+          "wheelchair": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:11313926539",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6174246,
+          60.3518049
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/11313926539",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-11-04T13:32:45Z",
+        "osmVersion": 1,
+        "tags": {
+          "man_made": "water_well"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:11470177847",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.554545,
+          60.3106799
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/11470177847",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-12-30T17:54:23Z",
+        "osmVersion": 1,
+        "tags": {
+          "access": "private",
+          "leisure": "firepit"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:11470177848",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5558659,
+          60.3119995
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/11470177848",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-12-30T17:54:23Z",
+        "osmVersion": 1,
+        "tags": {
+          "access": "private",
+          "leisure": "firepit"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:11470177849",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5557519,
+          60.3113231
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/11470177849",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-12-30T17:54:23Z",
+        "osmVersion": 1,
+        "tags": {
+          "access": "private",
+          "leisure": "firepit"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:11578442103",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6639756,
+          60.334107
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/11578442103",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2024-02-02T09:17:53Z",
+        "osmVersion": 1,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:12059410670",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6093197,
+          60.3424294
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/12059410670",
+        "name": null,
+        "category": "camp",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2024-07-17T14:14:20Z",
+        "osmVersion": 1,
+        "tags": {
+          "backcountry": "yes",
+          "camp_site": "basic",
+          "capacity:tents": "2",
+          "caravans": "no",
+          "drinking_water": "no",
+          "fee": "no",
+          "lit": "no",
+          "note": "Tilapäinen telttailu sallittua Vaakkoin alueella vuodesta 2024 alkaen, tätä aikaisemmin oli kielletty",
+          "openfire": "no",
+          "picnic_table": "no",
+          "source:tents": "https://uuvi.fi/fi/kohde/vaakkoi/",
+          "tents": "yes",
+          "toilets": "no",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:12214228702",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5602589,
+          60.3138807
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/12214228702",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-04-14T15:26:26Z",
+        "osmVersion": 2,
+        "tags": {
+          "access": "private",
+          "leisure": "firepit"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:12669913815",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4549817,
+          60.3210118
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/12669913815",
+        "name": null,
+        "category": "table",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-03-16T11:58:55Z",
+        "osmVersion": 1,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:12669913816",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4549565,
+          60.3209904
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/12669913816",
+        "name": null,
+        "category": "table",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-03-16T11:58:55Z",
+        "osmVersion": 1,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:12669913817",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.454973,
+          60.3209997
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/12669913817",
+        "name": null,
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-03-16T11:58:55Z",
+        "osmVersion": 1,
+        "tags": {
+          "firewood": "yes",
+          "leisure": "firepit"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:13047658799",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4962104,
+          60.3012446
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/13047658799",
+        "name": "Holma-Saarijärven laavun tulentekopaikka",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-08-04T06:19:24Z",
+        "osmVersion": 1,
+        "tags": {
+          "access": "yes",
+          "leisure": "firepit",
+          "name": "Holma-Saarijärven laavun tulentekopaikka"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:13047668303",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.495077,
+          60.3012329
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/13047668303",
+        "name": "Holma-Saarijärven itäinen telttailualue",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-08-04T06:19:24Z",
+        "osmVersion": 1,
+        "tags": {
+          "access": "yes",
+          "backcountry": "yes",
+          "camp_site": "standard",
+          "caravans": "no",
+          "fee": "no",
+          "name": "Holma-Saarijärven itäinen telttailualue",
+          "static_caravans": "no",
+          "tents": "yes",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:13047668309",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4940063,
+          60.3013479
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/13047668309",
+        "name": "Holma-Saarijärven itäinen uimapaikka",
+        "category": "water-tag-on-other-feature",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-08-04T06:19:24Z",
+        "osmVersion": 1,
+        "tags": {
+          "access": "yes",
+          "drinking_water": "no",
+          "informal": "yes",
+          "leisure": "bathing_place",
+          "name": "Holma-Saarijärven itäinen uimapaikka",
+          "shower": "no",
+          "toilets": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:13047668310",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.491565,
+          60.3020877
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/13047668310",
+        "name": "Holma-Saarijärven läntinen uimapaikka",
+        "category": "water-tag-on-other-feature",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-08-04T06:19:24Z",
+        "osmVersion": 1,
+        "tags": {
+          "access": "yes",
+          "drinking_water": "no",
+          "informal": "yes",
+          "leisure": "bathing_place",
+          "name": "Holma-Saarijärven läntinen uimapaikka",
+          "shower": "no",
+          "toilets": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:13047668313",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4954539,
+          60.3028899
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/13047668313",
+        "name": "Holma-Saarijärven pohjoinen uimapaikka",
+        "category": "water-tag-on-other-feature",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-08-04T06:19:24Z",
+        "osmVersion": 1,
+        "tags": {
+          "access": "yes",
+          "drinking_water": "no",
+          "informal": "yes",
+          "leisure": "bathing_place",
+          "name": "Holma-Saarijärven pohjoinen uimapaikka",
+          "picnic_table": "no",
+          "shower": "no",
+          "toilets": "no"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:13264707230",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4425538,
+          60.2689515
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/13264707230",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-10-28T10:11:03Z",
+        "osmVersion": 1,
+        "tags": {
+          "access": "yes",
+          "amenity": "drinking_water",
+          "fee": "no",
+          "operator": "Kirkkonummen kunta",
+          "website": "https://kirkkonummi.fi/wp-content/uploads/files/5dee236cc91058c835000405/Yleiset_vesipostit.pdf",
+          "wheelchair": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:13873499607",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6809467,
+          60.2942762
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/13873499607",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-05-24T18:26:44Z",
+        "osmVersion": 1,
+        "tags": {
+          "access": "customers",
+          "shelter_type": "hut",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:13886738252",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6503118,
+          60.2955953
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/13886738252",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-05-27T05:03:32Z",
+        "osmVersion": 1,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:13887376654",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6496498,
+          60.2699624
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/13887376654",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-05-27T07:48:52Z",
+        "osmVersion": 1,
+        "tags": {
+          "bench": "yes",
+          "leisure": "picnic_table",
+          "material": "wood"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:13895545357",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.499832,
+          60.3363936
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/13895545357",
+        "name": null,
+        "category": "table",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-05-30T10:57:14Z",
+        "osmVersion": 1,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:13895565781",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5000559,
+          60.3366477
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/13895565781",
+        "name": null,
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-05-30T10:52:47Z",
+        "osmVersion": 1,
+        "tags": {
+          "leisure": "firepit"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:13983841665",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5690604,
+          60.3693341
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/13983841665",
+        "name": null,
+        "category": "water",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-07-02T18:46:24Z",
+        "osmVersion": 1,
+        "tags": {
+          "natural": "spring"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:14014572011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5189652,
+          60.3139791
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/14014572011",
+        "name": null,
+        "category": "table",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-07-14T12:50:37Z",
+        "osmVersion": 1,
+        "tags": {
+          "armrest": "no",
+          "backrest": "no",
+          "colour": "brown",
+          "covered": "no",
+          "leisure": "picnic_table",
+          "material": "wood"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:14017211201",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.577185,
+          60.3130618
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/14017211201",
+        "name": null,
+        "category": "table",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-07-15T09:52:48Z",
+        "osmVersion": 1,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:14022087901",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5579598,
+          60.3115838
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/14022087901",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-07-17T11:06:25Z",
+        "osmVersion": 1,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:14022088001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5579432,
+          60.3116272
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/14022088001",
+        "name": null,
+        "category": "table",
+        "classification": "outside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-07-17T11:06:25Z",
+        "osmVersion": 1,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:35310579",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6946801,
+          60.3147422
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/35310579",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2024-09-01T05:58:59Z",
+        "osmVersion": 8,
+        "tags": {
+          "amenity": "bbq",
+          "building": "roof",
+          "description": "Grillikatos Luukki",
+          "fireplace": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:81254609",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5110193,
+          60.3590211
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/81254609",
+        "name": null,
+        "category": "camp",
+        "classification": "outside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2020-01-10T15:49:41Z",
+        "osmVersion": 6,
+        "tags": {
+          "source": "gl_orto",
+          "tourism": "camp_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:81307752",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6208475,
+          60.2572816
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/81307752",
+        "name": "Sorlammen keittokatos",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2026-09-24T14:45:19Z",
+        "osmVersion": 5,
+        "tags": {
+          "amenity": "shelter",
+          "bin": "yes",
+          "building": "roof",
+          "fireplace": "yes",
+          "leisure": "picnic_table",
+          "lit": "no",
+          "name": "Sorlammen keittokatos",
+          "name:fi": "Sorlammen keittokatos",
+          "operator": "Helsingin kaupunki",
+          "operator:wikidata": "Q20251620",
+          "operator:wikipedia": "fi:Helsingin hallinto",
+          "piste:amenity": "picnic_site",
+          "shelter_type": "picnic_shelter",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:81420143",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6542626,
+          60.3528476
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/81420143",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2023-01-11T14:56:01Z",
+        "osmVersion": 2,
+        "tags": {
+          "amenity": "shelter",
+          "building": "yes",
+          "shelter_type": "gazebo",
+          "source": "gl_orto"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:82678849",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4911205,
+          60.327408
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/82678849",
+        "name": "Kattilankota",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2026-09-20T16:34:07Z",
+        "osmVersion": 4,
+        "tags": {
+          "access": "customers",
+          "amenity": "events_venue",
+          "building": "yes",
+          "name": "Kattilankota",
+          "note": "Vain varauskäyttöön",
+          "phone": "+358 40 7506001",
+          "tourism": "wilderness_hut",
+          "website": "https://greenwindow.fi/"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:82828564",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4357345,
+          60.2671599
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/82828564",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2012-11-26T19:23:07Z",
+        "osmVersion": 2,
+        "tags": {
+          "amenity": "shelter"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:83134096",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6637478,
+          60.3197012
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/83134096",
+        "name": "Keittokatos Kaitalammenlahti",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2018-08-10T16:15:18Z",
+        "osmVersion": 4,
+        "tags": {
+          "building": "roof",
+          "fireplace": "yes",
+          "name": "Keittokatos Kaitalammenlahti",
+          "name:fi": "Keittokatos Kaitalammenlahti",
+          "name:sv": "Kokskjul Kaitalampiviken",
+          "source": "http://www.hel.fi/static/liv/ulkoilu/Luukki.pdf",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:86199159",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6159562,
+          60.2696005
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/86199159",
+        "name": "Hynkänlammen keittokatos",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2025-01-16T06:59:41Z",
+        "osmVersion": 8,
+        "tags": {
+          "building": "yes",
+          "fireplace": "yes",
+          "name": "Hynkänlammen keittokatos",
+          "piste:amenity": "lean_to",
+          "shelter": "yes",
+          "shelter_type": "lean_to",
+          "source": "gl_orto",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:86930089",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6900092,
+          60.3160439
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/86930089",
+        "name": "Luukin taukotupa",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2020-06-02T07:11:32Z",
+        "osmVersion": 3,
+        "tags": {
+          "amenity": "shelter",
+          "building": "yes",
+          "name": "Luukin taukotupa",
+          "shelter_type": "lean_to",
+          "source": "gl_orto"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:224479924",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6947359,
+          60.3143598
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/224479924",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2024-09-01T05:57:41Z",
+        "osmVersion": 3,
+        "tags": {
+          "amenity": "bbq",
+          "building": "roof",
+          "description": "Grillikatos Luukki",
+          "fireplace": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:224989953",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6628496,
+          60.3174904
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/224989953",
+        "name": "Keittokatos Kaitalammensuo",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2018-08-10T16:15:18Z",
+        "osmVersion": 3,
+        "tags": {
+          "building": "roof",
+          "fireplace": "yes",
+          "name": "Keittokatos Kaitalammensuo",
+          "name:fi": "Keittokatos Kaitalammensuo",
+          "name:sv": "Kokskjul Kaitalampimossen",
+          "source": "http://www.hel.fi/static/liv/ulkoilu/Luukki.pdf",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:224990517",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6639633,
+          60.3232687
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/224990517",
+        "name": "Keittokatos Kaitalampi",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2018-08-10T16:15:18Z",
+        "osmVersion": 2,
+        "tags": {
+          "building": "roof",
+          "fireplace": "yes",
+          "name": "Keittokatos Kaitalampi",
+          "name:fi": "Keittokatos Kaitalampi",
+          "name:sv": "Kokskjul Kaitalampi",
+          "source": "http://www.hel.fi/static/liv/ulkoilu/Luukki.pdf",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:224991168",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6655291,
+          60.3291665
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/224991168",
+        "name": "Keittokatos Halkolampi",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2018-08-10T16:15:19Z",
+        "osmVersion": 2,
+        "tags": {
+          "building": "roof",
+          "fireplace": "yes",
+          "name": "Keittokatos Halkolampi",
+          "name:fi": "Keittokatos Halkolampi",
+          "name:sv": "Kokskjul Halkolampi",
+          "source": "http://www.hel.fi/static/liv/ulkoilu/Luukki.pdf",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:224991169",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6701734,
+          60.3319274
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/224991169",
+        "name": "Keittokatos Halkolammenoja",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2018-08-10T16:15:19Z",
+        "osmVersion": 2,
+        "tags": {
+          "building": "roof",
+          "fireplace": "yes",
+          "name": "Keittokatos Halkolammenoja",
+          "name:fi": "Keittokatos Halkolammenoja",
+          "name:sv": "Kokskjul Halkolampibäcken",
+          "source": "http://www.hel.fi/static/liv/ulkoilu/Luukki.pdf",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:226766533",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5549379,
+          60.2934679
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/226766533",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2017-09-24T18:41:09Z",
+        "osmVersion": 2,
+        "tags": {
+          "amenity": "shelter",
+          "shelter_type": "picnic_shelter"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:538933710",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.50003,
+          60.3367102
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/538933710",
+        "name": "Takalan laavu",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2021-08-31T02:30:53Z",
+        "osmVersion": 2,
+        "tags": {
+          "amenity": "shelter",
+          "building": "yes",
+          "name": "Takalan laavu",
+          "shelter_type": "lean_to"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:603985761",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4839892,
+          60.3651216
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/603985761",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2022-01-02T12:21:30Z",
+        "osmVersion": 3,
+        "tags": {
+          "amenity": "shelter",
+          "bin": "yes",
+          "building": "roof",
+          "fireplace": "yes",
+          "firewood": "yes",
+          "leisure": "firepit",
+          "shelter_type": "picnic_shelter",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:842034984",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5067394,
+          60.3737025
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/842034984",
+        "name": "Salmi",
+        "category": "camp",
+        "classification": "outside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2020-08-28T23:59:38Z",
+        "osmVersion": 1,
+        "tags": {
+          "fee": "no",
+          "name": "Salmi",
+          "phone": "+358 9 310 28629",
+          "tourism": "camp_site",
+          "url": "https://www.hel.fi/helsinki/fi/kulttuuri-ja-vapaa-aika/ulkoilu/mantereella-helsingissa-espoossa-ja-vihdissa/salmi"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:891589797",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5666365,
+          60.2906973
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/891589797",
+        "name": "Solvallan Mäntykota",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2025-10-24T08:36:22Z",
+        "osmVersion": 6,
+        "tags": {
+          "drinking_water": "no",
+          "fee": "yes",
+          "name": "Solvallan Mäntykota",
+          "name:de": "Grillhütte",
+          "name:en": "Barbecue Hut",
+          "name:sv": "Solvalla Tallboet",
+          "power_supply": "no",
+          "reservation": "required",
+          "shower": "no",
+          "source": "https://www.folkhalsan.fi/fi/motesrum/solvalla-mantykota/",
+          "toilets": "yes",
+          "tourism": "wilderness_hut"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:891589799",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.559776,
+          60.2971979
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/891589799",
+        "name": "Aarnitulen varaustulipaikka",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2021-01-03T17:58:40Z",
+        "osmVersion": 1,
+        "tags": {
+          "access": "customers",
+          "covered": "yes",
+          "fireplace": "yes",
+          "name": "Aarnitulen varaustulipaikka",
+          "tourism": "picnic_site",
+          "website": "https://shop.haltia.com/fi_FI/varattavat-tulipaikat-nuuksiossa/aarnitulen-varauspaikka"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:977681656",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5060634,
+          60.310061
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/977681656",
+        "name": "Haukanholman keittokatos",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2026-01-08T07:32:31Z",
+        "osmVersion": 2,
+        "tags": {
+          "amenity": "shelter",
+          "building": "yes",
+          "name": "Haukanholman keittokatos",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:977681666",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5120783,
+          60.3056008
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/977681666",
+        "name": "Mustalammen keittokatos",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2023-01-07T22:34:10Z",
+        "osmVersion": 2,
+        "tags": {
+          "amenity": "shelter",
+          "building": "yes",
+          "fireplace": "yes",
+          "name": "Mustalammen keittokatos",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:1017555290",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5073372,
+          60.3489942
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/1017555290",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2022-01-02T12:21:30Z",
+        "osmVersion": 1,
+        "tags": {
+          "amenity": "shelter",
+          "building": "roof",
+          "fireplace": "yes",
+          "firewood": "yes",
+          "shelter_type": "picnic_shelter",
+          "source": "MML 2012",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:1017555292",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4856625,
+          60.3608452
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/1017555292",
+        "name": "Iso-Parikas",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2022-01-02T12:21:30Z",
+        "osmVersion": 1,
+        "tags": {
+          "amenity": "shelter",
+          "bin": "yes",
+          "building": "roof",
+          "fireplace": "yes",
+          "firewood": "yes",
+          "leisure": "firepit",
+          "name": "Iso-Parikas",
+          "shelter_type": "picnic_shelter",
+          "source": "survey;https://www.vihti.fi/kulttuuri-ja-vapaa-aika/liikunta/retkeily-ja-ulkoilu/laavut-kodat-ja-nuotiopaikat/",
+          "tourism": "picnic_site"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:1128084554",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5011606,
+          60.3731339
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/1128084554",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2023-01-07T22:06:02Z",
+        "osmVersion": 1,
+        "tags": {
+          "amenity": "shelter",
+          "building": "yes",
+          "fireplace": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:1312197783",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4509768,
+          60.2674516
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/1312197783",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2024-08-30T10:02:35Z",
+        "osmVersion": 1,
+        "tags": {
+          "amenity": "shelter",
+          "building": "yes",
+          "shelter_type": "gazebo"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:1337959551",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4566461,
+          60.2678918
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/1337959551",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2024-11-26T10:25:01Z",
+        "osmVersion": 1,
+        "tags": {
+          "amenity": "shelter",
+          "building": "yes",
+          "shelter_type": "public_transport"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:1337959553",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4586022,
+          60.2673698
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/1337959553",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2024-11-26T10:25:01Z",
+        "osmVersion": 1,
+        "tags": {
+          "amenity": "shelter",
+          "building": "yes",
+          "shelter_type": "public_transport"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:1384000548",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4441827,
+          60.270028
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/1384000548",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2025-05-06T11:14:48Z",
+        "osmVersion": 1,
+        "tags": {
+          "amenity": "shelter",
+          "building": "yes",
+          "shelter_type": "public_transport"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:1384000550",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4439275,
+          60.2696983
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/1384000550",
+        "name": "Veikkola",
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2025-05-06T11:14:48Z",
+        "osmVersion": 1,
+        "tags": {
+          "amenity": "shelter",
+          "name": "Veikkola",
+          "shelter_type": "public_transport"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:1393834682",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6854211,
+          60.3571401
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/1393834682",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2025-06-10T11:23:35Z",
+        "osmVersion": 1,
+        "tags": {
+          "amenity": "shelter",
+          "building": "canopy",
+          "shelter_type": "public_transport"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:1419895577",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4960867,
+          60.3012863
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/1419895577",
+        "name": "Holma-Saarijärven laavu",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2025-08-04T06:19:24Z",
+        "osmVersion": 1,
+        "tags": {
+          "amenity": "shelter",
+          "building": "yes",
+          "name": "Holma-Saarijärven laavu",
+          "shelter_type": "lean_to"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:1420314933",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.452458,
+          60.3162865
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/1420314933",
+        "name": "Tikankolo",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2026-09-24T14:47:03Z",
+        "osmVersion": 2,
+        "tags": {
+          "access": "customers",
+          "addr:housenumber": "40",
+          "addr:street": "Kurjolammentie",
+          "building": "yes",
+          "fee": "yes",
+          "fireplace": "yes",
+          "name": "Tikankolo",
+          "operator": "Metsähallitus",
+          "operator:wikidata": "Q630486",
+          "tourism": "wilderness_hut",
+          "website": "https://www.outdoors.fi/Huts/southernfinland/tikankolorentalhut/Pages/Default.aspx"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:1420314934",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.452765,
+          60.3162553
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/1420314934",
+        "name": "Tikankolo",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2026-09-24T14:47:03Z",
+        "osmVersion": 2,
+        "tags": {
+          "access": "customers",
+          "building": "yes",
+          "fee": "yes",
+          "fireplace": "yes",
+          "name": "Tikankolo",
+          "operator": "Metsähallitus",
+          "operator:wikidata": "Q630486",
+          "tourism": "wilderness_hut",
+          "website": "https://www.outdoors.fi/Huts/southernfinland/tikankolorentalhut/Pages/Default.aspx"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:1547392696",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6761344,
+          60.283824
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/1547392696",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2026-08-05T06:25:54Z",
+        "osmVersion": 1,
+        "tags": {
+          "amenity": "shelter",
+          "building": "yes",
+          "shelter_type": "public_transport"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:1549269270",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4448928,
+          60.2470156
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/1549269270",
+        "name": null,
+        "category": "rest",
+        "classification": "outside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2026-08-17T11:59:14Z",
+        "osmVersion": 2,
+        "tags": {
+          "amenity": "shelter",
+          "building": "yes",
+          "shelter_type": "public_transport"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:1550410163",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5066915,
+          60.3094814
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/way/1550410163",
+        "name": null,
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "bounding-box-center-review-required",
+        "osmModifiedAt": "2026-08-17T19:43:44Z",
+        "osmVersion": 1,
+        "tags": {
+          "amenity": "shelter",
+          "barbecue_grill": "yes",
+          "bench": "yes",
+          "building": "yes",
+          "tourism": "picnic_site"
+        }
+      }
+    }
+  ]
+}

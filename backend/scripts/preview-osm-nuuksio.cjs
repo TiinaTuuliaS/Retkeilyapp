@@ -11,8 +11,8 @@ if(park!=='ukk')filters.push('["amenity"="shelter"]','["tourism"="picnic_site"]'
 const query='[out:json][timeout:25];('+filters.map(f=>'nwr'+f+'('+box+');').join('')+');out center meta;';
 fs.writeFileSync(path.join(base,park+'.overpass'),query);
 let result;
-for(const host of ['https://maps.mail.ru/osm/tools/overpass/api/interpreter']){
-try {const r=await fetch(host+'?data='+encodeURIComponent(query),{signal:AbortSignal.timeout(35000)});if(!r.ok)throw Error('HTTP '+r.status);const data=await r.json();if(data.remark)throw Error(data.remark);result={fetchedAt:new Date().toISOString(),endpoint:host,query,osmBase:data.osm3s?.timestamp_osm_base,elements:data.elements.map(({user,uid,...item})=>item)};break;}catch(e){console.log(park,host,e.message);}}
+for(const host of ['https://overpass-api.de/api/interpreter','https://maps.mail.ru/osm/tools/overpass/api/interpreter']){
+try {const r=await fetch(host,{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:'data='+encodeURIComponent(query),signal:AbortSignal.timeout(35000)});if(!r.ok)throw Error('HTTP '+r.status);const data=await r.json();if(data.remark)throw Error(data.remark);result={fetchedAt:new Date().toISOString(),endpoint:host,query,osmBase:data.osm3s?.timestamp_osm_base,elements:data.elements.map(({user,uid,...item})=>item)};break;}catch(e){console.log(park,host,e.message);}}
 if(!result){console.log('FAILED',park);process.exitCode=1;continue;}fs.writeFileSync(path.join(base,park+'-raw.json'),JSON.stringify(result,null,2));console.log('SAVED',park,result.elements.length);
 }}
 main().catch(e=>{console.error(e);process.exitCode=1});

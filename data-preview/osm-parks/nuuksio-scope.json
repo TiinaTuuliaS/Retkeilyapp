@@ -1,0 +1,18 @@
+{
+  "1167723560": {"type":"fireplace"},
+  "1167723603": {"type":"fireplace"},
+  "1167724010": {"type":"fireplace"},
+  "1167723450": {"type":"rest_shelter"},
+  "1167723549": {"type":"fireplace"},
+  "1167723687": {"type":"rest_shelter"},
+  "1167724100": {"type":"fireplace"},
+  "1167724046": {"type":"fireplace"},
+  "1167723770": {"type":"fireplace"},
+  "915621349": {"type":"campsite"},
+  "1167723519": {"type":"campsite"},
+  "1167723987": {"type":"campsite"},
+  "1167723425": {"type":"campsite"},
+  "1167723657": {"type":"campsite"},
+  "649291366": {"type":"water","fallbackName":"Vesihana – Nuuksio"},
+  "10970967697": {"type":"water","fallbackName":"Kaivo – Nuuksio"}
+}

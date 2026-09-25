@@ -6,6 +6,13 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
+    "preview:lipas-nuuksio": "node scripts/preview-lipas-nuuksio.cjs",
+    "test:nuuksio-import": "ts-node scripts/import-lipas-nuuksio.ts --verify",
+    "import:lipas-nuuksio": "ts-node scripts/import-lipas-nuuksio.ts",
+    "preview:osm-nuuksio": "node scripts/preview-osm-nuuksio.cjs",
+    "summarize:osm-nuuksio": "node scripts/summarize-osm-nuuksio.cjs && node scripts/review-osm-nuuksio.cjs",
+    "test:osm-nuuksio": "ts-node scripts/import-osm-nuuksio.ts --verify",
+    "import:osm-nuuksio": "ts-node scripts/import-osm-nuuksio.ts",
     "preview:osm-repovesi": "node scripts/preview-osm-repovesi.cjs",
     "summarize:osm-repovesi": "node scripts/summarize-osm-repovesi.cjs && node scripts/review-osm-repovesi.cjs",
     "test:osm-repovesi": "ts-node scripts/import-osm-repovesi.ts --verify",

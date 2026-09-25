@@ -1,0 +1,344 @@
+{
+  "checkedAt": "2026-09-25T13:40:59.005Z",
+  "databaseChanged": false,
+  "nearLipas": [
+    {
+      "lipasId": 73487,
+      "name": "Takalan laavu",
+      "nearby": [
+        {
+          "osmId": "osm:way:538933710",
+          "name": "Takalan laavu",
+          "metres": 2
+        },
+        {
+          "osmId": "osm:node:13895565781",
+          "name": null,
+          "metres": 8
+        },
+        {
+          "osmId": "osm:node:5215734831",
+          "name": null,
+          "metres": 12
+        },
+        {
+          "osmId": "osm:node:13895545357",
+          "name": null,
+          "metres": 37
+        }
+      ]
+    },
+    {
+      "lipasId": 73851,
+      "name": "Holma-Saarijärven laavu",
+      "nearby": [
+        {
+          "osmId": "osm:node:13047668303",
+          "name": "Holma-Saarijärven itäinen telttailualue",
+          "metres": 28
+        },
+        {
+          "osmId": "osm:way:1419895577",
+          "name": "Holma-Saarijärven laavu",
+          "metres": 30
+        },
+        {
+          "osmId": "osm:node:13047658799",
+          "name": "Holma-Saarijärven laavun tulentekopaikka",
+          "metres": 37
+        },
+        {
+          "osmId": "osm:node:1167723840",
+          "name": "Holma-Saarijärven itäinen tulentekopaikka",
+          "metres": 73
+        },
+        {
+          "osmId": "osm:node:13047668309",
+          "name": "Holma-Saarijärven itäinen uimapaikka",
+          "metres": 85
+        }
+      ]
+    }
+  ],
+  "nearbyOsmPairs": [
+    {
+      "a": "osm:node:303078535",
+      "b": "osm:node:1167723603",
+      "metres": 25
+    },
+    {
+      "a": "osm:node:336582800",
+      "b": "osm:node:1167724010",
+      "metres": 16
+    },
+    {
+      "a": "osm:node:638380530",
+      "b": "osm:node:638380531",
+      "metres": 15
+    },
+    {
+      "a": "osm:node:638380530",
+      "b": "osm:node:1167723549",
+      "metres": 7
+    },
+    {
+      "a": "osm:node:638380530",
+      "b": "osm:node:1167724109",
+      "metres": 10
+    },
+    {
+      "a": "osm:node:638380531",
+      "b": "osm:node:1167723549",
+      "metres": 20
+    },
+    {
+      "a": "osm:node:638380531",
+      "b": "osm:node:1167724109",
+      "metres": 6
+    },
+    {
+      "a": "osm:node:638380533",
+      "b": "osm:node:1167723450",
+      "metres": 14
+    },
+    {
+      "a": "osm:node:915621349",
+      "b": "osm:node:9725473078",
+      "metres": 8
+    },
+    {
+      "a": "osm:node:915621349",
+      "b": "osm:node:9725473079",
+      "metres": 13
+    },
+    {
+      "a": "osm:node:915621349",
+      "b": "osm:node:12669913815",
+      "metres": 12
+    },
+    {
+      "a": "osm:node:915621349",
+      "b": "osm:node:12669913816",
+      "metres": 10
+    },
+    {
+      "a": "osm:node:915621349",
+      "b": "osm:node:12669913817",
+      "metres": 11
+    },
+    {
+      "a": "osm:node:918826422",
+      "b": "osm:node:1167724020",
+      "metres": 17
+    },
+    {
+      "a": "osm:node:1167723437",
+      "b": "osm:node:1167723770",
+      "metres": 37
+    },
+    {
+      "a": "osm:node:1167723437",
+      "b": "osm:node:13047668310",
+      "metres": 53
+    },
+    {
+      "a": "osm:node:1167723461",
+      "b": "osm:way:1420314933",
+      "metres": 15
+    },
+    {
+      "a": "osm:node:1167723461",
+      "b": "osm:way:1420314934",
+      "metres": 23
+    },
+    {
+      "a": "osm:node:1167723519",
+      "b": "osm:node:7752553422",
+      "metres": 18
+    },
+    {
+      "a": "osm:node:1167723549",
+      "b": "osm:node:1167724109",
+      "metres": 15
+    },
+    {
+      "a": "osm:node:1167723560",
+      "b": "osm:node:1167723729",
+      "metres": 56
+    },
+    {
+      "a": "osm:node:1167723560",
+      "b": "osm:way:977681656",
+      "metres": 37
+    },
+    {
+      "a": "osm:node:1167723560",
+      "b": "osm:way:1550410163",
+      "metres": 38
+    },
+    {
+      "a": "osm:node:1167723590",
+      "b": "osm:way:977681666",
+      "metres": 54
+    },
+    {
+      "a": "osm:node:1167723672",
+      "b": "osm:node:10970967697",
+      "metres": 43
+    },
+    {
+      "a": "osm:node:1167723687",
+      "b": "osm:node:1167723996",
+      "metres": 34
+    },
+    {
+      "a": "osm:node:1167723720",
+      "b": "osm:node:1167724046",
+      "metres": 15
+    },
+    {
+      "a": "osm:node:1167723729",
+      "b": "osm:way:1550410163",
+      "metres": 49
+    },
+    {
+      "a": "osm:node:1167723770",
+      "b": "osm:node:13047668310",
+      "metres": 22
+    },
+    {
+      "a": "osm:node:1167723840",
+      "b": "osm:node:13047668303",
+      "metres": 52
+    },
+    {
+      "a": "osm:node:1167723840",
+      "b": "osm:node:13047668309",
+      "metres": 16
+    },
+    {
+      "a": "osm:node:1167724100",
+      "b": "osm:way:977681666",
+      "metres": 11
+    },
+    {
+      "a": "osm:node:5215734831",
+      "b": "osm:node:13895545357",
+      "metres": 27
+    },
+    {
+      "a": "osm:node:5215734831",
+      "b": "osm:node:13895565781",
+      "metres": 4
+    },
+    {
+      "a": "osm:node:5215734831",
+      "b": "osm:way:538933710",
+      "metres": 11
+    },
+    {
+      "a": "osm:node:9064731020",
+      "b": "osm:node:14017211201",
+      "metres": 60
+    },
+    {
+      "a": "osm:node:9725473078",
+      "b": "osm:node:9725473079",
+      "metres": 5
+    },
+    {
+      "a": "osm:node:9725473078",
+      "b": "osm:node:12669913815",
+      "metres": 9
+    },
+    {
+      "a": "osm:node:9725473078",
+      "b": "osm:node:12669913816",
+      "metres": 9
+    },
+    {
+      "a": "osm:node:9725473078",
+      "b": "osm:node:12669913817",
+      "metres": 9
+    },
+    {
+      "a": "osm:node:9725473079",
+      "b": "osm:node:12669913815",
+      "metres": 9
+    },
+    {
+      "a": "osm:node:9725473079",
+      "b": "osm:node:12669913816",
+      "metres": 10
+    },
+    {
+      "a": "osm:node:9725473079",
+      "b": "osm:node:12669913817",
+      "metres": 10
+    },
+    {
+      "a": "osm:node:12669913815",
+      "b": "osm:node:12669913816",
+      "metres": 3
+    },
+    {
+      "a": "osm:node:12669913815",
+      "b": "osm:node:12669913817",
+      "metres": 1
+    },
+    {
+      "a": "osm:node:12669913816",
+      "b": "osm:node:12669913817",
+      "metres": 1
+    },
+    {
+      "a": "osm:node:13047658799",
+      "b": "osm:way:1419895577",
+      "metres": 8
+    },
+    {
+      "a": "osm:node:13047668303",
+      "b": "osm:way:1419895577",
+      "metres": 56
+    },
+    {
+      "a": "osm:node:13895545357",
+      "b": "osm:node:13895565781",
+      "metres": 31
+    },
+    {
+      "a": "osm:node:13895545357",
+      "b": "osm:way:538933710",
+      "metres": 37
+    },
+    {
+      "a": "osm:node:13895565781",
+      "b": "osm:way:538933710",
+      "metres": 7
+    },
+    {
+      "a": "osm:way:1420314933",
+      "b": "osm:way:1420314934",
+      "metres": 17
+    }
+  ],
+  "proposed": [
+    "osm:node:649291366",
+    "osm:node:915621349",
+    "osm:node:1167723425",
+    "osm:node:1167723450",
+    "osm:node:1167723519",
+    "osm:node:1167723549",
+    "osm:node:1167723560",
+    "osm:node:1167723603",
+    "osm:node:1167723657",
+    "osm:node:1167723687",
+    "osm:node:1167723770",
+    "osm:node:1167723987",
+    "osm:node:1167724010",
+    "osm:node:1167724046",
+    "osm:node:1167724100",
+    "osm:node:10970967697"
+  ],
+  "caveat": "Proximity is not proof of a duplicate. Nearby feature fields are not merged. Water labels without source names are descriptive generated labels."
+}

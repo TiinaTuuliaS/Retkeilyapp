@@ -1,0 +1,454 @@
+{
+  "type": "FeatureCollection",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "osm:node:649291366",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5147158,
+          60.3097952
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/649291366",
+        "name": "Vesihana – Nuuksio",
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-07-26T10:36:45Z",
+        "osmVersion": 4,
+        "tags": {
+          "access": "yes",
+          "amenity": "drinking_water",
+          "man_made": "water_tap",
+          "source": "survey"
+        },
+        "type": "water",
+        "nameGenerated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:915621349",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4547896,
+          60.3209549
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/915621349",
+        "name": "Saarilammen telttailualue",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-01-08T17:37:58Z",
+        "osmVersion": 3,
+        "tags": {
+          "backcountry": "yes",
+          "name": "Saarilammen telttailualue",
+          "tourism": "camp_site"
+        },
+        "type": "campsite",
+        "nameGenerated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167723425",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5764452,
+          60.3237994
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167723425",
+        "name": "Valkealammen telttailualue",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-01-08T17:37:58Z",
+        "osmVersion": 4,
+        "tags": {
+          "backcountry": "yes",
+          "fireplace": "no",
+          "name": "Valkealammen telttailualue",
+          "tourism": "camp_site"
+        },
+        "type": "campsite",
+        "nameGenerated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167723450",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4925813,
+          60.3258727
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167723450",
+        "name": "Kattilan keittokatos",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2011-02-23T11:36:14Z",
+        "osmVersion": 2,
+        "tags": {
+          "covered": "yes",
+          "fireplace": "yes",
+          "name": "Kattilan keittokatos",
+          "tourism": "picnic_site"
+        },
+        "type": "rest_shelter",
+        "nameGenerated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167723519",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6228563,
+          60.3088462
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167723519",
+        "name": "Vääräjärven telttailualue",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-08-24T12:29:43Z",
+        "osmVersion": 7,
+        "tags": {
+          "backcountry": "yes",
+          "drinking_water": "no",
+          "name": "Vääräjärven telttailualue",
+          "power_supply": "no",
+          "shower": "no",
+          "toilets": "yes",
+          "tourism": "camp_site"
+        },
+        "type": "campsite",
+        "nameGenerated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167723549",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4941015,
+          60.3256378
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167723549",
+        "name": "Kattilan tulentekopaikka",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2011-02-23T11:36:16Z",
+        "osmVersion": 2,
+        "tags": {
+          "fireplace": "yes",
+          "name": "Kattilan tulentekopaikka",
+          "tourism": "picnic_site"
+        },
+        "type": "fireplace",
+        "nameGenerated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167723560",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5062365,
+          60.3097385
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167723560",
+        "name": "Haukanholman tulentekopaikka",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-01-08T07:32:31Z",
+        "osmVersion": 4,
+        "tags": {
+          "leisure": "firepit",
+          "name": "Haukanholman tulentekopaikka",
+          "tourism": "picnic_site"
+        },
+        "type": "fireplace",
+        "nameGenerated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167723603",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4853921,
+          60.3125905
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167723603",
+        "name": "Iso-Holman tulentekopaikka",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2011-02-23T11:36:17Z",
+        "osmVersion": 2,
+        "tags": {
+          "fireplace": "yes",
+          "name": "Iso-Holman tulentekopaikka",
+          "tourism": "picnic_site"
+        },
+        "type": "fireplace",
+        "nameGenerated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167723657",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.60072,
+          60.2955153
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167723657",
+        "name": "Valkialammen telttailualue",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-01-08T17:37:58Z",
+        "osmVersion": 4,
+        "tags": {
+          "backcountry": "yes",
+          "name": "Valkialammen telttailualue",
+          "tents": "yes",
+          "tourism": "camp_site"
+        },
+        "type": "campsite",
+        "nameGenerated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167723687",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5099546,
+          60.3057363
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167723687",
+        "name": "Mustalammen pieni keittokatos",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-01-07T22:34:10Z",
+        "osmVersion": 3,
+        "tags": {
+          "amenity": "shelter",
+          "covered": "yes",
+          "fireplace": "yes",
+          "name": "Mustalammen pieni keittokatos",
+          "tourism": "picnic_site"
+        },
+        "type": "rest_shelter",
+        "nameGenerated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167723770",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4912708,
+          60.3019515
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167723770",
+        "name": "Holma-Saarijärven läntinen tulentekopaikka",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-08-04T06:19:24Z",
+        "osmVersion": 3,
+        "tags": {
+          "access": "yes",
+          "fireplace": "yes",
+          "leisure": "firepit",
+          "name": "Holma-Saarijärven läntinen tulentekopaikka"
+        },
+        "type": "fireplace",
+        "nameGenerated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167723987",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5832724,
+          60.3206014
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167723987",
+        "name": "Pöksynhaaran telttailualue",
+        "category": "camp",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2025-01-08T17:37:58Z",
+        "osmVersion": 5,
+        "tags": {
+          "access": "yes",
+          "backcountry": "yes",
+          "caravans": "no",
+          "fee": "no",
+          "fireplace": "no",
+          "name": "Pöksynhaaran telttailualue",
+          "tourism": "camp_site"
+        },
+        "type": "campsite",
+        "nameGenerated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167724010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4885618,
+          60.3116544
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167724010",
+        "name": "Iso-Holman pieni tulentekopaikka",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2011-02-23T11:36:12Z",
+        "osmVersion": 2,
+        "tags": {
+          "fireplace": "yes",
+          "name": "Iso-Holman pieni tulentekopaikka",
+          "tourism": "picnic_site"
+        },
+        "type": "fireplace",
+        "nameGenerated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167724046",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5946408,
+          60.2969313
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167724046",
+        "name": "Urjan tulentekopaikka",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2023-12-30T14:36:08Z",
+        "osmVersion": 3,
+        "tags": {
+          "fireplace": "yes",
+          "name": "Urjan tulentekopaikka",
+          "tourism": "picnic_site"
+        },
+        "type": "fireplace",
+        "nameGenerated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:1167724100",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5120923,
+          60.3055044
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/1167724100",
+        "name": "Mustalammen tulentekopaikka",
+        "category": "rest",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2021-08-30T00:21:18Z",
+        "osmVersion": 3,
+        "tags": {
+          "leisure": "firepit",
+          "name": "Mustalammen tulentekopaikka",
+          "tourism": "picnic_site"
+        },
+        "type": "fireplace",
+        "nameGenerated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:node:10970967697",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4928809,
+          60.3267391
+        ]
+      },
+      "properties": {
+        "sourceUrl": "https://www.openstreetmap.org/node/10970967697",
+        "name": "Kaivo – Nuuksio",
+        "category": "water",
+        "classification": "inside",
+        "positionKind": "osm-node",
+        "osmModifiedAt": "2026-07-17T12:12:14Z",
+        "osmVersion": 2,
+        "tags": {
+          "amenity": "drinking_water",
+          "man_made": "water_well",
+          "pump": "manual"
+        },
+        "type": "water",
+        "nameGenerated": true
+      }
+    }
+  ]
+}

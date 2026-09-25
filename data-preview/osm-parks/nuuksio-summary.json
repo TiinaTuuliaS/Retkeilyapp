@@ -1,0 +1,19 @@
+[
+  {
+    "park": "nuuksio",
+    "fetchedAt": "2026-09-25T13:39:33.704Z",
+    "osmBase": "2026-09-25T13:36:36Z",
+    "bboxResults": 190,
+    "inside": 64,
+    "outside": 126,
+    "boundaryReview": 0,
+    "counts": {
+      "camp": 14,
+      "rest": 35,
+      "water": 4,
+      "table": 8,
+      "water-tag-on-other-feature": 3
+    },
+    "areaCentersInside": 8
+  }
+]
