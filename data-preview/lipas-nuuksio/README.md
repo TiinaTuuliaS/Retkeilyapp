@@ -1,5 +1,22 @@
 # Nuuksion kansallispuistosivu ja LIPAS-päivitys
 
+## Testikohteiden siivous 27.9.2026
+
+Vanhat kehityskohteet ID 1, 6 ja 7 sekä niiden seitsemän raporttia poistettiin
+aktiivisesta tietokannasta käyttäjän pyynnöstä. Kohteet ja raportit säilytettiin
+paikallisessa `.repo-backups/nuuksio-tests-*.json`-varmuuskopiossa, joka ei kuulu
+Gitiin. Raportteja ei siirretty lähteistettyihin kohteisiin. Suosikkeja,
+vesihavaintoja tai käyttötilahavaintoja ei liittynyt poistettuihin kohteisiin.
+Nuuksion sivulla on nyt 18 lähteistettyä kohdetta.
+
+Tarkistuskomento projektin juuresta:
+`.\.tools\node-v22.23.2-win-x64\node.exe backend/node_modules/ts-node/dist/bin.js --project backend/tsconfig.json backend/scripts/remove-nuuksio-tests.ts`
+Poisto vaatii erillisen `--apply`-argumentin. Skripti tarkistaa tunnisteet,
+nimet, sijainnit, lähteettömyyden ja viittaavat taulut sekä varmuuskopioi
+poistettavat rivit ennen transaktion vahvistamista. Uusinta ei poista muita kohteita.
+
+## Alkuperäinen tuontitilanne 25.9.2026
+
 25.9.2026 Nuuksiolle lisättiin oma sivu: http://localhost:5173/#/parks/nuuksio
 Puistossa on kaksi LIPAS-laavua ja 16 OSM-täydennystä eli 18 lähteistettyä kohdetta.
 Puistosivun rajaus palauttaa lisäksi kolme vanhaa lähteetöntä kehityskohdetta

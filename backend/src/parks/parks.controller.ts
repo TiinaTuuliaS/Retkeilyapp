@@ -11,7 +11,7 @@ const catalog = [
     description: 'Nuuksion sivulle on koottu Konkarissa mukana olevia laavuja, tulentekopaikkoja, katoksia, telttailualueita ja vesipisteitä. Kohdekorteilla voit jakaa päivättyjä havaintoja palveluiden tilanteesta.',
     descriptionSource: 'https://www.luontoon.fi/fi/kohteet/nuuksion-kansallispuisto',
     officialUrl: 'https://www.luontoon.fi/fi/kohteet/nuuksion-kansallispuisto',
-    coverage: 'Mukana on kaksi LIPAS-laavua ja 16 OpenStreetMap-kohdetta. Lisäksi kartalla on kolme vanhaa lähteetöntä kehityskohdetta, joiden sijainteja ei ole vahvistettu. Rajattu otos ei kata kaikkia palveluita. Varauspaikat ja epäselvät kohteet odottavat tarkistusta. Vesipisteiden saatavuutta tai juomakelpoisuutta ei ole vahvistettu.',
+    coverage: 'Mukana on kaksi LIPAS-laavua ja 16 OpenStreetMap-kohdetta. Rajattu otos ei kata kaikkia palveluita. Varauspaikat ja epäselvät kohteet odottavat tarkistusta. Vesipisteiden saatavuutta tai juomakelpoisuutta ei ole vahvistettu.',
     directory: 'lipas-nuuksio', boundaryId: 'KPU010030' },
   { slug: 'repovesi', name: 'Repoveden kansallispuisto', region: 'Kaakkois-Suomi',
     description: 'Repoveden sivulla voit tutustua Konkarissa mukana oleviin taukopaikkoihin ja jakaa havaintoja niiden kunnosta ja palveluista.',
