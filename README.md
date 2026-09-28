@@ -1,5 +1,52 @@
 # Retkeilyapp – paikallinen kehitys Windowsissa
 
+## Offline-havaintojen ensimmäinen versio (28.9.2026)
+
+Kirjautunut käyttäjä voi tallentaa kunto-, vesi- ja käyttötilahavaintoja jo
+avatulla kohdesivulla ilman verkkoa. Lomakkeissa ja sivun yläreunan avattavassa
+lähetysjonossa kerrotaan tästä. Havainto tallennetaan ensin selaimen IndexedDB-
+tietokantaan; vasta onnistuneen paikallisen tallennuksen jälkeen lomake tyhjennetään.
+Jonossa erotetaan odottava, lähetetty, kirjautumista vaativa ja palvelimen
+hylkäämä havainto. Tekstin voi tarkistaa ja kopioida jonosta.
+
+Lähetystä yritetään heti tallennuksen jälkeen, verkkoyhteyden palatessa,
+ikkunan aktivoituessa ja 30 sekunnin välein sovelluksen ollessa auki. Lähetys
+tarkistaa istunnon ja alkuperäisen käyttäjätunnisteen. Toisen tilin jonoon ei
+pääse käyttöliittymästä eikä sen havaintoja lähetetä väärän tilin nimissä.
+Istunnon vanhentuessa havainto säilyy jonossa: kirjaudu takaisin samalle tilille.
+400/404/409-virheet jäävät tarkistettaviksi, eivät automaattiseen uusintakiertoon.
+Palvelin- ja yhteysvirheissä havainto säilyy ja lähetystä yritetään myöhemmin.
+
+Rajaukset: kirjaudu ja avaa kohteet ennen verkkokatkoa. Sovelluksen avaamista
+uudelleen ilman verkkoa, offline-karttoja, päiväkirjan offline-luonnoksia tai
+suljetun sovelluksen taustalähetystä ei vielä tueta. Tallennettu jono säilyy
+sivun sulkemisen yli ja jatkaa sovelluksen avauduttua verkossa samalle tilille.
+Selaintietojen tyhjennys, yksityisen selausistunnon päättyminen tai selaimen
+tallennustilan poisto voi hävittää paikalliset havainnot. Jonon sisältö ei ole
+salattu laitteen tallennustilassa. Lähetettyjen havaintojen paikalliset kuitit
+voi poistaa jonosta; tämä ei poista jo palvelimelle tallennettua havaintoa.
+
+Uusi API `POST /account/observations` hyväksyy `requestId` (UUID v4), `accountId`,
+`kind`, `locationId` ja `data`. Palvelin tarkistaa tilin istunnosta ja käyttää
+samoja validointeja kuin tavalliset havaintorajapinnat. Havainto ja lähetyskuitti
+tallentuvat samaan tietokantatransaktioon. Tilikohtainen lukko ja yksilöllinen
+avain estävät kaksoiskappaleet myös samanaikaisissa uusintapyynnöissä. Sama
+tunniste eri sisällöllä hylätään. Vanhoihin rajapintoihin ei muutettu sopimusta.
+Kuitteja ei vanhenneta automaattisesti, jotta pitkään offline-tilassa ollut
+uusintalähetys ei tee kaksoiskappaletta. Tilin poistaminen poistaa sen kuitit.
+
+```powershell
+.\retki.cmd backend db:observation-outbox
+.\retki.cmd backend test:observation-outbox
+.\.tools\node-v22.23.2-win-x64\node.exe --test frontend/src/observation-outbox.test.js
+```
+
+Migraatio on ajettu nykyiseen kehitystietokantaan. Frontendin testit simuloivat
+yhteyskatkon, kadonneen vastauksen, jonon uudelleenavaamisen, väärän tilin,
+kirjautumistarpeen, validointivirheen ja tallennustilan virheen. Backendin testi
+käyttää väliaikaisia tilejä ja tarkistaa kolmen havaintolajin samanaikaiset
+uusintapyynnöt sekä virheellisen pyynnön transaktion peruuntumisen.
+
 ## Konkari: käyttäjätilit ja oma sivu
 
 Yläreunan **Kirjaudu**-linkistä voi luoda tilin sähköpostilla, näyttönimellä ja

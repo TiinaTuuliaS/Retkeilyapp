@@ -5,6 +5,8 @@ import { AccountLink, SaveLocation, useAccount } from './Account';
 import ParkNavigation from './ParkNavigation';
 import WaterObservations from './WaterObservations';
 import UsageObservations from './UsageObservations';
+import { saveObservation } from './observation-outbox';
+import { offlineHelp } from './OfflineStatus';
 import { geoJSON } from 'leaflet';
 import { filterLocations, hasPoint } from './location-list';
 
@@ -59,6 +61,14 @@ export default function App({ park = null, parks = [], initialLocationId = null 
   const [message, setMessage] = useState(null);
 
   useEffect(() => {
+    const delivered = ({detail}) => {
+      if(detail?.kind==='report') setReports(rows=>[...rows.filter(r=>r.id!==detail.result.id),detail.result]);
+    };
+    window.addEventListener('konkari-outbox',delivered);
+    return ()=>window.removeEventListener('konkari-outbox',delivered);
+  },[]);
+
+  useEffect(() => {
     const controller = new AbortController();
     Promise.all(['locations', 'reports'].map(async endpoint => {
       const response = await fetch(`${API}/${endpoint}`, { signal: controller.signal });
@@ -98,14 +108,11 @@ export default function App({ park = null, parks = [], initialLocationId = null 
     const id = selected.id;
     setSaving(true); setMessage(null);
     try {
-      const response = await fetch(`${API}/reports`, { method: 'POST', credentials: 'include', headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ location: { id }, status: draft.status, target: draft.target, comment: draft.comment }) });
-      const result = await response.json();
-      if (!response.ok) throw new Error(typeof result.message === 'string' ? result.message : 'Tallennus epäonnistui.');
-      setReports(previous => [...previous, result]);
+      await saveObservation({accountId:user?.id,kind:'report',locationId:id,locationName:selected.name,
+        data:{ location: { id }, status: draft.status, target: draft.target, comment: draft.comment }});
       setDrafts(previous => ({ ...previous, [id]: { comment: '', status: 'ok', target: 'general' } }));
-      setMessage({ id, text: 'Kiitos! Raporttisi on tallennettu.', error: false });
-    } catch (error) { setMessage({ id, text: error instanceof TypeError ? 'Yhteys katkesi. Tekstisi säilyi — yritä uudelleen.' : error.message, error: true }); }
+      setMessage({ id, text: 'Havainto tallennettu tälle laitteelle. Näet lähetyksen tilan sivun yläreunan lähetysjonosta.', error: false });
+    } catch (error) { setMessage({ id, text: error instanceof TypeError ? 'Tallennus tälle laitteelle ei onnistunut. Tekstisi säilyi lomakkeella.' : error.message, error: true }); }
     finally { setSaving(false); }
   };
 
@@ -141,19 +148,19 @@ export default function App({ park = null, parks = [], initialLocationId = null 
             <div className="card-heading"><span className="type-tag">{typeNames[selected.type] || 'Retkikohde'}</span><button className="close-button" aria-label="Sulje kohdekortti" onClick={() => setSelectedId(null)}>×</button></div>
             <h2>{selected.name}</h2>{selected.description && <p className="description">{selected.description}</p>}
             {selected.sourceStatus === 'out-of-service-temporarily' && <p className="error-banner"><strong>Tilapäisesti pois käytöstä · {selected.source?.name}</strong><br />Lähteen muokkauspäivä: {selected.sourceStatusDate?.slice(0,10).split('-').reverse().join('.') || 'Ei tietoa'}. Käyttäjähavainnot näytetään erikseen.</p>}
-            <UsageObservations key={`usage-${selected.id}`} locationId={selected.id} api={API} />
+            <UsageObservations key={`usage-${selected.id}`} locationId={selected.id} locationName={selected.name} api={API} />
             <SaveLocation key={`save-${selected.id}-${user?.id || 0}`} locationId={selected.id} />
             <h3>Paikan palvelut</h3>
             <dl className="services"><div><dt>Käymälä</dt><dd>{yesNo(selected.services?.toilet)}</dd></div><div><dt>Vesipiste</dt><dd>{({ 'year-round': 'Ympärivuotinen', seasonal: 'Kausittainen', exists: 'Kaivo · saatavuus havaintojen mukaan' })[selected.services?.waterPoint] || 'Ei tietoa'}</dd></div><div><dt>Vapaa käyttö</dt><dd>{yesNo(selected.services?.freeUse)}</dd></div></dl>
             <p className="source-note">{selected.source ? <>Perustiedot: <a href={selected.source.url} target="_blank" rel="noreferrer">{selected.source.name}</a>.{selected.source.license && <> {selected.source.attribution} · <a href={selected.source.licenseUrl} target="_blank" rel="noreferrer">{selected.source.license}</a> · <a href={`${API}${selected.source.downloadUrl}`} target="_blank" rel="noreferrer">Lataa OSM-kohdeaineisto</a>.</>}</> : 'Palvelutietojen lähdettä ei ole saatavilla.'} Ei tietoa tarkoittaa, ettei palvelusta ole vahvistettua tietoa.</p>
             <p className="source-note">Vesipisteen kausikäyttö ei kerro veden juomakelpoisuudesta tai tämänhetkisestä toimivuudesta.</p>
-            <WaterObservations key={selected.id} locationId={selected.id} api={API} knownWell={selected.type === 'water' && selected.services?.waterPoint === 'exists'} />
-            {user ? <form onSubmit={submit} className="report-form"><h3>Jätä retkiraportti</h3><p>Valitse, mitä havaintosi koskee. Eri palveluista voit jättää erilliset raportit.</p>
+            <WaterObservations key={selected.id} locationId={selected.id} locationName={selected.name} api={API} knownWell={selected.type === 'water' && selected.services?.waterPoint === 'exists'} />
+            {user ? <form onSubmit={submit} className="report-form"><h3>Jätä retkiraportti</h3><p>{offlineHelp}</p><p>Valitse, mitä havaintosi koskee. Eri palveluista voit jättää erilliset raportit.</p>
               <fieldset className="report-targets" disabled={saving}><legend>Mitä arvioit?</legend>
                 {['general', ...(selected.services?.toilet === true ? ['toilet'] : []), ...(['year-round', 'seasonal'].includes(selected.services?.waterPoint) ? ['water'] : [])].map(target =>
                   <label key={target}><input type="radio" name="report-target" value={target} checked={draft.target === target} onChange={() => updateDraft({ target, status: 'ok' })} />{targetNames[target]}</label>)}
               </fieldset>
-              <label htmlFor="condition">{draft.target === 'water' ? 'Vesipisteen toimivuus' : draft.target === 'toilet' ? 'Käymälän kunto' : 'Kohteen yleiskunto'}</label><select id="condition" value={draft.status} disabled={saving} onChange={e => updateDraft({ status: e.target.value })}><option value="ok">{draft.target === 'water' ? 'Toimii' : 'Kunnossa'}</option><option value="not_ok">{draft.target === 'water' ? 'Ei toimi' : 'Ei kunnossa'}</option></select><label htmlFor="comment">Havaintosi</label><textarea id="comment" placeholder={draft.target === 'toilet' ? 'Esimerkiksi: käymälä on siisti, mutta paperi on loppu.' : draft.target === 'water' ? 'Esimerkiksi: hanasta ei tule vettä.' : 'Esimerkiksi: laavun katto vuotaa.'} maxLength={2000} value={draft.comment} disabled={saving} onChange={e => updateDraft({ comment: e.target.value })} /><button className="primary" disabled={saving}>{saving ? 'Tallennetaan…' : 'Jaa havainto'}</button>{message?.id === selectedId && <p role={message.error ? 'alert' : 'status'}>{message.text}</p>}</form> : <p className="source-note"><a href="#/account">Kirjaudu sisään</a> jättääksesi retkiraportin.</p>}
+              <label htmlFor="condition">{draft.target === 'water' ? 'Vesipisteen toimivuus' : draft.target === 'toilet' ? 'Käymälän kunto' : 'Kohteen yleiskunto'}</label><select id="condition" value={draft.status} disabled={saving} onChange={e => updateDraft({ status: e.target.value })}><option value="ok">{draft.target === 'water' ? 'Toimii' : 'Kunnossa'}</option><option value="not_ok">{draft.target === 'water' ? 'Ei toimi' : 'Ei kunnossa'}</option></select><label htmlFor="comment">Havaintosi</label><textarea id="comment" placeholder={draft.target === 'toilet' ? 'Esimerkiksi: käymälä on siisti, mutta paperi on loppu.' : draft.target === 'water' ? 'Esimerkiksi: hanasta ei tule vettä.' : 'Esimerkiksi: laavun katto vuotaa.'} maxLength={2000} value={draft.comment} disabled={saving} onChange={e => updateDraft({ comment: e.target.value })} /><button className="primary" disabled={saving}>{saving ? 'Tallennetaan…' : 'Tallenna havainto'}</button>{message?.id === selectedId && <p role={message.error ? 'alert' : 'status'}>{message.text}</p>}</form> : <p className="source-note"><a href="#/account">Kirjaudu sisään</a> jättääksesi retkiraportin.</p>}
             <section className="observations"><h3>Retkeilijöiden havainnot</h3>{reports.filter(r => r.location?.id === selectedId).length === 0 ? <p>Ei vielä raportteja. Kerro ensimmäinen havainto.</p> : reports.filter(r => r.location?.id === selectedId).slice().reverse().map(report => <article className="observation" key={report.id}><strong className="observation-target">{targetNames[report.target] || targetNames.general}</strong><span className={report.status === 'ok' ? 'good' : 'attention'}>{report.target === 'water' ? (report.status === 'ok' ? '✓ Toimii' : '! Ei toimi') : (report.status === 'ok' ? '✓ Kunnossa' : '! Ei kunnossa')}</span>{report.comment && <p>{report.comment}</p>}</article>)}</section>
           </>}
         </aside>

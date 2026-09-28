@@ -1,5 +1,6 @@
 import { BadRequestException, Body, CanActivate, ConflictException, Controller, Delete, ExecutionContext, ForbiddenException, Get, Global, HttpException, Injectable, Module, Param, ParseIntPipe, Post, Put, Req, Res, UnauthorizedException } from '@nestjs/common';
 import { APP_GUARD } from '@nestjs/core';
+import { OfflineObservationsController, OfflineObservationsService } from './offline-observations';
 import { JournalController, JournalService } from './journal';
 import { CommunityService, CommunityController, PublicCommunityController } from './community';
 import { DataSource } from 'typeorm';
@@ -143,5 +144,5 @@ export class AccountController {
   @Delete('saved/:id') remove(@Req() req:AuthRequest,@Param('id',ParseIntPipe) id:number) { return this.accounts.save(req.account!.id,id,true); }
 }
 @Global()
-@Module({providers:[AccountsService,JournalService,CommunityService,{provide:APP_GUARD,useClass:SessionGuard}],controllers:[AuthController,AccountController,JournalController,CommunityController,PublicCommunityController],exports:[AccountsService]})
+@Module({providers:[AccountsService,JournalService,CommunityService,OfflineObservationsService,{provide:APP_GUARD,useClass:SessionGuard}],controllers:[AuthController,AccountController,JournalController,CommunityController,PublicCommunityController,OfflineObservationsController],exports:[AccountsService]})
 export class AccountsModule {}

@@ -1,12 +1,14 @@
 import { useEffect, useState } from 'react';
 import { useAccount } from './Account';
+import { saveObservation } from './observation-outbox';
+import { offlineHelp } from './OfflineStatus';
 
 const kinds = { tap: 'Hana', well: 'Kaivo', spring: 'Lähde', other: 'Muu vesipiste' };
 const availabilityNames = { available: 'Vettä oli saatavilla', unavailable: 'Vettä ei ollut saatavilla', unknown: 'Saatavuutta ei tarkistettu' };
 const today = () => new Intl.DateTimeFormat('sv-SE', { timeZone: 'Europe/Helsinki' }).format(new Date());
 const emptyDraft = () => ({ kind: '', directions: '', availability: 'unknown', observedOn: today() });
 
-export default function WaterObservations({ locationId, api, knownWell = false }) {
+export default function WaterObservations({ locationId, locationName, api, knownWell = false }) {
   const { user } = useAccount();
   const [observations, setObservations] = useState([]);
   const [draft, setDraft] = useState(() => ({ ...emptyDraft(), kind: knownWell ? 'well' : '' }));
@@ -17,6 +19,11 @@ export default function WaterObservations({ locationId, api, knownWell = false }
   const [open, setOpen] = useState(false);
   const [reload, setReload] = useState(0);
   const url = `${api}/locations/${locationId}/water-observations`;
+  useEffect(()=>{
+    const delivered=({detail})=>{if(detail?.kind==='water'&&detail.locationId===locationId){setReload(n=>n+1);setLoadError('');}};
+    window.addEventListener('konkari-outbox',delivered);
+    return ()=>window.removeEventListener('konkari-outbox',delivered);
+  },[locationId]);
 
   useEffect(() => {
     const controller = new AbortController();
@@ -37,14 +44,11 @@ export default function WaterObservations({ locationId, api, knownWell = false }
     if (saving) return;
     setSaving(true); setMessage(null);
     try {
-      const response = await fetch(url, { method: 'POST', credentials: 'include', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(draft) });
-      const result = await response.json();
-      if (!response.ok) throw new Error(typeof result.message === 'string' ? result.message : 'Tallennus epäonnistui.');
-      setObservations(previous => [...previous, result].sort((a,b) => b.observedOn.localeCompare(a.observedOn) || b.createdAt.localeCompare(a.createdAt) || b.id-a.id));
+      await saveObservation({accountId:user?.id,kind:'water',locationId,locationName,data:draft});
       setDraft({ ...emptyDraft(), kind: knownWell ? 'well' : '' }); setOpen(false);
-      setMessage({ error: false, text: 'Kiitos! Vesipistehavaintosi tallennettiin.' });
+      setMessage({ error: false, text: 'Havainto on tallessa tällä laitteella. Seuraa lähetystä sivun yläreunan lähetysjonosta.' });
     } catch (error) {
-      setMessage({ error: true, text: error instanceof TypeError ? 'Yhteys katkesi. Tietosi säilyivät lomakkeella. Tarkista havainnot ennen uutta lähetystä.' : error.message });
+      setMessage({ error: true, text: error instanceof TypeError ? 'Tallennus tälle laitteelle ei onnistunut. Tietosi säilyivät lomakkeella.' : error.message });
     } finally { setSaving(false); }
   }
 
@@ -59,12 +63,14 @@ export default function WaterObservations({ locationId, api, knownWell = false }
         <p><time dateTime={item.observedOn}>{item.observedOn.split('-').reverse().join('.')}</time> · {availabilityNames[item.availability]}</p>
         <p>{item.directions}</p>
       </article>)}
+    </>}
       {!user && <p><a href="#/account">Kirjaudu</a> lisätäksesi vesihavainnon.</p>}
       <button type="button" className="secondary" aria-expanded={open} aria-controls="water-form" onClick={() => setOpen(value => !value)} disabled={saving || !user}>
         {open ? 'Sulje vesipistelomake' : knownWell ? 'Kerro kaivon veden saatavuudesta' : observations.length ? 'Lisää vesipistehavainto' : 'Ilmoita vesipisteestä'}
       </button>
       {open && user && <form id="water-form" className="report-form" onSubmit={submit}>
         <h4>{knownWell ? 'Havainto tästä kaivosta' : 'Vesipiste tämän taukopaikan yhteydessä'}</h4>
+        <p>{offlineHelp}</p>
         <label htmlFor="water-kind">Vesipisteen tyyppi</label>
         <select id="water-kind" required value={draft.kind} disabled={saving || knownWell} onChange={e => update({ kind: e.target.value })}>
           <option value="">Valitse tyyppi</option>{Object.entries(kinds).map(([key,name]) => <option key={key} value={key}>{name}</option>)}
@@ -79,7 +85,6 @@ export default function WaterObservations({ locationId, api, knownWell = false }
         </select>
         <button type="submit" className="primary" disabled={saving}>{saving ? 'Tallennetaan…' : 'Tallenna vesipistehavainto'}</button>
       </form>}
-    </>}
     {message && <p role={message.error ? 'alert' : 'status'}>{message.text}</p>}
   </section>;
 }

@@ -6,6 +6,8 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
+    "db:observation-outbox": "ts-node scripts/migrate-observation-outbox.ts",
+    "test:observation-outbox": "ts-node scripts/verify-observation-outbox.ts",
     "preview:lipas-nuuksio": "node scripts/preview-lipas-nuuksio.cjs",
     "test:nuuksio-import": "ts-node scripts/import-lipas-nuuksio.ts --verify",
     "import:lipas-nuuksio": "ts-node scripts/import-lipas-nuuksio.ts",
