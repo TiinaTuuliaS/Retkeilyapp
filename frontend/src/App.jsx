@@ -125,12 +125,12 @@ export default function App({ park = null, parks = [], initialLocationId = null 
         <p className="source-note">Oma tiivistelmä · <a href={park.descriptionSource} target="_blank" rel="noreferrer">Lähde: Metsähallitus</a></p>
         <a className="official-link" href={park.officialUrl} target="_blank" rel="noreferrer">Ajankohtaiset tiedot ja ohjeet Luontoon.fi:ssä ↗</a>
         <p className="coverage-note">{park.coverage}</p>
-      </section> : <><section className="intro"><p className="eyebrow">PIENI HAVAINTO, ISO APU</p><h1>Hyvä retki alkaa<br />yhteisestä tiedosta.</h1><p>Löydä taukopaikka ja jaa havaintosi seuraavalle retkeilijälle.</p></section>
+      </section> : <><section className="intro home-intro"><div><p className="eyebrow">KONKARI · RETKEILIJÄLTÄ RETKEILIJÄLLE</p><h1>Löydä seuraava taukopaikkasi.</h1></div><p className="intro-description">Tutki karttaa, löydä kohde ja jaa<br />havaintosi seuraavalle retkeilijälle.</p></section>
 </>}
 
       {loadError && <p className="error-banner" role="alert">{loadError}</p>}
       <div className="explorer">
-        <section className="map-panel" aria-label="Retkikohteiden kartta">
+        <section id="retkikartta" className="map-panel" aria-label="Retkikohteiden kartta">
           <div className="map-toolbar"><span>{loading ? 'Ladataan kohteita…' : `${visible.length} ${searching ? 'hakutulosta' : 'kohdetta kartan alueella'}`}</span><button className="secondary" onClick={locate}>◎ Paikanna minut</button></div>
           <MapContainer center={[60.32,24.51]} zoom={11} className="map">
             <TileLayer attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
