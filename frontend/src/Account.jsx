@@ -1,10 +1,11 @@
 import { createContext, useContext, useEffect, useState } from 'react';
 import PersonalSpace from './PersonalSpace';
 import SocialSpace from './Community';
+import { offlineOwner, rememberOwner, forgetOwner } from './offline-area';
 export const API = 'http://localhost:3000';
 const Auth = createContext(null);
 export async function accountRequest(path, options = {}) {
-  const r = await fetch(`${API}${path}`, { ...options, credentials: 'include', headers: { 'Content-Type': 'application/json', ...options.headers } });
+  const r = await fetch(`${API}${path}`, { signal: AbortSignal.timeout(10000), ...options, credentials: 'include', headers: { 'Content-Type': 'application/json', ...options.headers } });
   const body = await r.text();
   const data = body ? JSON.parse(body) : null;
   if (!r.ok) {
@@ -15,21 +16,31 @@ export async function accountRequest(path, options = {}) {
 }
 export const useAccount = () => useContext(Auth);
 export function AccountProvider({ children }) {
-  const [user, setUser] = useState(null);
+  const [user, updateUser] = useState(null);
+  const setUser = u => {
+    // A fresh successful login must restore offline ownership even after an expired session.
+    // Storage being disabled must not prevent ordinary online login.
+    try { if (!u) forgetOwner(); else if (!u.offline) rememberOwner(u); } catch { /* Online auth remains usable. */ }
+    updateUser(u);
+  };
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
   const refresh = async () => {
     setError(''); setLoading(true);
     try { setUser(await accountRequest('/auth/me')); }
-    catch { setError('Kirjautumistilaa ei voitu tarkistaa.'); }
+    catch (e) { const saved = offlineOwner(); if (saved && (e instanceof TypeError || e.name === 'TimeoutError')) updateUser(saved); else setError('Kirjautumistilaa ei voitu tarkistaa.'); }
     finally { setLoading(false); }
   };
   useEffect(() => {
     let live = true;
-    accountRequest('/auth/me').then(u => { if(live) setUser(u); }).catch(() => { if(live) setError('Kirjautumistilaa ei voitu tarkistaa.'); }).finally(() => { if(live) setLoading(false); });
+    accountRequest('/auth/me').then(u => { if(live) setUser(u); }).catch(e => { if(live) { const saved = offlineOwner(); if (saved && (e instanceof TypeError || e.name === 'TimeoutError')) updateUser(saved); else setError('Kirjautumistilaa ei voitu tarkistaa.'); } }).finally(() => { if(live) setLoading(false); });
     const expired = () => setUser(null);
     window.addEventListener('konkari-session-expired', expired);
-    return () => { live = false; window.removeEventListener('konkari-session-expired', expired); };
+    const online = () => { if(live) void refresh(); };
+    const storage = e => { if(e.key === 'konkari-offline-owner' && !e.newValue) updateUser(null); };
+    window.addEventListener('online', online);
+    window.addEventListener('storage', storage);
+    return () => { live = false; window.removeEventListener('konkari-session-expired', expired); window.removeEventListener('online', online); window.removeEventListener('storage', storage); };
   }, []);
   return <Auth.Provider value={{ user, setUser, loading, error, refresh }}>{children}</Auth.Provider>;
 }
@@ -46,10 +57,11 @@ export function SaveLocation({ locationId }) {
   const [attempt,setAttempt] = useState(0);
   useEffect(() => {
     let live = true;
-    if(user) accountRequest('/account').then(data => { if(live) { setSaved(data.saved.some(p => p.id === locationId)); setReady(true); } }).catch(e => { if(live) setError(e.message); });
+    if(user && !user.offline) accountRequest('/account').then(data => { if(live) { setSaved(data.saved.some(p => p.id === locationId)); setReady(true); } }).catch(e => { if(live) setError(e.message); });
     return () => { live = false; };
   }, [user, locationId, attempt]);
   if (!user) return <p className="source-note"><a href="#/account">Kirjaudu</a> tallentaaksesi kohteen omalle sivullesi.</p>;
+  if (user.offline) return <p className="source-note">Voit tehdä havaintoja. Omaan kohdelistaan tallentaminen tarvitsee yhteyden.</p>;
   return <div className="save-location"><button className="secondary" disabled={!ready || busy} onClick={async () => {
     setBusy(true); setError('');
     try { await accountRequest(`/account/saved/${locationId}`, { method: saved ? 'DELETE' : 'PUT' }); setSaved(v => !v); }
@@ -74,7 +86,7 @@ export default function AccountPage() {
   }, [user,retry]);
   return <><header className="site-header"><a className="brand" href="#/">⌁ Konkari</a><a href="#/">← Takaisin kartalle</a></header><main className="account-page">
     <h1>{user ? 'Oma sivu' : register ? 'Luo Konkari-tili' : 'Kirjaudu Konkariin'}</h1>
-    {loading ? <p>Ladataan kirjautumistilaa…</p> : error ? <p role="alert">{error} <button onClick={refresh}>Yritä uudelleen</button></p> : !user ? <>
+    {user?.offline ? <><p>Offline-tallennus käyttäjän {user.displayName} havaintojonoon. Kirjautuminen tarkistetaan ennen lähetystä. Oma sivu tarvitsee verkkoyhteyden.</p><a href="#/parks/ukk">Avaa tallennettu UKK-alue</a><p><button className="secondary" onClick={() => setUser(null)}>Lopeta paikallinen käyttö</button></p></> : loading ? <p>Ladataan kirjautumistilaa…</p> : error ? <p role="alert">{error} <button onClick={refresh}>Yritä uudelleen</button></p> : !user ? <>
       <p>Tallenna kiinnostavat kohteet ja löydä omat havaintosi samasta paikasta.</p>
       <form className="report-form account-form" onSubmit={async e => {
         e.preventDefault(); if(busy) return; setBusy(true); setMessage('');

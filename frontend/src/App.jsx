@@ -1,6 +1,9 @@
 import { useCallback, useEffect, useState } from 'react';
 import { MapContainer, TileLayer, CircleMarker, Popup, GeoJSON, useMap } from 'react-leaflet';
 import './App.css';
+import OfflineArea from './OfflineArea';
+import OfflineMap from './OfflineMap';
+import { readArea, publicFetch, inside } from './offline-area';
 import { AccountLink, SaveLocation, useAccount } from './Account';
 import ParkNavigation from './ParkNavigation';
 import WaterObservations from './WaterObservations';
@@ -44,7 +47,21 @@ function MapArea({ onChange }) {
 
 export default function App({ park = null, parks = [], initialLocationId = null }) {
   const { user } = useAccount();
-  const [locations, setLocations] = useState([]);
+  const [liveLocations, setLocations] = useState([]);
+  const [pack, setPack] = useState(null);
+  const [offlineView, setOfflineView] = useState(!navigator.onLine);
+  useEffect(() => {
+    let live = true;
+    const refresh = () => readArea().then(p => { if (live) setPack(p || null); }).catch(() => {});
+    const offline = () => setOfflineView(true);
+    refresh();
+    window.addEventListener('konkari-area', refresh);
+    window.addEventListener('konkari-cached-data', offline);
+    window.addEventListener('offline', offline);
+    return () => { live = false; window.removeEventListener('konkari-area', refresh); window.removeEventListener('konkari-cached-data', offline); window.removeEventListener('offline', offline); };
+  }, []);
+  const offlineActive = !!pack && offlineView && (!park || park.slug === 'ukk');
+  const locations = offlineActive ? pack.data['/locations'] : liveLocations;
   const [reports, setReports] = useState([]);
   const [selectedId, setSelectedId] = useState(initialLocationId);
   const [userLocation, setUserLocation] = useState(null);
@@ -71,7 +88,7 @@ export default function App({ park = null, parks = [], initialLocationId = null 
   useEffect(() => {
     const controller = new AbortController();
     Promise.all(['locations', 'reports'].map(async endpoint => {
-      const response = await fetch(`${API}/${endpoint}`, { signal: controller.signal });
+      const response = await publicFetch(`${API}/${endpoint}`, { signal: controller.signal });
       if (!response.ok) throw new Error('Tietojen lataus epäonnistui.');
       const data = await response.json();
       if (!Array.isArray(data)) throw new Error('Palvelimen vastaus ei ollut odotettu.');
@@ -99,7 +116,7 @@ export default function App({ park = null, parks = [], initialLocationId = null 
     setGpsMessage('Paikannetaan…');
     navigator.geolocation.getCurrentPosition(position => {
       const point = [position.coords.latitude, position.coords.longitude];
-      setUserLocation(point); setFocus(point); setGpsMessage('Sijaintisi näkyy sinisenä pisteenä.');
+      setUserLocation(point); setFocus(point); setGpsMessage(offlineActive && !inside({latitude:point[0],longitude:point[1]},pack.manifest.bounds) ? 'Sijaintisi on tallennetun kartta-alueen ulkopuolella.' : 'Sijaintisi näkyy kartalla.');
     }, () => setGpsMessage('Sijaintia ei saatu. Salli paikannus selaimessa tai valitse kohde kartalta.'), { timeout: 10000 });
   };
   const submit = async event => {
@@ -125,22 +142,23 @@ export default function App({ park = null, parks = [], initialLocationId = null 
         <p className="source-note">Oma tiivistelmä · <a href={park.descriptionSource} target="_blank" rel="noreferrer">Lähde: Metsähallitus</a></p>
         <a className="official-link" href={park.officialUrl} target="_blank" rel="noreferrer">Ajankohtaiset tiedot ja ohjeet Luontoon.fi:ssä ↗</a>
         <p className="coverage-note">{park.coverage}</p>
-      </section> : <><section className="intro home-intro"><div><p className="eyebrow">KONKARI · RETKEILIJÄLTÄ RETKEILIJÄLLE</p><h1>Löydä seuraava taukopaikkasi.</h1></div><p className="intro-description">Tutki karttaa, löydä kohde ja jaa<br />havaintosi seuraavalle retkeilijälle.</p></section>
+      </section> : <><section className="intro home-intro"><div><p className="eyebrow">KONKARI · RETKEILIJÄLTÄ RETKEILIJÄLLE</p><h1>Pieni havainto, suuri apu.</h1></div><p className="intro-description">Tutki karttaa, löydä kohde ja jaa <br />havaintosi seuraavalle retkeilijälle.</p></section>
 </>}
 
       {loadError && <p className="error-banner" role="alert">{loadError}</p>}
+      {(!park || park.slug === 'ukk') && <OfflineArea pack={pack} active={offlineActive} onToggle={() => { setOfflineView(v => !v); setSelectedId(null); setFocus(null); }} />}
       <div className="explorer">
         <section id="retkikartta" className="map-panel" aria-label="Retkikohteiden kartta">
           <div className="map-toolbar"><span>{loading ? 'Ladataan kohteita…' : `${visible.length} ${searching ? 'hakutulosta' : 'kohdetta kartan alueella'}`}</span><button className="secondary" onClick={locate}>◎ Paikanna minut</button></div>
           <MapContainer center={[60.32,24.51]} zoom={11} className="map">
-            <TileLayer attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+            {offlineActive ? <OfflineMap pack={pack} /> : <TileLayer attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />}
             <MapArea onChange={updateArea} />
-            <MapFocus point={focus} boundary={park?.geometry} />
-            {park && <GeoJSON data={park.geometry} interactive={false} style={{ color: 'var(--green)', weight: 2, fillColor: 'var(--green)', fillOpacity: 0.08 }} />}
+            <MapFocus point={offlineActive && focus && !inside({ latitude: focus[0], longitude: focus[1] }, pack.manifest.bounds) ? null : focus} boundary={offlineActive ? null : park?.geometry} />
+            {park && !offlineActive && <GeoJSON data={park.geometry} interactive={false} style={{ color: 'var(--green)', weight: 2, fillColor: 'var(--green)', fillOpacity: 0.08 }} />}
             {markers.filter(hasPoint).map(location => <CircleMarker key={location.id} center={[location.latitude,location.longitude]} radius={selectedId === location.id ? 12 : 9} pathOptions={{ color: '#fff', weight: 3, fillColor: location.sourceStatus === 'out-of-service-temporarily' ? 'var(--red)' : selectedId === location.id ? 'var(--red)' : 'var(--green)', fillOpacity: 1 }} eventHandlers={{ click: () => select(location) }}><Popup autoPan={false}>{location.name}</Popup></CircleMarker>)}
             {userLocation && <CircleMarker center={userLocation} radius={7} pathOptions={{ color: '#fff', fillColor: 'var(--terracotta)', fillOpacity: 1 }}><Popup autoPan={false}>Sinä olet täällä</Popup></CircleMarker>}
           </MapContainer>
-          <p className="map-note" role="status">{gpsMessage || (park && !scopedLocations.length && !loading ? 'Puiston alueraja näkyy kartalla. Kohdetiedot puuttuvat vielä.' : 'Valitse piste kartalta tai kohde alla olevasta luettelosta.')}</p>
+          <p className="map-note" role="status">{gpsMessage || (offlineActive ? 'Tallennettu MML-maastokartta 2025 · vain vihreällä rajattu kokeilualue.' : park && !scopedLocations.length && !loading ? 'Puiston alueraja näkyy kartalla. Kohdetiedot puuttuvat vielä.' : 'Valitse piste kartalta tai kohde alla olevasta luettelosta.')}</p>
         {park && <p className="map-note">Alueraja: <a href={park.boundarySource} target="_blank" rel="noreferrer">{park.boundaryAttribution}</a>. Aineiston päiväys {park.boundaryUpdatedOn.split('-').reverse().join('.')}.</p>}
         </section>
         <aside className="place-card" aria-label="Valitun kohteen tiedot">

@@ -1,5 +1,15 @@
 # Retkeilyapp – paikallinen kehitys Windowsissa
 
+## UKK:n offline-karttakokeilu (6.11.2026)
+
+Kiilopää–Luulampi-alueen (noin 7 × 9 km) MML-maastokartan voi tallentaa
+laitteelle kohteineen. Kokeilu ei kata koko UKK:ta. Kartta on vuoden 2025
+aineistoa, 3,20 Mt; kohteet ja havainnot haetaan tallennushetkellä.
+
+**Käynnistys ja lentotilatesti:** katso [offline-ohje](docs/offline-pilot.md).
+Offline-avaaminen vaatii rakennetun esikatselun, ei Viten kehityspalvelinta.
+
+
 ## Offline-havaintojen ensimmäinen versio (28.9.2026)
 
 Kirjautunut käyttäjä voi tallentaa kunto-, vesi- ja käyttötilahavaintoja jo
@@ -17,9 +27,10 @@ Istunnon vanhentuessa havainto säilyy jonossa: kirjaudu takaisin samalle tilill
 400/404/409-virheet jäävät tarkistettaviksi, eivät automaattiseen uusintakiertoon.
 Palvelin- ja yhteysvirheissä havainto säilyy ja lähetystä yritetään myöhemmin.
 
-Rajaukset: kirjaudu ja avaa kohteet ennen verkkokatkoa. Sovelluksen avaamista
-uudelleen ilman verkkoa, offline-karttoja, päiväkirjan offline-luonnoksia tai
-suljetun sovelluksen taustalähetystä ei vielä tueta. Tallennettu jono säilyy
+Rajaukset: kirjaudu ennen verkkokatkoa. UKK:n rajattu offline-kokeilu mahdollistaa
+myös uudelleenavaamisen ja tallennetun kartan käytön (ohje yllä). Muualla avaa
+kohde etukäteen. Päiväkirjan offline-luonnoksia ja suljetun sovelluksen
+taustalähetystä ei vielä tueta. Tallennettu jono säilyy
 sivun sulkemisen yli ja jatkaa sovelluksen avauduttua verkossa samalle tilille.
 Selaintietojen tyhjennys, yksityisen selausistunnon päättyminen tai selaimen
 tallennustilan poisto voi hävittää paikalliset havainnot. Jonon sisältö ei ole

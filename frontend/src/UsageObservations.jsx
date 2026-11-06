@@ -1,3 +1,4 @@
+import { publicFetch } from './offline-area';
 import { useEffect, useState } from 'react';
 import { useAccount } from './Account';
 import { saveObservation } from './observation-outbox';
@@ -22,7 +23,7 @@ export default function UsageObservations({ locationId, locationName, api }) {
   },[locationId]);
   useEffect(() => {
     const controller = new AbortController();
-    fetch(url, { signal: controller.signal }).then(async r => {
+    publicFetch(url, { signal: controller.signal }).then(async r => {
       if (!r.ok) throw Error('Käyttötilahavaintoja ei saatu ladattua.');
       const data = await r.json();
       if (!Array.isArray(data)) throw Error('Virheellinen vastaus.');

@@ -1,3 +1,4 @@
+import { publicFetch } from './offline-area';
 import { useEffect, useState } from 'react';
 import { useAccount } from './Account';
 import { saveObservation } from './observation-outbox';
@@ -27,7 +28,7 @@ export default function WaterObservations({ locationId, locationName, api, known
 
   useEffect(() => {
     const controller = new AbortController();
-    fetch(url, { signal: controller.signal }).then(async response => {
+    publicFetch(url, { signal: controller.signal }).then(async response => {
       if (!response.ok) throw new Error('Vesipistehavaintojen lataus epäonnistui.');
       const data = await response.json();
       if (!Array.isArray(data)) throw new Error('Virheellinen vastaus.');

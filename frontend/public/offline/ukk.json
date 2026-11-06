@@ -1,0 +1,18 @@
+{
+  "id": "ukk-kiilopaa-v1",
+  "parkSlug": "ukk",
+  "name": "UKK · Kiilopää–Luulampi",
+  "bounds": [
+    27.38,
+    68.32,
+    27.56,
+    68.4
+  ],
+  "image": "/offline/ukk-kiilopaa.webp",
+  "bytes": 3204066,
+  "sha256": "621fb70569d65f3c3e255eea28b7ea4b5f062a8c8d2d1da2665e8c051b5e8190",
+  "dataYear": 2025,
+  "source": "https://www.nic.funet.fi/index/geodata/mml/peruskartta/2025/V5/V52/V5211R.png",
+  "attribution": "Maastotiedot © Maanmittauslaitos 2025 · CC BY 4.0 · jakelu CSC/Paituli",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+}

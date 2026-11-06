@@ -1,3 +1,4 @@
+import { publicFetch } from './offline-area';
 import { useEffect, useState } from 'react';
 import App from './App';
 import AccountPage from './Account';
@@ -19,7 +20,7 @@ export default function ParkRouter() {
     const slug = route.startsWith('#/parks/') ? route.slice(8) : null;
     async function load() {
       const get = async endpoint => {
-        const response = await fetch(`${API}/${endpoint}`, { signal: abort.signal });
+        const response = await publicFetch(`${API}/${endpoint}`, { signal: abort.signal });
         if (!response.ok) throw new Error(response.status === 404 ? 'Puistosivua ei löydy.' : 'Puistotietojen lataus epäonnistui.');
         return response.json();
       };
@@ -33,6 +34,6 @@ export default function ParkRouter() {
   if (route === '#/account') return <AccountPage />;
   if (route === '#/community') return <CommunityPage />;
   if (!page || page.route !== route) return <main className="route-status"><a href="#/">← Kaikki kohteet</a>
-    {error ? <><p role="alert">{error}</p><button onClick={() => { setError(''); setAttempt(n => n+1); }}>Yritä uudelleen</button></> : <p role="status">Ladataan puistotietoja…</p>}</main>;
+    {error ? <><p role="alert">{error}</p><p>Ilman yhteyttä voit avata vain etukäteen tallennetun alueen. <a href="#/parks/ukk">Avaa UKK:n offline-kokeilu</a>.</p><button onClick={() => { setError(''); setAttempt(n => n+1); }}>Yritä uudelleen</button></> : <p role="status">Ladataan puistotietoja…</p>}</main>;
   return <App initialLocationId={/^#\/location\/\d+$/.test(route) ? Number(route.split('/')[2]) : null} key={route} parks={page.parks} park={page.park} />;
 }
